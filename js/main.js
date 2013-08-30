@@ -1,42 +1,48 @@
+var worldCollection = [];
 
-function drawMap(){
-    var width = $('.col-sm-8').width(),
-        height = 480;
 
-    var projection = d3.geo.equirectangular()
-        .scale(153)
-        .translate([width / 2, height / 2])
-        .precision(.1);
+    var width = 600,
+        height = 300;
+
+    var projection = d3.geo.mercator()
+      .scale((width + 1) / 2 / Math.PI)
+      .translate([width / 2, height / 2])
+      .precision(.1);
 
     var path = d3.geo.path()
-        .projection(projection);
+      .projection(projection);
 
     var graticule = d3.geo.graticule();
 
     var svg = d3.select("#map1").append("svg")
-        .attr("width", width)
-        .attr("height", height);
+      .attr("width", width)
+      .attr("height", height);
 
-    svg.append("path")
-        .datum(graticule)
-        .attr("class", "graticule")
-        .attr("d", path);
+    
+    d3.json("../data/worldcountries.json", function(world){
+      worldCollection = world;
+      feature = svg.selectAll("path")
+        .data(world.features)
+        .enter().append("path")
+        .attr('country_name', function(d){return d.properties.name;})
+        .attr('country_centroid', function(d){return path.centroid(d)})
+        .attr('fill', '#aaaaaa')
+        .attr("d", path)
+        .on("click", clicked)        
+        .style('stroke', '#fff;');
+    });    
 
-    d3.json("../data/world-50m.json", function(error, world) {
-      svg.insert("path", ".graticule")
-          .datum(topojson.feature(world, world.objects.land))
-          .attr("class", "land")
-          .attr("d", path);
+    function clicked(x) {
+      console.log(path.centroid(x));
 
-      svg.insert("path", ".graticule")
-          .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
-          .attr("class", "boundary")
-          .attr("d", path);
-    });
+    }
 
-    d3.select(self.frameElement).style("height", height + "px");  
-}
+    
+
+      
+
+  
 
 
-drawMap();
+
 
