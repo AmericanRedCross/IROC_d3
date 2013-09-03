@@ -1,0 +1,378 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "name": "Barbados", "geoCode": "BRB", "geoType": "country", "region": "LAC", "ORIG_FID": 0 }, "geometry": { "type": "Point", "coordinates": [ -59.591918945312557, 13.205517905851934 ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "name": "Cayman Islands", "geoCode": "CYM", "geoType": "country", "region": "LAC", "ORIG_FID": 1 }, "geometry": { "type": "Point", "coordinates": [ -81.185119628906193, 19.328412187813569 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "name": "Federated States of Micronesia", "geoCode": "FSM", "geoType": "country", "region": null, "ORIG_FID": 2 }, "geometry": { "type": "Point", "coordinates": [ 158.23129882812509, 6.880595249169858 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "name": "Hong Kong", "geoCode": "HKG", "geoType": "country", "region": null, "ORIG_FID": 3 }, "geometry": { "type": "Point", "coordinates": [ 114.13918764705636, 22.439176269791972 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "name": "Saint Kitts and Nevis", "geoCode": "KNA", "geoType": "country", "region": "LAC", "ORIG_FID": 4 }, "geometry": { "type": "Point", "coordinates": [ -62.788024902343636, 17.354285831010088 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "name": "Saint Martin", "geoCode": "MAF", "geoType": "country", "region": "LAC", "ORIG_FID": 5 }, "geometry": { "type": "Point", "coordinates": [ -63.037829589843739, 18.0913977331046 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "name": "Samoa", "geoCode": "WSM", "geoType": "country", "region": null, "ORIG_FID": 6 }, "geometry": { "type": "Point", "coordinates": [ -172.47768554687494, -13.639291883668022 ] } }
+,
+{ "type": "Feature", "id": 7, "properties": { "name": "Afghanistan", "geoCode": "AFG", "geoType": "country", "region": null, "ORIG_FID": 7 }, "geometry": { "type": "Point", "coordinates": [ 64.185829499999954, 32.749623715892824 ] } }
+,
+{ "type": "Feature", "id": 8, "properties": { "name": "Angola", "geoCode": "AGO", "geoType": "country", "region": "AFRICA", "ORIG_FID": 8 }, "geometry": { "type": "Point", "coordinates": [ 17.860000500000012, -12.66773011460316 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "name": "Albania", "geoCode": "ALB", "geoType": "country", "region": null, "ORIG_FID": 9 }, "geometry": { "type": "Point", "coordinates": [ 20.032426386052123, 41.141353367768772 ] } }
+,
+{ "type": "Feature", "id": 10, "properties": { "name": "United Arab Emirates", "geoCode": "ARE", "geoType": "country", "region": null, "ORIG_FID": 10 }, "geometry": { "type": "Point", "coordinates": [ 52.783851, 23.520354727122708 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "name": "Argentina", "geoCode": "ARG", "geoType": "country", "region": "LAC", "ORIG_FID": 11 }, "geometry": { "type": "Point", "coordinates": [ -65.149543279701732, -35.220171900667651 ] } }
+,
+{ "type": "Feature", "id": 12, "properties": { "name": "Armenia", "geoCode": "ARM", "geoType": "country", "region": null, "ORIG_FID": 12 }, "geometry": { "type": "Point", "coordinates": [ 44.313489499999946, 40.604042428177252 ] } }
+,
+{ "type": "Feature", "id": 13, "properties": { "name": "Australia", "geoCode": "AUS", "geoType": "country", "region": null, "ORIG_FID": 13 }, "geometry": { "type": "Point", "coordinates": [ 143.51184000000012, -25.799323671250534 ] } }
+,
+{ "type": "Feature", "id": 14, "properties": { "name": "Austria", "geoCode": "AUT", "geoType": "country", "region": null, "ORIG_FID": 14 }, "geometry": { "type": "Point", "coordinates": [ 14.076158737088861, 47.613948736740781 ] } }
+,
+{ "type": "Feature", "id": 15, "properties": { "name": "Azerbaijan", "geoCode": "AZE", "geoType": "country", "region": null, "ORIG_FID": 15 }, "geometry": { "type": "Point", "coordinates": [ 47.682650500000079, 40.33940176801292 ] } }
+,
+{ "type": "Feature", "id": 16, "properties": { "name": "Burundi", "geoCode": "BDI", "geoType": "country", "region": "AFRICA", "ORIG_FID": 16 }, "geometry": { "type": "Point", "coordinates": [ 29.955780668209741, -3.311085422811345 ] } }
+,
+{ "type": "Feature", "id": 17, "properties": { "name": "Belgium", "geoCode": "BEL", "geoType": "country", "region": null, "ORIG_FID": 17 }, "geometry": { "type": "Point", "coordinates": [ 5.245886749999954, 50.519804568564496 ] } }
+,
+{ "type": "Feature", "id": 18, "properties": { "name": "Benin", "geoCode": "BEN", "geoType": "country", "region": "AFRICA", "ORIG_FID": 18 }, "geometry": { "type": "Point", "coordinates": [ 3.040918, 10.678061336786129 ] } }
+,
+{ "type": "Feature", "id": 19, "properties": { "name": "Burkina Faso", "geoCode": "BFA", "geoType": "country", "region": "AFRICA", "ORIG_FID": 19 }, "geometry": { "type": "Point", "coordinates": [ -1.776537393215449, 12.311650411193057 ] } }
+,
+{ "type": "Feature", "id": 20, "properties": { "name": "Bangladesh", "geoCode": "BGD", "geoType": "country", "region": null, "ORIG_FID": 20 }, "geometry": { "type": "Point", "coordinates": [ 90.267928366337117, 23.839461928066271 ] } }
+,
+{ "type": "Feature", "id": 21, "properties": { "name": "Bulgaria", "geoCode": "BGR", "geoType": "country", "region": null, "ORIG_FID": 21 }, "geometry": { "type": "Point", "coordinates": [ 23.924914749999971, 42.582867780517063 ] } }
+,
+{ "type": "Feature", "id": 22, "properties": { "name": "The Bahamas", "geoCode": "BHS", "geoType": "country", "region": "LAC", "ORIG_FID": 22 }, "geometry": { "type": "Point", "coordinates": [ -77.97157, 24.662689975531407 ] } }
+,
+{ "type": "Feature", "id": 23, "properties": { "name": "Bosnia and Herzegovina", "geoCode": "BIH", "geoType": "country", "region": null, "ORIG_FID": 23 }, "geometry": { "type": "Point", "coordinates": [ 17.816883262474391, 44.180768003890762 ] } }
+,
+{ "type": "Feature", "id": 24, "properties": { "name": "Belarus", "geoCode": "BLR", "geoType": "country", "region": null, "ORIG_FID": 24 }, "geometry": { "type": "Point", "coordinates": [ 27.946568500000069, 53.833111701700091 ] } }
+,
+{ "type": "Feature", "id": 25, "properties": { "name": "Belize", "geoCode": "BLZ", "geoType": "country", "region": "LAC", "ORIG_FID": 25 }, "geometry": { "type": "Point", "coordinates": [ -88.703421269843261, 17.197089795199474 ] } }
+,
+{ "type": "Feature", "id": 26, "properties": { "name": "Bermuda", "geoCode": "BMU", "geoType": "country", "region": null, "ORIG_FID": 26 }, "geometry": { "type": "Point", "coordinates": [ -64.765589416455384, 32.297003481700699 ] } }
+,
+{ "type": "Feature", "id": 27, "properties": { "name": "Bolivia", "geoCode": "BOL", "geoType": "country", "region": "LAC", "ORIG_FID": 27 }, "geometry": { "type": "Point", "coordinates": [ -63.5443955, -17.292718343559045 ] } }
+,
+{ "type": "Feature", "id": 28, "properties": { "name": "Brazil", "geoCode": "BRA", "geoType": "country", "region": "LAC", "ORIG_FID": 28 }, "geometry": { "type": "Point", "coordinates": [ -53.054339956839726, -10.806773681852462 ] } }
+,
+{ "type": "Feature", "id": 29, "properties": { "name": "Brunei", "geoCode": "BRN", "geoType": "country", "region": null, "ORIG_FID": 29 }, "geometry": { "type": "Point", "coordinates": [ 115.13903675, 4.788761866151504 ] } }
+,
+{ "type": "Feature", "id": 30, "properties": { "name": "Bhutan", "geoCode": "BTN", "geoType": "country", "region": null, "ORIG_FID": 30 }, "geometry": { "type": "Point", "coordinates": [ 89.636614, 27.441383936591762 ] } }
+,
+{ "type": "Feature", "id": 31, "properties": { "name": "Botswana", "geoCode": "BWA", "geoType": "country", "region": "AFRICA", "ORIG_FID": 31 }, "geometry": { "type": "Point", "coordinates": [ 23.773081475874164, -22.099711410350551 ] } }
+,
+{ "type": "Feature", "id": 32, "properties": { "name": "Central African Republic", "geoCode": "CAF", "geoType": "country", "region": "AFRICA", "ORIG_FID": 32 }, "geometry": { "type": "Point", "coordinates": [ 20.916816500000039, 6.881819375463692 ] } }
+,
+{ "type": "Feature", "id": 33, "properties": { "name": "Canada", "geoCode": "CAN", "geoType": "country", "region": null, "ORIG_FID": 33 }, "geometry": { "type": "Point", "coordinates": [ -77.01198, 49.955146683945543 ] } }
+,
+{ "type": "Feature", "id": 34, "properties": { "name": "Switzerland", "geoCode": "CHE", "geoType": "country", "region": null, "ORIG_FID": 34 }, "geometry": { "type": "Point", "coordinates": [ 7.127632, 46.65627511981711 ] } }
+,
+{ "type": "Feature", "id": 35, "properties": { "name": "Chile", "geoCode": "CHL", "geoType": "country", "region": "LAC", "ORIG_FID": 35 }, "geometry": { "type": "Point", "coordinates": [ -71.670945018445934, -37.341831682987845 ] } }
+,
+{ "type": "Feature", "id": 36, "properties": { "name": "China", "geoCode": "CHN", "geoType": "country", "region": null, "ORIG_FID": 36 }, "geometry": { "type": "Point", "coordinates": [ 89.013112, 37.775033754030687 ] } }
+,
+{ "type": "Feature", "id": 37, "properties": { "name": "Ivory Coast", "geoCode": "CIV", "geoType": "country", "region": "AFRICA", "ORIG_FID": 37 }, "geometry": { "type": "Point", "coordinates": [ -5.582535, 7.66878431374397 ] } }
+,
+{ "type": "Feature", "id": 38, "properties": { "name": "Cameroon", "geoCode": "CMR", "geoType": "country", "region": "AFRICA", "ORIG_FID": 38 }, "geometry": { "type": "Point", "coordinates": [ 10.369825, 4.66176946963418 ] } }
+,
+{ "type": "Feature", "id": 39, "properties": { "name": "Democratic Republic of the Congo", "geoCode": "COD", "geoType": "country", "region": "AFRICA", "ORIG_FID": 39 }, "geometry": { "type": "Point", "coordinates": [ 23.552249037605691, -2.833882799956825 ] } }
+,
+{ "type": "Feature", "id": 40, "properties": { "name": "Republic of the Congo", "geoCode": "COG", "geoType": "country", "region": "AFRICA", "ORIG_FID": 40 }, "geometry": { "type": "Point", "coordinates": [ 12.933596, -3.49747841012902 ] } }
+,
+{ "type": "Feature", "id": 41, "properties": { "name": "Colombia", "geoCode": "COL", "geoType": "country", "region": "LAC", "ORIG_FID": 41 }, "geometry": { "type": "Point", "coordinates": [ -72.9336305, 3.385932353946771 ] } }
+,
+{ "type": "Feature", "id": 42, "properties": { "name": "Costa Rica", "geoCode": "CRI", "geoType": "country", "region": "LAC", "ORIG_FID": 42 }, "geometry": { "type": "Point", "coordinates": [ -84.243960499999957, 10.158941296343414 ] } }
+,
+{ "type": "Feature", "id": 43, "properties": { "name": "Cuba", "geoCode": "CUB", "geoType": "country", "region": "LAC", "ORIG_FID": 43 }, "geometry": { "type": "Point", "coordinates": [ -76.877246499999956, 20.68903998557829 ] } }
+,
+{ "type": "Feature", "id": 44, "properties": { "name": "Northern Cyprus", "geoCode": "CYN", "geoType": "country", "region": null, "ORIG_FID": 44 }, "geometry": { "type": "Point", "coordinates": [ 33.654127, 35.197141183388226 ] } }
+,
+{ "type": "Feature", "id": 45, "properties": { "name": "Cyprus", "geoCode": "CYP", "geoType": "country", "region": null, "ORIG_FID": 45 }, "geometry": { "type": "Point", "coordinates": [ 32.693720499999927, 34.892400514163228 ] } }
+,
+{ "type": "Feature", "id": 46, "properties": { "name": "Czech Republic", "geoCode": "CZE", "geoType": "country", "region": null, "ORIG_FID": 46 }, "geometry": { "type": "Point", "coordinates": [ 17.199885749999964, 49.616602283169357 ] } }
+,
+{ "type": "Feature", "id": 47, "properties": { "name": "Germany", "geoCode": "DEU", "geoType": "country", "region": null, "ORIG_FID": 47 }, "geometry": { "type": "Point", "coordinates": [ 8.245742500000063, 50.616007595235089 ] } }
+,
+{ "type": "Feature", "id": 48, "properties": { "name": "Djibouti", "geoCode": "DJI", "geoType": "country", "region": "AFRICA", "ORIG_FID": 48 }, "geometry": { "type": "Point", "coordinates": [ 42.075783000000115, 11.618329311847219 ] } }
+,
+{ "type": "Feature", "id": 49, "properties": { "name": "Denmark", "geoCode": "DNK", "geoType": "country", "region": null, "ORIG_FID": 49 }, "geometry": { "type": "Point", "coordinates": [ 8.795528249999961, 56.021758278233165 ] } }
+,
+{ "type": "Feature", "id": 50, "properties": { "name": "Dominican Republic", "geoCode": "DOM", "geoType": "country", "region": "LAC", "ORIG_FID": 50 }, "geometry": { "type": "Point", "coordinates": [ -71.038319749999971, 19.04967215598009 ] } }
+,
+{ "type": "Feature", "id": 51, "properties": { "name": "Algeria", "geoCode": "DZA", "geoType": "country", "region": "AFRICA", "ORIG_FID": 51 }, "geometry": { "type": "Point", "coordinates": [ 2.598047814474683, 28.185481292453233 ] } }
+,
+{ "type": "Feature", "id": 52, "properties": { "name": "Ecuador", "geoCode": "ECU", "geoType": "country", "region": "LAC", "ORIG_FID": 52 }, "geometry": { "type": "Point", "coordinates": [ -78.100744, -1.213020150645377 ] } }
+,
+{ "type": "Feature", "id": 53, "properties": { "name": "Egypt", "geoCode": "EGY", "geoType": "country", "region": "AFRICA", "ORIG_FID": 53 }, "geometry": { "type": "Point", "coordinates": [ 27.74161, 26.618370162208237 ] } }
+,
+{ "type": "Feature", "id": 54, "properties": { "name": "Eritrea", "geoCode": "ERI", "geoType": "country", "region": "AFRICA", "ORIG_FID": 54 }, "geometry": { "type": "Point", "coordinates": [ 38.012698250000142, 16.21489962904343 ] } }
+,
+{ "type": "Feature", "id": 55, "properties": { "name": "Spain", "geoCode": "ESP", "geoType": "country", "region": null, "ORIG_FID": 55 }, "geometry": { "type": "Point", "coordinates": [ -3.617020675956439, 40.348656154214439 ] } }
+,
+{ "type": "Feature", "id": 56, "properties": { "name": "Estonia", "geoCode": "EST", "geoType": "country", "region": null, "ORIG_FID": 56 }, "geometry": { "type": "Point", "coordinates": [ 25.824728223109105, 58.643695211078693 ] } }
+,
+{ "type": "Feature", "id": 57, "properties": { "name": "Ethiopia", "geoCode": "ETH", "geoType": "country", "region": "AFRICA", "ORIG_FID": 57 }, "geometry": { "type": "Point", "coordinates": [ 40.3718, 9.217909051912216 ] } }
+,
+{ "type": "Feature", "id": 58, "properties": { "name": "Finland", "geoCode": "FIN", "geoType": "country", "region": null, "ORIG_FID": 58 }, "geometry": { "type": "Point", "coordinates": [ 23.36321775, 62.082264707174147 ] } }
+,
+{ "type": "Feature", "id": 59, "properties": { "name": "Fiji", "geoCode": "FJI", "geoType": "country", "region": null, "ORIG_FID": 59 }, "geometry": { "type": "Point", "coordinates": [ 177.9970701833638, -17.830935892544801 ] } }
+,
+{ "type": "Feature", "id": 60, "properties": { "name": "Falkland Islands", "geoCode": "FLK", "geoType": "country", "region": "LAC", "ORIG_FID": 60 }, "geometry": { "type": "Point", "coordinates": [ -59.475, -51.773039215686197 ] } }
+,
+{ "type": "Feature", "id": 61, "properties": { "name": "France", "geoCode": "FRA", "geoType": "country", "region": null, "ORIG_FID": 61 }, "geometry": { "type": "Point", "coordinates": [ 1.753464500000064, 46.672947388582315 ] } }
+,
+{ "type": "Feature", "id": 62, "properties": { "name": "Gabon", "geoCode": "GAB", "geoType": "country", "region": "AFRICA", "ORIG_FID": 62 }, "geometry": { "type": "Point", "coordinates": [ 11.68775117862657, -0.647048217570102 ] } }
+,
+{ "type": "Feature", "id": 63, "properties": { "name": "United Kingdom", "geoCode": "GBR", "geoType": "country", "region": null, "ORIG_FID": 63 }, "geometry": { "type": "Point", "coordinates": [ -2.23422, 53.230266759189192 ] } }
+,
+{ "type": "Feature", "id": 64, "properties": { "name": "Georgia", "geoCode": "GEO", "geoType": "country", "region": null, "ORIG_FID": 64 }, "geometry": { "type": "Point", "coordinates": [ 43.481540105444253, 42.162018941351448 ] } }
+,
+{ "type": "Feature", "id": 65, "properties": { "name": "Ghana", "geoCode": "GHA", "geoType": "country", "region": "AFRICA", "ORIG_FID": 65 }, "geometry": { "type": "Point", "coordinates": [ -1.236968481719089, 7.928651850055815 ] } }
+,
+{ "type": "Feature", "id": 66, "properties": { "name": "Guinea", "geoCode": "GIN", "geoType": "country", "region": "AFRICA", "ORIG_FID": 66 }, "geometry": { "type": "Point", "coordinates": [ -9.656652750000035, 10.27698152447033 ] } }
+,
+{ "type": "Feature", "id": 67, "properties": { "name": "Gambia", "geoCode": "GMB", "geoType": "country", "region": "AFRICA", "ORIG_FID": 67 }, "geometry": { "type": "Point", "coordinates": [ -15.343244, 13.623396798146757 ] } }
+,
+{ "type": "Feature", "id": 68, "properties": { "name": "Guinea Bissau", "geoCode": "GNB", "geoType": "country", "region": "AFRICA", "ORIG_FID": 68 }, "geometry": { "type": "Point", "coordinates": [ -15.110623891988212, 12.022704479025947 ] } }
+,
+{ "type": "Feature", "id": 69, "properties": { "name": "Equatorial Guinea", "geoCode": "GNQ", "geoType": "country", "region": "AFRICA", "ORIG_FID": 69 }, "geometry": { "type": "Point", "coordinates": [ 10.3660313105716, 1.645864427235551 ] } }
+,
+{ "type": "Feature", "id": 70, "properties": { "name": "Greece", "geoCode": "GRC", "geoType": "country", "region": null, "ORIG_FID": 70 }, "geometry": { "type": "Point", "coordinates": [ 21.763561000000152, 38.888952888011659 ] } }
+,
+{ "type": "Feature", "id": 71, "properties": { "name": "Greenland", "geoCode": "GRL", "geoType": "country", "region": null, "ORIG_FID": 71 }, "geometry": { "type": "Point", "coordinates": [ -41.500181114326438, 74.770487694135738 ] } }
+,
+{ "type": "Feature", "id": 72, "properties": { "name": "Guatemala", "geoCode": "GTM", "geoType": "country", "region": "LAC", "ORIG_FID": 72 }, "geometry": { "type": "Point", "coordinates": [ -91.228192499999921, 14.997744283861095 ] } }
+,
+{ "type": "Feature", "id": 73, "properties": { "name": "French Guiana", "geoCode": "FRX", "geoType": "country", "region": "LAC", "ORIG_FID": 73 }, "geometry": { "type": "Point", "coordinates": [ -53.0912755, 3.789650670467211 ] } }
+,
+{ "type": "Feature", "id": 74, "properties": { "name": "Guyana", "geoCode": "GUY", "geoType": "country", "region": "LAC", "ORIG_FID": 74 }, "geometry": { "type": "Point", "coordinates": [ -57.75711525, 2.617443634885262 ] } }
+,
+{ "type": "Feature", "id": 75, "properties": { "name": "Honduras", "geoCode": "HND", "geoType": "country", "region": "LAC", "ORIG_FID": 75 }, "geometry": { "type": "Point", "coordinates": [ -86.250272500000051, 14.848111245509699 ] } }
+,
+{ "type": "Feature", "id": 76, "properties": { "name": "Croatia", "geoCode": "HRV", "geoType": "country", "region": null, "ORIG_FID": 76 }, "geometry": { "type": "Point", "coordinates": [ 16.52373, 43.664297959615169 ] } }
+,
+{ "type": "Feature", "id": 77, "properties": { "name": "Haiti", "geoCode": "HTI", "geoType": "country", "region": "LAC", "ORIG_FID": 77 }, "geometry": { "type": "Point", "coordinates": [ -72.333163249999984, 19.015882979271566 ] } }
+,
+{ "type": "Feature", "id": 78, "properties": { "name": "Hungary", "geoCode": "HUN", "geoType": "country", "region": null, "ORIG_FID": 78 }, "geometry": { "type": "Point", "coordinates": [ 17.829356250000046, 46.836009787213527 ] } }
+,
+{ "type": "Feature", "id": 79, "properties": { "name": "Indonesia", "geoCode": "IDN", "geoType": "country", "region": null, "ORIG_FID": 79 }, "geometry": { "type": "Point", "coordinates": [ 111.4636802500001, -1.036220275015069 ] } }
+,
+{ "type": "Feature", "id": 80, "properties": { "name": "India", "geoCode": "IND", "geoType": "country", "region": null, "ORIG_FID": 80 }, "geometry": { "type": "Point", "coordinates": [ 79.593703664385203, 22.925006300070322 ] } }
+,
+{ "type": "Feature", "id": 81, "properties": { "name": "Ireland", "geoCode": "IRL", "geoType": "country", "region": null, "ORIG_FID": 81 }, "geometry": { "type": "Point", "coordinates": [ -8.01023680654157, 53.180591089490463 ] } }
+,
+{ "type": "Feature", "id": 82, "properties": { "name": "Iran", "geoCode": "IRN", "geoType": "country", "region": null, "ORIG_FID": 82 }, "geometry": { "type": "Point", "coordinates": [ 54.285451492992024, 32.518917306490039 ] } }
+,
+{ "type": "Feature", "id": 83, "properties": { "name": "Iraq", "geoCode": "IRQ", "geoType": "country", "region": null, "ORIG_FID": 83 }, "geometry": { "type": "Point", "coordinates": [ 46.124063500000034, 31.064418048726338 ] } }
+,
+{ "type": "Feature", "id": 84, "properties": { "name": "Iceland", "geoCode": "ISL", "geoType": "country", "region": null, "ORIG_FID": 84 }, "geometry": { "type": "Point", "coordinates": [ -18.96796, 64.893937498617674 ] } }
+,
+{ "type": "Feature", "id": 85, "properties": { "name": "Israel", "geoCode": "ISR", "geoType": "country", "region": null, "ORIG_FID": 85 }, "geometry": { "type": "Point", "coordinates": [ 35.443656, 32.761094517131824 ] } }
+,
+{ "type": "Feature", "id": 86, "properties": { "name": "Italy", "geoCode": "ITA", "geoType": "country", "region": null, "ORIG_FID": 86 }, "geometry": { "type": "Point", "coordinates": [ 9.682528, 45.199986837828305 ] } }
+,
+{ "type": "Feature", "id": 87, "properties": { "name": "Jamaica", "geoCode": "JAM", "geoType": "country", "region": "LAC", "ORIG_FID": 87 }, "geometry": { "type": "Point", "coordinates": [ -77.8032, 18.204272196636623 ] } }
+,
+{ "type": "Feature", "id": 88, "properties": { "name": "Jordan", "geoCode": "JOR", "geoType": "country", "region": null, "ORIG_FID": 88 }, "geometry": { "type": "Point", "coordinates": [ 35.990819250000015, 30.910752141416367 ] } }
+,
+{ "type": "Feature", "id": 89, "properties": { "name": "Japan", "geoCode": "JPN", "geoType": "country", "region": null, "ORIG_FID": 89 }, "geometry": { "type": "Point", "coordinates": [ 138.787813, 36.22048019062953 ] } }
+,
+{ "type": "Feature", "id": 90, "properties": { "name": "Kazakhstan", "geoCode": "KAZ", "geoType": "country", "region": null, "ORIG_FID": 90 }, "geometry": { "type": "Point", "coordinates": [ 67.311926682374065, 48.20098048070048 ] } }
+,
+{ "type": "Feature", "id": 91, "properties": { "name": "Kyrgyzstan", "geoCode": "KGZ", "geoType": "country", "region": null, "ORIG_FID": 91 }, "geometry": { "type": "Point", "coordinates": [ 74.862438500000053, 41.748610333328429 ] } }
+,
+{ "type": "Feature", "id": 92, "properties": { "name": "Cambodia", "geoCode": "KHM", "geoType": "country", "region": null, "ORIG_FID": 92 }, "geometry": { "type": "Point", "coordinates": [ 104.98132350000003, 12.548583987525603 ] } }
+,
+{ "type": "Feature", "id": 93, "properties": { "name": "South Korea", "geoCode": "KOR", "geoType": "country", "region": null, "ORIG_FID": 93 }, "geometry": { "type": "Point", "coordinates": [ 127.792851, 36.496501452530993 ] } }
+,
+{ "type": "Feature", "id": 94, "properties": { "name": "Kosovo", "geoCode": "KOS", "geoType": "country", "region": null, "ORIG_FID": 94 }, "geometry": { "type": "Point", "coordinates": [ 20.922875, 42.629191964587619 ] } }
+,
+{ "type": "Feature", "id": 95, "properties": { "name": "Kuwait", "geoCode": "KWT", "geoType": "country", "region": null, "ORIG_FID": 95 }, "geometry": { "type": "Point", "coordinates": [ 47.492403500000023, 29.487868757560705 ] } }
+,
+{ "type": "Feature", "id": 96, "properties": { "name": "Laos", "geoCode": "LAO", "geoType": "country", "region": null, "ORIG_FID": 96 }, "geometry": { "type": "Point", "coordinates": [ 101.97812225000001, 20.221405491351618 ] } }
+,
+{ "type": "Feature", "id": 97, "properties": { "name": "Lebanon", "geoCode": "LBN", "geoType": "country", "region": null, "ORIG_FID": 97 }, "geometry": { "type": "Point", "coordinates": [ 35.86890150000005, 33.918668769573742 ] } }
+,
+{ "type": "Feature", "id": 98, "properties": { "name": "Liberia", "geoCode": "LBR", "geoType": "country", "region": "AFRICA", "ORIG_FID": 98 }, "geometry": { "type": "Point", "coordinates": [ -9.489247, 6.694712670302863 ] } }
+,
+{ "type": "Feature", "id": 99, "properties": { "name": "Libya", "geoCode": "LBY", "geoType": "country", "region": "AFRICA", "ORIG_FID": 99 }, "geometry": { "type": "Point", "coordinates": [ 17.242115500000068, 26.870784823043721 ] } }
+,
+{ "type": "Feature", "id": 100, "properties": { "name": "Sri Lanka", "geoCode": "LKA", "geoType": "country", "region": null, "ORIG_FID": 100 }, "geometry": { "type": "Point", "coordinates": [ 80.667235787751167, 7.700534337706358 ] } }
+,
+{ "type": "Feature", "id": 101, "properties": { "name": "Lesotho", "geoCode": "LSO", "geoType": "country", "region": "AFRICA", "ORIG_FID": 101 }, "geometry": { "type": "Point", "coordinates": [ 28.162214, -29.631628252892085 ] } }
+,
+{ "type": "Feature", "id": 102, "properties": { "name": "Lithuania", "geoCode": "LTU", "geoType": "country", "region": null, "ORIG_FID": 102 }, "geometry": { "type": "Point", "coordinates": [ 23.880640361296742, 55.284319424545117 ] } }
+,
+{ "type": "Feature", "id": 103, "properties": { "name": "Luxembourg", "geoCode": "LUX", "geoType": "country", "region": null, "ORIG_FID": 103 }, "geometry": { "type": "Point", "coordinates": [ 5.965223241738954, 49.765705317315337 ] } }
+,
+{ "type": "Feature", "id": 104, "properties": { "name": "Latvia", "geoCode": "LVA", "geoType": "country", "region": null, "ORIG_FID": 104 }, "geometry": { "type": "Point", "coordinates": [ 24.616254499999968, 57.10215467545305 ] } }
+,
+{ "type": "Feature", "id": 105, "properties": { "name": "Morocco", "geoCode": "MAR", "geoType": "country", "region": "AFRICA", "ORIG_FID": 105 }, "geometry": { "type": "Point", "coordinates": [ -7.123082, 31.77158226565092 ] } }
+,
+{ "type": "Feature", "id": 106, "properties": { "name": "Moldova", "geoCode": "MDA", "geoType": "country", "region": null, "ORIG_FID": 106 }, "geometry": { "type": "Point", "coordinates": [ 28.410482745436752, 47.203676465912281 ] } }
+,
+{ "type": "Feature", "id": 107, "properties": { "name": "Madagascar", "geoCode": "MDG", "geoType": "country", "region": "AFRICA", "ORIG_FID": 107 }, "geometry": { "type": "Point", "coordinates": [ 46.6911708188793, -19.356114029038508 ] } }
+,
+{ "type": "Feature", "id": 108, "properties": { "name": "Mexico", "geoCode": "MEX", "geoType": "country", "region": "LAC", "ORIG_FID": 108 }, "geometry": { "type": "Point", "coordinates": [ -102.57634951262833, 23.935371917330826 ] } }
+,
+{ "type": "Feature", "id": 109, "properties": { "name": "Macedonia", "geoCode": "MKD", "geoType": "country", "region": null, "ORIG_FID": 109 }, "geometry": { "type": "Point", "coordinates": [ 21.085456750000105, 41.49413290441214 ] } }
+,
+{ "type": "Feature", "id": 110, "properties": { "name": "Mali", "geoCode": "MLI", "geoType": "country", "region": "AFRICA", "ORIG_FID": 110 }, "geometry": { "type": "Point", "coordinates": [ 0.159970000000101, 18.306989641093196 ] } }
+,
+{ "type": "Feature", "id": 111, "properties": { "name": "Malta", "geoCode": "MLT", "geoType": "country", "region": null, "ORIG_FID": 111 }, "geometry": { "type": "Point", "coordinates": [ 14.443277809864242, 35.890027878864316 ] } }
+,
+{ "type": "Feature", "id": 112, "properties": { "name": "Myanmar", "geoCode": "MMR", "geoType": "country", "region": null, "ORIG_FID": 112 }, "geometry": { "type": "Point", "coordinates": [ 96.741619500000013, 21.894918271502661 ] } }
+,
+{ "type": "Feature", "id": 113, "properties": { "name": "Montenegro", "geoCode": "MNE", "geoType": "country", "region": null, "ORIG_FID": 113 }, "geometry": { "type": "Point", "coordinates": [ 19.286181019707726, 42.78903831354495 ] } }
+,
+{ "type": "Feature", "id": 114, "properties": { "name": "Mongolia", "geoCode": "MNG", "geoType": "country", "region": null, "ORIG_FID": 114 }, "geometry": { "type": "Point", "coordinates": [ 103.762044, 46.007265673737663 ] } }
+,
+{ "type": "Feature", "id": 115, "properties": { "name": "Mozambique", "geoCode": "MOZ", "geoType": "country", "region": "AFRICA", "ORIG_FID": 115 }, "geometry": { "type": "Point", "coordinates": [ 38.126476250000167, -14.277658935011402 ] } }
+,
+{ "type": "Feature", "id": 116, "properties": { "name": "Mauritania", "geoCode": "MRT", "geoType": "country", "region": "AFRICA", "ORIG_FID": 116 }, "geometry": { "type": "Point", "coordinates": [ -10.326397038820687, 20.20926721283945 ] } }
+,
+{ "type": "Feature", "id": 117, "properties": { "name": "Malawi", "geoCode": "MWI", "geoType": "country", "region": "AFRICA", "ORIG_FID": 117 }, "geometry": { "type": "Point", "coordinates": [ 35.000968750000084, -15.456769141148015 ] } }
+,
+{ "type": "Feature", "id": 118, "properties": { "name": "Malaysia", "geoCode": "MYS", "geoType": "country", "region": null, "ORIG_FID": 118 }, "geometry": { "type": "Point", "coordinates": [ 114.42258200000015, 2.827992858589823 ] } }
+,
+{ "type": "Feature", "id": 119, "properties": { "name": "Namibia", "geoCode": "NAM", "geoType": "country", "region": "AFRICA", "ORIG_FID": 119 }, "geometry": { "type": "Point", "coordinates": [ 17.156168162687663, -22.099776973240523 ] } }
+,
+{ "type": "Feature", "id": 120, "properties": { "name": "New Caledonia", "geoCode": "NCL", "geoType": "country", "region": null, "ORIG_FID": 120 }, "geometry": { "type": "Point", "coordinates": [ 165.57480850000002, -21.321635479050713 ] } }
+,
+{ "type": "Feature", "id": 121, "properties": { "name": "Niger", "geoCode": "NER", "geoType": "country", "region": "AFRICA", "ORIG_FID": 121 }, "geometry": { "type": "Point", "coordinates": [ 9.324429403544798, 17.345552361272098 ] } }
+,
+{ "type": "Feature", "id": 122, "properties": { "name": "Nigeria", "geoCode": "NGA", "geoType": "country", "region": "AFRICA", "ORIG_FID": 122 }, "geometry": { "type": "Point", "coordinates": [ 7.995127765434177, 9.548318380847945 ] } }
+,
+{ "type": "Feature", "id": 123, "properties": { "name": "Nicaragua", "geoCode": "NIC", "geoType": "country", "region": "LAC", "ORIG_FID": 123 }, "geometry": { "type": "Point", "coordinates": [ -85.020318346310091, 12.848190416553507 ] } }
+,
+{ "type": "Feature", "id": 124, "properties": { "name": "Netherlands", "geoCode": "NLD", "geoType": "country", "region": null, "ORIG_FID": 124 }, "geometry": { "type": "Point", "coordinates": [ 5.512217257118152, 52.298700259566658 ] } }
+,
+{ "type": "Feature", "id": 125, "properties": { "name": "Norway", "geoCode": "NOR", "geoType": "country", "region": null, "ORIG_FID": 125 }, "geometry": { "type": "Point", "coordinates": [ 24.718083, 69.839926935901644 ] } }
+,
+{ "type": "Feature", "id": 126, "properties": { "name": "Nepal", "geoCode": "NPL", "geoType": "country", "region": null, "ORIG_FID": 126 }, "geometry": { "type": "Point", "coordinates": [ 82.110019750000106, 29.0384140012942 ] } }
+,
+{ "type": "Feature", "id": 127, "properties": { "name": "New Zealand", "geoCode": "NZL", "geoType": "country", "region": null, "ORIG_FID": 127 }, "geometry": { "type": "Point", "coordinates": [ 172.31367375000013, -42.339546717386611 ] } }
+,
+{ "type": "Feature", "id": 128, "properties": { "name": "Oman", "geoCode": "OMN", "geoType": "country", "region": null, "ORIG_FID": 128 }, "geometry": { "type": "Point", "coordinates": [ 57.856047500000102, 22.037498729378171 ] } }
+,
+{ "type": "Feature", "id": 129, "properties": { "name": "Pakistan", "geoCode": "PAK", "geoType": "country", "region": null, "ORIG_FID": 129 }, "geometry": { "type": "Point", "coordinates": [ 65.115048750000085, 27.395361371298065 ] } }
+,
+{ "type": "Feature", "id": 130, "properties": { "name": "Panama", "geoCode": "PAN", "geoType": "country", "region": "LAC", "ORIG_FID": 130 }, "geometry": { "type": "Point", "coordinates": [ -78.673370249999948, 9.088864382106806 ] } }
+,
+{ "type": "Feature", "id": 131, "properties": { "name": "Peru", "geoCode": "PER", "geoType": "country", "region": "LAC", "ORIG_FID": 131 }, "geometry": { "type": "Point", "coordinates": [ -71.85154, -13.614783555772533 ] } }
+,
+{ "type": "Feature", "id": 132, "properties": { "name": "Philippines", "geoCode": "PHL", "geoType": "country", "region": null, "ORIG_FID": 132 }, "geometry": { "type": "Point", "coordinates": [ 120.958152, 14.104677040790875 ] } }
+,
+{ "type": "Feature", "id": 133, "properties": { "name": "Papua New Guinea", "geoCode": "PNG", "geoType": "country", "region": null, "ORIG_FID": 133 }, "geometry": { "type": "Point", "coordinates": [ 145.900919, -6.584943002090881 ] } }
+,
+{ "type": "Feature", "id": 134, "properties": { "name": "Poland", "geoCode": "POL", "geoType": "country", "region": null, "ORIG_FID": 134 }, "geometry": { "type": "Point", "coordinates": [ 19.311014310865744, 52.148260305574127 ] } }
+,
+{ "type": "Feature", "id": 135, "properties": { "name": "Puerto Rico", "geoCode": "PRI", "geoType": "country", "region": "LAC", "ORIG_FID": 135 }, "geometry": { "type": "Point", "coordinates": [ -66.416716, 18.248051544015937 ] } }
+,
+{ "type": "Feature", "id": 136, "properties": { "name": "North Korea", "geoCode": "PRK", "geoType": "country", "region": null, "ORIG_FID": 136 }, "geometry": { "type": "Point", "coordinates": [ 125.89422050000007, 39.413293166089602 ] } }
+,
+{ "type": "Feature", "id": 137, "properties": { "name": "Portugal", "geoCode": "PRT", "geoType": "country", "region": null, "ORIG_FID": 137 }, "geometry": { "type": "Point", "coordinates": [ -8.055765653987521, 39.634049676914344 ] } }
+,
+{ "type": "Feature", "id": 138, "properties": { "name": "Paraguay", "geoCode": "PRY", "geoType": "country", "region": "LAC", "ORIG_FID": 138 }, "geometry": { "type": "Point", "coordinates": [ -60.58703275, -21.681239612266779 ] } }
+,
+{ "type": "Feature", "id": 139, "properties": { "name": "Qatar", "geoCode": "QAT", "geoType": "country", "region": null, "ORIG_FID": 139 }, "geometry": { "type": "Point", "coordinates": [ 51.183502608873084, 25.321851009758348 ] } }
+,
+{ "type": "Feature", "id": 140, "properties": { "name": "Romania", "geoCode": "ROU", "geoType": "country", "region": null, "ORIG_FID": 140 }, "geometry": { "type": "Point", "coordinates": [ 24.943252307608816, 45.857100987775311 ] } }
+,
+{ "type": "Feature", "id": 141, "properties": { "name": "Russia", "geoCode": "RUS", "geoType": "country", "region": null, "ORIG_FID": 141 }, "geometry": { "type": "Point", "coordinates": [ 99.216526711466827, 61.692564646144717 ] } }
+,
+{ "type": "Feature", "id": 142, "properties": { "name": "Rwanda", "geoCode": "RWA", "geoType": "country", "region": "AFRICA", "ORIG_FID": 142 }, "geometry": { "type": "Point", "coordinates": [ 29.920530500000041, -1.886910703911099 ] } }
+,
+{ "type": "Feature", "id": 143, "properties": { "name": "Western Sahara", "geoCode": "SAH", "geoType": "country", "region": "AFRICA", "ORIG_FID": 143 }, "geometry": { "type": "Point", "coordinates": [ -13.124822916063522, 24.667486751603292 ] } }
+,
+{ "type": "Feature", "id": 144, "properties": { "name": "Saudi Arabia", "geoCode": "SAU", "geoType": "country", "region": null, "ORIG_FID": 144 }, "geometry": { "type": "Point", "coordinates": [ 45.149497500000052, 23.295991210049863 ] } }
+,
+{ "type": "Feature", "id": 145, "properties": { "name": "Sudan", "geoCode": "SDN", "geoType": "country", "region": "AFRICA", "ORIG_FID": 145 }, "geometry": { "type": "Point", "coordinates": [ 29.862604017208525, 15.99058495544574 ] } }
+,
+{ "type": "Feature", "id": 146, "properties": { "name": "South Sudan", "geoCode": "SDS", "geoType": "country", "region": "AFRICA", "ORIG_FID": 146 }, "geometry": { "type": "Point", "coordinates": [ 29.592493500000046, 7.281916744018474 ] } }
+,
+{ "type": "Feature", "id": 147, "properties": { "name": "Senegal", "geoCode": "SEN", "geoType": "country", "region": "AFRICA", "ORIG_FID": 147 }, "geometry": { "type": "Point", "coordinates": [ -13.007185, 14.011378662764514 ] } }
+,
+{ "type": "Feature", "id": 148, "properties": { "name": "Solomon Islands", "geoCode": "SLB", "geoType": "country", "region": null, "ORIG_FID": 148 }, "geometry": { "type": "Point", "coordinates": [ 159.10249838310574, -7.902107562653328 ] } }
+,
+{ "type": "Feature", "id": 149, "properties": { "name": "Sierra Leone", "geoCode": "SLE", "geoType": "country", "region": "AFRICA", "ORIG_FID": 149 }, "geometry": { "type": "Point", "coordinates": [ -11.738322, 8.461845942261391 ] } }
+,
+{ "type": "Feature", "id": 150, "properties": { "name": "El Salvador", "geoCode": "SLV", "geoType": "country", "region": "LAC", "ORIG_FID": 150 }, "geometry": { "type": "Point", "coordinates": [ -88.31652, 13.528028604963993 ] } }
+,
+{ "type": "Feature", "id": 151, "properties": { "name": "Somaliland", "geoCode": "SOL", "geoType": "country", "region": "AFRICA", "ORIG_FID": 151 }, "geometry": { "type": "Point", "coordinates": [ 45.753483000000131, 9.574989774019741 ] } }
+,
+{ "type": "Feature", "id": 152, "properties": { "name": "Somalia", "geoCode": "SOM", "geoType": "country", "region": "AFRICA", "ORIG_FID": 152 }, "geometry": { "type": "Point", "coordinates": [ 46.05746, 4.304184878027968 ] } }
+,
+{ "type": "Feature", "id": 153, "properties": { "name": "Republic of Serbia", "geoCode": "SRB", "geoType": "country", "region": null, "ORIG_FID": 153 }, "geometry": { "type": "Point", "coordinates": [ 20.907919500000048, 44.291307977402766 ] } }
+,
+{ "type": "Feature", "id": 154, "properties": { "name": "Suriname", "geoCode": "SUR", "geoType": "country", "region": "LAC", "ORIG_FID": 154 }, "geometry": { "type": "Point", "coordinates": [ -55.911456364650121, 4.120007947741158 ] } }
+,
+{ "type": "Feature", "id": 155, "properties": { "name": "Slovakia", "geoCode": "SVK", "geoType": "country", "region": null, "ORIG_FID": 155 }, "geometry": { "type": "Point", "coordinates": [ 19.507657094537876, 48.726711307505468 ] } }
+,
+{ "type": "Feature", "id": 156, "properties": { "name": "Slovenia", "geoCode": "SVN", "geoType": "country", "region": null, "ORIG_FID": 156 }, "geometry": { "type": "Point", "coordinates": [ 14.938152421437451, 46.125422102647462 ] } }
+,
+{ "type": "Feature", "id": 157, "properties": { "name": "Sweden", "geoCode": "SWE", "geoType": "country", "region": null, "ORIG_FID": 157 }, "geometry": { "type": "Point", "coordinates": [ 14.246371750000094, 60.512353059468637 ] } }
+,
+{ "type": "Feature", "id": 158, "properties": { "name": "Swaziland", "geoCode": "SWZ", "geoType": "country", "region": "AFRICA", "ORIG_FID": 158 }, "geometry": { "type": "Point", "coordinates": [ 31.374137, -26.472045506235702 ] } }
+,
+{ "type": "Feature", "id": 159, "properties": { "name": "Syria", "geoCode": "SYR", "geoType": "country", "region": null, "ORIG_FID": 159 }, "geometry": { "type": "Point", "coordinates": [ 38.544239373377479, 35.012614074829628 ] } }
+,
+{ "type": "Feature", "id": 160, "properties": { "name": "Chad", "geoCode": "TCD", "geoType": "country", "region": "AFRICA", "ORIG_FID": 160 }, "geometry": { "type": "Point", "coordinates": [ 18.713642000000107, 15.269406639106649 ] } }
+,
+{ "type": "Feature", "id": 161, "properties": { "name": "Togo", "geoCode": "TGO", "geoType": "country", "region": "AFRICA", "ORIG_FID": 161 }, "geometry": { "type": "Point", "coordinates": [ 0.99640413774307, 8.439541614235054 ] } }
+,
+{ "type": "Feature", "id": 162, "properties": { "name": "Thailand", "geoCode": "THA", "geoType": "country", "region": null, "ORIG_FID": 162 }, "geometry": { "type": "Point", "coordinates": [ 101.00613361307745, 15.016975159492574 ] } }
+,
+{ "type": "Feature", "id": 163, "properties": { "name": "Tajikistan", "geoCode": "TJK", "geoType": "country", "region": null, "ORIG_FID": 163 }, "geometry": { "type": "Point", "coordinates": [ 73.095556500000157, 38.380884083423894 ] } }
+,
+{ "type": "Feature", "id": 164, "properties": { "name": "Turkmenistan", "geoCode": "TKM", "geoType": "country", "region": null, "ORIG_FID": 164 }, "geometry": { "type": "Point", "coordinates": [ 63.035227500000076, 37.584255936571765 ] } }
+,
+{ "type": "Feature", "id": 165, "properties": { "name": "East Timor", "geoCode": "TLS", "geoType": "country", "region": null, "ORIG_FID": 165 }, "geometry": { "type": "Point", "coordinates": [ 125.56049350000023, -8.88217932450317 ] } }
+,
+{ "type": "Feature", "id": 166, "properties": { "name": "Trinidad and Tobago", "geoCode": "TTO", "geoType": "country", "region": "LAC", "ORIG_FID": 166 }, "geometry": { "type": "Point", "coordinates": [ -61.330366914449598, 10.4282370892019 ] } }
+,
+{ "type": "Feature", "id": 167, "properties": { "name": "Tunisia", "geoCode": "TUN", "geoType": "country", "region": "AFRICA", "ORIG_FID": 167 }, "geometry": { "type": "Point", "coordinates": [ 9.506634500000018, 33.833970659298529 ] } }
+,
+{ "type": "Feature", "id": 168, "properties": { "name": "Turkey", "geoCode": "TUR", "geoType": "country", "region": null, "ORIG_FID": 168 }, "geometry": { "type": "Point", "coordinates": [ 30.82658625, 38.890639692191712 ] } }
+,
+{ "type": "Feature", "id": 169, "properties": { "name": "Taiwan", "geoCode": "TWN", "geoType": "country", "region": null, "ORIG_FID": 169 }, "geometry": { "type": "Point", "coordinates": [ 120.56745275, 23.292228617566934 ] } }
+,
+{ "type": "Feature", "id": 170, "properties": { "name": "United Republic of Tanzania", "geoCode": "TZA", "geoType": "country", "region": "AFRICA", "ORIG_FID": 170 }, "geometry": { "type": "Point", "coordinates": [ 34.958337538312719, -6.51731481954306 ] } }
+,
+{ "type": "Feature", "id": 171, "properties": { "name": "Uganda", "geoCode": "UGA", "geoType": "country", "region": "AFRICA", "ORIG_FID": 171 }, "geometry": { "type": "Point", "coordinates": [ 33.671859, 2.098345156031655 ] } }
+,
+{ "type": "Feature", "id": 172, "properties": { "name": "Ukraine", "geoCode": "UKR", "geoType": "country", "region": null, "ORIG_FID": 172 }, "geometry": { "type": "Point", "coordinates": [ 31.083198500000037, 49.340329901361372 ] } }
+,
+{ "type": "Feature", "id": 173, "properties": { "name": "Uruguay", "geoCode": "URY", "geoType": "country", "region": "LAC", "ORIG_FID": 173 }, "geometry": { "type": "Point", "coordinates": [ -55.8183315, -32.8260661614583 ] } }
+,
+{ "type": "Feature", "id": 174, "properties": { "name": "United States of America", "geoCode": "USA", "geoType": "country", "region": "USA", "ORIG_FID": 174 }, "geometry": { "type": "Point", "coordinates": [ -99.342158963963641, 39.381913450529282 ] } }
+,
+{ "type": "Feature", "id": 175, "properties": { "name": "Uzbekistan", "geoCode": "UZB", "geoType": "country", "region": null, "ORIG_FID": 175 }, "geometry": { "type": "Point", "coordinates": [ 64.492167, 41.225570675432891 ] } }
+,
+{ "type": "Feature", "id": 176, "properties": { "name": "Venezuela", "geoCode": "VEN", "geoType": "country", "region": "LAC", "ORIG_FID": 176 }, "geometry": { "type": "Point", "coordinates": [ -63.144951750000018, 7.242684455247513 ] } }
+,
+{ "type": "Feature", "id": 177, "properties": { "name": "Vietnam", "geoCode": "VNM", "geoType": "country", "region": null, "ORIG_FID": 177 }, "geometry": { "type": "Point", "coordinates": [ 105.752853, 9.985633105298973 ] } }
+,
+{ "type": "Feature", "id": 178, "properties": { "name": "Vanuatu", "geoCode": "VUT", "geoType": "country", "region": null, "ORIG_FID": 178 }, "geometry": { "type": "Point", "coordinates": [ 166.94958250000002, -15.230197657294525 ] } }
+,
+{ "type": "Feature", "id": 179, "properties": { "name": "West Bank", "geoCode": "PSX", "geoType": "country", "region": null, "ORIG_FID": 179 }, "geometry": { "type": "Point", "coordinates": [ 35.2365365, 31.977496394796503 ] } }
+,
+{ "type": "Feature", "id": 180, "properties": { "name": "Yemen", "geoCode": "YEM", "geoType": "country", "region": null, "ORIG_FID": 180 }, "geometry": { "type": "Point", "coordinates": [ 45.230798, 15.20180808562526 ] } }
+,
+{ "type": "Feature", "id": 181, "properties": { "name": "South Africa", "geoCode": "ZAF", "geoType": "country", "region": "AFRICA", "ORIG_FID": 181 }, "geometry": { "type": "Point", "coordinates": [ 24.587548500000082, -29.832099613436071 ] } }
+,
+{ "type": "Feature", "id": 182, "properties": { "name": "Zambia", "geoCode": "ZMB", "geoType": "country", "region": "AFRICA", "ORIG_FID": 182 }, "geometry": { "type": "Point", "coordinates": [ 24.787302499999953, -14.326329312863606 ] } }
+,
+{ "type": "Feature", "id": 183, "properties": { "name": "Zimbabwe", "geoCode": "ZWE", "geoType": "country", "region": "AFRICA", "ORIG_FID": 183 }, "geometry": { "type": "Point", "coordinates": [ 29.05704350000002, -18.895902547746118 ] } }
+,
+{ "type": "Feature", "id": 184, "properties": { "name": "Bahrain", "geoCode": "BHR", "geoType": "country", "region": null, "ORIG_FID": 184 }, "geometry": { "type": "Point", "coordinates": [ 50.576220703125102, 25.991015890918845 ] } }
+,
+{ "type": "Feature", "id": 185, "properties": { "name": "Kenya", "geoCode": "KEN", "geoType": "country", "region": "AFRICA", "ORIG_FID": 185 }, "geometry": { "type": "Point", "coordinates": [ 37.874326, 0.006052062957394 ] } }
+
+]
+}

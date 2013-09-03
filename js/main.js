@@ -1,48 +1,106 @@
-var worldCollection = [];
+var worldcountries = [];
+var worldcapitals = [];
+
+var svgwidth = 960,
+    svgheight = 960;
+
+var projection = d3.geo.orthographic()
+    .clipAngle(90)
+    .rotate([-5, -5])
+    .precision(.1)
+    .translate([svgwidth / 2, svgheight / 2])
+    .scale(470);
+
+var gilbert = d3.geo.gilbert(projection);
 
 
-    var width = 600,
-        height = 300;
+var path = d3.geo.path()
+  .projection(gilbert)
+  .pointRadius(2);
 
-    var projection = d3.geo.mercator()
-      .scale((width + 1) / 2 / Math.PI)
-      .translate([width / 2, height / 2])
-      .precision(.1);
+var graticule = d3.geo.graticule();
 
-    var path = d3.geo.path()
-      .projection(projection);
+var svg = d3.select("#map1").append("svg")
+  .attr("width", svgwidth)
+  .attr("height", svgheight);
 
-    var graticule = d3.geo.graticule();
 
-    var svg = d3.select("#map1").append("svg")
-      .attr("width", width)
-      .attr("height", height);
 
-    
-    d3.json("../data/worldcountries.json", function(world){
-      worldCollection = world;
-      feature = svg.selectAll("path")
-        .data(world.features)
-        .enter().append("path")
-        .attr('country_name', function(d){return d.properties.name;})
-        .attr('country_centroid', function(d){return path.centroid(d)})
-        .attr('fill', '#aaaaaa')
-        .attr("d", path)
-        .on("click", clicked)        
-        .style('stroke', '#fff;');
-    });    
+function getcountrydata(){
+  $.ajax({
+      type: 'GET',
+      url: 'data/worldcountries.json',
+      contentType: 'application/json',
+      dataType: 'json',
+      timeout: 10000,
+      success: function(json) {
+          worldcountries = json;
+          getcapitaldata();
+      },
+      error: function(e) {
+          console.log(e);
+      }
+  });
+}
 
-    function clicked(x) {
-      console.log(path.centroid(x));
+function getcapitaldata(){
+  $.ajax({
+      type: 'GET',
+      url: 'data/worldcapitals.json',
+      contentType: 'application/json',
+      dataType: 'json',
+      timeout: 10000,
+      success: function(json) {
+          worldcapitals = json;
+          mapIt();
+      },
+      error: function(e) {
+          console.log(e);
+      }
+  });
+}
 
-    }
+function mapIt(){
+  // svg.append("path")
+  //   .datum({type: "Sphere"})
+  //   .attr("class", "background")
+  //   .attr("d", path);
 
-    
+  svg.selectAll("path")
+    .data(worldcountries.features)
+    .enter().append("path")
+    .attr('data-id', function(d){return d.id})
+    .attr('data-name', function(d){return d.properties.name;})
+    .attr('class', 'country')
+    .attr("d", path)
+    .on("click", logIt);
+  addCapitals();
+}
 
-      
+// setup groups?????
 
+
+function addCapitals(){
+  // svg.append("path")
+  //   .datum(worldcapitals)
+  //   .attr("d", path)
+  //   .attr("class", 'capital')
   
 
 
+  svg.selectAll("path")
+    .data(worldcapitals.features)
+    .enter().append("path")
+    .attr('class', 'capital')
+    .attr('data-id', function(d){return d.id})
+    .attr('data-name', function(d){return d.properties.NAMEASCII + ', ' + d.properties.ADM0NAME;})
+    .attr("d", path);
+
+}
+
+function logIt(x){
+  console.log(x);
+}
 
 
+getcountrydata();

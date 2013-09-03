@@ -1,10 +1,21 @@
-
 body{
   background-color: #e6e6e6;
   padding: 20px;
 }
 
-.div-map{
-  background-color: #ffffff;
+svg{
+  border:1px solid black;
 }
 
+.capital {
+  fill: blue;  
+}
+
+.country {
+	fill: #aaaaaa;
+	stroke: black;
+}
+
+.background {
+  fill: #ccf;
+}
