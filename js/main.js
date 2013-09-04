@@ -24,6 +24,9 @@ var svg = d3.select("#map1").append("svg")
   .attr("width", svgwidth)
   .attr("height", svgheight);
 
+var countryGroup = svg.append('g').attr("id", "countries");
+var arcGroup = svg.append('g').attr("id", "arcs");
+var capitalsGroup = svg.append('g').attr("id", "capitals");
 
 
 function getcountrydata(){
@@ -66,36 +69,24 @@ function mapIt(){
   //   .attr("class", "background")
   //   .attr("d", path);
 
-  svg.selectAll("path")
+ countryGroup.selectAll("path")
     .data(worldcountries.features)
     .enter().append("path")
-    .attr('data-id', function(d){return d.id})
-    .attr('data-name', function(d){return d.properties.name;})
+    .attr('data-ADM0', function(d){return d.properties.geoCode;})    
+    .attr('data-name', function(d){return d.properties.name;})        
     .attr('class', 'country')
     .attr("d", path)
     .on("click", logIt);
   addCapitals();
 }
 
-// setup groups?????
-
-
 function addCapitals(){
-  // svg.append("path")
-  //   .datum(worldcapitals)
-  //   .attr("d", path)
-  //   .attr("class", 'capital')
-  
-
-
-  svg.selectAll("path")
+  capitalsGroup.selectAll("path")
     .data(worldcapitals.features)
-    .enter().append("path")
-    .attr('class', 'capital')
-    .attr('data-id', function(d){return d.id})
-    .attr('data-name', function(d){return d.properties.NAMEASCII + ', ' + d.properties.ADM0NAME;})
+    .enter().append("path")      
+    .attr('data-ADM0', function(d){return d.properties.ADM0_A3;})
+    .attr('class', 'capital')  
     .attr("d", path);
-
 }
 
 function logIt(x){
