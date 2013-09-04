@@ -26,7 +26,7 @@ var svg = d3.select("#map1").append("svg")
 
 var countryGroup = svg.append('g').attr("id", "countries");
 var arcGroup = svg.append('g').attr("id", "arcs");
-var capitalsGroup = svg.append('g').attr("id", "capitals");
+var capitalGroup = svg.append('g').attr("id", "capitals");
 
 
 function getcountrydata(){
@@ -75,23 +75,64 @@ function mapIt(){
     .attr('data-ADM0', function(d){return d.properties.geoCode;})    
     .attr('data-name', function(d){return d.properties.name;})        
     .attr('class', 'country')
-    .attr("d", path)
-    .on("click", logIt);
+    .attr("d", path);    
   addCapitals();
 }
 
 function addCapitals(){
-  capitalsGroup.selectAll("path")
+  capitalGroup.selectAll("path")
     .data(worldcapitals.features)
     .enter().append("path")      
     .attr('data-ADM0', function(d){return d.properties.ADM0_A3;})
     .attr('class', 'capital')  
     .attr("d", path);
+  testing();
 }
 
-function logIt(x){
-  console.log(x);
+
+var arcOrigin = [];
+var arcDestinations = [];
+var arcLinks = [];
+
+function testing(){
+  $(worldcapitals.features).each(function(i, capital){
+    var caplat = capital.properties.LATITUDE;
+    var caplong = capital.properties.LONGITUDE;
+    if (capital.properties.ADM0_A3 == "USA"){      
+      arcOrigin.push({
+        coordinates: [
+          [caplong, caplat]
+        ]
+      });
+    } else {
+      arcDestinations.push({
+        coordinates: [
+          [caplong, caplat]
+        ]
+      });
+    }
+  });
+  $(arcDestinations).each(function(i, destination){
+    arcLinks.push({
+      type: "LineString",
+      coordinates: [
+        arcOrigin[0].coordinates[0], 
+        destination.coordinates[0]
+      ]
+    });
+  });
+  arcGroup.selectAll(".arc")
+    .data(arcLinks)
+    .enter().append("path")
+    .attr('class', 'arc')
+    .attr('d', path)
+    .style({
+      fill:'none',
+      stroke: '#0000ff',
+      'stroke-width': '2px'
+    })
 }
+
 
 
 getcountrydata();
