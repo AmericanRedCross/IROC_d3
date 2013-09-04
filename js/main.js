@@ -86,7 +86,7 @@ function addCapitals(){
     .attr('data-ADM0', function(d){return d.properties.ADM0_A3;})
     .attr('class', 'capital')  
     .attr("d", path);
-  testing();
+  buildLinks();
 }
 
 
@@ -94,35 +94,62 @@ var arcOrigin = [];
 var arcDestinations = [];
 var arcLinks = [];
 
-function testing(){
+function buildLinks(){
   $(worldcapitals.features).each(function(i, capital){
     var caplat = capital.properties.LATITUDE;
     var caplong = capital.properties.LONGITUDE;
     if (capital.properties.ADM0_A3 == "USA"){      
-      arcOrigin.push({
-        coordinates: [
-          [caplong, caplat]
-        ]
-      });
+      arcOrigin.push(capital);      
     } else {
-      arcDestinations.push({
-        coordinates: [
-          [caplong, caplat]
-        ]
-      });
+      arcDestinations.push(capital);      
     }
   });
   $(arcDestinations).each(function(i, destination){
     arcLinks.push({
       type: "LineString",
+      destination: destination.properties.ADM0_A3,
       coordinates: [
-        arcOrigin[0].coordinates[0], 
-        destination.coordinates[0]
+        [arcOrigin[0].geometry.coordinates[0], arcOrigin[0].geometry.coordinates[1]],
+        [destination.geometry.coordinates[0], destination.geometry.coordinates[1]]
       ]
     });
   });
-  arcGroup.selectAll(".arc")
-    .data(arcLinks)
+  drawLink("NPL");  
+}
+
+// --- Helper functions (for tweening the path)
+var lineTransition = function lineTransition(path) {
+    path.transition()
+        //NOTE: Change this number (in ms) to make lines draw faster or slower
+        .duration(5500)
+        .attrTween("stroke-dasharray", tweenDash)
+        .each("end", function(d,i) { 
+            ////Uncomment following line to re-transition
+            //d3.select(this).call(transition); 
+            
+            ////We might want to do stuff when the line reaches the target,
+            //doStuffWhenLineFinishes(d,i);
+        });
+};
+var tweenDash = function tweenDash() {
+    //This function is used to animate the dash-array property, which is a
+    //  nice hack that gives us animation along some arbitrary path (in this
+    //  case, makes it look like a line is being drawn from point A to B)
+    var len = this.getTotalLength(),
+        interpolate = d3.interpolateString("0," + len, len + "," + len);
+
+    return function(t) { return interpolate(t); };
+};
+
+function drawLink(adm0){
+  drawnLink = [];
+  $(arcLinks).each(function(i, link){
+    if (link.destination == adm0){
+      drawnLink.push(link);
+    }
+  });
+  arcGroup.selectAll(adm0)
+    .data(drawnLink)
     .enter().append("path")
     .attr('class', 'arc')
     .attr('d', path)
@@ -131,8 +158,8 @@ function testing(){
       stroke: '#0000ff',
       'stroke-width': '2px'
     })
+    .call(lineTransition);
 }
-
 
 
 getcountrydata();
