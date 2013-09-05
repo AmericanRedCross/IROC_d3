@@ -1,0 +1,605 @@
+REF,COUNTRY,ADM0_A3,ZONE,ST_DATE,END_DATE,YEAR,DIS_TYPE,DIS_CATEGORY,RESPONSE_TYPE,TOT_TARGET_BENIFICIARIES,TOTAL_BUDGET
+2,Burundi,BDI,Africa,4/1/2011,5/1/2012,2011,Floods,Natural Hydrometeorologic hydrological,DREF,695,29829
+4,Russia,RUS,Europe,7/1/2011,1/1/2012,2011,Boat Accident ,Technological Transport accident ,DREF,1000,25358
+6,Malta,MLT,Europe,2/1/2011,4/1/2011,2011,Population movement,Human related,DREF,1000,83603
+7,Tanzania,TZA,Africa,3/1/2011,4/1/2011,2011,Explosion,Technological Industrial accident,DREF,1000,36210
+9,Iraq,IRQ,Middle East and North Africa,4/1/2011,8/1/2011,2011,Flash Floods,Natural Hydrometeorologic hydrological,DREF,1000,165385
+10,Gabon,GAB,Africa,1/1/2011,4/1/2011,2011,Violent wind and floods ,Natural Hydrometeorologic hydrological and climatological,DREF,1015,96960
+13,Uganda,UGA,Africa,5/1/2011,9/1/2011,2011,Political disturbances,Human related,DREF,1500,99879
+14,Central African Republic,CAF,Africa,6/2/2011,10/1/2011,2011,Violent Winds in Bangui,Natural Hydrometeorologic climatological,DREF,1626,114935
+15,Georgia,GEO,Europe,6/1/2011,12/1/2011,2011,Floods,Natural Hydrometeorologic hydrological,DREF,1750,59960
+16,Central African Republic,CAF,Africa,10/1/2011,2/1/2012,2011,Floods in Bangui and Paoua,Natural Hydrometeorologic hydrological,DREF,1765,166245
+17,Rwanda,RWA,Africa,5/1/2011,7/1/2011,2011,Heavy rainstorms and floods ,Natural Hydrometeorologic hydrological and meteorological,DREF,1860,149759
+20,Honduras,HND,Americas,11/1/2011,1/1/2012,2011,Tropical Depression 12-E,Natural Hydrometeorologic meteorological,DREF,4000,220262
+21,Senegal,SEN,Africa,12/1/2011,3/1/2012,2011,Food Insecurity,Human related,DREF,4000,166428
+22,Laos,LAO,Asia Pacific,7/1/2011,1/1/2012,2011,Floods,Natural Hydrometeorologic hydrological,DREF,5000,329788
+23,Tunisia,TUN,Middle East and North Africa,1/1/2011,5/1/2011,2011,Civil unrest ,Human related,DREF,5000,150000
+24,Chile,CHL,Americas,8/1/2011,11/1/2011,2011,Severe Winter,Natural Hydrometeorologic climatological,DREF,5000,146890
+25,Dominican Republic,DOM,Americas,9/1/2011,12/1/2012,2011,Floods,Natural Hydrometeorologic hydrological,DREF,5000,81845
+26,India,IND,Asia Pacific,10/1/2011,12/1/2011,2011,Sikkim Earthquake,Natural Geophysical,DREF,5000,97137
+27,Nicaragua,NIC,Americas,10/1/2011,1/1/2012,2011,Floods,Natural Hydrometeorologic hydrological,DREF,5000,235352
+28,Senegal,SEN,Africa,8/1/2011,10/1/2011,2011,Floods in Thies,Natural Hydrometeorologic hydrological,DREF,5000,192662
+29,Russia,RUS,Europe,9/1/2011,12/1/2011,2011,Floods,Natural Hydrometeorologic hydrological,DREF,5174,77905
+31,Benin,BEN,Africa,7/1/2011,7/1/2010,2011,Floods,Natural Hydrometeorologic hydrological,DREF,5840,167241
+32,Paraguay,PRY,Americas,8/1/2011,2/1/2012,2011,Hailstorms,Natural Hydrometeorologic hydrological,DREF,5873,185603
+33,Nigeria,NGA,Africa,5/1/2011,10/1/2011,2011,Civil Unrest,Human related,DREF,7500,246829
+34,Myanmar,MMR,Asia Pacific,3/1/2011,8/1/2011,2011,Earthquake,Natural Geophysical,DREF,7500,157534
+35,Guatemala,GTM,Americas,10/1/2011,7/1/2012,2011,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,7500,715933
+36,Guinea,GIN,Africa,9/1/2011,11/1/2011,2011,Floods,Natural Hydrometeorologic hydrological,DREF,7500,261008
+37,Mali,MLI,Africa,8/1/2011,11/1/2011,2011,Floods,Natural Hydrometeorologic hydrological,DREF,7500,264684
+38,Nepal,NPL,Asia pacific,9/1/2011,1/1/2012,2011,Earthquake,Natural Geophysical,DREF,7500,172417
+39,South Africa,ZAF,Africa,1/1/2011,4/1/2011,2011,Floods ,Natural Hydrometeorologic hydrological,DREF,8870,177585
+40,Nigeria,NGA,Africa,7/1/2011,11/1/2011,2011,Flash Floods,Natural Hydrometeorologic hydrological,DREF,9000,289282
+41,Russia,RUS,Europe,6/1/2011,9/1/2011,2011,Floods,Natural Hydrometeorologic hydrological,DREF,9000,149420
+42,Egypt,EGY,Middle East and North Africa,2/1/2011,6/1/2011,2011,Unrest,Human related,DREF,10000,107672
+43,Lesotho,LSO,Africa,2/1/2011,5/1/2011,2011,Floods,Natural Hydrometeorologic hydrological,DREF,10000,244036
+44,El Salvador,SLV,Americas,10/1/2011,6/1/2012,2011,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,10000,1174119
+45,Ethiopia,ETH,Africa,10/1/2011,4/1/2012,2011,Population movement,Human related,Emergency appeal,10000,684476
+46,Myanmar,MMR,Asia pacific,9/1/2011,3/1/2012,2011,Magway Floods,Natural Hydrometeorologic hydrological,DREF,10000,165670
+47,Mauritania,MRT,Africa,12/1/2011,12/1/2012,2011,Food insecurity,Human related,Emergency appeal,10000,2131749
+49,Niger,NER,Africa,8/1/2011,2/1/2012,2011,Floods,Natural Hydrometeorologic hydrological,DREF,11200,250491
+52,Costa Rica,CRI,Americas,10/1/2011,1/1/2012,2011,Tropical Depression 12-E,Natural Hydrometeorologic meteorological,DREF,12500,94374
+53,Vanuatu,VUT,Asia Pacific,2/1/2011,5/1/2011,2011,Tropical Cyclone Vania,Natural Hydrometeorologic meteorological,DREF,14530,90322
+54,Mozambique,MOZ,Africa,1/1/2011,4/1/2011,2011,Floods and Cholera ,Natural Hydrometeorologic and Biological,DREF,15000,345207
+55,Niger,NER,Africa,10/1/2011,1/1/2012,2011,Cholera,Natural Biological,DREF,15000,181335
+56,Madagascar,MDG,Africa,2/1/2011,6/1/2011,2011,Cyclone Bingiza ,Natural Hydrometeorologic meteorological,DREF,15500,305275
+58,Kenya,KEN,Africa,2/1/2011,3/1/2011,2011,Population Movement ,Human related,Emergency appeal,20000,3586228
+59,Tanzania,TZA,Africa,9/1/2011,9/1/2012,2011,Drought and Food insecurity,Natural Hydrometeorologic climatological and Human related,Emergency appeal,20000,1352126
+60,Tanzania,TZA,Africa,12/1/2011,3/1/2012,2011,Floods,Natural Hydrometeorologic hydrological,DREF,20000,203042
+61,Kenya,KEN,Africa,12/1/2011,4/1/2012,2011,Floods,Natural Hydrometeorologic hydrological,DREF,21000,300003
+62,Kenya,KEN,Africa,3/1/2011,4/1/2011,2011,Fires,Natural Hydrometeorologic climatological,DREF,23335,205575
+64,Chad,TCD,Africa,12/2/2011,3/2/2012,2011,Food Insecurity,Human related,DREF,25000,231613
+65,Niger,NER,Africa,6/1/2011,9/1/2011,2011,Population movement ,Human related,DREF,30000,250318
+66,Zimbabwe,ZWE,Africa,7/1/2011,12/1/2011,2011,Cholera,Natural Biological,DREF,30000,226353
+67,Namibia,NAM,Africa,4/1/2011,9/1/2011,2011,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,37457,1811530
+69,Vietnam,VNM,Asia Pacific,11/1/2011,10/1/2012,2011,Mekong Delta floods,Natural Hydrometeorologic hydrological,Emergency appeal,42000,1107185
+70,Uganda,UGA,Africa,7/1/2011,10/1/2011,2011,Flood and landslides,Natural Hydrometeorologic hydrological,DREF,59090,185962
+71,Turkey,TUR,Europe,11/1/2011,11/1/2012,2011,Van Earthquake,Natural Geophysical,Emergency appeal,60000,9402445
+73,Nigeria,NGA,Africa,7/1/2011,9/1/2011,2011,Cholera Outberak,Natural Biological,DREF,69000,92995
+74,Uganda,UGA,Africa,11/1/2011,021/2012,2011,Cholera Epidemic,Natural Biological,DREF,72140,156962
+75,Philippines,PHL,Asia Pacific,12/1/2011,1/1/2012,2011,Tropical Storm Washi,Natural Hydrometeorologic meteorological,Emergency appeal,100000,5705280
+77,Sri Lanka,LKA,Asia Pacific,1/1/2011,1/1/2012,2011,Floods and landslides,Natural Hydrometeorologic hydrological,Emergency appeal,75000,4622804
+78,Kenya,KEN,Africa,11/1/2011,11/1/2012,2011,Population movement,Human related,Emergency appeal,110000,26854197
+79,Cameroon,CMR,Africa,4/1/2011,3/1/2012,2011,cholera Outbreak,Natural Biological,Emergency appeal,87500,1361331
+81,Ghana,GHA,Africa,12/1/2011,3/1/2012,2011,Yellow Fever,Natural Biological,DREF,100000,86464
+82,Pakistan,PAK,Asia pacific,9/1/2011,3/1/2012,2011,Floods 2011,Natural Hydrometeorologic hydrological,Emergency appeal,105000,5304193
+83,Chad,TCD,Africa,4/1/2011,7/1/2011,2011,Cholera Epidemic,Natural Biological,DREF,116400,190875
+84,Philippines,PHL,Asia pacific,11/1/2011,9/1/2012,2011,Typhoon Nesat,Natural Hydrometeorologic meteorological,Emergency appeal,125000,3550719
+85,Vietnam,VNM,Asia Pacific,8/1/2011,2/1/2012,2011,"Hand, Foot and Mouth disease",Natural Biological,DREF,144995,127222
+86,Somalia,SOM,Africa,9/1/2011,12/1/2012,2011,Drought,Natural Hydrometeorologic climatological,Emergency appeal,150000,4158792
+87,Senegal,SEN,Africa,12/1/2011,3/1/2012,2011,Yellow Fever,Natural Biological,DREF,153476,72948
+88,Ethiopia,ETH,Africa,9/1/2011,8/1/2012,2011,Drought,Natural Hydrometeorologic climatological,Emergency appeal,570000,28408085
+89,South Sudan,SSD,Africa,7/1/2011,2/1/2012,2011,Complex emergency,Human related,Emergency appeal,173000,6188106
+90,Chad,TCD,Africa,11/1/2011,2/1/2012,2011,Cholera,Natural Biological,Emergency appeal,200000,1854041
+92,Uganda,UGA,Africa,6/1/2011,9/1/2011,2011,Hepatitis E Epidemic Karamoja,Natural Biological,DREF,280000,175028
+93,Niger,NER,Africa,12/1/2011,10/1/2012,2011,Food insecurity,Human related,Emergency appeal,350000,3756836
+94,Cameroon,CMR,Africa,12/1/2011,4/1/2012,2011,Polio,Natural Biological,DREF,421000,129083
+96,Chad,TCD,Africa,4/1/2011,7/1/2011,2011,Meningitis Epidemic ,Natural Biological,DREF,650000,73950
+97,Mali,MLI,Africa,8/1/2011,11/1/2011,2011,Cholera outbreak,Natural Biological,DREF,699100,
+99,Kenya,KEN,Africa,4/1/2011,7/1/2011,2011,Measles Outbreak ,Natural Biological,DREF,814904,299869
+101,Kenya,KEN,Africa,1/1/2011,10/1/2012,2011,Drought,Natural Hydrometeorologic climatological,Emergency appeal,1000000,30438354
+104,Central African Republic,CAF,Africa,10/1/2011,12/1/2011,2011,Cholera Oubreak,Natural Biological,DREF,1500000,238333
+105,Uganda,UGA,Africa,5/1/2011,8/1/2011,2011,Ebola Hemorrhagic fever,Natural Biological,DREF,1731900,133744
+106,Kenya,KEN,Africa,11/1/2011,12/1/2011,2011,Polio Outbreak,Natural Biological,DREF,2122964,314019
+107,Uganda,UGA,Africa,1/1/2011,4/1/2011,2011,Yellow fever epidemic,Natural Biological,DREF,2135700,195182
+108,Bangladesh,BGD,Asia Pacific,7/1/2011,12/1/2011,2011,Monsoon Floods,Natural Hydrometeorologic hydrological,Emergency appeal,7300000,2148592
+109,Russia,RUS,Europe,6/1/2011,7/1/2011,2011,Forest Fire Imminent Crisis,Natural Hydrometeorologic climatological,DREF,missing data,33015
+110,Maldives,MDV,Asia Pacific,7/1/2011,10/1/2011,2011,Dengue Outbreak,Natural Biological,DREF,missing data,42600
+112,Guatemala,GTM,Americas,6/1/2010,5/1/2011,2010,Tropical storm agatha,Natural Hydrometeorologic meteorological,Emergency appeal,7500,1286382
+114,Panama,PAN,Americas,11/1/2010,6/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,12725,701023
+115,Vietnam,VNM,Asia Pacific,10/1/2010,9/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,28500,1070620
+116,Panama,PAN,Americas,11/1/2010,1/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,12725,701023
+120,Serbia,SRB,Europe,11/1/2010,6/1/2011,2010,Earthquake,Natural Geophysical,Emergency appeal,8000,409759
+121,Sudan,SDN,Africa,12/1/2010,1/1/2011,2010,Preparedness for Civil Unrest ,Human related,Emergency appeal,105000,3030275
+123,Philippines,PHL,Asia Pacific,10/1/2010,7/1/2011,2010,Typhoon Megi ,Natural Hydrometeorologic meteorological,Emergency appeal,60000,4183640
+124,Sudan,SDN,Africa,10/1/2010,3/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,51354,2318438
+125,Niger,NER,Africa,3/1/2010,6/1/2011,2010,Food Insecurity ,Human related,Emergency appeal,29890,3670686
+127,Indonesia,IDN,Asia Pacific,10/1/2010,6/1/2011,2010,"Java eruption, Sumatra earthquake and tsunami ",Natural Geophysical,Emergency appeal,103750,5038981
+128,Chad,TCD,Africa,10/1/2010,3/1/2011,2010,Flood and Cholera ,Natural Hydrometeorologic and Biological,Emergency appeal,31675,1283953
+129,Kenya,KEN,Africa,3/1/2010,4/1/2011,2010,Drought,Natural Hydrometeorologic climatological,Emergency appeal,293000,2056046
+131,Nepal,NPL,Asia Pacific,5/1/2010,2/1/2011,2010,Potential diarrhoea outbreak ,Natural Biological,Emergency appeal,312000,738960
+132,Tanzania,TZA,Africa,1/1/2010,12/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,23000,923594
+134,Benin,BEN,Africa,10/1/2010,1/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,10000,183673
+135,Ghana,GHA,Africa,10/1/2010,1/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,7500,122297
+136,Togo,TGO,Africa,10/1/2010,1/1/2011,2010,Floods ,Natural Hydrometeorologic hydrological,DREF,8750,244001
+137,Senegal,SEN,Africa,8/1/2010,11/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,7500,180396
+138,Guinea,GIN,Africa,10/1/2010,1/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,5000,174302
+139,Mali,MLI,Africa,9/1/2010,12/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,5840,253865
+140,Nigeria,NGA,Africa,10/1/2010,1/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,15000,301288
+141,Costa Rica,CRI,Americas,12/1/2010,3/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,5000,92709
+142,Belize,BLZ,Americas,1/1/2010,4/1/2011,2010,Hurricane Richard,Natural Hydrometeorologic meteorological,DREF,1250,53996
+143,Bosnia and Herzegovina,BIH,Europe,12/1/2010,4/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,5800,218932
+144,Montenegro,MNE,Europe,12/1/2010,4/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,6630,111031
+145,Serbia,SRB,Europe,12/1/2010,4/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,4000,59800
+146,Jamaica,JAM,Americas,9/1/2010,5/1/2011,2010,Tropical Storm Nicole,Natural Hydrometeorologic meteorological,DREF,2500,150644
+147,Niger,NER,Africa,8/1/2010,4/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,10500,242119
+148,Uganda,UGA,Africa,12/1/2010,1/1/2011,2010,Polio Outbreak,Natural Biological,DREF,1200000,166628
+149,Kenya,KEN,Africa,11/1/2010,4/1/2011,2010,Population Movement,Human related,DREF,14072,253952
+150,Russia,RUS,Europe,10/1/2010,5/1/2011,2010,Flood,Natural Hydrometeorologic hydrological,DREF,3000,88725
+151,Cameroon,CMR,Africa,6/1/2010,4/1/2011,2010,Cholera epidemic,Natural Biological,DREF,800000,381154
+152,Nicaragua,NIC,Americas,9/1/2010,4/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,5000,242122
+154,South Africa,ZAF,Africa,4/1/2010,3/1/2011,2010,Rift Valley Fever,Natural Biological,DREF,15000,41159
+155,China,CHN,Asia Pacific,8/1/2010,1/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,20000,493628
+156,Cameroon,CMR,Africa,8/1/2010,2/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,3000,153062
+157,Myanmar,MMR,Asia Pacific,10/1/2010,2/1/2011,2010,Cyclone Giri,Natural Hydrometeorologic meteorological,DREF,18750,250000
+158,Central African Republic,CAF,Africa,8/1/2010,2/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,6144,145252
+159,India,IND,Asia Pacific,8/1/2010,12/1/2010,2010,Flash Floods,Natural Hydrometeorologic hydrological,DREF,40000,54543
+160,Indonesia,IDN,Asia Pacific,8/1/2010,10/1/2010,2010,"Volcano Eruption, Sinabung",Natural Geophysical,DREF,5000,143243
+161,Gabon,GAB,Africa,6/1/2010,2/1/2011,2010,Chikungunya and Dengue fever epidemics,Natural Biological,DREF,49009,153013
+163,Panama,PAN,Americas,7/1/2010,1/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,1100,38171
+165,South Africa,ZAF,Africa,9/1/2010,10/1/2010,2010,Urban Violence,Human related,DREF,177,213905
+166,Mauritania,MRT,Africa,9/1/2010,6/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,5000,157253
+167,Kyrgyzstan,KGZ,Europe,6/1/2010,10/1/2010,2010,Mudslides,Natural Hydrometeorologic hydrological,DREF,2835,100044
+168,Nicaragua,NIC,Americas,6/1/2010,12/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,750,36248
+169,Ghana,GHA,Africa,7/1/2010,12/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,5000,134948
+170,Namibia,NAM,Africa,4/1/2010,7/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,23782,156983
+171,Moldova,MDA,Europe,7/1/2010,12/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,8000,188100
+172,Mozambique,MOZ,Africa,3/1/2010,6/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,10000,282067
+173,Ukraine,UKR,Europe,1/1/2010,10/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,3500,244126
+174,Ethiopia,ETH,Africa,5/1/2010,11/1/2010,2010,Election preparedness,Human related,DREF,3000,33015
+175,Ethiopia,ETH,Africa,2/1/2010,8/1/2011,2010,Severe Food Shortages,Human related,Emergency appeal,202651,30579088
+176,Sri Lanka,LKA,Asia Pacific,4/1/2010,7/1/2012,2010,Support for internally displaced people,Human related,Emergency appeal,25000,3604299
+177,Cambodia,KHM,Asia Pacific,10/1/2010,11/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,49520,308682
+178,Pakistan,PAK,Asia Pacific,3/1/2010,7/1/2010,2010,Internally displaced people,Human related,Emergency appeal,42000,3635713
+179,Gabon,GAB,Africa,4/1/2010,8/1/2010,2010,Violent wind in Mouila,Natural Hydrometeorologic meteorological,DREF,1150,78480
+180,Burkina Faso,BFA,Africa,4/1/2010,12/1/2010,2010,Meningitis,Natural Biological,DREF,500000,172928
+181,Indonesia,IDN,Asia Pacific,5/1/2010,10/1/2011,2010,Yogyakarta Earthquake,Natural Geophysical,Emergency appeal,325000,32667430
+182,Cameroon,CMR,Africa,2/1/2010,6/1/2010,2010,Measles in the Chadian Refugees' camp at Langui,Natural Biological,DREF,16561,51028
+183,Honduras,HND,Americas,1/1/2010,11/1/2010,2010,Dengue Outbreak,Natural Biological,DREF,35065,34505
+184,Equatorial Guinea,GNQ,Africa,4/1/2010,11/1/2010,2010,Fire in Malabo,Natural Hydrometeorologic climatological,DREF,250,36139
+185,Kyrgyzstan,KGZ,Europe,6/1/2010,11/1/2010,2010,Poliomyelitis1,Natural Biological,DREF,227000,81579
+186,Pakistan,PAK,Asia Pacific,6/1/2010,10/1/2010,2010,Hunza landslides and floods,Natural Hydrometeorologic hydrological,DREF,14700,187128
+187,Tajikistan,TJK,Europe,5/1/2010,10/1/2010,2010,Floods and mudslides,Natural Hydrometeorologic hydrological,DREF,1200,184879
+188,Serbia,SRB,Europe,3/1/2010,9/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,3150,286219
+189,Uganda,UGA,Africa,5/1/2010,7/1/2010,2010,Cholera,Natural Biological,DREF,145000,178676
+190,Morocco,MAR,Middle East and North Africa,3/1/2010,6/1/2010,2010,Flash floods,Natural Hydrometeorologic hydrological,DREF,10000,200000
+191,Egypt,EGY,Middle East and North Africa,1/1/2010,7/1/2010,2010,Flash floods,Natural Hydrometeorologic hydrological,DREF,3500,257914
+193,Pakistan,PAK,Asia Pacific,6/1/2010,6/1/2010,2010,Cyclone PHET and floods,Natural Hydrometeorologic hydrological,DREF,7000,50001
+195,Kazakhstan,KAZ,Europe,3/1/2010,8/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,8640,134552
+197,Tajikistan,TJK,Europe,1/1/2010,5/1/2010,2010,Earthquake,Natural Geophysical,DREF,980,132022
+198,Albania,ALB,Europe,1/1/2010,5/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,11000,302500
+199,Madagascar,MDG,Africa,2/1/2010,11/1/2010,2010,Chikungunya Epidemic,Natural Biological,DREF,44000,34879
+200,Madagascar,MDG,Africa,3/1/2010,11/1/2010,2010,Cyclone Hubert,Natural Hydrometeorologic meteorological,DREF,25000,280171
+201,Mozambique,MOZ,Africa,4/1/2010,7/1/2010,2010,Cholera Outbreak,Natural Biological,DREF,15000,124385
+202,Zambia,ZMB,Africa,2/1/2010,10/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,15000,155620
+203,Rwanda,RWA,Africa,4/1/2010,11/1/2010,2010,Rubavu Landslide,Natural Hydrometeorologic hydrological,DREF,5920,177163
+204,Uganda,UGA,Africa,3/1/2010,4/1/2010,2010,Floods and Landslides in Eastern Uganda,Natural Hydrometeorologic hydrological,DREF,13000,256963
+205,Montenegro,MNE,Europe,1/1/2010,4/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,1100,83930
+207,Kenya,KEN,Africa,5/1/2010,10/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,141164,8757898
+208,Uzbekistan,UZB,Europe,6/1/2010,12/1/2010,2010,Population movement,Human related,Emergency appeal,100000,1166159
+209,Kyrgyzstan,KGZ,Europe,6/1/2010,5/1/2011,2010,Civil Unrest,Human related,Emergency appeal,5265,965069
+210,Mongolia,MNG,Asia Pacific,3/1/2010,10/1/2010,2010,Severe Winter,Natural Hydrometeorologic climatological,Emergency appeal,13600,1312670
+211,Montenegro,MNE,Europe,11/1/2010,2/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,DREF,1350,50255
+213,Chad,TCD,Africa,4/1/2010,12/1/2010,2010,Food Crisis,Human related,Emergency appeal,400425,1252369
+214,Thailand,THA,Asia Pacific,10/1/2010,12/1/2010,2010,Monsoon Floods,Natural Hydrometeorologic hydrological,DREF,11832,356617
+215,Uganda,UGA,Africa,7/1/2010,9/1/2010,2010,Bomb Blast,Technological Miscellaneous accident,DREF,400000,112097
+217,Chile,CHL,Americas,2/1/2010,3/1/2013,2010,Earthquake,Natural Geophysical,Emergency appeal,50000,16075870
+218,Haiti,HTI,Americas,1/1/2010,12/1/2014,2010,Earthquake,Natural Geophysical,Emergency appeal,400000,247279612
+219,Pakistan,PAK,Asia Pacific,8/1/2010,7/1/2011,2010,Moonson Floods,Natural Hydrometeorologic hydrological,Emergency appeal,1600000,129768678
+220,Syria,SYR,Middle East and North Africa,1/1/2010,12/1/2010,2010,Population Displaced From Iraq,Human related,Emergency appeal,68000,3216107
+221,Venezuela,VEN,Americas,12/1/2010,8/1/2011,2010,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,12500,575146
+223,Antigua and barbuda,ATG,americas,9/1/2010,12/1/2010,2010,Hurricane Earl,Natural Hydrometeorologic meteorological,DREF,525,51127
+224,Albania,ALB,Europe,12/1/2010,3/1/2011,2010,SHKODRA FLOODS,Natural Hydrometeorologic hydrological,DREF,12000,
+226,Bangladesh,BGD,Asia Pacific,1/1/2010,3/1/2010,2010,Cold wave,Natural Hydrometeorologic climatological,DREF,50000,
+227,Bangladesh,BGD,Asia Pacific,4/1/2010,8/1/2010,2010,Tropical storm,Natural Hydrometeorologic meteorological,DREF,22500,
+228,Bangladesh,BGD,Asia Pacific,6/1/2010,9/1/2010,2010,Landslides,Natural Hydrometeorologic hydrological,DREF,6500,
+229,Burundi,BDI,Africa,4/1/2010,8/1/2010,2010,Election preparedness,Human related,DREF,60000,
+230,Brazil,BRA,Americas,4/1/2010,7/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,15000,
+231,Costa Rica,CRI,Americas,11/1/2010,2/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,3020,
+232,Ethiopia,ETH,Africa,9/1/2010,11/1/2010,2010,Floods,Natural Hydrometeorologic hydrological,DREF,25000,
+233,Honduras,HND,Americas,6/1/2010,8/1/2010,2010,Tropical Storm,Natural Hydrometeorologic meteorological,DREF,2460,
+235,Lebanon,LBN,Middle East and North Africa,2/1/2010,5/1/2010,2010,Plain Crash,Technological Transport accident ,DREF,23701,
+237,Russia,RUS,Europe,8/1/2010,12/1/2010,2010,Wild fire,Natural Hydrometeorologic climatological,DREF,5067,
+238,Russia,RUS,Europe,5/1/2010,11/1/2010,2010,Mine Blast,Technological Miscellaneous accident,DREF,250,
+239,Malawi,MWI,Africa,12/1/2010,9/1/2010,2010,Measles epidemic,Natural Biological,DREF,80000,125701
+240,Gabon,GAB,Africa,4/20/2009,,2009,Violent winds,Natural Hydrometeorologic meteorological,DREF,800,58070
+241,Haiti,HTI,Americas,9/1/2009,5/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,DREF,815,50118
+242,Russia,RUS,Europe,12/1/2009,7/1/2010,2009,Fire,Technological Miscellaneous accident,DREF,1000,29592
+243,Central African Republic,CAF,Africa,5/4/2009,10/1/2009,2009,"Violent winds in Kembe, Grimari, Zangba, Mboki, Obo and Mbaïki",Natural Hydrometeorologic meteorological,DREF,1230,81924
+244,Panama,PAN,Americas,11/1/2009,2/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,DREF,1250,55038
+245,Central African Republic,CAF,Africa,2/2/2009,,2009,Storm in Bangui,Natural Hydrometeorologic meteorological,DREF,1390,91644
+246,Russia,RUS,Europe,7/1/2009,9/1/2010,2009,Explosion,Technological Industrial accident,DREF,2100,29973
+248,Haiti,HTI,Americas,11/1/2009,5/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,DREF,2500,105656
+249,Botswana,BWA,Africa,6/1/2009,12/1/2009,2009,Floods,Natural Hydrometeorologic hydrological,DREF,3100,153978
+250,Serbia,SRB,Europe,11/1/2009,3/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,DREF,3210,51027
+251,Tajikistan,TJK,Europe,5/1/2009,6/1/2010,2009,Mudslides and floods,Natural Hydrometeorologic hydrological,Emergency appeal,4320,892624
+252,Samoa,WSM,Asia Pacific,10/1/2009,5/1/2011,2009,Earthquake and Tsunami,Natural Geophysical,Emergency appeal,5000,2506427
+253,Papua New Guinea,PNG,Asia Pacific,9/1/2009,11/1/2010,2009,"Cholera, Dysentery and Influenza Outbreaks",Natural Biological,DREF,5000,359058
+254,Turkey,TUR,Europe,9/1/2009,2/1/2009,2009,Floods,Natural Hydrometeorologic hydrological,DREF,5000,294118
+255,Czech Republic,CZE,Europe,7/1/2009,1/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,DREF,5000,295187
+256,Ghana,GHA,Africa,7/1/2009,11/1/2009,2009,Floods,Natural Hydrometeorologic hydrological,DREF,5000,101264
+257,Tunisia,TUN,Middle East and North Africa,9/1/2009,3/1/2010,2009,Flash Floods,Natural Hydrometeorologic hydrological,DREF,5100,160749
+258,Central African Republic,CAF,Africa,8/1/2009,1/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,6000,805260
+259,Zambia,ZMB,Africa,3/1/2009,3/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,DREF,6000,132235
+261,Angola,AGO,Africa,10/1/2009,9/1/2010,2009,Population Movement,Human related,DREF,10000,415447
+265,Senegal,SEN,Africa,9/1/2009,3/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,25000,2113583
+267,Tanzania,TZA,Africa,4/1/2009,8/1/2009,2009,Explosions,Technological Industrial accident,Emergency appeal,18866,545134
+268,Benin,BEN,Africa,7/1/2009,8/1/2010,2009,Floods,Natural Hydrometeorologic hydrological and meteorological,DREF,22035,574355
+269,Colombia,COL,Americas,2/1/2009,10/1/2009,2009,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,25000,486453
+272,Malawi,MWI,Africa,12/1/2009,3/1/2010,2009,Earthquake,Natural Geophysical,DREF,30000,558799
+273,Mexico,MEX,Americas,11/1/2009,3/1/2010,2009,Dengue Outbreak,Natural Biological,DREF,30000,86724
+274,Kenya,KEN,Africa,11/1/2009,2/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,DREF,30000,432589
+275,Zambia,ZMB,Africa,1/1/2009,3/1/2010,2009,Cholera,Natural Biological,DREF,30000,60939
+277,Namibia,NAM,Africa,3/1/2009,8/1/2009,2009,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,33000,2121518
+278,Chad,TCD,Africa,9/1/2009,12/1/2009,2009,Floods,Natural Hydrometeorologic hydrological,DREF,37650,246521
+279,Pakistan,PAK,Asia Pacific,10/29/2009,5/18/2009,2009,Baluchistan Earthquake,Natural Geophysical,Emergency appeal,40000,2499553
+281,Sudan,SDN,Africa,9/1/2009,3/1/2010,2009,Khartoum state Floods,Natural Biological,Emergency appeal,60000,1950241
+282,Cape Verde,CPV,Africa,11/1/2009,2/1/2010,2009,Dengue Fever,Natural Biological,DREF,75000,153987
+283,India,IND,Asia Pacific,10/1/2009,2/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,DREF,95000,59241
+284,Indonesia,IDN,Asia Pacific,9/1/2009,9/1/2011,2009,West Sumatra earthquake ,Natural Geophysical,Emergency appeal,100000,14219542
+286,Angola,AGO,Africa,3/1/2009,3/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,DREF,168000,388966
+287,Bangladesh,BGD,Asia Pacific,6/1/2009,3/1/2010,2009,Cyclone Aila,Natural Hydrometeorologic meteorological,Emergency appeal,178550,1153737
+288,Philippines,PHL,Asia Pacific,10/1/2009,11/1/2011,2009,Thyphoons,Natural Hydrometeorologic meteorological,Emergency appeal,233500,12724570
+289,VietNam,VNM,Asia Pacific,10/1/2009,10/1/2010,2009,Floods and typhoons,Natural Hydrometeorologic hydrological and meteorological,Emergency appeal,270000,4464332
+290,Syria,SYR,Middle East and North Africa,8/1/2009,12/1/2010,2009,Drought,Natural Hydrometeorologic climatological,Emergency appeal,280000,3255615
+291,Sri Lanka,LKA,Asia Pacific,9/1/2009,6/1/2010,2009,Dengue Outbreak,Natural Biological,DREF,300000,99412
+292,Central African Republic,CAF,Africa,1/1/2009,4/1/2009,2009,Yellow Fever,Natural Biological,DREF,300000,30100
+293,Togo,TGO,Africa,1/12/2009,7/1/2009,2009,Cholera,Natural Biological,DREF,353120,75422
+295,Ethiopia,ETH,Africa,8/1/2009,2/1/2010,2009,Acute watery diarrhoea,Natural Biological,DREF,750000,226225
+296,Cameroon,CMR,Africa,10/1/2009,4/1/2010,2009,Cholera,Natural Biological,DREF,800000,203420
+298,Burkina Faso,BFA,Africa,2/1/2009,10/1/2009,2009,Meningitis and Measles,Natural Biological,DREF,3000000,99400
+299,Niger,NER,Africa,3/1/2009,6/1/2009,2009,Meningitis,Natural Biological,DREF,3960000,68828
+301,Honduras,HND,Americas,9/1/2009,3/1/2010,2009,Civil Unrest,Human related,DREF,missing data,150000
+304,Bosnia and Herzegovina,BIH,Europe,1/1/2009,2/1/2009,2009,Cold Wave,Natural Hydrometeorologic climatological,DREF,5000,166370
+305,Bosnia and Herzegovina,BIH,Europe,2/1/2009,5/1/2009,2009,Floods,Natural Hydrometeorologic hydrological,DREF,2630,100000
+306,Bosnia and Herzegovina,BIH,Europe,7/1/2009,8/1/2009,2009,Floods,Natural Hydrometeorologic hydrological,DREF,800,43929
+307,Burkina Faso,BFA,Africa,9/1/2009,9/1/2010,2009,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,40000,3500000
+308,Benin,BEN,Africa,5/1/2009,9/1/2009,2009,Heavy Storm,Natural Hydrometeorologic meteorological,DREF,300,21010
+309,Bolivia,BOL,Americas,3/1/2009,6/1/2009,2009,Dengue,Natural Biological,DREF,7100,140437
+310,Costa Rica,CRI,Americas,1/1/2009,4/1/2009,2009,Earthquake,Natural Geophysical,DREF,2500,115000
+311,Honduras,HND,Americas,6/1/2009,11/1/2009,2009,Earthquake,Natural Geophysical,DREF,4000,179946
+312,Italy,ITA,Europe,4/1/2009,9/1/2009,2009,Earthquake,Natural Geophysical,DREF,22000,700000
+313,Kenya,KEN,Africa,2/1/2009,6/1/2009,2009,Fires,Technological Miscellaneous accident,DREF,1000,150572
+315,Madagascar,MDG,Africa,2/1/2009,10/1/2009,2009,Tropical Cyclones,Natural Hydrometeorologic meteorological,DREF,25000,244043
+316,Malawi,MWI,Africa,1/1/2009,7/1/2009,2009,Floods and Cholera,Natural Hydrometeorologic hydrological and biological,DREF,18625,71050
+317,Paraguay,PRY,Americas,3/1/2009,6/1/2009,2009,Dengue,Natural Biological,DREF,25000,151145
+318,Paraguay,PRY,Americas,5/1/2009,8/1/2009,2009,Drought,Natural Hydrometeorologic climatological,DREF,8715,237515
+319,Sudan,SDN,Africa,4/1/2009,4/1/2009,2009, Capacity Assessment & Gap Analysis,Human related,DREF,missing data,107354
+320,El Salvador,SLV,Americas,11/1/2009,12/1/2010,2009,Floods,Natural Hydrometeorologic hydrological ,Emergency appeal,10000,1680178
+321,Tanzania,TZA,Africa,1/1/2009,5/1/2009,2009,storm ,Natural Hydrometeorologic meteorological,DREF,4000,144171
+325,Georgia,GEO,Europe,9/1/2009,11/1/2009,2009,Earthquake,Natural Geophysical,DREF,750,
+326,Guatemala,GTM,Americas,9/1/2009,12/1/2009,2009,Food insecurity,Human related,DREF,,
+327,Cambodia,KHM,Asia Pacific,10/1/2009,12/1/2009,2009,Typhoon Ketsana,Natural Hydrometeorologic meteorological,DREF,6000,
+328,Mexico,MEX,Americas,9/1/2009,12/1/2009,2009,Hurricane Jimena,Natural Hydrometeorologic meteorological,DREF,15000,
+329,Nicaragua,NIC,Americas,11/1/2009,2/1/2010,2009,Floods,Natural Hydrometeorologic hydrological ,DREF,4750,
+330,Nepal,NPL,Asia Pacific,10/1/2009,4/1/2010,2009,Floods and Landslides,Natural Hydrometeorologic hydrological ,DREF,20000,
+331,Paraguay,PRY,Americas,11/1/2009,2/1/2010,2009,Floods,Natural Hydrometeorologic hydrological ,DREF,10680,
+332,Egypt,EGY,Middle East and North Africa,1/1/2009,6/1/2009,2009,Gaza humanitarian crisis,Human related,DREF,800,446524
+333,Benin,BEN,Africa,5/1/2008,12/1/2008,2008,Fire,Natural Hydrometeorologic climatological,DREF,1000,64000
+334,Nigeria,NGA,Africa,2/1/2008,7/1/2008,2008,Population Movement,Human related,DREF,2000,70000
+335,Palestine,PSE,Middle East and North Africa,11/1/2008,2/1/2009,2008,Flash Floods,Natural Hydrometeorologic hydrological,DREF,2423,117783
+336,Nigeria,NGA,Africa,11/10/2008,2/7/2009,2008,Population Movement,Human related,Emergency appeal,2500,691687
+337,Egypt,EGY,Middle East and North Africa,9/1/2008,11/1/2008,2008,Cairo Rockslides,Natural Geophysical,DREF,3000,249198
+338,Philippines,PHL,Asia Pacific,6/1/2008,6/30/2009,2008,Typhoon Fengshen,Natural Hydrometeorologic meteorological,Emergency appeal,5000,2075697
+339,Tajikistan,TJK,Europe,3/1/2008,8/1/2008,2008,Cold Wave,Natural Hydrometeorologic climatological,Emergency appeal,5097,572678
+340,Laos,LAO,Asia Pacific,8/1/2008,11/1/2008,2008,Floods,Natural Hydrometeorologic hydrological,DREF,8000,200000
+341,Russia,RUS,Europe,8/22/2008,5/7/2009,2008,Assistance to the South Ossetia refugees,Human related,DREF,10000,250000
+342,Morocco,MAR,Middle East and North Africa,11/7/2008,4/30/2009,2008,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,10000,1618182
+343,Benin,BEN,Africa,10/1/2008,4/1/2009,2008,Cholera,Natural Biological,DREF,10000,
+344,Cameroon,CMR,Africa,2/13/2008,3/1/2009,2008,Population Movement,Human related,Emergency appeal,10000,2640508
+345,Djibouti,DJI,Africa,1/1/2008,3/1/2009,2008,Food Insecurity,Human related,DREF,10000,212101
+346,Algeria,DZA,Middle East and North Africa,10/17/2008,4/30/2009,2008,Floods in Ghardaia,Natural Hydrometeorologic hydrological,Emergency appeal,12000,809626
+347,Suriname,SUR,Americas,6/27/2008,2/27/2009,2008,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,15000,911135
+350,Uganda,UGA,Africa,3/1/2008,6/1/2008,2008,Hepatitis E Virus (HEV),Natural Biological,DREF,29285,173401
+352,Cuba,CUB,Americas,9/1/2008,9/1/2009,2008,Hurricane Season 2008,Natural Hydrometeorologic meteorological,Emergency appeal,35000,6412000
+354,Haiti,HTI,Americas,9/1/2008,11/1/2009,2008,Hurricane Season 2008,Natural Hydrometeorologic meteorological,Emergency appeal,50000,8475870
+355,Madagascar,MDG,Africa,3/1/2008,9/1/2008,2008,Cyclone Ivan,Natural Hydrometeorologic meteorological,Emergency appeal,50000,1074882
+356,Benin,BEN,Africa,8/1/2008,3/1/2009,2008,Cholera,Natural Biological,DREF,55000,45738
+359,Ethiopia,ETH,Africa,6/12/2008,6/6/2009,2008,Food security,Human related,Emergency appeal,76075,8157607
+360,Guinea Bissau,GNB,Africa,8/1/2008,4/1/2009,2008,Cholera,Natural Biological,DREF,90000,108254
+362,Iraq,IRQ,Middle East and North Africa,2/12/2008,2/12/2009,2008, Humanitarian Crisis,Human related,Emergency appeal,150000,5377198
+363,Zimbabwe,ZWE,Africa,8/1/2008,9/1/2010,2008,Food Insecurity,Human related,Emergency appeal,260100,38424041
+364,VietNam,VNM,Asia Pacific,11/12/2008,9/12/2009,2008,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,293860,4779038
+365,Kenya,KEN,Africa,11/7/2008,5/7/2009,2008,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,300000,6179533
+367,Uganda,UGA,Africa,7/10/2008,12/1/2008,2008,Epidemics,Natural Biological,Emergency appeal,425095,947079
+369,Myanmar,MMR,Asia Pacific,5/1/2008,9/1/2011,2008,Cyclone Nargis ,Natural Hydrometeorologic meteorological,Emergency appeal,870000,68599213
+370,China,CHN,Asia Pacific,5/1/2008,9/1/2011,2008,Earthquake ,Natural Geophysical,Emergency appeal,1000000,152857778
+372,Benin,BEN,Africa,2/1/2008,11/1/2008,2008,Meningitis,Natural Biological,DREF,1800000,50000
+374,Burkina Faso,BFA,Africa,1/1/2008,9/1/2008,2008,Meningitis,Natural Biological,DREF,2260800,95000
+375,Burkina Faso,BFA,Africa,11/1/2008,4/1/2009,2008,Yellow Fever,Natural Biological,DREF,8000000,65618
+376,Lebanon,LBN,Middle East and North Africa,5/1/2008,7/1/2008,2008,Internal Disturbance,Human related,DREF,,70000
+377,Georgia,GEO,Europe,8/1/2008,3/1/2009,2008,Reinforcing Response Capacity,Human related,DREF,,233690
+381,Antigua and Barbuda,ATG,Americas,10/1/2008,5/1/2009,2008,Hurricane Omar,Natural Hydrometeorologic hydrological,DREF,2500,55000
+382,Albania,ALB,Europe,3/1/2008,11/1/2008,2008,Explosions,Human related,DREF,4084,248294
+384,Burundi,BDI,Africa,10/1/2008,7/1/2009,2008,Floods,Natural Hydrometeorologic hydrological,DREF,2770,146222
+385,Bolivia,BOL,Americas,1/1/2008,12/1/2008,2008,Floods,Natural Hydrometeorologic hydrological,DREF,6500,125000
+386,Brazil,BRA,Americas,1/1/2008,3/1/2009,2008,Floods,Natural Hydrometeorologic hydrological,DREF,7500,115000
+387,Brazil,BRA,Americas,1/1/2008,3/1/2009,2008,Dengue Outbreak,Natural Biological,DREF,10000,55000
+388,Brazil,BRA,Americas,12/1/2008,10/1/2009,2008,Floods,Natural Hydrometeorologic hydrological,DREF,10000,170000
+389,Belize,BLZ,Americas,1/1/2008,12/1/2008,2008,Tropical Storm Arthur,Natural Hydrometeorologic hydrological,DREF,2500,159000
+390,Chile,CHL,Americas,5/1/2008,5/1/2009,2008,Volcanic Eruption,Natural Hydrometeorologic hydrological,DREF,8000,75000
+391,Chile,CHL,Americas,9/1/2008,9/1/2009,2008,Floods,Natural Hydrometeorologic hydrological,DREF,4000,220000
+392,Chile,CHL,Americas,9/1/2008,5/1/2009,2008,Floods,Natural Hydrometeorologic hydrological,DREF,4485,121384
+393,Colombia,COL,Americas,4/1/2008,7/1/2008,2008,Volcano,Natural Hydrometeorologic hydrological,DREF,11250,103000
+394,Colombia,COL,Americas,10/1/2008,8/1/2009,2008,Floods,Natural Hydrometeorologic hydrological,DREF,500,95701
+395,Colombia,COL,Americas,12/1/2008,12/1/2009,2008,Volcano,Natural Hydrometeorologic hydrological,DREF,300,150000
+396,Costa Rica,CRI,Americas,9/1/2008,5/1/2009,2008,Floods,Natural Hydrometeorologic hydrological,DREF,5000,81000
+397,Ecuador,ECU,Americas,1/1/2008,12/1/2008,2008,Floods,Natural Hydrometeorologic hydrological,DREF,15220,115000
+399,Guyana,GUY,Americas,12/1/2008,9/1/2009,2008,Floods,Natural Hydrometeorologic hydrological,DREF,5000,80000
+400,India,IND,Asia Pacific,8/1/2008,4/1/2009,2008,Floods,Natural Hydrometeorologic hydrological,DREF,50000,1000000
+401,Kenya,KEN,Africa,4/1/2008,6/1/2009,2008,Cholera Outbreak,Natural Biological,DREF,60000,104492
+402,Kenya,KEN,Africa,6/1/2008,11/1/2008,2008,Drought,Natural Hydrometeorologic hydrological,DREF,87092,200961
+403,Kyrgyzstan,KGZ,Asia Pacific,1/1/2008,4/1/2008,2008,Earthquakes,Natural Hydrometeorologic hydrological,DREF,500,100000
+404,Kyrgyzstan,KGZ,Asia Pacific,10/1/2008,1/1/2009,2008,Earthquakes,Natural Hydrometeorologic hydrological,DREF,753,219741
+406,Kazakhstan,KAZ,Asia Pacific,3/1/2008,8/1/2008,2008,FLOODS,Natural Hydrometeorologic hydrological,DREF,5850,259858
+407,Moldova,MDA,Europe,2/1/2008,8/1/2008,2008,Food Insecurity,Natural Hydrometeorologic hydrological,DREF,7750,248198
+408,Mongolia,MNG,Asia Pacific,6/1/2008,10/1/2008,2008,"Hand, foot and mouth disease",Natural Biological,DREF,40000,69000
+409,Malawi,MWI,Africa,1/1/2008,12/1/2008,2008,Population Movement,Human related,DREF,15000,86007
+410,Mozambique,MOZ,Africa,1/1/2008,9/1/2008,2008,Cyclone Jokwe,Natural Hydrometeorologic hydrological,DREF,2000,232845
+411,Mozambique,MOZ,Africa,5/1/2008,8/1/2008,2008,Population Movement,Human related,DREF,3300,109701
+412,Mozambique,MOZ,Africa,11/1/2008,5/1/2009,2008,Cholera,Natural Biological,DREF,500000,82218
+413,Yemen,YEM,Middle East and North Africa,11/1/2008,11/1/2010,2008,Flash Floods,Natural Hydrometeorologic hydrological,Emergency appeal,10500,1997283
+414,Niger,NER,Africa,5/1/2008,10/1/2008,2008,Meningitis,Natural Biological,DREF,500000,33336
+415,Papua New Guinea,PNG,Asia Pacific,12/1/2008,7/1/2009,2008,Floods,Natural Hydrometeorologic hydrological,DREF,15450,190000
+416,Paraguay,PRY,Americas,2/1/2008,5/1/2009,2008,Dengue and Yellow Fever Outbreak,Natural Biological,DREF,190500,78000
+417,Paraguay,PRY,Americas,8/1/2008,5/1/2009,2008,Wind and Hail Storm,Natural Hydrometeorologic hydrological,DREF,1690,56605
+418,Paraguay,PRY,Americas,9/1/2008,3/1/2009,2008,Drought,Natural Hydrometeorologic hydrological,DREF,6305,
+419,Rwanda,RWA,Africa,10/1/2008,4/1/2009,2008,Local storm,Natural Hydrometeorologic hydrological,DREF,5000,159334
+420,Sudan,SDN,Africa,1/1/2008,2/1/2009,2008,Acute watery diarrhoea epidemic,Natural Biological,DREF,160000,249345
+421,Tanzania,TZA,Africa,1/1/2008,9/1/2008,2008,Floods,Natural Hydrometeorologic hydrological,DREF,7500,88353
+422,Tanzania,TZA,Africa,4/1/2008,9/1/2008,2008,Technical Accident and Floods,Human related,DREF,38000,11594
+423,Uganda,UGA,Africa,1/1/2008,9/1/2008,2008,Population Movement from Kenya,Human related,DREF,3000,203495
+424,Uganda,UGA,Africa,9/1/2008,6/1/2009,2008,Food insecurity in Kampala,Natural Hydrometeorologic hydrological,DREF,33939,191839
+425,Uzbekistan,UZB,Asia Pacific,7/1/2008,11/1/2008,2008,Explosions,Human related,DREF,2500,58770
+426,VietNam,VNM,Asia Pacific,8/1/2008,11/1/2008,2008,Typhoon Kammuri,Natural Hydrometeorologic hydrological,DREF,24000,200000
+427,VietNam,VNM,Asia Pacific,10/1/2008,2/1/2009,2008,Flash floods,Natural Hydrometeorologic hydrological,DREF,56444,200000
+428,South Africa,ZAF,Africa,5/1/2008,6/1/2008,2008,Urban disturbance,Human related,DREF,30000,302378
+429,South Africa,ZAF,Africa,5/1/2008,7/1/2009,2008,Urban disturbance,Human related,DREF,30000,373567
+431,Central African republic,CAF,Africa,2/1/2008,7/1/2008,2008,Meningitis in Kaga Bandoro,Natural Biological,DREF,130000,57595
+432,Pakistan,PAK,Asia Pacific,11/1/2008,8/1/2009,2008,Baluchistan Earthquake,Natural Hydrometeorologic hydrological,Emergency appeal,18965,2499553
+434,Angola,AGO,Africa,1/30/2007,5/30/2007,2007,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,25000,1416264
+436,Bangladesh,BGD,Asia Pacific,6/1/2007,5/1/2009,2007,Flood,Natural Hydrometeorologic hydrological,Emergency appeal,133255,5095836
+437,Bangladesh,BGD,Asia Pacific,11/1/2007,11/1/2009,2007,Cyclone Sidr,Natural Hydrometeorologic meteorological,Emergency appeal,1215000,24483160
+438,Bangladesh,BGD,Asia Pacific,1/1/2007,2/1/2007,2007,Coldwave,Natural Hydrometeorologic climatological,DREF,30000,150000
+439,Bolivia,BOL,Americas,2/15/2007,8/10/2007,2007,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,50000,704700
+440,Bosnia and Herzegovina,BIH,Europe,8/1/2007,11/1/2007,2007,Heatwave,Natural Hydrometeorologic climatological,DREF,14616,45615
+441,Brazil,BRA,Americas,1/1/2007,6/1/2007,2007,Floods,Natural Hydrometeorologic hydrological,DREF,7500,95000
+442,Burkina Faso,BFA,Africa,8/1/2007,12/1/2007,2007,Floods,Natural Hydrometeorologic hydrological,DREF,111356,126065
+443,Burkina Faso,BFA,Africa,2/1/2007,4/1/2008,2007,Meningitis,Natural Biological,DREF,200000,0
+444,Cameroon,CMR,Africa,5/1/2007,12/1/2007,2007,Plane Crash,Technological Transport accident ,DREF,460,24967
+445,Cameroon,CMR,Africa,5/1/2007,3/1/2008,2007,Population Movement,Human related,DREF,20000,166874
+446,Cameroon,CMR,Africa,8/1/2007,3/1/2007,2007,Floods in Mokolo and Kolofata,Natural Hydrometeorologic hydrological,DREF,10279,0
+448,Central African Republic,CAF,Africa,9/1/2007,3/1/2008,2007,Floods,Natural Hydrometeorologic hydrological,DREF,3780,0
+449,Chile,CHL,Americas,1/1/2007,6/1/2007,2007,Earthquake,Natural Geophysical,DREF,6250,150000
+450,China,CHN,Asia Pacific,1/1/2007,5/1/2009,2007,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,400000,9462000
+451,Colombia,COL,Americas,8/1/2007,11/1/2007,2007,Floods,Natural Hydrometeorologic hydrological,DREF,5000,172000
+452,Cambodia,KHM,Asia Pacific,7/1/2007,10/1/2007,2007,Dengue Fever,Natural Biological,DREF,8075,140900
+460,Egypt,EGY,Middle East and North Africa,12/1/2007,9/1/2008,2007,Palestinian Pilgrims Stranded in Arish,Human related,DREF,2800,150000
+461,Egypt,EGY,Middle East and North Africa,3/1/2007,7/1/2007,2007,Fire in Zeinhom Area,Technological Miscellaneous accident,DREF,1505,70000
+462,Egypt,EGY,Middle East and North Africa,7/1/2007,10/1/2007,2007,Palestinians Stranded on the Al-Areesh and Al-Rafah Borders,Human related,DREF,5110,100000
+463,Ethiopia,ETH,Africa,9/15/2007,3/31/2009,2007,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,42200,941088
+464,Gabon,GAB,Africa,5/1/2007,12/1/2007,2007,Chikungunya Virus in Libreville,Natural Biological,DREF,600000,38082
+466,Guinea,GIN,Africa,1/10/2007,7/9/2007,2007,Population Movement,Human related,DREF,400,0
+467,Haiti,HTI,Americas,4/1/2007,7/1/2007,2007,Floods,Natural Hydrometeorologic hydrological,DREF,4850,200003
+468,India,IND,Asia Pacific,1/1/2007,3/1/2008,2007,Floods,Natural Hydrometeorologic hydrological,DREF,missing data,250000
+470,Iraq,IRQ,Middle East and North Africa,2/1/2007,3/1/2008,2007,Humanitarian crisis,Human related,Emergency appeal,300000,10346869
+471,Kenya,KEN,Africa,7/1/2007,10/1/2007,2007,Mount Elgon Clashes,Human related,DREF,40000,113430
+472,Kyrgyzstan,KGZ,Europe,12/1/2007,4/1/2008,2007,Socio-economic crisis,Human related,DREF,2852,58286
+473,Madagascar,MDG,Africa,3/1/2007,12/1/2007,2007,Cyclones,Natural Hydrometeorologic meteorological,Emergency appeal,60000,2005707
+474,Madagascar,MDG,Africa,1/1/2007,12/1/2007,2007,Cyclone Clovis,Natural Hydrometeorologic hydrological,DREF,2500,98000
+475,Malawi,MWI,Africa,1/1/2007,4/1/2008,2007,Floods,Natural Hydrometeorologic hydrological,DREF,11165,88704
+477,Mauritania,MRT,Africa,8/1/2007,3/1/2008,2007,Floods,Natural Hydrometeorologic hydrological,DREF,2500,123911
+478,Mexico,MEX,Americas,9/1/2007,2/1/2008,2007,Floods,Natural Hydrometeorologic hydrological,DREF,30000,100000
+479,Mexico,MEX,Americas,11/1/2007,12/1/2009,2007,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,44380,1898880
+481,Montenegro,MNE,Europe,12/1/2007,3/1/2008,2007,Floods,Natural Hydrometeorologic hydrological,DREF,1086,62578
+482,Mozambique,MOZ,Africa,2/1/2007,8/1/2007,2007,Floods and Cyclone,Natural Hydrometeorologic hydrological and meteorological,Emergency appeal,100000,20644994
+483,Namibia,NAM,Africa,1/1/2007,10/1/2008,2007,Caprivi Floods,Natural Hydrometeorologic hydrological,Emergency appeal,15000,877479
+484,Nepal,NPL,Asia Pacific,8/29/2007,2/3/2009,2007,Floods & Landslides,Natural Hydrometeorologic hydrological,Emergency appeal,150000,2344464
+485,Niger,NER,Africa,2/1/2007,4/1/2008,2007,Harsh weather in Bilma,Natural Hydrometeorologic climatological,DREF,3000,48800
+487,Nigeria,NGA,Africa,6/1/2007,4/1/2008,2007,Floods,Natural Hydrometeorologic hydrological,DREF,3045,200035
+488,Nigeria,NGA,Africa,12/1/2007,11/1/2008,2007,Measles,Natural Biological,DREF,1500000,153189
+489,Nigeria,NGA,Africa,3/1/2007,4/1/2008,2007,Election Contingency plan,Human related,DREF,90000,100000
+491,Palestine,PSE,Middle East and North Africa,5/1/2007,8/1/2007,2007,Refugees in Nahr Al-Bared Camp (Lebanon),Human related,DREF,42642,67597
+493,Papua New Guinea,PNG,Asia Pacific,11/20/2007,12/31/2008,2007,Cyclone Guba,Natural Hydrometeorologic meteorological,Emergency appeal,13000,740642
+494,Paraguay,PRY,Americas,1/1/2007,4/1/2007,2007,Dengue Outbreak,Natural Biological,DREF,23029,68000
+495,Paraguay,PRY,Americas,9/1/2007,5/1/2008,2007,Fire,Natural Hydrometeorologic climatological,DREF,11532,120000
+496,Peru,PER,Americas,8/1/2007,2/1/2010,2007,Earthquake,Natural Geophysical,Emergency appeal,37500,10532683
+497,Peru,PER,Americas,6/1/2007,5/1/2008,2007,Coldwave,Natural Hydrometeorologic climatological,DREF,6570,188000
+499,Russia,RUS,Europe,3/1/2007,11/1/2007,2007,Mine Blast Kemerovo Region,Technological Miscellaneous accident,DREF,1500,105000
+500,Rwanda,RWA,Africa,10/1/2007,11/1/2008,2007,Floods,Natural Hydrometeorologic hydrological,DREF,5100,188899
+501,Senegal,SEN,Africa,10/1/2007,8/1/2008,2007,Cholera,Natural Biological,DREF,2324,40000
+502,Serbia,SRB,Europe,10/1/2007,2/1/2008,2007,Floods,Natural Hydrometeorologic hydrological,DREF,4200,111080
+504,Solomon Islands,SLB,Asia Pacific,4/14/2007,9/14/2009,2007,Earthquake & tsunami,Natural Geophysical,Emergency appeal,9000,1776895
+506,Sudan,SDN,Africa,7/1/2007,4/1/2008,2007,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,1500000,7384145
+507,Sudan,SDN,Africa,7/1/2007,1/1/2008,2007,Meningitis,Natural Biological,DREF,900000,218289
+508,Swaziland,SWZ,Africa,2/1/2007,3/1/2008,2007,Heavy Hail Storm,Natural Hydrometeorologic hydrological,DREF,3344,51535
+509,Tajikistan,TJK,Europe,4/1/2007,5/1/2007,2007,Floods and mudflows,Natural Hydrometeorologic hydrological,DREF,17184,85115
+510,Tajikistan,TJK,Europe,7/1/2007,12/1/2007,2007,Earthquake,Natural Geophysical,DREF,720,55000
+513,Togo,TGO,Africa,2/1/2007,12/1/2007,2007,Yellow Fever,Natural Biological,DREF,1300000,0
+514,Tunisia,TUN,Middle East and North Africa,4/1/2007,7/1/2007,2007,Floods,Natural Hydrometeorologic hydrological,DREF,1875,45000
+515,Tunisia,TUN,Middle East and North Africa,10/1/2007,12/1/2007,2007,Flash floods,Natural Hydrometeorologic hydrological,DREF,2500,105000
+516,Uganda,UGA,Africa,9/1/2007,7/1/2008,2007,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,100000,11413603
+517,Uganda,UGA,Africa,2/1/2007,5/1/2007,2007,Meningitis ,Natural Biological,DREF,500000,0
+518,Uganda,UGA,Africa,11/1/2007,2/1/2008,2007,Ebola Haemorrhagic Fever ,Natural Biological,DREF,missing data,152756
+519,Uganda,UGA,Africa,8/1/2007,4/1/2008,2007,Marburg Fever Outbreak,Natural Biological,DREF,1300000,129276
+520,Ukraine,UKR,Europe,8/1/2007,10/1/2007,2007,Storm,Natural Hydrometeorologic hydrological,DREF,4951,80000
+521,Ukraine,UKR,Europe,11/1/2007,5/1/2008,2007,Mine blast,Technological Miscellaneous accident,DREF,800,37132
+522,Uruguay,URY,Americas,5/1/2007,9/1/2007,2007,Floods,Natural Hydrometeorologic hydrological,DREF,3750,140000
+523,Vietnam,VNM,Asia Pacific,3/1/2007,10/1/2008,2007,Typhoon Lekima,Natural Hydrometeorologic meteorological,Emergency appeal,193000,3231507
+526,Zambia,ZMB,Africa,1/1/2007,9/1/2007,2007,Solwezi and Mpulungu Floods,Natural Hydrometeorologic hydrological,Emergency appeal,6250,798072
+527,Zimbabwe,ZWE,Africa,5/1/2007,7/1/2007,2007,Diarrohea Outbreak,Natural Biological,DREF,100000,258404
+529,Angola,AGO,Africa,5/1/2006,12/1/2007,2006,Cholera,Natural Biological,Emergency appeal,247000,2305164
+532,Bolivia,BOL,Americas,2/1/2006,5/1/2006,2006,Floods,Natural Hydrometeorologic hydrological,DREF,9500,106832
+533,Burkina Faso,BFA,Africa,8/1/2006,6/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,DREF,6000,59111
+534,Burkina Faso,BFA,Africa,3/1/2006,5/1/2006,2006,Meningitis ,Natural Biological,DREF,862923,0
+535,Burundi,BDI,Africa,1/1/2006,7/1/2009,2006,Humanitarian assistance to returnees and vulnerable groups,Human related,Emergency appeal,15000,1580239
+536,Burundi,BDI,Africa,1/1/2006,1/1/2007,2006,Heavy rains and floods,Natural Hydrometeorologic hydrological,DREF,2100,122000
+537,Cameroon,CMR,Africa,5/1/2006,7/1/2006,2006,Cholera in Bafoussam,Natural Biological,DREF,2750,36878
+541,Chad,TCD,Africa,6/1/2006,3/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,DREF,150000,0
+543,Chile,CHL,Americas,1/1/2006,4/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,DREF,62416,130000
+544,China,CHN,Asia Pacific,8/1/2006,7/1/2007,2006,Flood,Natural Hydrometeorologic hydrological,Emergency appeal,240000,5950200
+545,Colombia,COL,Americas,1/1/2006,11/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,DREF,5810,160000
+550,Ecuador,ECU,Americas,8/1/2006,1/1/2007,2006,Volcanic Eruption,Natural Geophysical,Emergency appeal,5475,632064
+551,Ecuador,ECU,Americas,1/1/2006,4/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,DREF,26000,80000
+552,Egypt,EGY,Middle East and North Africa,2/1/2006,8/1/2006,2006,Ferry disaster,Human related,DREF,2518,50000
+553,Egypt,EGY,Middle East and North Africa,2/1/2006,9/1/2006,2006,Avian influenza,Natural Biological,DREF,1267,39936
+554,Egypt,EGY,Middle East and North Africa,5/1/2006,9/1/2006,2006,Dahab bomb explosions,Human related,DREF,150,30000
+555,Ethiopia,ETH,Africa,8/1/2006,9/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,45000,3578292
+556,Ethiopia,ETH,Africa,8/1/2006,1/1/2007,2006,Acute Watery Diarrhoea Outbreak,Natural Biological,DREF,18520,56000
+557,Ethiopia,ETH,Africa,1/1/2006,12/1/2007,2006,Drought,Natural Hydrometeorologic hydrological,Emergency appeal,36341,1877033
+560,Guinea,GIN,Africa,6/1/2006,7/1/2006,2006,Cholera,Natural Biological,DREF,110085,20000
+561,Haiti,HTI,Americas,12/1/2006,4/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,11845,418501
+562,Haiti,HTI,Americas,1/1/2006,7/1/2007,2006,Floods from tropical storm Ernesto,Natural Hydrometeorologic hydrological,DREF,3325,90000
+563,Indonesia,IDN,Asia Pacific,5/1/2006,10/1/2011,2006,Yogyakarta Earthquake,Natural Geophysical,Emergency appeal,325000,32667430
+564,Indonesia,IDN,Asia Pacific,1/1/2006,5/31/2009,2006,Sumatra Floods,Natural Hydrometeorologic hydrological,Emergency appeal,100000,520632
+565,Iraq,IRQ,Middle East and North Africa,2/1/2006,4/1/2006,2006,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,25000,1802139
+566,Kenya,KEN,Africa,11/17/2006,6/8/2009,2006,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,300000,9646293
+567,Kenya,KEN,Africa,1/1/2006,1/1/2007,2006,Drought,Natural Hydrometeorologic climatological,Emergency appeal,329000,16840847
+569,Malawi,MWI,Africa,1/1/2006,5/1/2006,2006,Floods,Natural Hydrometeorologic hydrological,DREF,9500,99827
+570,Mali,MLI,Africa,8/1/2006,10/1/2007,2006,Drought,Natural Hydrometeorologic climatological,DREF,25000,0
+571,Mali,MLI,Africa,12/1/2006,11/1/2007,2006,Fire,Technological Miscellaneous accident,DREF,5000,53044
+573,Mauritania,MRT,Africa,7/1/2006,6/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,DREF,2000,0
+575,Namibia,NAM,Africa,3/1/2006,5/1/2006,2006,Mariental Floods ,Natural Hydrometeorologic hydrological,DREF,2100,89968
+576,Nigeria,NGA,Africa,2/1/2006,10/1/2006,2006,Avian Influenza,Natural Biological,DREF,500000,100000
+577,Nigeria,NGA,Africa,12/1/2006,11/1/2007,2006,Oil pipeline disaster in Abule Egba,Technological Industrial accident,DREF,2000,0
+579,Palestine,PSE,Middle East and North Africa,5/1/2006,3/1/2007,2006,Call for support,Natural Biological,Emergency appeal,1000000,6589593
+580,Peru,PER,Americas,3/1/2006,5/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,DREF,180000,53299
+581,Philippines,PHL,Asia Pacific,10/1/2006,12/1/2008,2006,Typhoons,Natural Hydrometeorologic meteorological,Emergency appeal,126000,9878867
+582,Philippines,PHL,Asia Pacific,2/1/2006,4/1/2008,2006,Landslides and Floods,Natural Hydrometeorologic hydrological,Emergency appeal,8000,2800437
+585,Russia,RUS,Europe,4/1/2006,8/1/2006,2006,Koryakia Earthquake,Natural Geophysical,DREF,4126,149984
+586,Rwanda,RWA,Africa,10/1/2006,9/1/2007,2006,Population movement,Human related,Emergency appeal,30000,1545713
+587,Rwanda,RWA,Africa,3/1/2006,9/1/2006,2006,Drought,Natural Hydrometeorologic climatological,Emergency appeal,114075,902799
+590,Seychelles,SYC,Africa,3/1/2006,6/1/2006,2006,Chikungunya Epidemic,Natural Biological,DREF,missing data,35518
+591,Sierra Leone,SLE,Africa,10/1/2006,1/1/2008,2006,Cholera,Natural Biological,DREF,313765,148442
+592,Sudan,SDN,Africa,1/1/2006,8/1/2008,2006,Cholera,Natural Biological,Emergency appeal,90000,1015000
+593,Sudan,SDN,Africa,8/1/2006,4/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,15000,1512497
+594,Suriname,SUR,Americas,5/1/2006,11/1/2006,2006,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,20000,854305
+595,Tajikistan,TJK,Europe,7/1/2006,10/1/2006,2006,Earthquake,Natural Geophysical,DREF,21057,100000
+596,Tanzania,TZA,Africa,3/15/2006,7/13/2006,2006,Drought,Natural Hydrometeorologic climatological,Emergency appeal,74000,1862590
+597,Tanzania,TZA,Africa,11/1/2006,2/1/2007,2006,Heavy rains in Kigoma ,Natural Hydrometeorologic hydrological,DREF,2500,30470
+598,Tanzania,TZA,Africa,5/1/2006,11/1/2006,2006,Floods,Natural Hydrometeorologic hydrological,DREF,3000,73000
+599,Tanzania,TZA,Africa,6/1/2006,10/1/2006,2006,Malaria Outbreak in Kagera,Natural Biological,DREF,2330,42500
+600,Tanzania,TZA,Africa,5/1/2007,4/30/2008,2007,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,53000,980269
+602,Uganda,UGA,Africa,8/1/2006,11/1/2006,2006,Floods,Natural Hydrometeorologic hydrological,DREF,2995,41393
+603,Uganda,UGA,Africa,6/1/2006,12/1/2006,2006,Cholera Outbreak,Natural Biological,DREF,134655,35847
+604,Ukraine,UKR,Europe,7/1/2006,12/1/2006,2006,Floods,Natural Hydrometeorologic hydrological,DREF,2776,98000
+605,Yemen,YEM,Middle East and North Africa,2/1/2006,1/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,DREF,857,63900
+608,India,IND,Asia Pacific,8/1/2006,12/1/2006,2006,Floods,Natural Hydrometeorologic hydrological,DREF,10000,100000
+609,Iran,IRN,Middle East and North Africa,4/1/2006,,2006,Doroud Earthquake,Natural Hydrometeorologic hydrological,Information bulletin,,
+610,Jamaica,JAM,Americas,1/1/2006,4/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,DREF,5015,25000
+612,Myanmar,MMR,Asia Pacific,1/1/2006,12/1/2006,2006,Cyclone Mala,Natural Hydrometeorologic hydrological,DREF,20000,50000
+613,Mozambique,MOZ,Africa,4/1/2006,7/1/2006,2006,Cholera,Natural Biological,DREF,19500,50000
+614,Namibia,NAM,Africa,1/1/2006,4/1/2008,2006,Polio outbreak,Natural Biological,DREF,17000,55247
+615,Panama,PAN,Americas,1/1/2006,4/1/2008,2006,Floods,Natural Hydrometeorologic hydrological,DREF,1900,67912
+616,Panama,PAN,Americas,1/1/2006,4/1/2007,2006,Floods,Natural Hydrometeorologic hydrological,DREF,13750,69508
+617,Guinea,GIN,Asia Pacific,10/1/2006,7/1/2007,2006,Mount Tavurvur volcano,Natural Hydrometeorologic hydrological,DREF,2000,18114
+618,El Salvador,SLV,Americas,1/1/2006,4/1/2008,2006, Seismic Swarm,Natural Hydrometeorologic hydrological,DREF,3096,60001
+619,Swaziland,SWZ,Africa,1/1/2006,7/1/2007,2006,Hailstorm,Natural Hydrometeorologic hydrological,DREF,15776,74251
+620,Uganda,UGA,Africa,12/1/2006,12/1/2007,2006,Cholera,Natural Biological,DREF,300000,150000
+621,VietNam,VNM,Americas,10/1/2006,2/1/2008,2006,Typhoons,Natural Hydrometeorologic hydrological,Emergency appeal,60750,1350061
+622,Zambia,ZMB,Africa,1/1/2006,12/1/2008,2006,Kazungula Floods,Natural Hydrometeorologic hydrological,DREF,1500,60000
+623,Kyrgyzstan,KGZ,Asia Pacific,12/1/2006,7/1/2007,2006,Earthquake,Natural Hydrometeorologic hydrological,Emergency appeal,6979,657055
+624,Afghanistan,AFG,Asia Pacific,2/1/2005,8/1/2005,2005,Severe winter,Natural Hydrometeorologic climatological,Emergency appeal,22656,906913
+625,Angola,AGO,Africa,4/1/2005,7/1/2005,2005,Marburg Haemorrhagic Fever Outbreak,Natural Biological,DREF,25430,0
+627,Benin,BEN,Africa,5/1/2005,6/1/2007,2005,Togolese refugees,Human related,Emergency appeal,10000,1291067
+628,Bosnia and Herzegovina,BIH,Europe,12/1/2005,2/1/2006,2005,Floods,Natural Hydrometeorologic hydrological,DREF,4750,25093
+629,Bulgaria,BGR,Europe,8/1/2005,3/1/2006,2005,Floods,Natural Hydrometeorologic hydrological,DREF,22520,219808
+630,Burkina Faso,BFA,Africa,7/1/2005,7/1/2006,2005,Food Insecurity,Human related,Emergency appeal,536000,31563799
+631,Mali,MLI,Africa,7/2/2005,7/2/2006,2005,Food Insecurity,Human related,Emergency appeal,,
+632,Mauritania,MRT,Africa,7/3/2005,7/3/2006,2005,Food Insecurity,Human related,Emergency appeal,,
+633,Niger,NER,Africa,7/4/2005,7/4/2006,2005,Food Insecurity,Human related,Emergency appeal,,
+635,Central African Republic,CAF,Africa,8/1/2005,10/1/2005,2005,Floods,Natural Hydrometeorologic hydrological,DREF,4500,0
+636,China,CHN,Asia Pacific,3/1/2005,5/1/2007,2005,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,400000,5501605
+640,El Salvador,SLV,Americas,10/1/2005,4/1/2007,2005,Floods and vulcanic activity,Natural Geophysical and Hydrometeorologic hydrological,Emergency appeal,21000,1288326
+641,Eritrea,ERI,Africa,1/1/2005,10/1/2006,2005,Drought,Natural Hydrometeorologic climatological,Emergency appeal,40000,5210000
+642,Ethiopia,ETH,Africa,6/1/2005,8/1/2008,2005,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,43000,735000
+643,Georgia,GEO,Europe,5/1/2005,3/1/2006,2005,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,16000,403725
+644,Ghana,GHA,Africa,11/1/2005,1/1/2006,2005,Cholera,Natural Biological,DREF,343442,38000
+645,Guinea Bissau,GNB,Africa,8/1/2005,2/1/2006,2005,Cholera,Natural Biological,DREF,201000,27838
+646,Guyana,GUY,Americas,1/1/2005,9/1/2005,2005,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,57500,1383356
+648,Iraq,IRQ,Middle East and North Africa,11/1/2005,1/1/2007,2005,Humanitarian Emergency,Human related,Emergency appeal,350000,7953524
+649,Kenya,KEN,Africa,6/1/2005,11/1/2005,2005,Floods,Natural Hydrometeorologic hydrological,DREF,15168,100021
+650,Kenya,KEN,Africa,7/1/2005,12/1/2005,2005,Marsabit unrest,Human related,DREF,7500,0
+651,Lebanon,LBN,Middle East and North Africa,4/1/2005,9/1/2005,2005,Emergency support for the Lebanese Red Cross Ambulance Services,Human related,Emergency appeal,N/A,387000
+652,Lesotho,LSO,Africa,10/1/2005,9/1/2006,2005,Food Insecurity,Human related,Emergency appeal,1500000,11067382
+653,Malawi,MWI,Africa,10/1/2005,9/1/2006,2005,Food Insecurity,Human related,Emergency appeal,,
+656,Swaziland,SWZ,Africa,10/1/2005,9/1/2006,2005,Food Insecurity,Human related,Emergency appeal,,
+658,Zimbabwe,ZWE,Africa,10/1/2005,9/1/2006,2005,Food Insecurity,Human related,Emergency appeal,,
+659,Mali,MLI,Africa,11/1/2005,12/1/2005,2005,Yellow fever,Natural Biological,DREF,2000000,18408
+660,Moldova,MDA,Europe,8/1/2005,12/1/2005,2005,Floods,Natural Hydrometeorologic hydrological,DREF,3000,50000
+661,Nigeria,NGA,Africa,8/1/2005,11/1/2005,2005,Floods,Natural Hydrometeorologic hydrological,DREF,50000,0
+662,Pakistan,PAK,Asia Pacific,2/1/2005,9/1/2005,2005,Floods and snowfalls minor emergencies,Natural Hydrometeorologic hydrological,DREF,10000,100000
+663,Pakistan,PAK,Asia Pacific,10/1/2005,12/1/2011,2005,Earthquake,Natural Geophysical,Emergency appeal,1085000,167680883
+665,Romania,ROU,Europe,4/1/2005,5/1/2006,2005,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,30000,1055000
+666,Romania,ROU,Europe,7/1/2005,2/1/2006,2005,Floods,Natural Hydrological and Biological,DREF,10000,240938
+667,Senegal,SEN,Africa,9/1/2005,12/1/2005,2005,Floods,Natural Hydrometeorologic hydrological,DREF,7547,31715
+668,Senegal,SEN,Africa,3/1/2005,7/1/2005,2005,Cholera,Natural Biological,DREF,5400,52096
+671,Sierra Leone,SLE,Africa,9/1/2005,1/1/2006,2005,Floods ,Natural Hydrometeorologic hydrological,Emergency appeal,7000,234869
+673,Sudan,SDN,Africa,12/1/2005,8/1/2006,2005,Yellow fever,Natural Biological,DREF,556,200000
+674,Sudan,SDN,Africa,3/1/2005,12/1/2005,2005,Explosion in Juba,Technological Industrial accident ,DREF,4500,0
+675,Sudan,SDN,Africa,8/1/2005,4/1/2006,2005,Floods,Natural Hydrometeorologic hydrological,DREF,3675,200000
+676,Swaziland,SWZ,Africa,1/1/2005,4/1/2005,2005,Storms ,Natural Hydrometeorologic meteorological,DREF,7117,35535
+677,Tanzania,TZA,Africa,5/1/2005,8/1/2005,2005,Flooding in Zanzibar,Natural Hydrometeorologic hydrological,DREF,6000,0
+678,Tanzania,TZA,Africa,12/1/2005,3/1/2006,2005,Earthquake,Natural Geophysical,DREF,270,0
+679,Vietnam,VNM,Asia Pacific,10/1/2005,10/1/2006,2005,Typhoon Damrey,Natural Hydrometeorologic meteorological,Emergency appeal,32450,813678
+681,Zimbabwe,ZWE,Africa,7/1/2005,4/1/2006,2005,"Assistenc e to the population affected by the ""clean up"" exercise",Human related,Emergency appeal,15000,2481816
+682,Albania,ALB,Africa,2/1/2005,5/1/2005,2005,Snowfalls,Natural Hydrometeorologic climatological,Information bulletin,2500,
+683,Angola,AGO,Americas,3/1/2005,11/1/2005,2005,Floods,Natural Hydrometeorologic hydrological,DREF,10000,
+684,Bolivia,BOL,Americas,6/1/2005,6/1/2005,2005,Social unrest,Human related,DREF,5000,
+685,Bolivia,BOL,Americas,9/1/2005,12/1/2005,2005,Fire,Natural Hydrometeorologic climatological,DREF,1500,
+686,Bosnia and Herzegovina,BIH,Africa,2/1/2005,3/1/2005,2005,Snowfalls,Natural Hydrometeorologic climatological,Report not found,,
+687,Bosnia and Herzegovina,BIH,Europe,6/1/2005,7/1/2005,2005,Floods,Natural Hydrometeorologic hydrological,DREF,5300,
+688,Bulgaria,BGR,Europe,6/1/2005,2/1/2006,2005,Floods,Natural Hydrometeorologic hydrological,DREF,5000,92666
+689,Cameroon,CMR,Europe,4/1/2005,9/1/2005,2005,Cholera,Natural Biological,DREF,12000,
+690,Chad,TCD,Europe,7/1/2005,2/1/2006,2005,Central African refugees,Human related,Information bulletin,missing data,
+691,Chile,CHL,Americas,6/1/2005,7/1/2005,2005,Earthquake,Natural Geophysical,DREF,missing data,
+695,East Timor,TLS,Asia Pacific,3/1/2005,7/1/2005,2005,Food Insecurity,Human related,DREF,4000,50000
+696,Egypt,EGY,Middle East and North Africa,7/1/2005,10/1/2005,2005,Bomb Blast,Technological Miscellaneous accident,DREF,missing data,0
+697,El Salvador,SLV,Americas,5/1/2005,12/1/2005,2005,Tropical Storm Adrian,Natural Hydrometeorologic meteorological,Report not found,,
+699,Honduras,HND,Americas,11/1/2005,3/1/2006,2005,Tropical storm Gamma,Natural Hydrometeorologic meteorological,DREF,5000,
+704,Paraguay,PRY,Americas,10/1/2005,12/1/2005,2005,Drought,Natural Hydrometeorologic climatological,DREF,29880,
+705,Peru,PER,Americas,9/1/2005,12/1/2005,2005,Earthquake,Natural Geophysical,DREF,2500,
+706,Russia,RUS,Europe,12/1/2005,6/1/2006,2005,Spill of Toxic waste,Technological Industrial accident,DREF,4560,36000
+707,Russia,RUS,Europe,11/1/2005,5/1/2005,2005,Avian flu,Natural Biological,Report not found,,
+709,Sudan,SDN,Africa,11/1/2005,8/1/2007,2005,Humanitarian assistance to returnees and affected communities,Human related,Emergency appeal,145000,14097272
+710,Tunisia,TUN,Middle East and North Africa,9/1/2005,7/1/2005,2005,Kelibia Tornado,Natural Hydrometeorologic meteorological,DREF,missing data,11000
+711,Uganda,UGA,Africa,2/1/2005,9/1/2005,2005,Congolese refugees,Human related,DREF,5000,
+712,Ukraine,UKR,Europe,12/1/2005,1/1/2006,2005,avian flu awareness campaign,Natural Biological,Report not found,,
+713,Venezuela,VEN,Americas,2/1/2005,,2005,Floods,Natural Hydrometeorologic hydrological,Information bulletin,5000,
+715,Afghanistan,AFG,Asia Pacific,3/1/2005,10/1/2006,2005,Spring Floods,Natural Hydrometeorologic hydrological,Emergency appeal,70000,1648032
+717,China,CHN,Asia Pacific,11/1/2005,2/1/2006,2005,Jiangxi Earthquake,Natural Geophysical,DREF,missing data,130000
+718,Russia,RUS,Europe,9/1/2004,12/1/2007,2004,"Hostage Crisis in Beslan, North Ossetia",Human related,Emergency appeal,5000,2590046
+720,Morocco,MAR,Middle East and North Africa,2/1/2004,12/1/2005,2004,Earthquake,Natural Geophysical,Emergency appeal,30000,2832086
+721,Kenya,KEN,Africa,8/1/2004,8/1/2005,2004,Drought,Natural Hydrometeorologic climatological,Emergency appeal,308000,2121677
+722,Bangladesh,BGD,Asia Pacific,7/1/2004,6/1/2005,2004,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,1407500,7051000
+723,India,IND,Asia Pacific,7/1/2004,10/1/2005,2004,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,200000,2034912
+724,Haiti,HTI,Americas,9/1/2004,11/1/2005,2004,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,50000,11673000
+725,Cuba,CUB,Americas,9/1/2004,7/1/2005,2004,Hurricane Charley ,Natural Hydrometeorologic Meteorological,Emergency appeal,25000,2419000
+726,Madagascar,MDG,Africa,2/1/2004,6/1/2006,2004,Cyclone Gafilo,Natural Hydrometeorologic meteorological,Emergency appeal,25000,427000
+727,Myanmar,MMR,Asia Pacific,7/1/2004,9/1/2004,2004,Cyclone,Natural Hydrometeorologic meteorological,Emergency appeal,25000,413048
+728,Philippines,PHL,Asia Pacific,11/1/2004,8/1/2005,2004,Typhoon,Natural Hydrometeorologic meteorological,Emergency appeal,300000,4193878
+729,Indonesia,IDN,Asia Pacific,1/1/2004,5/1/2004,2004,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,25000,904234
+731,Eritrea,ERI,Africa,2/1/2004,11/1/2004,2004,Drought,Natural Hydrometeorologic climatological,Emergency appeal,50000,4910430
+733,Haiti,HTI,Asia Pacific,3/1/2004,12/1/2004,2004,Social unrest,Human related,Emergency appeal,missing data,1388000
+734,Namibia,NAM,Africa,4/1/2004,6/1/2004,2004,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,50000,846000
+735,Bosnia and Herzegovina,BIH,Europe,4/1/2004,7/1/2004,2004,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,8412,333000
+740,Colombia,COL,Americas,11/1/2004,8/1/2005,2004,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,47500,1996000
+741,Indonesia,IDN,Asia Pacific,11/1/2004,12/1/2004,2004,Earthquake,Natural Geophysical,Emergency appeal,468000,1200187
+743,Bangladesh,BGD,Asia Pacific,4/1/2004,12/1/2004,2004,Tornado,Natural Hydrometeorologic meteorological,Information bulletin,10000,42000
+745,Togo,TGO,Africa,5/1/2004,12/1/2004,2004,cholera,Natural Biological,Information bulletin,missing data,47000
+747,Tanzania,TZA,Africa,1/1/2004,12/1/2004,2004,Food emergency,Human related,Information bulletin,89000,
+749,Djibouti,DJI,Africa,1/2/2004,12/2/2004,2004,Floods,Natural Hydrometeorologic hydrological,Information bulletin,3000,
+751,Zambia,ZMB,Africa,4/1/2004,12/1/2004,2004,Floods,Natural Hydrometeorologic hydrological,Information bulletin,20000,20000
+752,Colombia,COL,Americas,7/1/2004,12/1/2004,2004,Floods,Natural Hydrometeorologic hydrological,Information bulletin,34622,50000
+753,Kenya,KEN,Africa,5/1/2004,12/1/2004,2004,Floods,Natural Hydrometeorologic hydrological,Information bulletin,7886,
+754,Nicaragua,NIC,Americas,7/1/2004,12/1/2004,2004,Mudslides,Natural Hydrometeorologic hydrological,Information bulletin,5751,
+755,China,CHN,Asia Pacific,8/1/2004,10/1/2004,2004,Flooding,Natural Hydrometeorologic hydrological,Information bulletin,10000,200000
+756,Ukraine,UKR,Europe,5/1/2004,12/1/2004,2004,Explosion Of Ammunition Depot,Technological Industrial accident ,Information bulletin,600,10000
+758,Sudan,SDN,Africa,6/1/2004,12/1/2004,2004,darfur,not known,Report not found,,
+759,Egypt,EGY,Middle East and North Africa,8/1/2004,12/1/2004,2004,Palestinian Refugees,Human related,Information bulletin,2500,75000
+760,Uganda,UGA,Africa,8/1/2004,12/1/2004,2004,Youth Alliance,not known,Report not found,,
+762,Panama,PAN,Americas,9/1/2004,12/1/2004,2004,Floods,Natural Hydrometeorologic hydrological,Information bulletin,2500,50000
+764,Rwanda,RWA,Africa,10/1/2004,4/1/2005,2004,People fleeing Burndi,Human related,Information bulletin,3250,50000
+766,Tajikistan,TJK,Europe,7/1/2004,11/1/2004,2004,Water & Sanitation,not known,Report not found,,
+767,Paraguay,PRY,Americas,8/1/2004,3/1/2005,2004, Fire,Human related,Information bulletin,3000,9300
+768,Senegal,SEN,Africa,10/1/2004,12/1/2004,2004,Cholera,Natural Biological,Information bulletin,475,27000
+769,Central African Republic,CAF,Africa,11/1/2004,2/1/2005,2004,Floods,Natural Hydrometeorologic hydrological,Information bulletin,500,20000
+770,Costa Rica,CRI,Americas,11/1/2004,11/1/2005,2004,Floods,Natural Hydrometeorologic hydrological,Information bulletin,5000,40000
+771,Panama,PAN,Americas,8/1/2004,1/1/2005,2004,Floods,Natural Hydrometeorologic hydrological,Information bulletin,2500,50000
+772,Albania,ALB,Europe,11/1/2004,1/1/2005,2004,Floods,Natural Hydrometeorologic hydrological,Information bulletin,2500,80427
+773,Colombia,COL,Americas,1/1/2004,12/1/2004,2004,Earthquake Edan,Natural Geophysical,Information bulletin,8016,50000
+774,Zambia,ZMB,Africa,12/1/2004,2/1/2004,2004,Cholera Outbreak,Natural Biological,Information bulletin,5865,50000
+775,Iran,IRN,Middle East and North Africa,12/1/2003,5/1/2008,2003,Bam Earthquake,Natural Geophysical,Emergency appeal,210000,31446579
+777,Iraq,IRQ,Middle East and North Africa,9/1/2003,3/1/2006,2003,Humanitarian crisis- post war rehabilitation,Human related,Emergency appeal,305000,30937383
+778,Algeria,DZA,Middle East and North Africa,5/1/2003,12/1/2005,2003,Earthquake,Natural Geophysical,Emergency appeal,40000,4797861
+779,China,CHN,Asia Pacific,7/1/2003,5/1/2004,2003,Floods,Natural Hydrometeorologic hydrological,Emergency appeal,440000,7932000
