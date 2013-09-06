@@ -1,387 +1,382 @@
-ARC_num,DisasterName,Date,Region,Country,DisasterType,TotalAffected,Money,PeopleDeployed,TotalSupplies,HygieneKits,Blankets,JerryCans,Buckets,Tents,KitchenSets,SleepingMats,MosquitoNets,FoodParcels,Tarps,Vehicles,OtherItems,RiceBags,TotalContributions
-3,"Costa Rica Floods",6/1/99,LAC,"Costa Rica",Floods,,10000,0,,,,,,,,,,,,,,,10000
-1,"Ethiopia Drought",6/1/99,Africa,Ethiopia,Drought,,100000,0,,,,,,,,,,,,,,,100000
-2,"Mexico Floods",6/1/99,LAC,Mexico,Floods,,100000,1,,,,,,,,,,,,,,,100000
-7,"Cambodia Floods",8/1/99,Europe/Asia,Cambodia,Floods,,25000,0,,,,,,,,,,,,,,,25000
-4,"China Floods",8/1/99,Europe/Asia,China,Floods,,100000,0,,,,,,,,,,,,,,,100000
-6,"Nicaragua Volcano",8/1/99,LAC,Nicaragua,Volcano,,10000,2,,,,,,,,,,,,,,,10000
-5,"Turkey Earthquake",8/1/99,Europe/Asia,Turkey,Earthquake,,0,20,,,,,,,,,,,,,,,0
-9,"Bahamas Storm",9/1/99,LAC,Bahamas,Storm,,25000,3,,,,,,,,,,,,,,,132193
-8,"Greece Earthquake",9/1/99,Europe/Asia,Greece,Earthquake,,80000,0,,,,,,,,,,,,,,,80000
-11,"Japan Industrial",9/1/99,Europe/Asia,Japan,Industrial,,0,0,,,,,,,,,,,,,,,200
-12,"Mexico Earthquake",9/1/99,LAC,Mexico,Earthquake,,150000,3,,,,,,,,,,,,,,,150000
-10,"Taiwan Earthquake",9/1/99,Europe/Asia,Taiwan,Earthquake,,1200000,0,,,,,,,,,,,,,,,1200000
-16,"Bangladesh Floods",10/1/99,Europe/Asia,Bangladesh,Floods,,25000,0,,,,,,,,,,,,,,,25000
-13,"Mexico Floods",10/1/99,LAC,Mexico,Floods,,200000,4,,,,,,,,,,,,,,,205000
-14,"Russian Fed. Conflict",10/1/99,Europe/Asia,Russia,Conflict,,75000,0,76700,11200,55000,10500,,,,,,,,,,,610134
-15,"Timor-Leste Conflict",10/1/99,Europe/Asia,Timor,Conflict,,10000,1,,,,,,,,,,,,,,,10000
-20,"Antigua Storm",11/1/99,LAC,Antigua,Storm,,15000,1,,,,,,,,,,,,,,,15000
-20,"Dominica Storm",11/1/99,LAC,"Dominican Republic",Storm,,15000,1,,,,,,,,,,,,,,,15000
-20,"Grenada Storm",11/1/99,LAC,Grenada,Storm,,9000,1,,,,,,,,,,,,,,,9000
-17,"India Storm",11/1/99,Europe/Asia,India,Storm,,50000,0,,,,,,,,,,,,,,,50000
-20,"St. Kitts & Nevis Storm",11/1/99,LAC,"St. Kitts & Nevis",Storm,,15000,2,,,,,,,,,,,,,,,15000
-20,"St. Maartens Storm",11/1/99,LAC,"St. Maartens",Storm,,9000,,,,,,,,,,,,,,,,9000
-19,"Turkey Earthquake",11/1/99,Europe/Asia,Turkey,Earthquake,,3864222,10,,,,,,,,,,,,,,,5153184
-18,"Vietnam Floods",11/1/99,Europe/Asia,Vietnam,Floods,,50000,0,,,,,,,,,,,,,,,50000
-21,"Venezuela Floods",12/1/99,LAC,Venezuela,Floods,,50000,23,55532,2200,4625,2550,,36,,6120,,40000,,7,,,1056000
-22,"Botswana Floods",2/1/00,Africa,Botswana,Floods,,23333,,,,,,,,,,,,,,,,23333
-22,"South Africa Floods",2/1/00,Africa,"South Africa",Floods,,23333,0,,,,,,,,,,,,,,,23333
-22,"Zimbabwe Floods",2/1/00,Africa,Zimbabwe,Floods,,23333,,,,,,,,,,,,,,,,23333
-23,"Madagascar Floods",3/1/00,Africa,Madagascar,Floods,,25000,0,,,,,,,,,,,,,,,25000
-24,"Ethiopia Drought",4/1/00,Africa,Ethiopia,Drought,,100000,0,,,,,,,,,,,,,,,100000
-25,"Indonesia Earthquake",6/1/00,Europe/Asia,Indonesia,Earthquake,,50000,2,,,,,,,,,,,,,,,50000
-27,"Bangladesh Floods",8/1/00,Europe/Asia,Bangladesh,Floods,,25000,0,,,,,,,,,,,,,,,25000
-26,"India Floods",8/1/00,Europe/Asia,India,Floods,,0,9,5000,,,,,,,,,5000,,5,,,389265
-28,"Cambodia Floods",9/1/00,Europe/Asia,Cambodia,Floods,,352704,0,,,,,,,,,,,,,,,352704
-29,"Vietnam Floods",9/1/00,Europe/Asia,Vietnam,Floods,,0,0,1000,,,,,,,,,,,,,,20000
-30,"Belize Storm",10/1/00,LAC,Belize,Storm,,28500,5,,,,,,,,,,2600,,,,,118500
-32,"Israel Conflict",10/1/00,Europe/Asia,Israel,Conflict,,40000,,,,,,,,,,,,,,,,40000
-32,"Jordan Conflict",10/1/00,Europe/Asia,Jordan,Conflict,,0,,,,,,,,,,,,,1,,,172000
-32,"Palestine Conflict",10/1/00,Europe/Asia,Palestine,Conflict,,0,0,,,,,,,,,,,,2,,,90000
-34,"Austria Miscellaneous",11/1/00,Europe/Asia,Austria,Miscellaneous,,0,0,,,,,,,,,,,,,,,2578
-35,"Azerbaijan Earthquake",11/1/00,Europe/Asia,Azerbaijan,Earthquake,,0,1,,,,,,,,,,,,,,,30500
-33,"Taiwan Transport",11/1/00,Europe/Asia,Taiwan,Transport,,0,1,,,,,,,,,,,,,,,7500
-36,"Sri Lanka Storm",12/1/00,Europe/Asia,"Sri Lanka",Storm,,0,0,,,,,,,,,,,,,,,20000
-39,"China Storm",1/1/01,Europe/Asia,China,Storm,,50000,0,,,,,,,,,,,,,,,50000
-38,"El Salvador Earthquake",1/1/01,LAC,"El Salvador",Earthquake,,77500,12,,,,,,,,,,,,,,,227500
-40,"India Earthquake",1/1/01,Europe/Asia,India,Earthquake,15850000,125000,19,,,,,,,,,,,,,,,14000000
-37,"South Africa Epidemic",1/1/01,Africa,"South Africa",Epidemic,,25000,0,,,,,,,,,,,,,,,25000
-41,"El Salvador Earthquake",2/1/01,LAC,"El Salvador",Earthquake,,70000,8,,,,,,,,,,,,,,,690000
-43,"Malawi Floods",2/1/01,Africa,Malawi,Floods,,25000,2,,,,,,,,,,,,,,,174000
-42,"Mozambique Floods",2/1/01,Africa,Mozambique,Floods,,0,1,,,,,,,,,,,,,,,250000
-44,"Bolivia Floods",3/1/01,LAC,Bolivia,Floods,,15000,0,,,,,,,,,,,,,,,15000
-45,"Peru Floods",3/1/01,LAC,Peru,Floods,,15000,0,6111,,5100,,,761,,,,,250,,,,15000
-46,"Canada Transport",4/1/01,"North America",Canada,Transport,,0,2,,,,,,,,,,,,,,,1000
-47,"Russian Fed. Floods",5/1/01,Europe/Asia,Russia,Floods,,25000,0,,,,,,,,,,,,,,,25000
-49,"Bosnia Floods",6/1/01,Europe/Asia,"Bosnia and Herzegovina",Floods,,0,0,6000,,6000,,,,,,,,,,,,18000
-48,"Macedonia Conflict",6/1/01,Europe/Asia,Macedonia,Conflict,,0,0,10000,,,,,,,,,,,,,,20700
-50,"Peru Earthquake",6/1/01,LAC,Peru,Earthquake,,24420,3,6107,,5100,,,757,,,,,250,,,,699130
-51,"India Floods",7/1/01,Europe/Asia,India,Floods,6000000,0,0,,,,,,,,,,,,,,,100000
-52,"El Salvador Drought",8/1/01,LAC,"El Salvador",Drought,,25000,5,,,,,,,,,,,,,,,25000
-52,"Guatemala Drought",8/1/01,LAC,Guatemala,Drought,,0,,,,,,,,,,,,,,,,0
-52,"Honduras Drought",8/1/01,LAC,Honduras,Drought,,0,,,,,,,,,,,,,,,,0
-52,"Nicaragua Drought",8/1/01,LAC,Nicaragua,Drought,,0,,,,,,,,,,,,,,,,0
-54,"Afghanistan Conflict",9/1/01,Europe/Asia,Afghanistan,Conflict,,0,12,,,,,,,,,,,,,,,12000000
-53,"Ecuador Volcano",9/1/01,LAC,Ecuador,Volcano,,10000,,,,,,,,,,,,,,,,10000
-54,"Iran Conflict",9/1/01,Europe/Asia,Iran,Conflict,,0,,,,,,,,,,,,,,,,0
-56,"Mexico Transport",9/1/01,LAC,Mexico,Transport,,0,4,,,,,,,,,,,,,,,15000
-54,"Pakistan Conflict",9/1/01,Europe/Asia,Pakistan,Conflict,,0,,,,,,,,,,,,,,,,0
-54,"Turkmenistan Conflict",9/1/01,Europe/Asia,Turkmenistan,Conflict,,0,,,,,,,,,,,,,,,,0
-55,"US Terrorism",9/1/01,"North America","United States of America",Terrorism,,3257775,30,,,,,,,,,,,,,,,3515479
-54,"Uzbekistan Conflict",9/1/01,Europe/Asia,Uzbekistan,"Population Movement",,0,,,,,,,,,,,,,,,,0
-58,"Belize Meteorological",10/1/01,LAC,Belize,Storm,,25000,3,,,,,,,,,,,,,,,97982
-59,"Belize Transport",10/1/01,LAC,Belize,Transport,,0,2,,,,,,,,,,,,,,,4400
-60,"Honduras Storm",10/1/01,LAC,Honduras,Storm,,0,,,,,,,,,,,,,,,,0
-57,"Mexico Storm",10/1/01,LAC,Mexico,Storm,,25000,1,,,,,,,,,,,,,,,25000
-61,"Bahamas Storm",11/1/01,LAC,Bahamas,Storm,,5000,0,,,,,,,,,,,,,,,5000
-60,"Cuba Storm",11/1/01,LAC,Cuba,Storm,,0,,,,,,,,,,,,,,,,0
-60,"Jamaica Storm",11/1/01,LAC,Jamaica,Storm,,5000,,,,,,,,,,,,,,,,5000
-60,"Nicaragua Storm",11/1/01,LAC,Nicaragua,Storm,,0,,,,,,,,,,,,,,,,60000
-62,"US Transport",11/1/01,"North America","United States of America",Transport,,0,5,,,,,,,,,,,,,,,500
-64,"Albania Storm",1/1/02,Europe/Asia,Albania,Storm,,0,1,,,,,,,,,,,,,,,71832
-63,"Cambodia Miscellaneous",1/1/02,Europe/Asia,Cambodia,Miscellaneous,,0,,,,,,,,,,,,,,,,10000
-65,"DR Congo Volcano",1/1/02,Africa,"Democratic Republic of the Congo",Volcano,,25000,,,,,,,,,,,,,,,,45000
-66,"Nigeria Industrial",1/1/02,Africa,Nigeria,Industrial,,21612,,,,,,,,,,,,,,,,21612
-67,"Turkey Earthquake",2/1/02,Europe/Asia,Turkey,Earthquake,,0,1,,,,,,,,,,,,,,,350424
-69,"Afghanistan Earthquake",3/1/02,Europe/Asia,Afghanistan,Earthquake,,104805,2,,,,,,,,,,,,,,,104805
-68,"Bolivia Floods",3/1/02,LAC,Bolivia,Floods,,11700,,,,,,,,,,,,,,,,11700
-70,"Jordan Conflict",4/1/02,Europe/Asia,Jordan,Conflict,,225000,1,,,,,,,,,,,,,,,225000
-71,"Costa Rica Floods",5/1/02,LAC,"Costa Rica",Floods,,2000,,,,,,,,,,,,,,,,2000
-72,"Kenya Floods",5/1/02,Africa,Kenya,Floods,,10000,,,,,,,,,,,,,,,,10000
-73,"Malawi Food Insecurity",5/1/02,Africa,Malawi,"Food Insecurity",,0,3,,,,,,,,,,,,,,,100000
-71,"Panama Floods",5/1/02,LAC,Panama,Floods,,2000,,,,,,,,,,,,,,,,2000
-76,"China Floods",6/1/02,Europe/Asia,China,Floods,,75000,,,,,,,,,,,,,,,,75000
-76,"China Floods",6/1/02,Europe/Asia,China,Floods,,25000,,,,,,,,,,,,,,,,25000
-76,"China Floods",6/1/02,Europe/Asia,China,Floods,,100000,,,,,,,,,,,,,,,,100000
-74,"Nicaragua  Floods",6/1/02,LAC,Nicaragua,Floods,,0,1,,,,,,,,,,,,,,,0
-75,"Syria Miscellaneous",6/1/02,Europe/Asia,Syria,Miscellaneous,,10000,,,,,,,,,,,,,,,,10000
-80,"Bolivia Storm",7/1/02,LAC,Bolivia,Storm,,5000,,,,,,,,,,,,,,,,5000
-78,"FS Micronesia Storm",7/1/02,Europe/Asia,"FS Micronesia",Storm,,0,,,,,,,,,,,,,,,,10000
-79,"Peru Storm",7/1/02,LAC,Peru,Storm,,5000,,,,,,,,,,,,,,,,5000
-77,"Russian Fed. Floods",7/1/02,Europe/Asia,Russia,Floods,,50000,1,,,,,,,,,,,,,,,50000
-81,"Venezuela Floods",7/1/02,LAC,Venezuela,Floods,,50000,1,,,,,,,,,,,,,,,50000
-83,"Austria Floods",8/1/02,Europe/Asia,Austria,Floods,,25000,,,,,,,,,,,,,,,,25000
-83,"Czech Republic Floods",8/1/02,Europe/Asia,"Czech Republic",Floods,,90000,,,,,,,,,,,,,,,,90000
-83,"Germany Floods",8/1/02,Europe/Asia,Germany,Floods,,75000,,,,,,,,,,,,,,,,75000
-83,"Hungary Floods",8/1/02,Europe/Asia,Hungary,Floods,,35000,,,,,,,,,,,,,,,,35000
-82,"India Floods",8/1/02,Europe/Asia,India,Floods,,66919,7,2900,,,,,,,,,,,,,,232253
-83,"Romania Floods",8/1/02,Europe/Asia,Romania,Floods,,0,3,14500,,,,,,,,,14500,,,,,115140
-83,"Slovakia Floods",8/1/02,Europe/Asia,Slovakia,Floods,,10000,,,,,,,,,,,,,,,,10000
-84,"Mexico Storm",9/1/02,LAC,Mexico,Storm,,0,2,,,,,,,,,,,,,,,60000
-89,"Australia Terrorism",10/1/02,Europe/Asia,Australia,Terrorism,,237899,1,,,,,,,,,,,,,,,237899
-91,"Cuba Storm",10/1/02,LAC,Cuba,Storm,,10000,,,,,,,,,,,,,,,,10000
-89,"Indonesia Terrorism",10/1/02,Europe/Asia,Indonesia,Terrorism,,46670,,,,,,,,,,,,,,,,46670
-88,"Italy Earthquake",10/1/02,Europe/Asia,Italy,Earthquake,,10000,,,,,,,,,,,,,,,,10000
-92,"Lesotho Food Insecurity",10/1/02,Africa,Lesotho,"Food Insecurity",,25000,,,,,,,,,,,,,,,,25000
-86,"Mexico Storm",10/1/02,LAC,Mexico,Storm,,0,1,,,,,,,,,,,,,,,0
-85,"Paraguay Drought",10/1/02,LAC,Paraguay,Drought,,0,2,,,,,,,,,,,,,,,0
-87,"South Korea Storm",10/1/02,Europe/Asia,"South Korea",Storm,,120000,,,,,,,,,,,,,,,,130000
-90,"Vietnam Miscellaneous",10/1/02,Europe/Asia,Vietnam,Miscellaneous,,100000,,,,,,,,,,,,,,,,100000
-93,"Costa Rica Floods",12/1/02,LAC,"Costa Rica",Floods,,1000,,,,,,,,,,,,,,,,1000
-95,"Kenya Epidemic",12/1/02,Africa,Kenya,Epidemic,,5000,,,,,,,,,,,,,,,,5000
-94,"Panama Floods",12/1/02,LAC,Panama,Floods,,1345,,675,,,,,,,,,,,,,,1345
-97,"Mexico Earthquake",1/1/03,LAC,Mexico,Earthquake,,350000,3,,,,,,,,,,,,,,,350000
-97,"Mexico Earthquake",1/1/03,LAC,Mexico,Earthquake,,100000,,,,,,,,,,,,,,,,100000
-96,"Solomon Islands Storm",1/1/03,Europe/Asia,"Solomon Islands",Storm,,7242,,,,,,,,,,,,,,,,7242
-99,"China Earthquake",2/1/03,Europe/Asia,China,Earthquake,,50000,,,,,,,,,,,,,,,,50000
-98,"South Korea Transport",2/1/03,Europe/Asia,"South Korea",Transport,,10000,,,,,,,,,,,,,,,,10000
-100,"Iraq Conflict",3/1/03,Europe/Asia,Iraq,Conflict,,200000,,64200,,34200,30000,,,,,,,,,,,421694
-100,"Jordan Conflict",3/1/03,Europe/Asia,Jordan,Conflict,,15000,2,,,,,,,,,,,,,,,32812
-100,"Syria Conflict",3/1/03,Europe/Asia,Syria,Conflict,,15000,,,,,,,,,,,,,,,,15000
-100,"Turkey Conflict",3/1/03,Europe/Asia,Turkey,Conflict,,0,1,,,,,,,,,,,,,,,17812
-108,"Algeria Earthquake",5/1/03,Africa,Algeria,Earthquake,,0,,10000,10000,,,,,,,,,,,,,65870
-101,"Argentina Floods",5/1/03,LAC,Argentina,Floods,,15000,1,,,,,,,,,,,,,,,15000
-103,"China Epidemic",5/1/03,Europe/Asia,China,Epidemic,,32500,,,,,,,,,,,,,,,,32500
-103,"China Epidemic",5/1/03,Europe/Asia,China,Epidemic,,370642,,,,,,,,,,,,,,,,370642
-103,"Hong Kong Epidemic",5/1/03,Europe/Asia,"Hong Kong",Epidemic,,60000,,,,,,,,,,,,,,,,60000
-104,"Sri Lanka Floods",5/1/03,Europe/Asia,"Sri Lanka",Floods,,21400,,,,,,,,,,,,,,,,21400
-102,"Turkey Earthquake",5/1/03,Europe/Asia,Turkey,Earthquake,,0,2,9000,,,,,,,,,9000,,,,,331380
-105,"Panama Floods",7/1/03,LAC,Panama,Floods,,0,1,6500,500,,,,,,6000,,,,,,,16700
-109,"Liberia Conflict",8/1/03,Africa,Liberia,Conflict,,35027,,,,,,,,,,,,,,,,35027
-106,"Canada Wildfire",9/1/03,"North America",Canada,Wildfire,,10000,,,,,,,,,,,,,,,,10000
-110,"Mexico Floods",9/1/03,LAC,Mexico,Floods,,10500,2,,,,,,,,,,,,,,,10500
-107,"Dominican Republic Earthquake",10/1/03,LAC,"Dominican Republic",Earthquake,,0,,,,,,,,,,,,,,,,25000
-111,"South Korea Storm",10/1/03,Europe/Asia,"South Korea",Storm,,10000,,,,,,,,,,,,,,,,10000
-112,"Dominican Republic Floods",11/1/03,LAC,"Dominican Republic",Floods,,0,3,,,,,,,,,,,,,,,50000
-112,"Dominican Republic Floods",11/1/03,LAC,"Dominican Republic",Floods,,0,,,,,,,,,,,,,,,,0
-113,"Iran Earthquake",12/1/03,Europe/Asia,Iran,Earthquake,,200000,6,115560,45000,27000,,,490,,,,,,,,,1175802
-113,"Iran Earthquake",12/1/03,Europe/Asia,Iran,Earthquake,,0,,11,,,,,11,,,,,,,,,19975
-113,"Iran Earthquake",12/1/03,Europe/Asia,Iran,Earthquake,,0,,,,,,,,,,,,,,,,60000
-114,"Panama Earthquake",12/1/03,LAC,Panama,Earthquake,,0,,2300,,1000,,,,,1100,,,,,,,6178
-115,"North Korea Transport",4/1/04,Europe/Asia,"North Korea",Transport,,110000,,,,,,,,,,,,,,,,110000
-116,"Dominican Republic Floods",5/1/04,LAC,"Dominican Republic",Floods,,0,1,10930,,,2350,,150,,5000,,,1000,,,,220135
-116,"Haiti Floods",5/1/04,LAC,Haiti,Floods,,20007,,,,,,,,,,,,,2,,,44558
-117,"Jamaica Conflict",5/1/04,LAC,Jamaica,Conflict,,0,0,1000,500,,,,,,500,,,,,,,3000
-116,"Malawi Epidemic",5/1/04,Africa,Malawi,Epidemic,,0,,12380,,,,,,,12360,,,20,,,,61220
-116,"Dominican Republic Floods",7/1/04,LAC,"Dominican Republic",Floods,,0,1,,,,,,,,,,,,,,,110266
-116,"Haiti Floods",7/1/04,LAC,Haiti,Floods,,0,,,,,,,,,,,,,,,,97442
-121,"Bangladesh Floods",8/1/04,Europe/Asia,Bangladesh,Floods,,35975,,,,,,,,,,,,,,,,35975
-120,"Chad Conflict",8/1/04,Africa,Chad,Conflict,,100000,,,,,,,,,,,,,,,,100000
-119,"Paraguay Miscellaneous",8/1/04,LAC,Paraguay,Miscellaneous,,18675,,,,,,,,,,,,,,,,18675
-120,"Sudan Conflict",8/1/04,Africa,Sudan,Conflict,,242000,1,,,,,,,,,,,,,,,247400
-122,"Taiwan Storm",8/1/04,Europe/Asia,Taiwan,Storm,,59897,,,,,,,,,,,,,,,,59897
-123,"Bahamas Storm",9/1/04,LAC,Bahamas,Storm,,100000,4,,,,,,,,,,,,,,,100000
-123,"Cayman Islands Storm",9/1/04,LAC,"Cayman Islands",Storm,,100000,1,2346,1000,,321,,25,,,,,,,,,112854
-123,"Grenada Storm",9/1/04,LAC,Grenada,Storm,,300000,2,486,,,481,,5,,,,,,,,,302452
-124,"Haiti Floods",9/1/04,LAC,Haiti,Floods,,400000,1,110,,,,,,,,,,110,,,,401375
-123,"Jamaica Storm",9/1/04,LAC,Jamaica,Storm,,100000,1,7314,,5000,802,,,,,,,1105,,,,131047
-125,"Costa Rica Floods",11/1/04,LAC,"Costa Rica",Floods,,0,,750,750,,,,,,,,,,,,,2655
-127,"Indonesia Tsunami",12/1/04,Europe/Asia,Indonesia,Tsunami,,1666667,5,,,,,,,,,,,,,,,477328824
-127,"Maldives Tsunami",12/1/04,Europe/Asia,Maldives,Tsunami,,1666667,2,,,,,,,,,,,,,,,1822267
-126,"Panama Floods",12/1/04,LAC,Panama,Floods,,0,,,,,,,,,,,,,,,,0
-127,"Sri Lanka Tsunami",12/1/04,Europe/Asia,"Sri Lanka",Tsunami,,1837067,17,,,,,,,,,,,,,,,103848910
-128,"Guyana Floods",1/1/05,LAC,Guyana,Floods,,0,2,,,,,,,,,,,,,,,13100
-129,"Canada Floods",6/1/05,"North America",Canada,Floods,,5000,,,,,,,,,,,,,,,,5000
-130,"Hurricane Dennis - Grenada",7/1/05,LAC,Grenada,"Tropical Storm",,75000,,,,,,,,,,,,,,,,75000
-130,"Hurricane Dennis - Haiti",7/1/05,LAC,Haiti,"Tropical Storm",,100000,,9995,,,,,,,,,,,,,,108693
-130,"Hurricane Dennis - Jamaica",7/1/05,LAC,Jamaica,"Tropical Storm",,25000,,25,,,,,25,,,,,,,,,32475
-131,"Sahel Food Crisis",7/1/05,Africa,Niger,"Food Insecurity",,0,3,,,,,,,,,,,,,,,36200
-132,"Hurricane Katrina",8/1/05,"North America","United States of America","Tropical Storm",,0,3,,,,,,,,,,,,,,,0
-136,"Hurricane Wilma - Bahamas",10/1/05,LAC,Bahamas,"Tropical Storm",,0,,2372,2372,,,,,,,,,,,,,20597
-135,"El Salvador Hurricane Stan & Volcano Eruption",10/1/05,LAC,"El Salvador",Volcano,,7034,1,,,,,,,,,,,,,,,7034
-134,"Hurricane Stan - Guatemala",10/1/05,LAC,Guatemala,"Tropical Storm",,47581,,,,,,,,,,,,,,,,47581
-134,"Hurricane Stan - Mexico",10/1/05,LAC,Mexico,"Tropical Storm",,342378,,,,,,,,,,,,,,,,342378
-136,"Hurricane Wilma - Mexico",10/1/05,LAC,Mexico,"Tropical Storm",300000,453869,,4500,4500,,,,,,,,,,,,,497744
-133,"Pakistan Earthquake",10/1/05,Europe/Asia,Pakistan,Earthquake,3500000,7750000,4,325618,18000,222900,,28000,5200,18000,30518,,,3000,,,,12558310
-137,"Vietnam Typhoon Damrey",10/1/05,Europe/Asia,Vietnam,Storm,,21068,,,,,,,,,,,,,,,,21068
-138,"Colombia Volcano",11/1/05,LAC,Colombia,Volcano,,0,,45,,,,,45,,,,,,,,,17402
-139,"Southern Africa Food Security Crisis - Lesotho",1/1/06,Africa,Lesotho,Drought,,100000,3,,,,,,,,,,,,,,,100000
-139,"Southern Africa Food Security Crisis - Malawi",1/1/06,Africa,Malawi,Drought,,150000,,,,,,,,,,,,,,,,150000
-139,"Southern Africa Food Security Crisis - Zambia",1/1/06,Africa,Zambia,Drought,,400000,,,,,,,,,,,,,,,,400000
-139,"Southern Africa Food Security Crisis - Zimbabwe",1/1/06,Africa,Zimbabwe,Drought,,250000,,,,,,,,,,,,,,,,250000
-143,"Philippines Mudslides",2/1/06,Europe/Asia,Philippines,"Population Movement",,55000,,,,,,,,,,,,,,,,55000
-142,"Timor-Leste Floods",2/1/06,Europe/Asia,Timor,Floods,,50000,,,,,,,,,,,,,,,,50000
-141,"Iraq Humanitarian Emergency",3/1/06,Europe/Asia,Iraq,Conflict,,188443,,,,,,,,,,,,,,,,188443
-140,"Eastern Africa Drought",3/1/06,Africa,Kenya,Drought,,150000,,,,,,,,,,,,,,,,150000
-145,"Ethiopia Drought",4/1/06,Africa,Ethiopia,Drought,,94461,,,,,,,,,,,,,,,,94461
-146,"Somalia Drought",4/1/06,Africa,Somalia,Drought,,250000,,,,,,,,,,,,,,,,250000
-147,"Spain Terrorism",4/1/06,Europe/Asia,Spain,Terrorism,,20000,,,,,,,,,,,,,,,,20000
-144,"Angola Cholera Epidemic",5/1/06,Africa,Angola,Epidemic,,0,1,,,,,,,,,,,,,,,5000
-148,"Colombia Floods",5/1/06,LAC,Colombia,Floods,,50000,,,,,,,,,,,,,,,,50000
-149,"Indonesia Yogyakarta Earthquake",5/1/06,Europe/Asia,Indonesia,Earthquake,,1398250,7,,,,,,,,,,,,,,,1485750
-151,"Middle East Humanitarian Crisis",7/1/06,Europe/Asia,Lebanon,Conflict,,1889600,,,,,,,,,,,,,,,,1889600
-150,"Romania Floods",7/1/06,Europe/Asia,Romania,Floods,,5000,,,,,,,,,,,,,,,,5000
-152,"China Floods",8/1/06,Europe/Asia,China,Floods,,50000,,,,,,,,,,,,,,,,50000
-153,"Ecuador Volanic Eruption",8/1/06,LAC,Ecuador,Volcano,,50000,,,,,,,,,,,,,,,,50000
-154,"Ethiopia Floods",8/1/06,Africa,Ethiopia,Floods,,85000,2,,,,,,,,,,,,,,,85000
-155,"Sudan Floods",9/1/06,Africa,Sudan,Floods,,10000,,10000,,,,,,,,10000,,,,,,46900
-156,"Philippines Typhoons",10/1/06,Europe/Asia,Philippines,"Tropical Storm",,787000,2,,,,,,,,,,,,,,,793500
-157,"Vietnam Typhoons",10/1/06,Europe/Asia,Vietnam,"Tropical Storm",,63000,,,,,,,,,,,,,,,,63000
-159,"Kenya Floods",11/1/06,Africa,Kenya,Floods,,80000,,20000,,,,,,,,20000,,,,,,200000
-158,"Somalia Conflict",11/1/06,Africa,Somalia,Conflict,,50000,,,,,,,,,,,,,,,,50000
-160,"Somalia Floods",11/1/06,Africa,Somalia,Floods,,100000,,,,,,,,,,,,,,,,100000
-162,"Bolivia Floods",2/1/07,LAC,Bolivia,Floods,,150000,,,,,,,,,,,,,,,,150000
-161,"Mozambique Floods",2/1/07,Africa,Mozambique,Floods,,0,2,26950,,7050,,,,,,,,3900,,,,245000
-164,"Madagascar Cyclones",3/1/07,Africa,Madagascar,"Tropical Storm",,0,5,10000,,,,,,,,1000,,,,,,102000
-163,"Sri Lanka Conflict",3/1/07,Europe/Asia,"Sri Lanka",Conflict,,2000000,,,,,,,,,,,,,,,,2000000
-165,"Solomon Islands Tsunami/ Earthquake",4/1/07,Europe/Asia,"Solomon Islands",Earthquake,,50000,,,,,,,,,,,,,,,,50000
-166,"Colombia Tolima Floods",5/1/07,LAC,Colombia,Floods,,5000,,,,,,,,,,,,,,,,5000
-167,"Mexico Coahuila Tornado",5/1/07,LAC,Mexico,Storm,,20000,,,,,,,,,,,,,,,,20000
-168,"Somalia Conflict",6/1/07,Africa,Somalia,Conflict,,100000,,,,,,,,,,,,,,,,100000
-169,"Sudan Conflict",6/1/07,Africa,Sudan,Conflict,,200000,,,,,,,,,,,,,,,,200000
-171,"Bangladesh Floods",7/1/07,Europe/Asia,Bangladesh,Floods,2300000,124500,,,,,,,,,,,,,,,,124500
-172,"Iraq Conflict",7/1/07,Europe/Asia,Iraq,Conflict,2000000,250000,,,,,,,,,,,,,,,,250000
-170,"Pakistan Cyclone Yemyin",7/1/07,Europe/Asia,Pakistan,"Tropical Storm",1500000,285000,1,,,,,,,,,,,,,,,295000
-173,"Sudan Floods",7/1/07,Africa,Sudan,Floods,365000,100000,1,10000,,,,,,,,10000,,,,,,153400
-174,"United Kingdom Floods",7/1/07,Europe/Asia,"United Kingdom",Floods,1000000,20188,,,,,,,,,,,,,,,,20188
-177,"Hurricane Dean",8/1/07,LAC,Haiti,"Tropical Storm",,2500,1,,,,,,,,,,,,,,,2500
-177,"Hurricane Dean",8/1/07,LAC,Jamaica,"Tropical Storm",210000,0,,2350,1000,,,,,1000,,,,350,,,,34565
-177,"Hurricane Dean",8/1/07,LAC,Mexico,"Tropical Storm",,298680,1,,,,,,,,,,,,,,,298680
-175,"Nepal Floods",8/1/07,Europe/Asia,Nepal,Floods,645000,50000,,,,,,,,,,,,,,,,50000
-176,"Peru Earthquake",8/1/07,LAC,Peru,Earthquake,655000,300000,6,16500,3500,,,,,2000,,,,11000,,,,3400000
-178,"Greece Wildfire",9/1/07,Europe/Asia,Greece,Wildfire,,40000,,,,,,,,,,,,,,,,40000
-179,"Hurricane Felix",9/1/07,LAC,Honduras,"Tropical Storm",,22500,,,,,,,,,,,,,,,,22500
-179,"Hurricane Felix",9/1/07,LAC,Honduras,"Tropical Storm",,47500,,,,,,,,,,,,,,,,47500
-180,"Indonesia Bengkulu Earthquake",9/1/07,Europe/Asia,Indonesia,Earthquake,,3000,,,,,,,,,,,,,,,,3000
-179,"Hurricane Felix",9/1/07,LAC,Nicaragua,"Tropical Storm",175000,50000,,,,,,,,,,,,,,,,50000
-182,"Togo Floods",9/1/07,Africa,Togo,Floods,185000,19970,,,,,,,,,,,,,,,,19970
-181,"Uganda Floods",9/1/07,Africa,Uganda,Floods,450000,0,3,,,,,,,,,,,,,,,17400
-183,"Tropical Storm Noel",10/1/07,LAC,"Dominican Republic","Tropical Storm",200000,35000,,4000,1000,,,,,1000,,,,2000,,,,104055
-183,"Tropical Storm Noel",11/1/07,LAC,Bahamas,"Tropical Storm",,30000,2,,,,,,,,,,,,,,,37440
-186,"Bangladesh Cyclone Sidr",11/1/07,Europe/Asia,Bangladesh,"Tropical Storm",8500000,1083856,3,39000,4000,25000,,,,,,,,10000,,,,1356654
-183,"Tropical Storm Noel",11/1/07,LAC,Haiti,"Tropical Storm",,50000,,2000,,2000,,,,,,,,,,,,58073
-184,"Mexico Floods",11/1/07,LAC,Mexico,Floods,1000000,517077,1,15500,3500,,,,,2000,,10000,,,,,,1900000
-187,"Papua New Guinea Storm",11/1/07,Europe/Asia,"Papua New Guinea",Storm,162000,23750,,,,,,,,,,,,,,,,23750
-185,"Vietnam Typhoon Lekima",11/1/07,Europe/Asia,Vietnam,"Tropical Storm",600000,115000,,,,,,,,,,,,,,,,115000
-188,"Kenya Election Civil Unrest",1/1/08,Africa,Kenya,"Civil Unrest",500000,300000,,,,,,,,,,,,,,,,300000
-189,"China Snow Disaster",2/1/08,Europe/Asia,China,Storm,7800000,867000,,,,,,,,,,,,,,,,867000
-192,"Ecuador Floods",2/1/08,LAC,Ecuador,Floods,315000,245000,,,,,,,,,,,,,,,,245000
-190,"Guyana Civil Unrest",2/1/08,Africa,Guyana,"Civil Unrest",,2400,2,,,,,,,,,,,,,,,12400
-191,"Sudan Conflict",2/1/08,Africa,Sudan,Conflict,2000000,714000,,,,,,,,,,,,,,,,714000
-193,"Iraq Conflict",3/8/08,Europe/Asia,Iraq,Conflict,4000000,269000,,,,,,,,,,,,,,,,269000
-194,"Madagascar Cyclone Ivan",3/8/08,Africa,Madagascar,"Tropical Storm",322000,0,,10000,,,,,,,,10000,,,,,,50000
-195,"Southern Africa Floods - Cyclone Jokwe",3/8/08,Africa,Mozambique,Floods,400000,300000,,,,,,,,,,,,,,,,300000
-196,"Southern Africa Floods - Cyclone Jokwe",3/8/08,Africa,Tanzania,Floods,2700,48500,,,,,,,,,,,,,,,,48500
-198,"China Sichuan Earthquake",5/8/08,Europe/Asia,China,Earthquake,10000000,46003198,3,,,,,,,,,,,,,,,55000000
-197,"Myanmar Cyclone Nargis",5/8/08,Europe/Asia,Myanmar,"Tropical Storm",2400000,250000,1,205000,,25000,,,,5000,,20000,,9995,,,,3400000
-201,"Chile Floods",6/8/08,LAC,Chile,Floods,50000,2000,1,,,,,,,,,,,,,,,2000
-199,"Ethiopia Food Insecurity",6/8/08,Africa,Ethiopia,"Food Insecurity",4500000,100000,,,,,,,,,,,,,,,,100000
-202,"Typhoon Fengshen - Philippines",6/8/08,Europe/Asia,Philippines,"Tropical Storm",4800000,185000,1,,,,,,,,,,,,,,,185000
-200,"South Africa Civil Unrest",6/8/08,Africa,"South Africa","Civil Unrest",50000,0,1,,,,,,,,,,,,,,,10000
-204,"Suriname Floods",7/1/08,LAC,Suriname,Floods,49090,,2,,,,,,,,,,,,,,,0
-203,"Yemen Conflict",7/8/08,Europe/Asia,Yemen,Conflict,77000,50000,,,,,,,,,,,,,,,,50000
-206,"Georgia Conflict",8/1/08,Europe/Asia,Georgia,Conflict,72000,100000,,,,,,,,,,,,,,,,100000
-205,"Moldova and Ukraine Floods",8/1/08,Europe/Asia,Ukraine,Floods,30000,44250,,,,,,,,,,,,,,,,44250
-209,"Carribean Hurricane Season 2008 - Bahamas",9/8/08,LAC,Bahamas,"Tropical Storm",9750,121044,1,,,,,,,,,,,,,,,121044
-210,"Cuba Hurricane Season 2008",9/8/08,LAC,Cuba,"Tropical Storm",2900000,1129943,,,,,,,,,,,,,,,,1129943
-208,"Haiti Hurricane Season 2008",9/8/08,LAC,Haiti,"Tropical Storm",800000,283682,5,19100,4000,,,4800,,3000,,6000,,1300,,,,1532876
-209,"Carribean Hurricane Season 2008 -  Jamaica",9/8/08,LAC,Jamaica,"Tropical Storm",4000,,,,,,,,,,,,,,,,,0
-207,"Nepal Floods",9/8/08,Europe/Asia,Nepal,Floods,70000,50000,,,,,,,,,,,,,,,,50000
-211,"Central America Floods",10/1/08,LAC,[rollup],Floods,328000,246683,,,,,,,,,,,,,,,,246683
-211,"Central America Floods",10/1/08,LAC,Guatemala,Floods,,,,,,,,,,,,,,,,,,0
-211,"Central America Floods",10/1/08,LAC,Honduras,Floods,,,,,,,,,,,,,,,,,,0
-211,"Central America Floods",10/1/08,LAC,Nicaragua,Floods,,,,,,,,,,,,,,,,,,0
-212,"Pakistan Baluchistan Earthquake",11/8/08,Europe/Asia,Pakistan,Earthquake,366000,100000,,,,,,,,,,,,,,,,100000
-213,"Vietnam Floods",11/8/08,Europe/Asia,Vietnam,Floods,600000,50000,,,,,,,,,,,,,,,,50000
-214,"Panama & Costa Rica Floods",12/8/08,LAC,Panama,Floods,40158,100000,,,,,,,,,,,,,,,,100000
-214,"Panama & Costa Rica Floods",12/9/08,LAC,"Costa Rica",Floods,,,,,,,,,,,,,,,,,,0
-215,"Horn of Africa Food Insecurity Crisis",12/10/08,Africa,Djibouti,"Food Insecurity",16800000,,1,,,,,,,,,,,,,,,0
-215,"Horn of Africa Food Insecurity Crisis",12/11/08,Africa,Ethiopia,"Food Insecurity",,,,,,,,,,,,,,,,,,0
-215,"Horn of Africa Food Insecurity Crisis",12/12/08,Africa,Kenya,"Food Insecurity",,,,,,,,,,,,,,,,,,0
-215,"Horn of Africa Food Insecurity Crisis",12/13/08,Africa,Somalia,"Food Insecurity",,,,,,,,,,,,,,,,,,0
-216,"Uganda, Rwanda, Burundi Population Movement",12/14/08,Africa,Uganda,Conflict,280000,50000,1,,,,,,,,,,,,,,,50000
-218,"Gaza Conflict - Israel",12/17/08,Europe/Asia,Israel,Conflict,,,,,,,,,,,,,,,,,,0
-218,"Gaza Conflict - Palestine",12/17/08,Europe/Asia,Palestine,Conflict,90000,921250,,,,,,,,,,,,,,,,921250
-217,"Zimbabwe Cholera Epidemic",12/17/08,Africa,Zimbabwe,Epidemic,50000,100000,,,,,,,,,,,,,,,,100000
-219,"Costa Rica Earthquake",1/8/09,LAC,"Costa Rica",Earthquake,2943,62250,2,,,,,,,,,,,,,,,74200
-220,"Australia Wildfires",2/7/09,Europe/Asia,Australia,Wildfire,22000,1520000,,,,,,,,,,,,,,,,1520000
-221,"Sri Lanka Conflict",3/5/09,Europe/Asia,"Sri Lanka",Conflict,250000,500000,1,,,,,,,,,,,,,,,500000
-222,"Colombia Floods",3/19/09,LAC,Colombia,Floods,31250,,,8000,,,8000,,,,,,,,,,,30000
-223,"Italy Earthquake",4/7/09,Europe/Asia,Italy,Earthquake,48000,981315,,,,,,,,,,,,,,,,981315
-224,"Namibia Floods",5/15/09,Africa,Namibia,Floods,700000,50000,,,,,,,,,,,,,,,,50000
-226,"Pakistan Internally Displaced Persons Crisis",5/15/09,Europe/Asia,Pakistan,Conflict,2000000,250000,,5150,,,,,,,,,,,,,,330000
-225,"Africa Polio Outbreak",5/15/09,Africa,Sudan,Epidemic,25000000,200000,,,,,,,,,,,,,,,,200000
-227,"Bangladesh Cyclone Aila",6/26/09,Europe/Asia,Bangladesh,"Tropical Storm",3928238,,1,,,,,,,,,,,,,,,0
-228,"Tajikistan Mudslides and Floods",8/12/09,Europe/Asia,Tajikistan,Floods,12000,11500,,,,,,,,,,,,,,,,11500
-229,"Syria Drought",9/1/09,Europe/Asia,Syria,Drought,1300000,50000,,,,,,,,,,,,,,,,50000
-232,"Java Indonesia Earthquake",9/2/09,Europe/Asia,Indonesia,Earthquake,90000,0,1,,,,,,,,,,,,,,,0
-234,"West Sumatra Indonesia Earthquake",9/2/09,Europe/Asia,Indonesia,Earthquake,1000000,500000,1,44181,,20981,,,,,,13200,,10000,,,,1664193
-233,"Southeast Asia Typhoons - Philippines",9/2/09,Europe/Asia,Philippines,"Tropical Storm",1000000,1050000,2,22300,,4000,10000,,,1500,,6800,,,,,,1168000
-233,"Southeast Asia Typhoons - Vietnam",9/2/09,Europe/Asia,Vietnam,"Tropical Storm",3000000,950000,1,,,,,,,,,,,,,,,2150000
-231,"Mexico Hurricane Jimena",9/3/09,LAC,Mexico,"Tropical Storm",100000,0,1,13840,1840,,,,,3000,,6000,,,,3000,,259500
-230,"West & Central Africa Floods - Burkina Faso",9/10/09,Africa,"Burkina Faso",Floods,600000,0,1,,7500,37500,7500,7500,500,7500,,,,,,,,0
-230,"West & Central Africa Floods - Senegal",9/10/09,Africa,Senegal,Floods,156000,0,3,,,,,,,,,,,,,,,0
-235,"Samoa Islands Tsunami",10/1/09,Europe/Asia,Samoa,Tsunami,10000,100000,,,,,,,,,,,,,,,,100000
-236,"India Floods",10/27/09,Europe/Asia,India,Floods,4100000,0,,7500,,,,,,7500,,,,,,,,190000
-237,"Kenya Drought",11/5/09,Africa,Kenya,Drought,3800000,100000,,,,,,,,,,,,,,,,100000
-238,"Haiti Floods",11/12/09,LAC,Haiti,Floods,2500,0,1,,,,,,,,,,,,,,,0
-239,"El Salvador Floods",11/16/09,LAC,"El Salvador",Floods,75000,243605,,1000,500,,,,,500,,,,,,,,274845
-240,"Haiti Earthquake",1/12/10,LAC,Haiti,Earthquake,2000000,46674850,82,5143307,,,,,,,,,,,,,,139611532
-241,"Tanzania Floods",1/25/10,Africa,Tanzania,Floods,50000,200000,,,,,,,,,,,,,,,,200000
-242,"Chile Earthquake",2/27/10,LAC,Chile,Earthquake,2000000,1000000,2,6160,1160,,5000,,,,,,,,,,,6400000
-243,"China Earthquake",4/10/10,Europe/Asia,China,Earthquake,100000,500000,,,,198970,,,,,,,,,,,,500000
-244,"Mongolia Severe Winter",5/10/10,Europe/Asia,Mongolia,Storm,507000,145000,,,,,,,,,,,,,,,,145000
-245,"Nepal Diarrhea Outbreak",5/20/10,Europe/Asia,Nepal,Epidemic,67000,50000,,,,,,,,,,,,,,,,50000
-246,"Tropical Storm Agatha",6/1/10,LAC,Guatemala,"Tropical Storm",173518,100000,,9900,1000,7500,900,,,500,,,,,,,,180000
-247,"Kyrgyzstan-Uzbekistan Population Movement",6/1/10,Europe/Asia,Kyrgyzstan,Conflict,375000,100000,,,,,,,,,,,,,,,,100000
-247,"Kyrgyzstan-Uzbekistan Population Movement",6/1/10,Europe/Asia,Uzbekistan,Conflict,,100000,,,,,,,,,,,,,,,,100000
-248,"Pakistan Monsoon Floods",8/2/10,Europe/Asia,Pakistan,Floods,20000000,4850000,2,99900,,35000,15000,3650,,10000,,20000,,10000,,6250,,8200000
-249,"Mexico Floods",10/1/10,LAC,Mexico,Floods,500000,200000,,,,,,,,,,,,,,,,200000
-250,"Vietnam Floods",10/18/10,Europe/Asia,Vietnam,Floods,660000,30000,,,,,,,,,,,,,,,,30000
-251,"Haiti & Dominican Republic Cholera Outbreak",10/24/10,LAC,"Dominican Republic",Epidemic,,,,,,,,,,,,,,,,,,0
-251,"Haiti & Dominican Republic Cholera Outbreak",10/24/10,LAC,Haiti,Epidemic,,2320081,,,,,,,,,,,,,,,,16068357
-252,"Philippines Typhoon Megi",10/26/10,Europe/Asia,Philippines,"Tropical Storm",2000000,30000,,,,,,,,,,,,,,,,30000
-254,"Caribbean Hurricane Tomas",11/3/10,LAC,Barbados,"Tropical Storm",9500,145000,6,,,,,,,,,,,,,,,145000
-253,"Indonesia Tsunami & Volcanic Eruption",11/8/10,Europe/Asia,Indonesia,Tsunami,215000,50000,,,,,,,,,,,,,,,,50000
-255,"Belize Hurricane Richard",11/9/10,LAC,Belize,"Tropical Storm",,80000,1,,,,,,,,,,,,,,,80000
-256,"Costa Rica Floods",11/10/10,LAC,"Costa Rica",Floods,13500,322330,,,,,,,,,,,,,,,,322330
-258,"Panama Floods",11/30/10,LAC,Panama,Floods,6200,,,1714,214,1500,,,,,,,,,,,,9812
-257,"Colombian Floods",12/16/10,LAC,Colombia,Floods,1500000,200000,,6000,,,,,,,,6000,,,,,,240000
-260,"New Zealand Earthquake",2/23/11,Europe/Asia,"New Zealand",Earthquake,,826450,,,,,,,,,,,,,,,,826450
-259,"North Africa & Middle East Civil Unrest",2/28/11,Europe/Asia,[Rollup],"Civil Unrest",,497270,5,1500,,,,,,,,,,1500,,,,540270
-259,"North Africa & Middle East Civil Unrest",2/28/11,Europe/Asia,Syria,"Civil Unrest",,,,,,,,,,,,,,,,,,0
-259,"North Africa & Middle East Civil Unrest",2/28/11,Europe/Asia,Tunisia,"Civil Unrest",,,,,,,,,,,,,,,,,,0
-261,"Paraguay Dengue Epidemic",3/1/11,LAC,Paraguay,Epidemic,,56000,,,,,,,,,,,,,,,,56000
-262,"Japan Earthquake & Tsunami",3/11/11,Europe/Asia,Japan,Earthquake,300000,279800000,3,,,,,,,,,,,,,,,279800000
-263,"Bolivia Floods",3/23/11,LAC,Bolivia,Floods,70000,182000,,,,,,,,,,,,,,,,182000
-265,"Namibia Floods",3/25/11,Africa,Namibia,Floods,228500,50000,,,,,,,,,,,,,,,,50000
-264,"West African Population Movement",4/1/11,Africa,Liberia,"Population Movement",,150000,,,,,,,,,,,,,,,,150000
-266,"Horn of Africa Drought",7/28/11,Africa,[rollup],Drought,13300000,4048905,,,,,,4900,,,,20000,,,,,,4178905
-266,"Horn of Africa Drought",7/28/11,Africa,Ethiopia,Drought,,,,,,,,,,,,,,,,,,0
-266,"Horn of Africa Drought",7/28/11,Africa,Kenya,Drought,,,,,,,,,,,,,,,,,,0
-266,"Horn of Africa Drought",7/28/11,Africa,Somalia,Drought,,,,24900,,,,,,,,,,,,,,0
-266,"Horn of Africa Drought",7/28/11,Africa,Tanzania,Drought,,,,,,,,,,,,,,,,,,0
-267,"DPR Korea (North Korea) Floods",8/24/11,Europe/Asia,"North Korea",Floods,45000,50000,,,,,,,,,,,,,,,,50000
-268,"Bangladesh Floods",8/31/11,Europe/Asia,Bangladesh,Floods,700000,50000,,,,,,,,,,,,,,,,50000
-269,"Pakistan Floods",9/12/11,Europe/Asia,Pakistan,Floods,5000000,50000,,,,,,,,,,,,,,,,50000
-270,"Philippines Typhoons",10/6/11,Europe/Asia,Philippines,"Tropical Storm",3200000,50000,,,,,,,,,,,,,,,,50000
-271,"Central America Floods",10/20/11,LAC,[rollup],Floods,638000,48940,3,26000,2300,11500,4600,,,,,4600,,3000,,,,303940
-271,"Central America Floods",10/20/11,LAC,"El Salvador",Floods,,,,,800,4000,1600,,,,,1600,,,,,,0
-271,"Central America Floods",10/20/11,LAC,Guatemala,Floods,,,,,500,2500,1000,,,,,1000,,1000,,,,0
-271,"Central America Floods",10/20/11,LAC,Honduras,Floods,,,,,500,2500,1000,,,,,1000,,1000,,,,0
-271,"Central America Floods",10/20/11,LAC,Nicaragua,Floods,,,,,500,2500,1000,,,,,1000,,1000,,,,0
-272,"Turkey  Earthquake",10/26/11,Europe/Asia,Turkey,Earthquake,250000,897000,,,,,,,,,,,,,,,,897000
-273,"Mexico Floods",11/1/11,LAC,Mexico,Floods,80000,270000,,,,,,,,,,,,,,,,270000
-275,"Thailand Floods",11/10/11,Europe/Asia,Thailand,Floods,3400000,167000,,,,,,,,,,,,,,,,167000
-274,"Vietnam Floods",11/10/11,Europe/Asia,Vietnam,Floods,590000,50000,,,,,,,,,,,,,,,,50000
-276,"Colombia Floods",12/5/11,LAC,Colombia,Floods,410420,100000,,,,,,,,,,,,,,,,100000
-277,"Philippines Typhoon Washi",12/21/11,Europe/Asia,Philippines,"Tropical Storm",622400,268000,,,,,,,,,,,,,,,,268000
-278,"Sahel Food Crisis",2/8/12,Africa,[rollup],"Food Insecurity",11000000,0,1,,,,,,,,,,,,,,,0
-278,"Sahel Food Crisis",2/8/12,Africa,"Burkina Faso","Food Insecurity",,,,,,,,,,,,,,,,,,0
-278,"Sahel Food Crisis",2/8/12,Africa,Chad,"Food Insecurity",,,,,,,,,,,,,,,,,,0
-278,"Sahel Food Crisis",2/8/12,Africa,Mali,"Food Insecurity",,,,,,,,,,,,,,,,,,0
-278,"Sahel Food Crisis",2/8/12,Africa,Mauritania,"Food Insecurity",,,,,,,,,,,,,,,,,,0
-278,"Sahel Food Crisis",2/8/12,Africa,Niger,"Food Insecurity",,,,,,,,,,,,,,,,,,0
-278,"Sahel Food Crisis",2/8/12,Africa,Senegal,"Food Insecurity",,,,,,,,,,,,,,,,,,0
-279,"Paraguay Drought",3/5/12,LAC,Paraguay,Drought,1300000,45000,,,,,,,,,,,,,,,,45000
-280,"Bolivia Floods",3/16/12,LAC,Bolivia,Floods,65000,75000,,,,,,,,,,,,,,,,75000
-281,"Peru Floods",4/17/12,LAC,Peru,Floods,650000,100000,,,,,,,,,,,,,,,,100000
-282,"Afghanistan Floods",6/12/12,Europe/Asia,Afghanistan,Floods,27469,50000,,,,,,,,,,,,,,,,50000
-283,"Syria Crisis",7/27/12,Europe/Asia,Syria,"Civil Unrest",1500000,200000,,,,,,,,,,,,,,,,200000
-284,"Philippines Floods",8/10/12,Europe/Asia,Philippines,Floods,2000000,50000,,,,,,,,,,,,,,,,50000
-286,"Bangladesh Floods",8/12/12,Europe/Asia,Bangladesh,Floods,5000000,100000,,,,,,,,,,,,,,,,100000
-285,"Sierra Leone Cholera Outbreak",8/13/12,Africa,"Sierra Leone",Epidemic,4893,0,2,,,,,,,,,,,,,,,0
-287,"Nigeria Flood",9/1/12,Africa,Nigeria,Floods,20000,100000,1,0,,,,,,,,,,,,,,100000
-288,"Hurricane Sandy",11/1/12,LAC,Jamaica,"Tropical Storm",2525000,,,8500,,,,,,,,,,,,,,51000
-288,"Hurricane Sandy",11/1/12,LAC,Haiti,"Tropical Storm",2525000,100000,,,,,,,,,,,,,,,,0
-288,"Hurricane Sandy",11/1/12,LAC,Cuba,"Tropical Storm",2525000,500000,,,,,,,,,,,,,,,,0
-290,"Malawi Food Security",11/1/12,Africa,Malawi,"Food Insecurity",1900000,150000,,,,,,,,,,,,,,,,0
-289,"Panama Floods",11/1/12,LAC,Panama,Floods,5118,21400,,3000,500,2500,,,,,,,,,,,,56400
-291,"Philippines Typhoon Bopha",12/1/12,Europe/Asia,Philippines,"Tropical Storm",6400000,100000,,,,,,,,,,,,,,,,0
-292,"Palestine Gaza Crisis",1/1/13,Europe/Asia,Palestine,"Civil Unrest",12000,100000,,,,,,,,,,,,,,,,0
-293,"Zimbabwe Food Security",1/1/13,Africa,Zimbabwe,"Food Insecurity",1600000,50000,,,,,,,,,,,,,,,,0
-294,"Mozambique Floods",2/1/13,Africa,Mozambique,Floods,243671,100000,,,,,,,,,,,,,,,,0
-296,"Argentina Floods",4/1/13,LAC,Argentina,Floods,350000,,1,,,,,,,,,,,,,,,0
-295,"DRC Population Movement",4/1/13,Africa,"Democratic Republic of the Congo","Population Movement",,150000,1,,,,,,,,,,,,,,,0
-297,"Kenya Floods",4/1/13,Africa,Kenya,Floods,20000,200000,,,,,,,,,,,,,,,,0
-298,"Bangladesh Tropical Cyclone",5/1/13,Europe/Asia,Bangladesh,"Tropical Storm",1500000,100000,,,,,,,,,,,,,,,,120000
+ARC_num,DisasterName,Date,Region,Country,ADM0_A3,TotalAffected,Money,PeopleDeployed,TotalSupplies,HygieneKits,Blankets,JerryCans,Buckets,Tents,KitchenSets,SleepingMats,MosquitoNets,FoodParcels,Tarps,Vehicles,OtherItems,RiceBags,TotalContributions
+54,Afghanistan Conflict,9/1/2001,Europe/Asia,Afghanistan,AFG,,0,12,,,,,,,,,,,,,,,12000000
+69,Afghanistan Earthquake,3/1/2002,Europe/Asia,Afghanistan,AFG,,104805,2,,,,,,,,,,,,,,,104805
+282,Afghanistan Floods,6/12/2012,Europe/Asia,Afghanistan,AFG,27469,50000,,,,,,,,,,,,,,,,50000
+144,Angola Cholera Epidemic,5/1/2006,Africa,Angola,AGO,,0,1,,,,,,,,,,,,,,,5000
+64,Albania Storm,1/1/2002,Europe/Asia,Albania,ALB,,0,1,,,,,,,,,,,,,,,71832
+101,Argentina Floods,5/1/2003,LAC,Argentina,ARG,,15000,1,,,,,,,,,,,,,,,15000
+296,Argentina Floods,4/1/2013,LAC,Argentina,ARG,350000,,1,,,,,,,,,,,,,,,0
+89,Australia Terrorism,10/1/2002,Europe/Asia,Australia,AUS,,237899,1,,,,,,,,,,,,,,,237899
+220,Australia Wildfires,2/7/2009,Europe/Asia,Australia,AUS,22000,1520000,,,,,,,,,,,,,,,,1520000
+34,Austria Miscellaneous,11/1/2000,Europe/Asia,Austria,AUT,,0,0,,,,,,,,,,,,,,,2578
+83,Austria Floods,8/1/2002,Europe/Asia,Austria,AUT,,25000,,,,,,,,,,,,,,,,25000
+35,Azerbaijan Earthquake,11/1/2000,Europe/Asia,Azerbaijan,AZE,,0,1,,,,,,,,,,,,,,,30500
+230,West & Central Africa Floods - Burkina Faso,9/10/2009,Africa,Burkina Faso,BFA,600000,0,1,,7500,37500,7500,7500,500,7500,,,,,,,,0
+278,Sahel Food Crisis,2/8/2012,Africa,Burkina Faso,BFA,,,,,,,,,,,,,,,,,,0
+16,Bangladesh Floods,10/1/1999,Europe/Asia,Bangladesh,BGD,,25000,0,,,,,,,,,,,,,,,25000
+27,Bangladesh Floods,8/1/2000,Europe/Asia,Bangladesh,BGD,,25000,0,,,,,,,,,,,,,,,25000
+121,Bangladesh Floods,8/1/2004,Europe/Asia,Bangladesh,BGD,,35975,,,,,,,,,,,,,,,,35975
+171,Bangladesh Floods,7/1/2007,Europe/Asia,Bangladesh,BGD,2300000,124500,,,,,,,,,,,,,,,,124500
+186,Bangladesh Cyclone Sidr,11/1/2007,Europe/Asia,Bangladesh,BGD,8500000,1083856,3,39000,4000,25000,,,,,,,,10000,,,,1356654
+227,Bangladesh Cyclone Aila,6/26/2009,Europe/Asia,Bangladesh,BGD,3928238,,1,,,,,,,,,,,,,,,0
+268,Bangladesh Floods,8/31/2011,Europe/Asia,Bangladesh,BGD,700000,50000,,,,,,,,,,,,,,,,50000
+286,Bangladesh Floods,8/12/2012,Europe/Asia,Bangladesh,BGD,5000000,100000,,,,,,,,,,,,,,,,100000
+298,Bangladesh Tropical Cyclone,5/1/2013,Europe/Asia,Bangladesh,BGD,1500000,100000,,,,,,,,,,,,,,,,120000
+49,Bosnia Floods,6/1/2001,Europe/Asia,Bosnia and Herzegovina,BIH,,0,0,6000,,6000,,,,,,,,,,,,18000
+30,Belize Storm,10/1/2000,LAC,Belize,BLZ,,28500,5,,,,,,,,,,2600,,,,,118500
+58,Belize Meteorological,10/1/2001,LAC,Belize,BLZ,,25000,3,,,,,,,,,,,,,,,97982
+59,Belize Transport,10/1/2001,LAC,Belize,BLZ,,0,2,,,,,,,,,,,,,,,4400
+255,Belize Hurricane Richard,11/9/2010,LAC,Belize,BLZ,,80000,1,,,,,,,,,,,,,,,80000
+44,Bolivia Floods,3/1/2001,LAC,Bolivia,BOL,,15000,0,,,,,,,,,,,,,,,15000
+68,Bolivia Floods,3/1/2002,LAC,Bolivia,BOL,,11700,,,,,,,,,,,,,,,,11700
+80,Bolivia Storm,7/1/2002,LAC,Bolivia,BOL,,5000,,,,,,,,,,,,,,,,5000
+162,Bolivia Floods,2/1/2007,LAC,Bolivia,BOL,,150000,,,,,,,,,,,,,,,,150000
+263,Bolivia Floods,3/23/2011,LAC,Bolivia,BOL,70000,182000,,,,,,,,,,,,,,,,182000
+280,Bolivia Floods,3/16/2012,LAC,Bolivia,BOL,65000,75000,,,,,,,,,,,,,,,,75000
+254,Caribbean Hurricane Tomas,11/3/2010,LAC,Barbados,BRB,9500,145000,6,,,,,,,,,,,,,,,145000
+22,Botswana Floods,2/1/2000,Africa,Botswana,BWA,,23333,,,,,,,,,,,,,,,,23333
+46,Canada Transport,4/1/2001,North America,Canada,CAN,,0,2,,,,,,,,,,,,,,,1000
+106,Canada Wildfire,9/1/2003,North America,Canada,CAN,,10000,,,,,,,,,,,,,,,,10000
+129,Canada Floods,6/1/2005,North America,Canada,CAN,,5000,,,,,,,,,,,,,,,,5000
+201,Chile Floods,6/8/2008,LAC,Chile,CHL,50000,2000,1,,,,,,,,,,,,,,,2000
+242,Chile Earthquake,2/27/2010,LAC,Chile,CHL,2000000,1000000,2,6160,1160,,5000,,,,,,,,,,,6400000
+4,China Floods,8/1/1999,Europe/Asia,China,CHN,,100000,0,,,,,,,,,,,,,,,100000
+39,China Storm,1/1/2001,Europe/Asia,China,CHN,,50000,0,,,,,,,,,,,,,,,50000
+76,China Floods,6/1/2002,Europe/Asia,China,CHN,,75000,,,,,,,,,,,,,,,,75000
+76,China Floods,6/1/2002,Europe/Asia,China,CHN,,25000,,,,,,,,,,,,,,,,25000
+76,China Floods,6/1/2002,Europe/Asia,China,CHN,,100000,,,,,,,,,,,,,,,,100000
+99,China Earthquake,2/1/2003,Europe/Asia,China,CHN,,50000,,,,,,,,,,,,,,,,50000
+103,China Epidemic,5/1/2003,Europe/Asia,China,CHN,,32500,,,,,,,,,,,,,,,,32500
+103,China Epidemic,5/1/2003,Europe/Asia,China,CHN,,370642,,,,,,,,,,,,,,,,370642
+152,China Floods,8/1/2006,Europe/Asia,China,CHN,,50000,,,,,,,,,,,,,,,,50000
+189,China Snow Disaster,2/1/2008,Europe/Asia,China,CHN,7800000,867000,,,,,,,,,,,,,,,,867000
+198,China Sichuan Earthquake,5/8/2008,Europe/Asia,China,CHN,10000000,46003198,3,,,,,,,,,,,,,,,55000000
+243,China Earthquake,4/10/2010,Europe/Asia,China,CHN,100000,500000,,,,198970,,,,,,,,,,,,500000
+138,Colombia Volcano,11/1/2005,LAC,Colombia,COL,,0,,45,,,,,45,,,,,,,,,17402
+148,Colombia Floods,5/1/2006,LAC,Colombia,COL,,50000,,,,,,,,,,,,,,,,50000
+166,Colombia Tolima Floods,5/1/2007,LAC,Colombia,COL,,5000,,,,,,,,,,,,,,,,5000
+222,Colombia Floods,3/19/2009,LAC,Colombia,COL,31250,,,8000,,,8000,,,,,,,,,,,30000
+257,Colombian Floods,12/16/2010,LAC,Colombia,COL,1500000,200000,,6000,,,,,,,,6000,,,,,,240000
+276,Colombia Floods,12/5/2011,LAC,Colombia,COL,410420,100000,,,,,,,,,,,,,,,,100000
+3,Costa Rica Floods,6/1/1999,LAC,Costa Rica,CRI,,10000,0,,,,,,,,,,,,,,,10000
+71,Costa Rica Floods,5/1/2002,LAC,Costa Rica,CRI,,2000,,,,,,,,,,,,,,,,2000
+93,Costa Rica Floods,12/1/2002,LAC,Costa Rica,CRI,,1000,,,,,,,,,,,,,,,,1000
+125,Costa Rica Floods,11/1/2004,LAC,Costa Rica,CRI,,0,,750,750,,,,,,,,,,,,,2655
+214,Panama & Costa Rica Floods,12/9/2008,LAC,Costa Rica,CRI,,,,,,,,,,,,,,,,,,0
+219,Costa Rica Earthquake,1/8/2009,LAC,Costa Rica,CRI,2943,62250,2,,,,,,,,,,,,,,,74200
+256,Costa Rica Floods,11/10/2010,LAC,Costa Rica,CRI,13500,322330,,,,,,,,,,,,,,,,322330
+60,Cuba Storm,11/1/2001,LAC,Cuba,CUB,,0,,,,,,,,,,,,,,,,0
+91,Cuba Storm,10/1/2002,LAC,Cuba,CUB,,10000,,,,,,,,,,,,,,,,10000
+210,Cuba Hurricane Season 2008,9/8/2008,LAC,Cuba,CUB,2900000,1129943,,,,,,,,,,,,,,,,1129943
+288,Hurricane Sandy,11/1/2012,LAC,Cuba,CUB,2525000,500000,,,,,,,,,,,,,,,,0
+123,Cayman Islands Storm,9/1/2004,LAC,Cayman Islands,CYM,,100000,1,2346,1000,,321,,25,,,,,,,,,112854
+83,Czech Republic Floods,8/1/2002,Europe/Asia,Czech Republic,CZE,,90000,,,,,,,,,,,,,,,,90000
+83,Germany Floods,8/1/2002,Europe/Asia,Germany,DEU,,75000,,,,,,,,,,,,,,,,75000
+215,Horn of Africa Food Insecurity Crisis,12/10/2008,Africa,Djibouti,DJI,16800000,,1,,,,,,,,,,,,,,,0
+20,Dominica Storm,11/1/1999,LAC,Dominican Republic,DOM,,15000,1,,,,,,,,,,,,,,,15000
+107,Dominican Republic Earthquake,10/1/2003,LAC,Dominican Republic,DOM,,0,,,,,,,,,,,,,,,,25000
+112,Dominican Republic Floods,11/1/2003,LAC,Dominican Republic,DOM,,0,3,,,,,,,,,,,,,,,50000
+112,Dominican Republic Floods,11/1/2003,LAC,Dominican Republic,DOM,,0,,,,,,,,,,,,,,,,0
+116,Dominican Republic Floods,5/1/2004,LAC,Dominican Republic,DOM,,0,1,10930,,,2350,,150,,5000,,,1000,,,,220135
+116,Dominican Republic Floods,7/1/2004,LAC,Dominican Republic,DOM,,0,1,,,,,,,,,,,,,,,110266
+183,Tropical Storm Noel,10/1/2007,LAC,Dominican Republic,DOM,200000,35000,,4000,1000,,,,,1000,,,,2000,,,,104055
+251,Haiti & Dominican Republic Cholera Outbreak,10/24/2010,LAC,Dominican Republic,DOM,,,,,,,,,,,,,,,,,,0
+108,Algeria Earthquake,5/1/2003,Africa,Algeria,DZA,,0,,10000,10000,,,,,,,,,,,,,65870
+53,Ecuador Volcano,9/1/2001,LAC,Ecuador,ECU,,10000,,,,,,,,,,,,,,,,10000
+153,Ecuador Volanic Eruption,8/1/2006,LAC,Ecuador,ECU,,50000,,,,,,,,,,,,,,,,50000
+192,Ecuador Floods,2/1/2008,LAC,Ecuador,ECU,315000,245000,,,,,,,,,,,,,,,,245000
+147,Spain Terrorism,4/1/2006,Europe/Asia,Spain,ESP,,20000,,,,,,,,,,,,,,,,20000
+1,Ethiopia Drought,6/1/1999,Africa,Ethiopia,ETH,,100000,0,,,,,,,,,,,,,,,100000
+24,Ethiopia Drought,4/1/2000,Africa,Ethiopia,ETH,,100000,0,,,,,,,,,,,,,,,100000
+145,Ethiopia Drought,4/1/2006,Africa,Ethiopia,ETH,,94461,,,,,,,,,,,,,,,,94461
+154,Ethiopia Floods,8/1/2006,Africa,Ethiopia,ETH,,85000,2,,,,,,,,,,,,,,,85000
+199,Ethiopia Food Insecurity,6/8/2008,Africa,Ethiopia,ETH,4500000,100000,,,,,,,,,,,,,,,,100000
+215,Horn of Africa Food Insecurity Crisis,12/11/2008,Africa,Ethiopia,ETH,,,,,,,,,,,,,,,,,,0
+266,Horn of Africa Drought,7/28/2011,Africa,Ethiopia,ETH,,,,,,,,,,,,,,,,,,0
+174,United Kingdom Floods,7/1/2007,Europe/Asia,United Kingdom,GBR,1000000,20188,,,,,,,,,,,,,,,,20188
+206,Georgia Conflict,8/1/2008,Europe/Asia,Georgia,GEO,72000,100000,,,,,,,,,,,,,,,,100000
+8,Greece Earthquake,9/1/1999,Europe/Asia,Greece,GRC,,80000,0,,,,,,,,,,,,,,,80000
+178,Greece Wildfire,9/1/2007,Europe/Asia,Greece,GRC,,40000,,,,,,,,,,,,,,,,40000
+20,Grenada Storm,11/1/1999,LAC,Grenada,GRD,,9000,1,,,,,,,,,,,,,,,9000
+123,Grenada Storm,9/1/2004,LAC,Grenada,GRD,,300000,2,486,,,481,,5,,,,,,,,,302452
+130,Hurricane Dennis - Grenada,7/1/2005,LAC,Grenada,GRD,,75000,,,,,,,,,,,,,,,,75000
+52,Guatemala Drought,8/1/2001,LAC,Guatemala,GTM,,0,,,,,,,,,,,,,,,,0
+134,Hurricane Stan - Guatemala,10/1/2005,LAC,Guatemala,GTM,,47581,,,,,,,,,,,,,,,,47581
+211,Central America Floods,10/1/2008,LAC,Guatemala,GTM,,,,,,,,,,,,,,,,,,0
+246,Tropical Storm Agatha,6/1/2010,LAC,Guatemala,GTM,173518,100000,,9900,1000,7500,900,,,500,,,,,,,,180000
+271,Central America Floods,10/20/2011,LAC,Guatemala,GTM,,,,,500,2500,1000,,,,,1000,,1000,,,,0
+128,Guyana Floods,1/1/2005,LAC,Guyana,GUY,,0,2,,,,,,,,,,,,,,,13100
+190,Guyana Civil Unrest,2/1/2008,Africa,Guyana,GUY,,2400,2,,,,,,,,,,,,,,,12400
+52,Honduras Drought,8/1/2001,LAC,Honduras,HND,,0,,,,,,,,,,,,,,,,0
+60,Honduras Storm,10/1/2001,LAC,Honduras,HND,,0,,,,,,,,,,,,,,,,0
+179,Hurricane Felix,9/1/2007,LAC,Honduras,HND,,22500,,,,,,,,,,,,,,,,22500
+179,Hurricane Felix,9/1/2007,LAC,Honduras,HND,,47500,,,,,,,,,,,,,,,,47500
+211,Central America Floods,10/1/2008,LAC,Honduras,HND,,,,,,,,,,,,,,,,,,0
+271,Central America Floods,10/20/2011,LAC,Honduras,HND,,,,,500,2500,1000,,,,,1000,,1000,,,,0
+116,Haiti Floods,5/1/2004,LAC,Haiti,HTI,,20007,,,,,,,,,,,,,2,,,44558
+116,Haiti Floods,7/1/2004,LAC,Haiti,HTI,,0,,,,,,,,,,,,,,,,97442
+124,Haiti Floods,9/1/2004,LAC,Haiti,HTI,,400000,1,110,,,,,,,,,,110,,,,401375
+130,Hurricane Dennis - Haiti,7/1/2005,LAC,Haiti,HTI,,100000,,9995,,,,,,,,,,,,,,108693
+177,Hurricane Dean,8/1/2007,LAC,Haiti,HTI,,2500,1,,,,,,,,,,,,,,,2500
+183,Tropical Storm Noel,11/1/2007,LAC,Haiti,HTI,,50000,,2000,,2000,,,,,,,,,,,,58073
+208,Haiti Hurricane Season 2008,9/8/2008,LAC,Haiti,HTI,800000,283682,5,19100,4000,,,4800,,3000,,6000,,1300,,,,1532876
+238,Haiti Floods,11/12/2009,LAC,Haiti,HTI,2500,0,1,,,,,,,,,,,,,,,0
+240,Haiti Earthquake,1/12/2010,LAC,Haiti,HTI,2000000,46674850,82,5143307,,,,,,,,,,,,,,139611532
+251,Haiti & Dominican Republic Cholera Outbreak,10/24/2010,LAC,Haiti,HTI,,2320081,,,,,,,,,,,,,,,,16068357
+288,Hurricane Sandy,11/1/2012,LAC,Haiti,HTI,2525000,100000,,,,,,,,,,,,,,,,0
+83,Hungary Floods,8/1/2002,Europe/Asia,Hungary,HUN,,35000,,,,,,,,,,,,,,,,35000
+25,Indonesia Earthquake,6/1/2000,Europe/Asia,Indonesia,IDN,,50000,2,,,,,,,,,,,,,,,50000
+89,Indonesia Terrorism,10/1/2002,Europe/Asia,Indonesia,IDN,,46670,,,,,,,,,,,,,,,,46670
+127,Indonesia Tsunami,12/1/2004,Europe/Asia,Indonesia,IDN,,1666667,5,,,,,,,,,,,,,,,477328824
+149,Indonesia Yogyakarta Earthquake,5/1/2006,Europe/Asia,Indonesia,IDN,,1398250,7,,,,,,,,,,,,,,,1485750
+180,Indonesia Bengkulu Earthquake,9/1/2007,Europe/Asia,Indonesia,IDN,,3000,,,,,,,,,,,,,,,,3000
+232,Java Indonesia Earthquake,9/2/2009,Europe/Asia,Indonesia,IDN,90000,0,1,,,,,,,,,,,,,,,0
+234,West Sumatra Indonesia Earthquake,9/2/2009,Europe/Asia,Indonesia,IDN,1000000,500000,1,44181,,20981,,,,,,13200,,10000,,,,1664193
+253,Indonesia Tsunami & Volcanic Eruption,11/8/2010,Europe/Asia,Indonesia,IDN,215000,50000,,,,,,,,,,,,,,,,50000
+17,India Storm,11/1/1999,Europe/Asia,India,IND,,50000,0,,,,,,,,,,,,,,,50000
+26,India Floods,8/1/2000,Europe/Asia,India,IND,,0,9,5000,,,,,,,,,5000,,5,,,389265
+40,India Earthquake,1/1/2001,Europe/Asia,India,IND,15850000,125000,19,,,,,,,,,,,,,,,14000000
+51,India Floods,7/1/2001,Europe/Asia,India,IND,6000000,0,0,,,,,,,,,,,,,,,100000
+82,India Floods,8/1/2002,Europe/Asia,India,IND,,66919,7,2900,,,,,,,,,,,,,,232253
+236,India Floods,10/27/2009,Europe/Asia,India,IND,4100000,0,,7500,,,,,,7500,,,,,,,,190000
+54,Iran Conflict,9/1/2001,Europe/Asia,Iran,IRN,,0,,,,,,,,,,,,,,,,0
+113,Iran Earthquake,12/1/2003,Europe/Asia,Iran,IRN,,200000,6,115560,45000,27000,,,490,,,,,,,,,1175802
+113,Iran Earthquake,12/1/2003,Europe/Asia,Iran,IRN,,0,,11,,,,,11,,,,,,,,,19975
+113,Iran Earthquake,12/1/2003,Europe/Asia,Iran,IRN,,0,,,,,,,,,,,,,,,,60000
+100,Iraq Conflict,3/1/2003,Europe/Asia,Iraq,IRQ,,200000,,64200,,34200,30000,,,,,,,,,,,421694
+141,Iraq Humanitarian Emergency,3/1/2006,Europe/Asia,Iraq,IRQ,,188443,,,,,,,,,,,,,,,,188443
+172,Iraq Conflict,7/1/2007,Europe/Asia,Iraq,IRQ,2000000,250000,,,,,,,,,,,,,,,,250000
+193,Iraq Conflict,3/8/2008,Europe/Asia,Iraq,IRQ,4000000,269000,,,,,,,,,,,,,,,,269000
+32,Israel Conflict,10/1/2000,Europe/Asia,Israel,ISR,,40000,,,,,,,,,,,,,,,,40000
+218,Gaza Conflict - Israel,12/17/2008,Europe/Asia,Israel,ISR,,,,,,,,,,,,,,,,,,0
+88,Italy Earthquake,10/1/2002,Europe/Asia,Italy,ITA,,10000,,,,,,,,,,,,,,,,10000
+223,Italy Earthquake,4/7/2009,Europe/Asia,Italy,ITA,48000,981315,,,,,,,,,,,,,,,,981315
+60,Jamaica Storm,11/1/2001,LAC,Jamaica,JAM,,5000,,,,,,,,,,,,,,,,5000
+117,Jamaica Conflict,5/1/2004,LAC,Jamaica,JAM,,0,0,1000,500,,,,,,500,,,,,,,3000
+123,Jamaica Storm,9/1/2004,LAC,Jamaica,JAM,,100000,1,7314,,5000,802,,,,,,,1105,,,,131047
+130,Hurricane Dennis - Jamaica,7/1/2005,LAC,Jamaica,JAM,,25000,,25,,,,,25,,,,,,,,,32475
+177,Hurricane Dean,8/1/2007,LAC,Jamaica,JAM,210000,0,,2350,1000,,,,,1000,,,,350,,,,34565
+209,Carribean Hurricane Season 2008 -  Jamaica,9/8/2008,LAC,Jamaica,JAM,4000,,,,,,,,,,,,,,,,,0
+288,Hurricane Sandy,11/1/2012,LAC,Jamaica,JAM,2525000,,,8500,,,,,,,,,,,,,,51000
+32,Jordan Conflict,10/1/2000,Europe/Asia,Jordan,JOR,,0,,,,,,,,,,,,,1,,,172000
+70,Jordan Conflict,4/1/2002,Europe/Asia,Jordan,JOR,,225000,1,,,,,,,,,,,,,,,225000
+100,Jordan Conflict,3/1/2003,Europe/Asia,Jordan,JOR,,15000,2,,,,,,,,,,,,,,,32812
+11,Japan Industrial,9/1/1999,Europe/Asia,Japan,JPN,,0,0,,,,,,,,,,,,,,,200
+262,Japan Earthquake & Tsunami,3/11/2011,Europe/Asia,Japan,JPN,300000,279800000,3,,,,,,,,,,,,,,,279800000
+72,Kenya Floods,5/1/2002,Africa,Kenya,KEN,,10000,,,,,,,,,,,,,,,,10000
+95,Kenya Epidemic,12/1/2002,Africa,Kenya,KEN,,5000,,,,,,,,,,,,,,,,5000
+140,Eastern Africa Drought,3/1/2006,Africa,Kenya,KEN,,150000,,,,,,,,,,,,,,,,150000
+159,Kenya Floods,11/1/2006,Africa,Kenya,KEN,,80000,,20000,,,,,,,,20000,,,,,,200000
+188,Kenya Election Civil Unrest,1/1/2008,Africa,Kenya,KEN,500000,300000,,,,,,,,,,,,,,,,300000
+215,Horn of Africa Food Insecurity Crisis,12/12/2008,Africa,Kenya,KEN,,,,,,,,,,,,,,,,,,0
+237,Kenya Drought,11/5/2009,Africa,Kenya,KEN,3800000,100000,,,,,,,,,,,,,,,,100000
+266,Horn of Africa Drought,7/28/2011,Africa,Kenya,KEN,,,,,,,,,,,,,,,,,,0
+297,Kenya Floods,4/1/2013,Africa,Kenya,KEN,20000,200000,,,,,,,,,,,,,,,,0
+247,Kyrgyzstan-Uzbekistan Population Movement,6/1/2010,Europe/Asia,Kyrgyzstan,KGZ,375000,100000,,,,,,,,,,,,,,,,100000
+7,Cambodia Floods,8/1/1999,Europe/Asia,Cambodia,KHM,,25000,0,,,,,,,,,,,,,,,25000
+28,Cambodia Floods,9/1/2000,Europe/Asia,Cambodia,KHM,,352704,0,,,,,,,,,,,,,,,352704
+63,Cambodia Miscellaneous,1/1/2002,Europe/Asia,Cambodia,KHM,,0,,,,,,,,,,,,,,,,10000
+87,South Korea Storm,10/1/2002,Europe/Asia,South Korea,KOR,,120000,,,,,,,,,,,,,,,,130000
+98,South Korea Transport,2/1/2003,Europe/Asia,South Korea,KOR,,10000,,,,,,,,,,,,,,,,10000
+111,South Korea Storm,10/1/2003,Europe/Asia,South Korea,KOR,,10000,,,,,,,,,,,,,,,,10000
+151,Middle East Humanitarian Crisis,7/1/2006,Europe/Asia,Lebanon,LBN,,1889600,,,,,,,,,,,,,,,,1889600
+109,Liberia Conflict,8/1/2003,Africa,Liberia,LBR,,35027,,,,,,,,,,,,,,,,35027
+264,West African Population Movement,4/1/2011,Africa,Liberia,LBR,,150000,,,,,,,,,,,,,,,,150000
+36,Sri Lanka Storm,12/1/2000,Europe/Asia,Sri Lanka,LKA,,0,0,,,,,,,,,,,,,,,20000
+104,Sri Lanka Floods,5/1/2003,Europe/Asia,Sri Lanka,LKA,,21400,,,,,,,,,,,,,,,,21400
+127,Sri Lanka Tsunami,12/1/2004,Europe/Asia,Sri Lanka,LKA,,1837067,17,,,,,,,,,,,,,,,103848910
+163,Sri Lanka Conflict,3/1/2007,Europe/Asia,Sri Lanka,LKA,,2000000,,,,,,,,,,,,,,,,2000000
+221,Sri Lanka Conflict,3/5/2009,Europe/Asia,Sri Lanka,LKA,250000,500000,1,,,,,,,,,,,,,,,500000
+92,Lesotho Food Insecurity,10/1/2002,Africa,Lesotho,LSO,,25000,,,,,,,,,,,,,,,,25000
+139,Southern Africa Food Security Crisis - Lesotho,1/1/2006,Africa,Lesotho,LSO,,100000,3,,,,,,,,,,,,,,,100000
+23,Madagascar Floods,3/1/2000,Africa,Madagascar,MDG,,25000,0,,,,,,,,,,,,,,,25000
+164,Madagascar Cyclones,3/1/2007,Africa,Madagascar,MDG,,0,5,10000,,,,,,,,1000,,,,,,102000
+194,Madagascar Cyclone Ivan,3/8/2008,Africa,Madagascar,MDG,322000,0,,10000,,,,,,,,10000,,,,,,50000
+127,Maldives Tsunami,12/1/2004,Europe/Asia,Maldives,MDV,,1666667,2,,,,,,,,,,,,,,,1822267
+2,Mexico Floods,6/1/1999,LAC,Mexico,MEX,,100000,1,,,,,,,,,,,,,,,100000
+12,Mexico Earthquake,9/1/1999,LAC,Mexico,MEX,,150000,3,,,,,,,,,,,,,,,150000
+13,Mexico Floods,10/1/1999,LAC,Mexico,MEX,,200000,4,,,,,,,,,,,,,,,205000
+56,Mexico Transport,9/1/2001,LAC,Mexico,MEX,,0,4,,,,,,,,,,,,,,,15000
+57,Mexico Storm,10/1/2001,LAC,Mexico,MEX,,25000,1,,,,,,,,,,,,,,,25000
+84,Mexico Storm,9/1/2002,LAC,Mexico,MEX,,0,2,,,,,,,,,,,,,,,60000
+86,Mexico Storm,10/1/2002,LAC,Mexico,MEX,,0,1,,,,,,,,,,,,,,,0
+97,Mexico Earthquake,1/1/2003,LAC,Mexico,MEX,,350000,3,,,,,,,,,,,,,,,350000
+97,Mexico Earthquake,1/1/2003,LAC,Mexico,MEX,,100000,,,,,,,,,,,,,,,,100000
+110,Mexico Floods,9/1/2003,LAC,Mexico,MEX,,10500,2,,,,,,,,,,,,,,,10500
+134,Hurricane Stan - Mexico,10/1/2005,LAC,Mexico,MEX,,342378,,,,,,,,,,,,,,,,342378
+136,Hurricane Wilma - Mexico,10/1/2005,LAC,Mexico,MEX,300000,453869,,4500,4500,,,,,,,,,,,,,497744
+167,Mexico Coahuila Tornado,5/1/2007,LAC,Mexico,MEX,,20000,,,,,,,,,,,,,,,,20000
+177,Hurricane Dean,8/1/2007,LAC,Mexico,MEX,,298680,1,,,,,,,,,,,,,,,298680
+184,Mexico Floods,11/1/2007,LAC,Mexico,MEX,1000000,517077,1,15500,3500,,,,,2000,,10000,,,,,,1900000
+231,Mexico Hurricane Jimena,9/3/2009,LAC,Mexico,MEX,100000,0,1,13840,1840,,,,,3000,,6000,,,,3000,,259500
+249,Mexico Floods,10/1/2010,LAC,Mexico,MEX,500000,200000,,,,,,,,,,,,,,,,200000
+273,Mexico Floods,11/1/2011,LAC,Mexico,MEX,80000,270000,,,,,,,,,,,,,,,,270000
+48,Macedonia Conflict,6/1/2001,Europe/Asia,Macedonia,MKD,,0,0,10000,,,,,,,,,,,,,,20700
+278,Sahel Food Crisis,2/8/2012,Africa,Mali,MLI,,,,,,,,,,,,,,,,,,0
+197,Myanmar Cyclone Nargis,5/8/2008,Europe/Asia,Myanmar,MMR,2400000,250000,1,205000,,25000,,,,5000,,20000,,9995,,,,3400000
+244,Mongolia Severe Winter,5/10/2010,Europe/Asia,Mongolia,MNG,507000,145000,,,,,,,,,,,,,,,,145000
+42,Mozambique Floods,2/1/2001,Africa,Mozambique,MOZ,,0,1,,,,,,,,,,,,,,,250000
+161,Mozambique Floods,2/1/2007,Africa,Mozambique,MOZ,,0,2,26950,,7050,,,,,,,,3900,,,,245000
+195,Southern Africa Floods - Cyclone Jokwe,3/8/2008,Africa,Mozambique,MOZ,400000,300000,,,,,,,,,,,,,,,,300000
+294,Mozambique Floods,2/1/2013,Africa,Mozambique,MOZ,243671,100000,,,,,,,,,,,,,,,,0
+278,Sahel Food Crisis,2/8/2012,Africa,Mauritania,MRT,,,,,,,,,,,,,,,,,,0
+43,Malawi Floods,2/1/2001,Africa,Malawi,MWI,,25000,2,,,,,,,,,,,,,,,174000
+73,Malawi Food Insecurity,5/1/2002,Africa,Malawi,MWI,,0,3,,,,,,,,,,,,,,,100000
+116,Malawi Epidemic,5/1/2004,Africa,Malawi,MWI,,0,,12380,,,,,,,12360,,,20,,,,61220
+139,Southern Africa Food Security Crisis - Malawi,1/1/2006,Africa,Malawi,MWI,,150000,,,,,,,,,,,,,,,,150000
+290,Malawi Food Security,11/1/2012,Africa,Malawi,MWI,1900000,150000,,,,,,,,,,,,,,,,0
+224,Namibia Floods,5/15/2009,Africa,Namibia,NAM,700000,50000,,,,,,,,,,,,,,,,50000
+265,Namibia Floods,3/25/2011,Africa,Namibia,NAM,228500,50000,,,,,,,,,,,,,,,,50000
+131,Sahel Food Crisis,7/1/2005,Africa,Niger,NER,,0,3,,,,,,,,,,,,,,,36200
+278,Sahel Food Crisis,2/8/2012,Africa,Niger,NER,,,,,,,,,,,,,,,,,,0
+66,Nigeria Industrial,1/1/2002,Africa,Nigeria,NGA,,21612,,,,,,,,,,,,,,,,21612
+287,Nigeria Flood,9/1/2012,Africa,Nigeria,NGA,20000,100000,1,0,,,,,,,,,,,,,,100000
+6,Nicaragua Volcano,8/1/1999,LAC,Nicaragua,NIC,,10000,2,,,,,,,,,,,,,,,10000
+52,Nicaragua Drought,8/1/2001,LAC,Nicaragua,NIC,,0,,,,,,,,,,,,,,,,0
+60,Nicaragua Storm,11/1/2001,LAC,Nicaragua,NIC,,0,,,,,,,,,,,,,,,,60000
+74,Nicaragua  Floods,6/1/2002,LAC,Nicaragua,NIC,,0,1,,,,,,,,,,,,,,,0
+179,Hurricane Felix,9/1/2007,LAC,Nicaragua,NIC,175000,50000,,,,,,,,,,,,,,,,50000
+211,Central America Floods,10/1/2008,LAC,Nicaragua,NIC,,,,,,,,,,,,,,,,,,0
+271,Central America Floods,10/20/2011,LAC,Nicaragua,NIC,,,,,500,2500,1000,,,,,1000,,1000,,,,0
+175,Nepal Floods,8/1/2007,Europe/Asia,Nepal,NPL,645000,50000,,,,,,,,,,,,,,,,50000
+207,Nepal Floods,9/8/2008,Europe/Asia,Nepal,NPL,70000,50000,,,,,,,,,,,,,,,,50000
+245,Nepal Diarrhea Outbreak,5/20/2010,Europe/Asia,Nepal,NPL,67000,50000,,,,,,,,,,,,,,,,50000
+260,New Zealand Earthquake,2/23/2011,Europe/Asia,New Zealand,NZL,,826450,,,,,,,,,,,,,,,,826450
+54,Pakistan Conflict,9/1/2001,Europe/Asia,Pakistan,PAK,,0,,,,,,,,,,,,,,,,0
+133,Pakistan Earthquake,10/1/2005,Europe/Asia,Pakistan,PAK,3500000,7750000,4,325618,18000,222900,,28000,5200,18000,30518,,,3000,,,,12558310
+170,Pakistan Cyclone Yemyin,7/1/2007,Europe/Asia,Pakistan,PAK,1500000,285000,1,,,,,,,,,,,,,,,295000
+212,Pakistan Baluchistan Earthquake,11/8/2008,Europe/Asia,Pakistan,PAK,366000,100000,,,,,,,,,,,,,,,,100000
+226,Pakistan Internally Displaced Persons Crisis,5/15/2009,Europe/Asia,Pakistan,PAK,2000000,250000,,5150,,,,,,,,,,,,,,330000
+248,Pakistan Monsoon Floods,8/2/2010,Europe/Asia,Pakistan,PAK,20000000,4850000,2,99900,,35000,15000,3650,,10000,,20000,,10000,,6250,,8200000
+269,Pakistan Floods,9/12/2011,Europe/Asia,Pakistan,PAK,5000000,50000,,,,,,,,,,,,,,,,50000
+71,Panama Floods,5/1/2002,LAC,Panama,PAN,,2000,,,,,,,,,,,,,,,,2000
+94,Panama Floods,12/1/2002,LAC,Panama,PAN,,1345,,675,,,,,,,,,,,,,,1345
+105,Panama Floods,7/1/2003,LAC,Panama,PAN,,0,1,6500,500,,,,,,6000,,,,,,,16700
+114,Panama Earthquake,12/1/2003,LAC,Panama,PAN,,0,,2300,,1000,,,,,1100,,,,,,,6178
+126,Panama Floods,12/1/2004,LAC,Panama,PAN,,0,,,,,,,,,,,,,,,,0
+214,Panama & Costa Rica Floods,12/8/2008,LAC,Panama,PAN,40158,100000,,,,,,,,,,,,,,,,100000
+258,Panama Floods,11/30/2010,LAC,Panama,PAN,6200,,,1714,214,1500,,,,,,,,,,,,9812
+289,Panama Floods,11/1/2012,LAC,Panama,PAN,5118,21400,,3000,500,2500,,,,,,,,,,,,56400
+45,Peru Floods,3/1/2001,LAC,Peru,PER,,15000,0,6111,,5100,,,761,,,,,250,,,,15000
+50,Peru Earthquake,6/1/2001,LAC,Peru,PER,,24420,3,6107,,5100,,,757,,,,,250,,,,699130
+79,Peru Storm,7/1/2002,LAC,Peru,PER,,5000,,,,,,,,,,,,,,,,5000
+176,Peru Earthquake,8/1/2007,LAC,Peru,PER,655000,300000,6,16500,3500,,,,,2000,,,,11000,,,,3400000
+281,Peru Floods,4/17/2012,LAC,Peru,PER,650000,100000,,,,,,,,,,,,,,,,100000
+143,Philippines Mudslides,2/1/2006,Europe/Asia,Philippines,PHL,,55000,,,,,,,,,,,,,,,,55000
+156,Philippines Typhoons,10/1/2006,Europe/Asia,Philippines,PHL,,787000,2,,,,,,,,,,,,,,,793500
+202,Typhoon Fengshen - Philippines,6/8/2008,Europe/Asia,Philippines,PHL,4800000,185000,1,,,,,,,,,,,,,,,185000
+233,Southeast Asia Typhoons - Philippines,9/2/2009,Europe/Asia,Philippines,PHL,1000000,1050000,2,22300,,4000,10000,,,1500,,6800,,,,,,1168000
+252,Philippines Typhoon Megi,10/26/2010,Europe/Asia,Philippines,PHL,2000000,30000,,,,,,,,,,,,,,,,30000
+270,Philippines Typhoons,10/6/2011,Europe/Asia,Philippines,PHL,3200000,50000,,,,,,,,,,,,,,,,50000
+277,Philippines Typhoon Washi,12/21/2011,Europe/Asia,Philippines,PHL,622400,268000,,,,,,,,,,,,,,,,268000
+284,Philippines Floods,8/10/2012,Europe/Asia,Philippines,PHL,2000000,50000,,,,,,,,,,,,,,,,50000
+291,Philippines Typhoon Bopha,12/1/2012,Europe/Asia,Philippines,PHL,6400000,100000,,,,,,,,,,,,,,,,0
+187,Papua New Guinea Storm,11/1/2007,Europe/Asia,Papua New Guinea,PNG,162000,23750,,,,,,,,,,,,,,,,23750
+115,North Korea Transport,4/1/2004,Europe/Asia,North Korea,PRK,,110000,,,,,,,,,,,,,,,,110000
+267,DPR Korea (North Korea) Floods,8/24/2011,Europe/Asia,North Korea,PRK,45000,50000,,,,,,,,,,,,,,,,50000
+85,Paraguay Drought,10/1/2002,LAC,Paraguay,PRY,,0,2,,,,,,,,,,,,,,,0
+119,Paraguay Miscellaneous,8/1/2004,LAC,Paraguay,PRY,,18675,,,,,,,,,,,,,,,,18675
+261,Paraguay Dengue Epidemic,3/1/2011,LAC,Paraguay,PRY,,56000,,,,,,,,,,,,,,,,56000
+279,Paraguay Drought,3/5/2012,LAC,Paraguay,PRY,1300000,45000,,,,,,,,,,,,,,,,45000
+32,Palestine Conflict,10/1/2000,Europe/Asia,Palestine,PSE,,0,0,,,,,,,,,,,,2,,,90000
+218,Gaza Conflict - Palestine,12/17/2008,Europe/Asia,Palestine,PSE,90000,921250,,,,,,,,,,,,,,,,921250
+292,Palestine Gaza Crisis,1/1/2013,Europe/Asia,Palestine,PSE,12000,100000,,,,,,,,,,,,,,,,0
+83,Romania Floods,8/1/2002,Europe/Asia,Romania,ROU,,0,3,14500,,,,,,,,,14500,,,,,115140
+150,Romania Floods,7/1/2006,Europe/Asia,Romania,ROU,,5000,,,,,,,,,,,,,,,,5000
+14,Russian Fed. Conflict,10/1/1999,Europe/Asia,Russia,RUS,,75000,0,76700,11200,55000,10500,,,,,,,,,,,610134
+47,Russian Fed. Floods,5/1/2001,Europe/Asia,Russia,RUS,,25000,0,,,,,,,,,,,,,,,25000
+77,Russian Fed. Floods,7/1/2002,Europe/Asia,Russia,RUS,,50000,1,,,,,,,,,,,,,,,50000
+120,Sudan Conflict,8/1/2004,Africa,Sudan,SDN,,242000,1,,,,,,,,,,,,,,,247400
+155,Sudan Floods,9/1/2006,Africa,Sudan,SDN,,10000,,10000,,,,,,,,10000,,,,,,46900
+169,Sudan Conflict,6/1/2007,Africa,Sudan,SDN,,200000,,,,,,,,,,,,,,,,200000
+173,Sudan Floods,7/1/2007,Africa,Sudan,SDN,365000,100000,1,10000,,,,,,,,10000,,,,,,153400
+191,Sudan Conflict,2/1/2008,Africa,Sudan,SDN,2000000,714000,,,,,,,,,,,,,,,,714000
+225,Africa Polio Outbreak,5/15/2009,Africa,Sudan,SDN,25000000,200000,,,,,,,,,,,,,,,,200000
+230,West & Central Africa Floods - Senegal,9/10/2009,Africa,Senegal,SEN,156000,0,3,,,,,,,,,,,,,,,0
+278,Sahel Food Crisis,2/8/2012,Africa,Senegal,SEN,,,,,,,,,,,,,,,,,,0
+96,Solomon Islands Storm,1/1/2003,Europe/Asia,Solomon Islands,SLB,,7242,,,,,,,,,,,,,,,,7242
+165,Solomon Islands Tsunami/ Earthquake,4/1/2007,Europe/Asia,Solomon Islands,SLB,,50000,,,,,,,,,,,,,,,,50000
+285,Sierra Leone Cholera Outbreak,8/13/2012,Africa,Sierra Leone,SLE,4893,0,2,,,,,,,,,,,,,,,0
+38,El Salvador Earthquake,1/1/2001,LAC,El Salvador,SLV,,77500,12,,,,,,,,,,,,,,,227500
+41,El Salvador Earthquake,2/1/2001,LAC,El Salvador,SLV,,70000,8,,,,,,,,,,,,,,,690000
+52,El Salvador Drought,8/1/2001,LAC,El Salvador,SLV,,25000,5,,,,,,,,,,,,,,,25000
+135,El Salvador Hurricane Stan & Volcano Eruption,10/1/2005,LAC,El Salvador,SLV,,7034,1,,,,,,,,,,,,,,,7034
+239,El Salvador Floods,11/16/2009,LAC,El Salvador,SLV,75000,243605,,1000,500,,,,,500,,,,,,,,274845
+271,Central America Floods,10/20/2011,LAC,El Salvador,SLV,,,,,800,4000,1600,,,,,1600,,,,,,0
+146,Somalia Drought,4/1/2006,Africa,Somalia,SOM,,250000,,,,,,,,,,,,,,,,250000
+158,Somalia Conflict,11/1/2006,Africa,Somalia,SOM,,50000,,,,,,,,,,,,,,,,50000
+160,Somalia Floods,11/1/2006,Africa,Somalia,SOM,,100000,,,,,,,,,,,,,,,,100000
+168,Somalia Conflict,6/1/2007,Africa,Somalia,SOM,,100000,,,,,,,,,,,,,,,,100000
+215,Horn of Africa Food Insecurity Crisis,12/13/2008,Africa,Somalia,SOM,,,,,,,,,,,,,,,,,,0
+266,Horn of Africa Drought,7/28/2011,Africa,Somalia,SOM,,,,24900,,,,,,,,,,,,,,0
+204,Suriname Floods,7/1/2008,LAC,Suriname,SUR,49090,,2,,,,,,,,,,,,,,,0
+83,Slovakia Floods,8/1/2002,Europe/Asia,Slovakia,SVK,,10000,,,,,,,,,,,,,,,,10000
+75,Syria Miscellaneous,6/1/2002,Europe/Asia,Syria,SYR,,10000,,,,,,,,,,,,,,,,10000
+100,Syria Conflict,3/1/2003,Europe/Asia,Syria,SYR,,15000,,,,,,,,,,,,,,,,15000
+229,Syria Drought,9/1/2009,Europe/Asia,Syria,SYR,1300000,50000,,,,,,,,,,,,,,,,50000
+259,North Africa & Middle East Civil Unrest,2/28/2011,Europe/Asia,Syria,SYR,,,,,,,,,,,,,,,,,,0
+283,Syria Crisis,7/27/2012,Europe/Asia,Syria,SYR,1500000,200000,,,,,,,,,,,,,,,,200000
+120,Chad Conflict,8/1/2004,Africa,Chad,TCD,,100000,,,,,,,,,,,,,,,,100000
+278,Sahel Food Crisis,2/8/2012,Africa,Chad,TCD,,,,,,,,,,,,,,,,,,0
+182,Togo Floods,9/1/2007,Africa,Togo,TGO,185000,19970,,,,,,,,,,,,,,,,19970
+275,Thailand Floods,11/10/2011,Europe/Asia,Thailand,THA,3400000,167000,,,,,,,,,,,,,,,,167000
+228,Tajikistan Mudslides and Floods,8/12/2009,Europe/Asia,Tajikistan,TJK,12000,11500,,,,,,,,,,,,,,,,11500
+54,Turkmenistan Conflict,9/1/2001,Europe/Asia,Turkmenistan,TKM,,0,,,,,,,,,,,,,,,,0
+259,North Africa & Middle East Civil Unrest,2/28/2011,Europe/Asia,Tunisia,TUN,,,,,,,,,,,,,,,,,,0
+5,Turkey Earthquake,8/1/1999,Europe/Asia,Turkey,TUR,,0,20,,,,,,,,,,,,,,,0
+19,Turkey Earthquake,11/1/1999,Europe/Asia,Turkey,TUR,,3864222,10,,,,,,,,,,,,,,,5153184
+67,Turkey Earthquake,2/1/2002,Europe/Asia,Turkey,TUR,,0,1,,,,,,,,,,,,,,,350424
+100,Turkey Conflict,3/1/2003,Europe/Asia,Turkey,TUR,,0,1,,,,,,,,,,,,,,,17812
+102,Turkey Earthquake,5/1/2003,Europe/Asia,Turkey,TUR,,0,2,9000,,,,,,,,,9000,,,,,331380
+272,Turkey  Earthquake,10/26/2011,Europe/Asia,Turkey,TUR,250000,897000,,,,,,,,,,,,,,,,897000
+10,Taiwan Earthquake,9/1/1999,Europe/Asia,Taiwan,TWN,,1200000,0,,,,,,,,,,,,,,,1200000
+33,Taiwan Transport,11/1/2000,Europe/Asia,Taiwan,TWN,,0,1,,,,,,,,,,,,,,,7500
+122,Taiwan Storm,8/1/2004,Europe/Asia,Taiwan,TWN,,59897,,,,,,,,,,,,,,,,59897
+196,Southern Africa Floods - Cyclone Jokwe,3/8/2008,Africa,Tanzania,TZA,2700,48500,,,,,,,,,,,,,,,,48500
+241,Tanzania Floods,1/25/2010,Africa,Tanzania,TZA,50000,200000,,,,,,,,,,,,,,,,200000
+266,Horn of Africa Drought,7/28/2011,Africa,Tanzania,TZA,,,,,,,,,,,,,,,,,,0
+181,Uganda Floods,9/1/2007,Africa,Uganda,UGA,450000,0,3,,,,,,,,,,,,,,,17400
+216,"Uganda, Rwanda, Burundi Population Movement",12/14/2008,Africa,Uganda,UGA,280000,50000,1,,,,,,,,,,,,,,,50000
+205,Moldova and Ukraine Floods,8/1/2008,Europe/Asia,Ukraine,UKR,30000,44250,,,,,,,,,,,,,,,,44250
+55,US Terrorism,9/1/2001,North America,United States of America,USA,,3257775,30,,,,,,,,,,,,,,,3515479
+62,US Transport,11/1/2001,North America,United States of America,USA,,0,5,,,,,,,,,,,,,,,500
+132,Hurricane Katrina,8/1/2005,North America,United States of America,USA,,0,3,,,,,,,,,,,,,,,0
+54,Uzbekistan Conflict,9/1/2001,Europe/Asia,Uzbekistan,UZB,,0,,,,,,,,,,,,,,,,0
+247,Kyrgyzstan-Uzbekistan Population Movement,6/1/2010,Europe/Asia,Uzbekistan,UZB,,100000,,,,,,,,,,,,,,,,100000
+21,Venezuela Floods,12/1/1999,LAC,Venezuela,VEN,,50000,23,55532,2200,4625,2550,,36,,6120,,40000,,7,,,1056000
+81,Venezuela Floods,7/1/2002,LAC,Venezuela,VEN,,50000,1,,,,,,,,,,,,,,,50000
+18,Vietnam Floods,11/1/1999,Europe/Asia,Vietnam,VNM,,50000,0,,,,,,,,,,,,,,,50000
+29,Vietnam Floods,9/1/2000,Europe/Asia,Vietnam,VNM,,0,0,1000,,,,,,,,,,,,,,20000
+90,Vietnam Miscellaneous,10/1/2002,Europe/Asia,Vietnam,VNM,,100000,,,,,,,,,,,,,,,,100000
+137,Vietnam Typhoon Damrey,10/1/2005,Europe/Asia,Vietnam,VNM,,21068,,,,,,,,,,,,,,,,21068
+157,Vietnam Typhoons,10/1/2006,Europe/Asia,Vietnam,VNM,,63000,,,,,,,,,,,,,,,,63000
+185,Vietnam Typhoon Lekima,11/1/2007,Europe/Asia,Vietnam,VNM,600000,115000,,,,,,,,,,,,,,,,115000
+213,Vietnam Floods,11/8/2008,Europe/Asia,Vietnam,VNM,600000,50000,,,,,,,,,,,,,,,,50000
+233,Southeast Asia Typhoons - Vietnam,9/2/2009,Europe/Asia,Vietnam,VNM,3000000,950000,1,,,,,,,,,,,,,,,2150000
+250,Vietnam Floods,10/18/2010,Europe/Asia,Vietnam,VNM,660000,30000,,,,,,,,,,,,,,,,30000
+274,Vietnam Floods,11/10/2011,Europe/Asia,Vietnam,VNM,590000,50000,,,,,,,,,,,,,,,,50000
+235,Samoa Islands Tsunami,10/1/2009,Europe/Asia,Samoa,WSM,10000,100000,,,,,,,,,,,,,,,,100000
+203,Yemen Conflict,7/8/2008,Europe/Asia,Yemen,YEM,77000,50000,,,,,,,,,,,,,,,,50000
+22,South Africa Floods,2/1/2000,Africa,South Africa,ZAF,,23333,0,,,,,,,,,,,,,,,23333
+37,South Africa Epidemic,1/1/2001,Africa,South Africa,ZAF,,25000,0,,,,,,,,,,,,,,,25000
+200,South Africa Civil Unrest,6/8/2008,Africa,South Africa,ZAF,50000,0,1,,,,,,,,,,,,,,,10000
+139,Southern Africa Food Security Crisis - Zambia,1/1/2006,Africa,Zambia,ZMB,,400000,,,,,,,,,,,,,,,,400000
+22,Zimbabwe Floods,2/1/2000,Africa,Zimbabwe,ZWE,,23333,,,,,,,,,,,,,,,,23333
+139,Southern Africa Food Security Crisis - Zimbabwe,1/1/2006,Africa,Zimbabwe,ZWE,,250000,,,,,,,,,,,,,,,,250000
+217,Zimbabwe Cholera Epidemic,12/17/2008,Africa,Zimbabwe,ZWE,50000,100000,,,,,,,,,,,,,,,,100000
+293,Zimbabwe Food Security,1/1/2013,Africa,Zimbabwe,ZWE,1600000,50000,,,,,,,,,,,,,,,,0
+9,Bahamas Storm,9/1/1999,LAC,Bahamas,BHS,,25000,3,,,,,,,,,,,,,,,132193
+15,Timor-Leste Conflict,10/1/1999,Europe/Asia,Timor,TLS,,10000,1,,,,,,,,,,,,,,,10000
+20,Antigua Storm,11/1/1999,LAC,Antigua,ATG,,15000,1,,,,,,,,,,,,,,,15000
+20,St. Kitts & Nevis Storm,11/1/1999,LAC,St. Kitts & Nevis,KNA,,15000,2,,,,,,,,,,,,,,,15000
+20,St. Maartens Storm,11/1/1999,LAC,St. Maartens,SXM,,9000,,,,,,,,,,,,,,,,9000
+61,Bahamas Storm,11/1/2001,LAC,Bahamas,BHS,,5000,0,,,,,,,,,,,,,,,5000
+65,DR Congo Volcano,1/1/2002,Africa,Democratic Republic of the Congo,COD,,25000,,,,,,,,,,,,,,,,45000
+78,FS Micronesia Storm,7/1/2002,Europe/Asia,FS Micronesia,FSM,,0,,,,,,,,,,,,,,,,10000
+103,Hong Kong Epidemic,5/1/2003,Europe/Asia,Hong Kong,HKG,,60000,,,,,,,,,,,,,,,,60000
+123,Bahamas Storm,9/1/2004,LAC,Bahamas,BHS,,100000,4,,,,,,,,,,,,,,,100000
+136,Hurricane Wilma - Bahamas,10/1/2005,LAC,Bahamas,BHS,,0,,2372,2372,,,,,,,,,,,,,20597
+142,Timor-Leste Floods,2/1/2006,Europe/Asia,Timor,TLS,,50000,,,,,,,,,,,,,,,,50000
+183,Tropical Storm Noel,11/1/2007,LAC,Bahamas,BHS,,30000,2,,,,,,,,,,,,,,,37440
+209,Carribean Hurricane Season 2008 - Bahamas,9/8/2008,LAC,Bahamas,BHS,9750,121044,1,,,,,,,,,,,,,,,121044
+295,DRC Population Movement,4/1/2013,Africa,Democratic Republic of the Congo,COD,,150000,1,,,,,,,,,,,,,,,0
