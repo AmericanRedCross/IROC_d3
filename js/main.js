@@ -10,13 +10,12 @@ var windowWidth = $(window).width();
 var mapW = windowWidth * 0.70;
 
 var width = mapW,
-    height = 600,
-    format = d3.format(".1f");
+    height = 600;   
 
 
 var projection = d3.geo.projection(d3.geo.hammer.raw(1.75, 2))
     .rotate([-30, 45])
-    .scale(200);
+    .scale(100);
 
 var path = d3.geo.path()
     .projection(projection)
