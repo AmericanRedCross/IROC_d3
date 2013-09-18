@@ -6,20 +6,17 @@ var responses = [];
 var responsesCountries = [];
 var displayedAppeals = [];
 
-var windowWidth = $(window).width();
-var mapW = windowWidth * 0.70;
+var width = height = null;
 
-var width = mapW,
-    height = 600;   
-
-
-var projection = d3.geo.projection(d3.geo.hammer.raw(1.75, 2))
-    .rotate([-30, 45])
-    .scale(100);
+var projection = d3.geo.projection(d3.geo.hammer.raw(2, 2))
+    .rotate([-5, -30])
+    .scale(180);
 
 var path = d3.geo.path()
     .projection(projection)
     .pointRadius(2);
+
+var rscale = d3.scale.sqrt();
 
 var line = d3.svg.line()
   .x(function(d) { return d.x; })
@@ -30,9 +27,23 @@ var line = d3.svg.line()
 
 var graticule = d3.geo.graticule();
 
-var svg = d3.select("#map1").append("svg")
+var svg = d3.select("#map").append("svg")
   .attr("width", width)
   .attr("height", height);
+
+function initSizes() {
+  width = $(window).width();
+  height = $(window).height() - 100;
+  projection.translate([width/2.3,height/2]);
+  svg
+    .attr("width", width)
+    .attr("height", height);
+  rscale.range([0, height/45]);
+};
+
+initSizes();
+
+
 
 var countryGroup = svg.append('g').attr("id", "countries");
 var responseGroup = svg.append('g').attr("id", "arcs");
@@ -63,6 +74,11 @@ var tweenDash = function tweenDash() {
 };
 
 
+var leftMargin = 200; 
+var fitMapProjection = function() {
+  fitProjection(projection, worldcountries, [[leftMargin, 100], [width - 20, height-120]], true);
+};
+
 
 function getcountrydata(){
   $.ajax({
@@ -73,6 +89,7 @@ function getcountrydata(){
       timeout: 10000,
       success: function(json) {
         worldcountries = json;
+        fitMapProjection();
         getappealdata();
       },
       error: function(e) {
@@ -135,6 +152,7 @@ function getcapitaldata(){
 }
 
 function addCountries(){
+ 
  countryGroup.selectAll("path")
     .data(worldcountries.features)
     .enter().append("path")
@@ -143,6 +161,8 @@ function addCountries(){
     .attr('class', 'country')
     .attr("d", path);    
   buildLinks();
+
+
 }
 
 var arcOrigin = [];
