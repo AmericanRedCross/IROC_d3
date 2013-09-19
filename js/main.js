@@ -13,8 +13,8 @@ var projection = d3.geo.projection(d3.geo.hammer.raw(2, 2))
     .scale(180);
 
 var path = d3.geo.path()
-    .projection(projection)
-    .pointRadius(2);
+    .projection(projection);
+    
 
 var rscale = d3.scale.sqrt();
 
@@ -34,7 +34,7 @@ var svg = d3.select("#map").append("svg")
 function initSizes() {
   width = $(window).width();
   height = $(window).height() - 100;
-  projection.translate([width/2.3,height/2]);
+  projection.translate([width/2,height/2]);
   svg
     .attr("width", width)
     .attr("height", height);
@@ -42,8 +42,6 @@ function initSizes() {
 };
 
 initSizes();
-
-
 
 var countryGroup = svg.append('g').attr("id", "countries");
 var responseGroup = svg.append('g').attr("id", "arcs");
@@ -125,7 +123,7 @@ function getresponsedata(){
       timeout: 10000,
       success: function(json) {
         responses = json;
-        
+        buildSlider();
         getcapitaldata();
       },
       error: function(e) {
@@ -133,6 +131,101 @@ function getresponsedata(){
       }
   });
 }
+
+
+var minDate = "";
+var maxDate = "";
+
+function buildSlider(){
+  var allDates = [];
+  $(appeals).each(function(i, appeal){
+    selected = appeal.ST_DATE;
+    selectedDate = new Date(selected);
+    allDates.push(selectedDate);
+  });
+  $(responses).each(function(i, response){
+    selected = response.Date;
+    selectedDate = new Date(selected);
+    allDates.push(selectedDate);
+  });
+  maxDate = new Date(Math.max.apply(null, allDates));
+  minDate = new Date(Math.min.apply(null, allDates));
+  $("#slider").dateRangeSlider({
+    bounds:{
+      min: minDate,
+      max: maxDate
+    },
+    step:{
+      months: 1
+    },
+    range:{
+      min: {months:1},
+      max: {months:1}
+    }
+  });
+
+}
+
+$("#slider").bind("valuesChanged", function(e, data){
+  updateMap(data);
+})
+
+var endDate = "";
+var oneMonth = "";
+var twoMonth = "";
+var threeMonth = ""; 
+var fourMonth = "";
+var fiveMonth = "";
+var sixMonth = "";
+
+function updateMap(data){
+  
+  $('[id="capitals"]').children().attr('class','none');
+  endDate = data.values.max;
+  oneMonth = data.values.min;
+  var twoStart = oneMonth.getMonth();
+  twoStart -= 1;
+  twoMonth = new Date(oneMonth);
+  twoMonth = new Date(twoMonth.setMonth(twoStart));
+  var threeStart = twoMonth.getMonth();
+  threeStart -= 1;
+  threeMonth = new Date(twoMonth);
+  threeMonth = new Date(threeMonth.setMonth(threeStart));
+  var fourStart = threeMonth.getMonth();
+  fourStart -= 1;
+  fourMonth = new Date(threeMonth);
+  fourMonth = new Date(fourMonth.setMonth(fourStart));
+  var fiveStart = fourMonth.getMonth();
+  fiveStart -= 1;
+  fiveMonth = new Date(fourMonth);
+  fiveMonth = new Date(fiveMonth.setMonth(fiveStart));
+  var sixStart = fiveMonth.getMonth();
+  sixStart -= 1;
+  sixMonth = new Date(fiveMonth);
+  sixMonth = new Date(sixMonth.setMonth(sixStart));
+  $(appeals).each(function(i, appeal){
+    appealStart = new Date(appeal.ST_DATE);
+    appealCountry = appeal.ADM0_A3;
+    if (appealStart <= endDate) {
+      var oldClass = $('[id="capitals"]').children("#" + appealCountry).attr('class');  
+      if(appealStart >= oneMonth){        
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' oneMonth');
+      } else if (appealStart >=twoMonth){
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' twoMonth');
+      } else if (appealStart >=threeMonth){
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' threeMonth');
+      } else if (appealStart >=fourMonth){
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' fourMonth');
+      } else if (appealStart >=fiveMonth){
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' fiveMonth');
+      } else if (appealStart >=sixMonth){
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' sixMonth');
+      }
+    }
+  });
+  
+}
+
 
 function getcapitaldata(){
   $.ajax({
@@ -210,8 +303,8 @@ function addAppeals(year){
   appealGroup.selectAll("path")
     .data(displayedAppeals)
     .enter().append("path")      
-    .attr('data-ADM0', function(d){return d.properties.ADM0_A3;})
-    .attr('class', 'appeal')  
+    .attr('id', function(d){return d.properties.ADM0_A3;})
+    .attr('class', '')  
     .attr("d", path);
   addResponses(year);
 }
@@ -242,7 +335,7 @@ function addResponses(year){
         {"x": projection(link.coordinates[1])[0], "y": projection(link.coordinates[1])[1]}        
         );
       drawnLink.push(link);
-      appealGroup.append("path")
+      responseGroup.append("path")
         .attr("d", line(lineData))
         .style({
           fill:'none',
