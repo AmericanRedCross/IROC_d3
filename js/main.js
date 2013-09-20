@@ -6,6 +6,15 @@ var responses = [];
 var responsesCountries = [];
 var displayedAppeals = [];
 
+// these don't need to be global
+var endDate = "";
+var oneMonth = "";
+var twoMonth = "";
+var threeMonth = ""; 
+var fourMonth = "";
+var fiveMonth = "";
+var sixMonth = "";
+
 var width = height = null;
 
 var projection = d3.geo.projection(d3.geo.hammer.raw(2, 2))
@@ -13,7 +22,8 @@ var projection = d3.geo.projection(d3.geo.hammer.raw(2, 2))
     .scale(180);
 
 var path = d3.geo.path()
-    .projection(projection);
+    .projection(projection)
+    .pointRadius(1);
     
 
 var rscale = d3.scale.sqrt();
@@ -45,7 +55,7 @@ initSizes();
 
 var countryGroup = svg.append('g').attr("id", "countries");
 var responseGroup = svg.append('g').attr("id", "arcs");
-var appealGroup = svg.append('g').attr("id", "capitals");
+var capitalsGroup = svg.append('g').attr("id", "capitals");
 
 // --- Helper functions (for tweening the path)
 var lineTransition = function lineTransition(path) {
@@ -123,7 +133,6 @@ function getresponsedata(){
       timeout: 10000,
       success: function(json) {
         responses = json;
-        buildSlider();
         getcapitaldata();
       },
       error: function(e) {
@@ -131,101 +140,6 @@ function getresponsedata(){
       }
   });
 }
-
-
-var minDate = "";
-var maxDate = "";
-
-function buildSlider(){
-  var allDates = [];
-  $(appeals).each(function(i, appeal){
-    selected = appeal.ST_DATE;
-    selectedDate = new Date(selected);
-    allDates.push(selectedDate);
-  });
-  $(responses).each(function(i, response){
-    selected = response.Date;
-    selectedDate = new Date(selected);
-    allDates.push(selectedDate);
-  });
-  maxDate = new Date(Math.max.apply(null, allDates));
-  minDate = new Date(Math.min.apply(null, allDates));
-  $("#slider").dateRangeSlider({
-    bounds:{
-      min: minDate,
-      max: maxDate
-    },
-    step:{
-      months: 1
-    },
-    range:{
-      min: {months:1},
-      max: {months:1}
-    }
-  });
-
-}
-
-$("#slider").bind("valuesChanged", function(e, data){
-  updateMap(data);
-})
-
-var endDate = "";
-var oneMonth = "";
-var twoMonth = "";
-var threeMonth = ""; 
-var fourMonth = "";
-var fiveMonth = "";
-var sixMonth = "";
-
-function updateMap(data){
-  
-  $('[id="capitals"]').children().attr('class','none');
-  endDate = data.values.max;
-  oneMonth = data.values.min;
-  var twoStart = oneMonth.getMonth();
-  twoStart -= 1;
-  twoMonth = new Date(oneMonth);
-  twoMonth = new Date(twoMonth.setMonth(twoStart));
-  var threeStart = twoMonth.getMonth();
-  threeStart -= 1;
-  threeMonth = new Date(twoMonth);
-  threeMonth = new Date(threeMonth.setMonth(threeStart));
-  var fourStart = threeMonth.getMonth();
-  fourStart -= 1;
-  fourMonth = new Date(threeMonth);
-  fourMonth = new Date(fourMonth.setMonth(fourStart));
-  var fiveStart = fourMonth.getMonth();
-  fiveStart -= 1;
-  fiveMonth = new Date(fourMonth);
-  fiveMonth = new Date(fiveMonth.setMonth(fiveStart));
-  var sixStart = fiveMonth.getMonth();
-  sixStart -= 1;
-  sixMonth = new Date(fiveMonth);
-  sixMonth = new Date(sixMonth.setMonth(sixStart));
-  $(appeals).each(function(i, appeal){
-    appealStart = new Date(appeal.ST_DATE);
-    appealCountry = appeal.ADM0_A3;
-    if (appealStart <= endDate) {
-      var oldClass = $('[id="capitals"]').children("#" + appealCountry).attr('class');  
-      if(appealStart >= oneMonth){        
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' oneMonth');
-      } else if (appealStart >=twoMonth){
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' twoMonth');
-      } else if (appealStart >=threeMonth){
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' threeMonth');
-      } else if (appealStart >=fourMonth){
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' fourMonth');
-      } else if (appealStart >=fiveMonth){
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' fiveMonth');
-      } else if (appealStart >=sixMonth){
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' sixMonth');
-      }
-    }
-  });
-  
-}
-
 
 function getcapitaldata(){
   $.ajax({
@@ -254,8 +168,6 @@ function addCountries(){
     .attr('class', 'country')
     .attr("d", path);    
   buildLinks();
-
-
 }
 
 var arcOrigin = [];
@@ -281,33 +193,152 @@ function buildLinks(){
     });
   });
   $()
-  addAppeals(2011);  
+  addCapitals();  
 }
 
-function addAppeals(year){
-  $(appeals).each(function(i, appeal){
-    country = appeal.ADM0_A3;
-    var d = new Date(appeal.ST_DATE);
-    var appealYear = d.getFullYear();
-    if (appealYear == year){
-      if ($.inArray(country, appealsCountries) == -1){
-        appealsCountries.push(country);
-      }
-    }    
-  });
-  $(worldcapitals.features).each(function(i, capital){
-    if ($.inArray(capital.properties.ADM0_A3, appealsCountries) != -1){
-      displayedAppeals.push(capital);
-    }
-  });
-  appealGroup.selectAll("path")
-    .data(displayedAppeals)
-    .enter().append("path")      
+function addCapitals(){
+  capitalsGroup.selectAll("circle")
+    .data(worldcapitals.features)
+    .enter().append("circle")      
     .attr('id', function(d){return d.properties.ADM0_A3;})
-    .attr('class', '')  
-    .attr("d", path);
-  addResponses(year);
+    .attr('class', 'none')  
+    .attr("cx", function(d){return projection([d.properties.LONGITUDE,d.properties.LATITUDE])[0]})
+    .attr("cy", function(d){return projection([d.properties.LONGITUDE,d.properties.LATITUDE])[1]})
+    .attr("r", 0);
+      
+  buildSlider();
 }
+
+
+function monthText(value){
+  if(value === 0) {
+    return "January"
+  } else if (value === 1) {
+    return "February"
+  } else if (value === 2) {
+    return "March"
+  } else if (value === 3) {
+    return "April"
+  } else if (value === 4) {
+    return "May"
+  } else if (value === 5) {
+    return "June"
+  } else if (value === 6) {
+    return "July"
+  } else if (value === 7) {
+    return "August"
+  } else if (value === 8) {
+    return "September"
+  } else if (value === 9) {
+    return "October"
+  } else if (value === 10) {
+    return "November"
+  } else if (value === 11) {
+    return "December"
+  }
+}
+
+function buildSlider(){
+  var allDates = [];
+  $(appeals).each(function(i, appeal){
+    selected = appeal.ST_DATE;
+    selectedDate = new Date(selected);
+    allDates.push(selectedDate);
+  });
+  $(responses).each(function(i, response){
+    selected = response.Date;
+    selectedDate = new Date(selected);
+    allDates.push(selectedDate);
+  });
+  maxDate = new Date(Math.max.apply(null, allDates));
+  minDate = new Date(Math.min.apply(null, allDates));
+  $("#slider").dateRangeSlider({
+    bounds:{
+      min: minDate,
+      max: maxDate
+    },
+    step:{
+      months: 1
+    },
+    range:{
+      min: {months:1},
+      max: {months:1}
+    },
+    defaultValues:{
+      min: new Date(2006,8,1),
+      max: new Date(2006,9,1)
+    },
+    formatter:function(val){
+        var month = monthText(val.getMonth());
+        var year = val.getFullYear();
+        return month + " " + year;
+      }
+  });
+  updateMap($("#slider").dateRangeSlider("values").min, $("#slider").dateRangeSlider("values").max);
+
+}
+
+$("#slider").bind("valuesChanging", function(e, data){
+  updateMap(data.values.min, data.values.max);
+})
+
+function updateMap(min, max){  
+  $('[id="capitals"]').children().attr('class','none');
+  endDate = max;
+  oneMonth = min;
+  var twoStart = oneMonth.getMonth();
+  twoStart -= 1;
+  twoMonth = new Date(oneMonth);
+  twoMonth = new Date(twoMonth.setMonth(twoStart));
+  var threeStart = twoMonth.getMonth();
+  threeStart -= 1;
+  threeMonth = new Date(twoMonth);
+  threeMonth = new Date(threeMonth.setMonth(threeStart));
+  var fourStart = threeMonth.getMonth();
+  fourStart -= 1;
+  fourMonth = new Date(threeMonth);
+  fourMonth = new Date(fourMonth.setMonth(fourStart));
+  var fiveStart = fourMonth.getMonth();
+  fiveStart -= 1;
+  fiveMonth = new Date(fourMonth);
+  fiveMonth = new Date(fiveMonth.setMonth(fiveStart));
+  var sixStart = fiveMonth.getMonth();
+  sixStart -= 1;
+  sixMonth = new Date(fiveMonth);
+  sixMonth = new Date(sixMonth.setMonth(sixStart));
+  $(appeals).each(function(i, appeal){
+    appealStart = new Date(appeal.ST_DATE);
+    appealCountry = appeal.ADM0_A3;
+    // not "less than or equal to" since endDate is the first day of the next month
+    if (appealStart < endDate) {
+      var oldClass = $('[id="capitals"]').children("#" + appealCountry).attr('class');  
+      if(appealStart >= oneMonth){        
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' oneMonth');
+      } else if (appealStart >=twoMonth){
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' twoMonth');
+      } else if (appealStart >=threeMonth){
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' threeMonth');
+      } else if (appealStart >=fourMonth){
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' fourMonth');
+      } else if (appealStart >=fiveMonth){
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' fiveMonth');
+      } else if (appealStart >=sixMonth){
+        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' sixMonth');
+      }
+    }
+  });  
+  $('[id="capitals"]').children(".none").attr('r','0');
+  $('[id="capitals"]').children(".sixMonth").attr('r','2').attr('opacity','0.5');
+  $('[id="capitals"]').children(".fiveMonth").attr('r','3').attr('opacity','0.6');
+  $('[id="capitals"]').children(".fourMonth").attr('r','4').attr('opacity','0.7');
+  $('[id="capitals"]').children(".threeMonth").attr('r','5').attr('opacity','0.8');
+  $('[id="capitals"]').children(".twoMonth").attr('r','7').attr('opacity','0.9');  
+  $('[id="capitals"]').children(".oneMonth").attr('r','9').attr('opacity','1');
+    
+}
+
+
+
 
 
 
