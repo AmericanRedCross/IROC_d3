@@ -7,16 +7,32 @@ body{
 	background: none;
 }
 .ui-rangeSlider-rightLabel {
+	cursor: default;
 	display: none !important;
 }
-.ui-rangeSlider-label {
+.ui-rangeSlider-leftLabel {
 	cursor: default;
+	background-image: none;
+}
+.ui-rangeSlider-arrow {
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+}
+.ui-rangeSlider-leftArrow {
+	left: -16px !important;
+}
+.ui-rangeSlider-rightArrow {
+	right: -16px !important;
 }
 
 circle{
 	fill: #ff6500;
 	stroke: #f5f5f5;
 	stroke-width: 1;	
+}
+circle:hover{
+	cursor: crosshair;
 }
 
 .country {
@@ -29,4 +45,10 @@ circle{
 	top: 20px;
 	right: 40px;
 	height: 60px;
+}
+.appeal-tooltip {
+	position: absolute;
+	z-index:10;
+	visibility: hidden;
+	font-weight: bold;	
 }

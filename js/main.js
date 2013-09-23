@@ -37,6 +37,11 @@ var line = d3.svg.line()
 
 var graticule = d3.geo.graticule();
 
+var tooltip = d3.select("body")
+    .append("div")
+    .attr("class", "appeal-tooltip")    
+    .text("a simple tooltip");
+
 var svg = d3.select("#map").append("svg")
   .attr("width", width)
   .attr("height", height);
@@ -204,8 +209,13 @@ function addCapitals(){
     .attr('class', 'none')  
     .attr("cx", function(d){return projection([d.properties.LONGITUDE,d.properties.LATITUDE])[0]})
     .attr("cy", function(d){return projection([d.properties.LONGITUDE,d.properties.LATITUDE])[1]})
-    .attr("r", 0);
-      
+    .attr("r", 0)
+    .on("mouseover", function(d){
+      tooltip.html(d.properties.ADM0NAME);
+      tooltip.style("visibility", "visible");
+    })
+    .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+15)+"px");})
+    .on("mouseout", function(){return tooltip.style("visibility", "hidden");}); 
   buildSlider();
 }
 
@@ -278,6 +288,7 @@ function buildSlider(){
 
 }
 
+
 $("#slider").bind("valuesChanging", function(e, data){
   updateMap(data.values.min, data.values.max);
 })
@@ -333,8 +344,8 @@ function updateMap(min, max){
   $('[id="capitals"]').children(".fourMonth").attr('r','4').attr('opacity','0.7');
   $('[id="capitals"]').children(".threeMonth").attr('r','5').attr('opacity','0.8');
   $('[id="capitals"]').children(".twoMonth").attr('r','7').attr('opacity','0.9');  
-  $('[id="capitals"]').children(".oneMonth").attr('r','9').attr('opacity','1');
-    
+  $('[id="capitals"]').children(".oneMonth").attr('r','9').attr('opacity','1');  
+  
 }
 
 
