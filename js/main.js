@@ -289,11 +289,6 @@ function buildSlider(){
 
 }
 
-
-$("#slider").bind("userValuesChanged", function(e, data){
-  updateMap(data.values.min, data.values.max);
-})
-
 function updateMap(min, max){  
   $('[id="capitals"]').children().attr('class','none');
   
@@ -367,7 +362,7 @@ function updateMap(min, max){
       lineData.push(
         {"x": projection(link.coordinates[0])[0], "y": projection(link.coordinates[0])[1]},
         {"x": projection(link.coordinates[1])[0], "y": projection(link.coordinates[1])[1]}        
-        );      
+      );      
       responseGroup.append("path")
         .attr("d", line(lineData))
         .style({
@@ -381,47 +376,44 @@ function updateMap(min, max){
 
 }
 
-
-
-
-
-
-
-function addResponses(year){
-  $(responses).each(function(i, response){
-    country = response.ADM0_A3;
-    var d = new Date(response.Date);
-    var responseYear = d.getFullYear();
-    if (responseYear == year){
-      if ($.inArray(country, responsesCountries) == -1){
-        responsesCountries.push(country);
-      }  
-    }
+// function addResponses(year){
+//   $(responses).each(function(i, response){
+//     country = response.ADM0_A3;
+//     var d = new Date(response.Date);
+//     var responseYear = d.getFullYear();
+//     if (responseYear == year){
+//       if ($.inArray(country, responsesCountries) == -1){
+//         responsesCountries.push(country);
+//       }  
+//     }
     
-  });
+//   });
 
-  drawnLink = [];
-  $(arcLinks).each(function(i, link){
+//   drawnLink = [];
+//   $(arcLinks).each(function(i, link){
     
-    if ($.inArray(link.destination, responsesCountries) != -1){
-      lineData = []; 
-      lineData.push(
-        {"x": projection(link.coordinates[0])[0], "y": projection(link.coordinates[0])[1]},
-        {"x": projection(link.coordinates[1])[0], "y": projection(link.coordinates[1])[1]}        
-        );
-      drawnLink.push(link);
-      responseGroup.append("path")
-        .attr("d", line(lineData))
-        .style({
-          fill:'none',
-          stroke: '#0000ff',
-          'stroke-width': '1px'
-        })
-        .call(lineTransition);
-    }
-  });
+//     if ($.inArray(link.destination, responsesCountries) != -1){
+//       lineData = []; 
+//       lineData.push(
+//         {"x": projection(link.coordinates[0])[0], "y": projection(link.coordinates[0])[1]},
+//         {"x": projection(link.coordinates[1])[0], "y": projection(link.coordinates[1])[1]}        
+//         );
+//       drawnLink.push(link);
+//       responseGroup.append("path")
+//         .attr("d", line(lineData))
+//         .style({
+//           fill:'none',
+//           stroke: '#0000ff',
+//           'stroke-width': '1px'
+//         })
+//         .call(lineTransition);
+//     }
+//   });
 
-}
+// }
 
+$("#slider").bind("userValuesChanged", function(e, data){
+  updateMap(data.values.min, data.values.max);
+})
 
 getcountrydata();
