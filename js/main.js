@@ -3,7 +3,8 @@ var worldcapitals = [];
 var appeals = [];
 var appealsCountries = [];
 var responses = [];
-var responsesCountries = [];
+var newResponsesCountries = [];
+var oldResponsesCountries = [];
 var displayedAppeals = [];
 
 // these don't need to be global
@@ -59,7 +60,7 @@ function initSizes() {
 initSizes();
 
 var countryGroup = svg.append('g').attr("id", "countries");
-var responseGroup = svg.append('g').attr("id", "arcs");
+var responseGroup = svg.append('g').attr("id", "responses");
 var capitalsGroup = svg.append('g').attr("id", "capitals");
 
 // --- Helper functions (for tweening the path)
@@ -289,12 +290,13 @@ function buildSlider(){
 }
 
 
-$("#slider").bind("valuesChanging", function(e, data){
+$("#slider").bind("userValuesChanged", function(e, data){
   updateMap(data.values.min, data.values.max);
 })
 
 function updateMap(min, max){  
   $('[id="capitals"]').children().attr('class','none');
+  
   endDate = max;
   oneMonth = min;
   var twoStart = oneMonth.getMonth();
@@ -346,6 +348,37 @@ function updateMap(min, max){
   $('[id="capitals"]').children(".twoMonth").attr('r','7').attr('opacity','0.9');  
   $('[id="capitals"]').children(".oneMonth").attr('r','9').attr('opacity','1');  
   
+  newResponsesCountries = [];
+  oldResponsesCountries = [];
+  $(responses).each(function(i, response){
+    country = response.ADM0_A3;
+    var responseDate = new Date(response.Date);
+    if (responseDate < endDate){
+      if (responseDate >= oneMonth) {
+        newResponsesCountries.push(country);
+      } else if (responseDate >= sixMonth) {
+        oldResponsesCountries.push(country);
+      }        
+    }    
+  });
+  $(arcLinks).each(function(i, link){    
+    if ($.inArray(link.destination, newResponsesCountries) != -1){
+      lineData = []; 
+      lineData.push(
+        {"x": projection(link.coordinates[0])[0], "y": projection(link.coordinates[0])[1]},
+        {"x": projection(link.coordinates[1])[0], "y": projection(link.coordinates[1])[1]}        
+        );      
+      responseGroup.append("path")
+        .attr("d", line(lineData))
+        .style({
+          fill:'none',
+          stroke: '#0000ff',
+          'stroke-width': '1px'
+        })
+        .call(lineTransition);
+    }
+  });
+
 }
 
 
