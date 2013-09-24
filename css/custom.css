@@ -7,6 +7,11 @@ body{
 	margin-right:auto; 
 	width:70%;
 }
+.noUi-handle {
+	width: 10px;
+	margin-left: 0;
+	cursor: e-resize;
+}
 
 circle{
 	fill: #ff6500;
@@ -20,6 +25,29 @@ circle:hover{
 .country {
 	fill: #9f9fa3;
 	stroke: #f5f5f5;	
+}
+
+.slider-control-right {
+	position: absolute;
+	right: 15%;
+	z-index: 99;
+	font-size: 30px;
+	margin-right: -35px;
+	cursor: pointer;
+	color: #6d6E70;	
+}
+.slider-control-left{
+	position: absolute;
+	left: 15%;
+	z-index: 99;
+	font-size: 30px;
+	margin-left: -35px;
+	cursor: pointer;	
+	color: #6d6E70;	
+}
+
+#dateSlider {
+	position: relative;
 }
 
 .arc-logo {

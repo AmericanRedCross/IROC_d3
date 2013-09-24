@@ -49,7 +49,7 @@ function fitProjection(projection, data, box, center) {
         transX = box[0][0] - startbox[0][0] * scale,
         // set y translation
         transY = box[0][1] - startbox[0][1] * scale;
-        console.log(startbox);
+        // console.log(startbox);
     // center if requested
     if (center) {
         if (widthDetermined) {

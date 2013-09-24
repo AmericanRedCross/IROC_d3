@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>IROC_d3</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">     
 
     <!-- open graph meta tags for FB share -->
     <meta property="og:image" content="http://americanredcross.github.io/IROC_d3/img/redCross.png" />
@@ -21,11 +22,15 @@
 
   <body>    
     <img class="arc-logo" src="img/redcross-logo.png">
-                 
+    <div id="sliderDate" style="position:absolute; top:20px; left:20px; font-size:200%; font-weight:bold;"></div>             
     <div id="map"></div> 
+    <div id="sliderWrap">      
+      <div id="dateSlider">
+        <span class="glyphicon glyphicon-chevron-right slider-control-right"></span> 
+        <span class="glyphicon glyphicon-chevron-left slider-control-left"></span>         
+      </div>
       
-    <div id="dateSlider"></div>
-    <div id="sliderDate"></div>
+    </div>
     
         
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
