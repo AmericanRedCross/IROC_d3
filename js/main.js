@@ -6,6 +6,8 @@ var responses = [];
 var newResponsesCountries = [];
 var oldResponsesCountries = [];
 var displayedAppeals = [];
+var minDate;
+var MaxDate;
 
 // these don't need to be global
 var endDate = "";
@@ -249,6 +251,21 @@ function monthText(value){
   }
 }
 
+var sliderValue = 0;
+
+function onSlide() {
+  if(parseInt($("#dateSlider").val()) !== sliderValue) {
+    sliderValue = parseInt($("#dateSlider").val());
+    start = new Date(minDate);
+    startMonth = start.getMonth();
+    changeValue = startMonth + sliderValue;
+    console.log(changeValue);
+    selectedDate = new Date(start.setMonth(changeValue));
+    $("#sliderDate").html(selectedDate);
+    updateMap(selectedDate);
+  }  
+}
+
 function buildSlider(){
   var allDates = [];
   $(appeals).each(function(i, appeal){
@@ -262,38 +279,27 @@ function buildSlider(){
     allDates.push(selectedDate);
   });
   maxDate = new Date(Math.max.apply(null, allDates));
-  minDate = new Date(Math.min.apply(null, allDates));
-  $("#slider").dateRangeSlider({
-    bounds:{
-      min: minDate,
-      max: maxDate
-    },
-    step:{
-      months: 1
-    },
-    range:{
-      min: {months:1},
-      max: {months:1}
-    },
-    defaultValues:{
-      min: new Date(2006,8,1),
-      max: new Date(2006,9,1)
-    },
-    formatter:function(val){
-        var month = monthText(val.getMonth());
-        var year = val.getFullYear();
-        return month + " " + year;
-      }
+  minDate = new Date(Math.min.apply(null, allDates));  
+  // I think something is wrong with the following formula
+  var totalMonths = (((maxDate.getFullYear()-minDate.getFullYear())-2)*12)+((12-minDate.getMonth())+(maxDate.getMonth()+1)); 
+    
+  $('#dateSlider').noUiSlider({
+    range: [0,totalMonths],
+    start: [0],
+    step: 1,
+    handles: 1,
+    slide: onSlide
   });
-  updateMap($("#slider").dateRangeSlider("values").min, $("#slider").dateRangeSlider("values").max);
 
 }
 
-function updateMap(min, max){  
+function updateMap(month){  
   $('[id="capitals"]').children().attr('class','none');
-  
-  endDate = max;
-  oneMonth = min;
+  oneMonth = month;
+  var endStart = oneMonth.getMonth();
+  endStart += 1;
+  endDate = new Date(oneMonth);
+  endDate = new Date(endDate.setMonth(endStart));
   var twoStart = oneMonth.getMonth();
   twoStart -= 1;
   twoMonth = new Date(oneMonth);
@@ -343,36 +349,36 @@ function updateMap(min, max){
   $('[id="capitals"]').children(".twoMonth").attr('r','7').attr('opacity','0.9');  
   $('[id="capitals"]').children(".oneMonth").attr('r','9').attr('opacity','1');  
   
-  newResponsesCountries = [];
-  oldResponsesCountries = [];
-  $(responses).each(function(i, response){
-    country = response.ADM0_A3;
-    var responseDate = new Date(response.Date);
-    if (responseDate < endDate){
-      if (responseDate >= oneMonth) {
-        newResponsesCountries.push(country);
-      } else if (responseDate >= sixMonth) {
-        oldResponsesCountries.push(country);
-      }        
-    }    
-  });
-  $(arcLinks).each(function(i, link){    
-    if ($.inArray(link.destination, newResponsesCountries) != -1){
-      lineData = []; 
-      lineData.push(
-        {"x": projection(link.coordinates[0])[0], "y": projection(link.coordinates[0])[1]},
-        {"x": projection(link.coordinates[1])[0], "y": projection(link.coordinates[1])[1]}        
-      );      
-      responseGroup.append("path")
-        .attr("d", line(lineData))
-        .style({
-          fill:'none',
-          stroke: '#0000ff',
-          'stroke-width': '1px'
-        })
-        .call(lineTransition);
-    }
-  });
+  // newResponsesCountries = [];
+  // oldResponsesCountries = [];
+  // $(responses).each(function(i, response){
+  //   country = response.ADM0_A3;
+  //   var responseDate = new Date(response.Date);
+  //   if (responseDate < endDate){
+  //     if (responseDate >= oneMonth) {
+  //       newResponsesCountries.push(country);
+  //     } else if (responseDate >= sixMonth) {
+  //       oldResponsesCountries.push(country);
+  //     }        
+  //   }    
+  // });
+  // $(arcLinks).each(function(i, link){    
+  //   if ($.inArray(link.destination, newResponsesCountries) != -1){
+  //     lineData = []; 
+  //     lineData.push(
+  //       {"x": projection(link.coordinates[0])[0], "y": projection(link.coordinates[0])[1]},
+  //       {"x": projection(link.coordinates[1])[0], "y": projection(link.coordinates[1])[1]}        
+  //     );      
+  //     responseGroup.append("path")
+  //       .attr("d", line(lineData))
+  //       .style({
+  //         fill:'none',
+  //         stroke: '#0000ff',
+  //         'stroke-width': '1px'
+  //       })
+  //       .call(lineTransition);
+  //   }
+  // });
 
 }
 
