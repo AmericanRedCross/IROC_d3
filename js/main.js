@@ -6,6 +6,7 @@ var responses = [];
 var newResponsesCountries = [];
 var oldResponsesCountries = [];
 var displayedAppeals = [];
+var appealsToDate = [];
 var minDate;
 var MaxDate;
 var arcOrigin = [];
@@ -199,8 +200,7 @@ function buildSlider(){
   });
   maxDate = new Date(Math.max.apply(null, allDates));
   minDate = new Date(Math.min.apply(null, allDates));  
-  // I think something is wrong with the following formula
-  totalMonths = (((maxDate.getFullYear()-minDate.getFullYear())-2)*12)+((12-minDate.getMonth())+(maxDate.getMonth()+1)); 
+  totalMonths = (((maxDate.getFullYear()-minDate.getFullYear())-1)*12)+((12-minDate.getMonth())+(maxDate.getMonth()+1)); 
   $('#dateSlider').noUiSlider({
     range: [0,totalMonths],
     start: [0],
@@ -285,6 +285,7 @@ function onSlide() {
     console.log(changeValue);
     selectedDate = new Date(start.setMonth(changeValue));
     updateMap(selectedDate);
+    updateSidebar(selectedDate);
   }  
 }
 
@@ -295,18 +296,14 @@ function refreshMap() {
   changeValue = startMonth + sliderValue;  
   selectedDate = new Date(start.setMonth(changeValue));
   updateMap(selectedDate);
+  updateSidebar(selectedDate);
 }
 
-function updateMap(month){
-  // update date field
-  monthText = monthToText(month.getMonth());
-  yearText = month.getFullYear().toString();
-  $("#sliderDate").html(monthText + " " + yearText);  
-
+function updateMap(date) { 
   displayedAppeals = [];
   $("#responses").empty();
   $('[id="capitals"]').children().attr('class','none');
-  oneMonth = month;
+  oneMonth = date;
   var endStart = oneMonth.getMonth();
   endStart += 1;
   endDate = new Date(oneMonth);
@@ -388,7 +385,7 @@ function updateMap(month){
         .attr("d", line(lineData))
         .style({
           fill:'none',
-          stroke: '#0000ff',
+          stroke: '#ed1b2e',
           'stroke-width': '1px'
         })
         .call(lineTransition);
@@ -405,15 +402,44 @@ function updateMap(month){
         .attr("d", line(lineData))
         .style({
           fill:'none',
-          stroke: '#0000ff',
+          stroke: '#ed1b2e',
           'stroke-width': '1px'
         });        
     }
   });
 }
 
-function updateSidebar(){
-
+function updateSidebar(date){
+  // get upper bound of displayed time period
+  var endStart = date.getMonth();
+  endStart += 1;
+  endDate = new Date(date);
+  endDate = new Date(endDate.setMonth(endStart));
+  // update date display
+  monthText = monthToText(date.getMonth());
+  yearText = date.getFullYear().toString();
+  $("#sliderDate").html(monthText + " " + yearText);
+  // build array of appeals to date
+  // count totals of shit
+  appealsToDate = [];
+  var totalBudgets = 0;
+  var totalBeneficiaries = 0;
+  $(appeals).each(function(i, appeal){
+    appealStart = new Date(appeal.ST_DATE);
+    if (appealStart < endDate) {
+      appealsToDate.push(appeal);
+      budget = parseInt(appeal.TOTAL_BUDGET);
+      if (isFinite(budget) == true){
+        totalBudgets += budget;
+      };
+      beneficiaries = parseInt(appeal.TOT_TARGET_BENIFICIARIES);
+      if (isFinite(beneficiaries) == true){
+        totalBeneficiaries += beneficiaries;
+      };    
+    }
+  });  
+  var totalNumber = appealsToDate.length.toString();
+  $("#appealCount").html("<b><u>Appeals</u></b><br>" + totalNumber + " so far!<br>" + totalBudgets.toString() + " USD in the budgets!<br>and " + totalBeneficiaries.toString() + " total target beneficiaries!<br>(nota bene: data not complete)");
 }
 
 $(".slider-control-right").click(function(){  
