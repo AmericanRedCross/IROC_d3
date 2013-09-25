@@ -6,9 +6,11 @@ body{
 	margin-left:auto; 
 	margin-right:auto; 
 	width:70%;
+	height: 20px;
 }
 .noUi-handle {
 	width: 10px;
+	height: 24px;
 	margin-left: 0;
 	cursor: e-resize;
 }
@@ -29,19 +31,19 @@ circle:hover{
 
 .slider-control-right {
 	position: absolute;
-	right: 15%;
-	z-index: 99;
-	font-size: 30px;
-	margin-right: -35px;
+	right: 15%;	
+	font-size: 20px;
+	margin-right: -25px;
+	top: -3px;
 	cursor: pointer;
 	color: #6d6E70;	
 }
 .slider-control-left{
 	position: absolute;
 	left: 15%;
-	z-index: 99;
-	font-size: 30px;
-	margin-left: -35px;
+	font-size: 20px;
+	margin-left: -25px;
+	top: -2px;
 	cursor: pointer;	
 	color: #6d6E70;	
 }

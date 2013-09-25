@@ -234,13 +234,18 @@ function addCapitals(){
     .attr("cx", function(d){return projection([d.properties.LONGITUDE,d.properties.LATITUDE])[0]})
     .attr("cy", function(d){return projection([d.properties.LONGITUDE,d.properties.LATITUDE])[1]})
     .attr("r", 0)
+    .on("click", function(d){capitalClick(d);})
     .on("mouseover", function(d){
       tooltip.html(d.properties.ADM0NAME);
       tooltip.style("visibility", "visible");
     })
     .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+15)+"px");})
     .on("mouseout", function(){return tooltip.style("visibility", "hidden");}); 
-  onSlide();
+  refreshMap();
+}
+
+function capitalClick(d) {
+  console.log(d);
 }
 
 function monthToText(value){
@@ -283,12 +288,22 @@ function onSlide() {
   }  
 }
 
+function refreshMap() {
+  sliderValue = parseInt($("#dateSlider").val());
+  start = new Date(minDate);
+  startMonth = start.getMonth();
+  changeValue = startMonth + sliderValue;  
+  selectedDate = new Date(start.setMonth(changeValue));
+  updateMap(selectedDate);
+}
+
 function updateMap(month){
   // update date field
   monthText = monthToText(month.getMonth());
   yearText = month.getFullYear().toString();
   $("#sliderDate").html(monthText + " " + yearText);  
 
+  displayedAppeals = [];
   $("#responses").empty();
   $('[id="capitals"]').children().attr('class','none');
   oneMonth = month;
@@ -319,11 +334,15 @@ function updateMap(month){
   $(appeals).each(function(i, appeal){
     appealStart = new Date(appeal.ST_DATE);
     appealCountry = appeal.ADM0_A3;
+    if (appealStart < endDate && appealStart >=sixMonth){
+      displayedAppeals.push(appeal);
+    }
     // not "less than or equal to" since endDate is the first day of the next month
     if (appealStart < endDate) {
       var oldClass = $('[id="capitals"]').children("#" + appealCountry).attr('class');  
       if(appealStart >= oneMonth){        
         $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' oneMonth');
+        displayedAppeals.push(appeal);
       } else if (appealStart >=twoMonth){
         $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' twoMonth');
       } else if (appealStart >=threeMonth){
@@ -391,6 +410,10 @@ function updateMap(month){
         });        
     }
   });
+}
+
+function updateSidebar(){
+
 }
 
 $(".slider-control-right").click(function(){  
