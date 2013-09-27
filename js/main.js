@@ -15,6 +15,10 @@ var arcLinks = [];
 var sliderValue = null;
 var totalMonths;
 var leftMargin = 200; 
+var sliderWidth = null;
+var maxAppealBudget = 0;
+var minAppealBudget = 0;
+var appealBudgets = [];
 
 // these don't need to be global
 var endDate = "";
@@ -61,9 +65,16 @@ function initSizes() {
     .attr("width", width)
     .attr("height", height);
   rscale.range([0, height/45]);
+  
 };
 
 initSizes();
+
+function normalizeAppealBudget(dollas) {
+  var c = 2; // smallest marker radius
+  var d = 9; // largest marker radius
+  return 1 + ((dollas - minAppealBudget)(d - c)) / (maxAppealBudget - minAppealBudget)
+}
 
 function fitMapProjection() {
   fitProjection(projection, worldcountries, [[leftMargin, 100], [width - 20, height-120]], true);
@@ -121,7 +132,15 @@ function getappealdata(){
       dataType: 'json',
       timeout: 10000,
       success: function(json) {
-        appeals = json;        
+        appeals = json;
+        $(appeals).each(function(i, response){
+          var dollas = parseInt(response.TOTAL_BUDGET);
+          if (isFinite(dollas) == true){
+            appealBudgets.push(response.TOTAL_BUDGET)
+          }          
+        });
+        maxAppealBudget = Math.max.apply(null, appealBudgets);
+        minAppealBudget = Math.min.apply(null, appealBudgets);
         getresponsedata();
       },
       error: function(e) {
@@ -208,10 +227,32 @@ function buildSlider(){
     handles: 1,
     slide: onSlide
   });
-  addCountries();
+  $(".noUi-base").append('<div class="ticksWrap"></div>')
+  for(var i = 0; i < totalMonths+1; i++) {
+    $(".ticksWrap").append('<span class="ticks"></span>');
+  }
+  var startMonth = minDate.getMonth();
+  var yearBreakOne = 12 - startMonth;
+  
+  for(var i = yearBreakOne; i <= totalMonths; i++) {
+    $(".ticksWrap").children().eq(i).addClass("yearTick");
+    i = i + 11;
+  }
+
+  $(".ticksWrap").children().eq(0).css("border-color","rgba(0,0,0,0)");
+  $(".ticksWrap").children().eq(totalMonths).css("border-color","rgba(0,0,0,0)");
+
+
+  sizeSliderElements();
 }
 
-
+function sizeSliderElements(){
+  sliderWidth = $(".noUi-base")[0].getBoundingClientRect().width;
+  var spanWidth = ((sliderWidth - totalMonths) / totalMonths);
+  $('.ticks').css("margin-right", spanWidth.toString() + "px");
+  $('.noUi-handle').css("width", spanWidth + "px");
+  addCountries();
+}
 
 function addCountries(){
   fitMapProjection(); 
@@ -387,8 +428,7 @@ function updateMap(date) {
           fill:'none',
           stroke: '#ed1b2e',
           'stroke-width': '1px'
-        })
-        .call(lineTransition);
+        })        
     }
   });
   $(arcLinks).each(function(i, link){    
@@ -463,7 +503,7 @@ $(window).resize(function(){
   $("#responses").empty();
   $("#capitals").empty();
   initSizes();
-  addCountries();
+  sizeSliderElements();
 })
 
 
