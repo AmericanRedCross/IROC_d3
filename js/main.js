@@ -25,6 +25,7 @@ var threeMonth;
 var fourMonth;
 var fiveMonth;
 var sixMonth;
+var appealsSums = [];
 
 var width = height = null;
 
@@ -50,7 +51,7 @@ var tooltip = d3.select("body")
     .attr("class", "appeal-tooltip")    
     .text("a simple tooltip");
 
-var svg = d3.select("#map").append("svg")
+var map = d3.select("#map").append("svg")
   .attr("width", width)
   .attr("height", height);
 
@@ -58,7 +59,7 @@ function initSizes() {
   width = $(window).width();
   height = $(window).height() - 100;
   projection.translate([width/2,height/2]);
-  svg
+  map
     .attr("width", width)
     .attr("height", height);
   rscale.range([0, height/45]);
@@ -73,37 +74,16 @@ function normalizeAppealBudget(dollas) {
   return c + ((dollas - minAppealBudget)*(d - c)) / (maxAppealBudget - minAppealBudget)
 }
 
+var appealMarkerScale = d3.scale.linear()
+  .range([4, 13]); //smallest and largest marker radius
+
 function fitMapProjection() {
   fitProjection(projection, worldcountries, [[leftMargin, 100], [width - 20, height-120]], true);
 };
 
-var countryGroup = svg.append('g').attr("id", "countries");
-var capitalsGroup = svg.append('g').attr("id", "capitals");
-var responseGroup = svg.append('g').attr("id", "responses");
-
-
-// --- Helper functions (for tweening the path)
-var lineTransition = function lineTransition(path) {
-    path.transition()
-        //NOTE: Change this number (in ms) to make lines draw faster or slower
-        .duration(5500)
-        .attrTween("stroke-dasharray", tweenDash)
-        .each("end", function(d,i) { 
-            ////Uncomment following line to re-transition
-            //d3.select(this).call(transition); 
-            
-            ////We might want to do stuff when the line reaches the target,
-            //doStuffWhenLineFinishes(d,i);
-        });
-};
-var tweenDash = function tweenDash() {
-    //This function is used to animate the dash-array property, which is a
-    //  nice hack that gives us animation along some arbitrary path (in this
-    //  case, makes it look like a line is being drawn from point A to B)
-    var len = this.getTotalLength(),
-        interpolate = d3.interpolateString("0," + len, len + "," + len);
-    return function(t) { return interpolate(t); };
-};
+var countryGroup = map.append('g').attr("id", "countries");
+var capitalsGroup = map.append('g').attr("id", "capitals");
+var responseGroup = map.append('g').attr("id", "responses");
 
 function getcountrydata(){
   $.ajax({
@@ -139,6 +119,7 @@ function getappealdata(){
         });
         maxAppealBudget = Math.max.apply(null, appealBudgets);
         minAppealBudget = Math.min.apply(null, appealBudgets);
+        appealMarkerScale.domain([0, maxAppealBudget]);
         getresponsedata();
       },
       error: function(e) {
@@ -238,6 +219,44 @@ function buildSlider(){
   $(".ticksWrap").children().eq(0).css("border-color","rgba(0,0,0,0)");
   $(".ticksWrap").children().eq(totalMonths).css("display","none");
   sizeSliderElements();
+}
+
+function buildAppealsGraph(){
+  var maxYear = maxDate.getFullYear();
+  var minYear = minDate.getFullYear();
+  var divisionNumber = maxYear - minYear + 1;
+  for(var i = minYear; i <= maxYear; i++){
+    appealsCount = 0;
+    $(appeals).each(function(aIndex, appeal){
+      var appealYear = new Date(appeal.ST_DATE).getFullYear();
+      if(appealYear <= i){
+        appealsCount += 1;
+      }
+    });
+    appealsSums.push(appealsCount);
+  }
+
+  var w = 300;
+  var h = 650;
+  var barPadding = 1;
+  var appealGraph = d3.select("#appealGraph")
+    .append("svg")
+    .attr("width", w)
+    .attr("height", h);
+  appealGraph.selectAll("rect")
+    .data(appealsSums)
+    .enter()
+    .append("rect")
+    .attr("x", function(d,i) {
+      return i * (w / appealsSums.length)
+    })
+    .attr("y", function(d){
+      return h - d;
+    })
+    .attr("width", w / appealsSums.length - barPadding)
+    .attr("height", function(d) {
+      return d;
+    });
 }
 
 function sizeSliderElements(){
@@ -400,7 +419,7 @@ function updateMap(date) {
     // set the radius. however, this can be changed to add the two together
     var previousR = $('[id="capitals"]').children(adminId).attr('r');
     // if you pass "" to normalizeAppealBudget it returns the min radius
-    var appealR = normalizeAppealBudget(appeal.TOTAL_BUDGET);
+    var appealR = appealMarkerScale(appeal.TOTAL_BUDGET);
     if(appealR > previousR){
       $('[id="capitals"]').children(adminId).attr('r',appealR);
     }
@@ -423,7 +442,7 @@ function updateMap(date) {
           .attr("d", line(lineData))
           .style({
             'fill':'none',
-            'stroke': 'blue',
+            'stroke': '#7f181b',
             'stroke-width': '2px',
             'opacity': responseOpacity
           })        
