@@ -4,7 +4,7 @@ body{
 
 .ticksWrap {
 	margin-left: -1px;
-	width:102%;
+	width:100%;
 }
 .ticks {	
 	display:inline-block;
@@ -38,7 +38,7 @@ body{
 }
 
 circle {
-	fill: #ff6500;
+	fill: #ff0000;
 	stroke: #f5f5f5;
 	stroke-width: 1;	
 }

@@ -3,8 +3,7 @@ var worldcapitals = [];
 var appeals = [];
 var appealsCountries = [];
 var responses = [];
-var newResponsesCountries = [];
-var oldResponsesCountries = [];
+var displayedResponses = [];
 var displayedAppeals = [];
 var appealsToDate = [];
 var minDate;
@@ -19,15 +18,13 @@ var sliderWidth = null;
 var maxAppealBudget = 0;
 var minAppealBudget = 0;
 var appealBudgets = [];
-
-// these don't need to be global
-var endDate = "";
-var oneMonth = "";
-var twoMonth = "";
-var threeMonth = ""; 
-var fourMonth = "";
-var fiveMonth = "";
-var sixMonth = "";
+var endDate;
+var oneMonth;
+var twoMonth;
+var threeMonth; 
+var fourMonth;
+var fiveMonth;
+var sixMonth;
 
 var width = height = null;
 
@@ -71,9 +68,9 @@ function initSizes() {
 initSizes();
 
 function normalizeAppealBudget(dollas) {
-  var c = 2; // smallest marker radius
-  var d = 9; // largest marker radius
-  return 1 + ((dollas - minAppealBudget)(d - c)) / (maxAppealBudget - minAppealBudget)
+  var c = 4; // smallest marker radius
+  var d = 13; // largest marker radius
+  return c + ((dollas - minAppealBudget)*(d - c)) / (maxAppealBudget - minAppealBudget)
 }
 
 function fitMapProjection() {
@@ -81,8 +78,9 @@ function fitMapProjection() {
 };
 
 var countryGroup = svg.append('g').attr("id", "countries");
-var responseGroup = svg.append('g').attr("id", "responses");
 var capitalsGroup = svg.append('g').attr("id", "capitals");
+var responseGroup = svg.append('g').attr("id", "responses");
+
 
 // --- Helper functions (for tweening the path)
 var lineTransition = function lineTransition(path) {
@@ -232,17 +230,13 @@ function buildSlider(){
     $(".ticksWrap").append('<span class="ticks"></span>');
   }
   var startMonth = minDate.getMonth();
-  var yearBreakOne = 12 - startMonth;
-  
+  var yearBreakOne = 12 - startMonth;  
   for(var i = yearBreakOne; i <= totalMonths; i++) {
     $(".ticksWrap").children().eq(i).addClass("yearTick");
     i = i + 11;
   }
-
   $(".ticksWrap").children().eq(0).css("border-color","rgba(0,0,0,0)");
-  $(".ticksWrap").children().eq(totalMonths).css("border-color","rgba(0,0,0,0)");
-
-
+  $(".ticksWrap").children().eq(totalMonths).css("display","none");
   sizeSliderElements();
 }
 
@@ -250,6 +244,7 @@ function sizeSliderElements(){
   sliderWidth = $(".noUi-base")[0].getBoundingClientRect().width;
   var spanWidth = ((sliderWidth - totalMonths) / totalMonths);
   $('.ticks').css("margin-right", spanWidth.toString() + "px");
+  $(".ticksWrap").children().eq(totalMonths-1).css("margin-right","0");
   $('.noUi-handle').css("width", spanWidth + "px");
   addCountries();
 }
@@ -317,13 +312,28 @@ function monthToText(value){
   }
 }
 
+function opacityValue(date){     
+  if(date >= oneMonth){        
+    return 1;        
+  } else if (date >=twoMonth){
+    return 0.9;
+  } else if (date >=threeMonth){
+    return 0.8;
+  } else if (date >=fourMonth){
+    return 0.6;
+  } else if (date >=fiveMonth){
+    return 0.4;
+  } else if (date >=sixMonth){
+    return 0.2;
+  }   
+}
+
 function onSlide() {
   if(parseInt($("#dateSlider").val()) !== sliderValue) {
     sliderValue = parseInt($("#dateSlider").val());
     start = new Date(minDate);
     startMonth = start.getMonth();
-    changeValue = startMonth + sliderValue;
-    console.log(changeValue);
+    changeValue = startMonth + sliderValue;    
     selectedDate = new Date(start.setMonth(changeValue));
     updateMap(selectedDate);
     updateSidebar(selectedDate);
@@ -342,8 +352,11 @@ function refreshMap() {
 
 function updateMap(date) { 
   displayedAppeals = [];
+  displayedResponses = [];
   $("#responses").empty();
-  $('[id="capitals"]').children().attr('class','none');
+  $('[id="capitals"]').children().attr('r','0');
+  $('[id="capitals"]').children().attr('opacity','0');  
+  // update Date breaks
   oneMonth = date;
   var endStart = oneMonth.getMonth();
   endStart += 1;
@@ -370,82 +383,53 @@ function updateMap(date) {
   sixMonth = new Date(fiveMonth);
   sixMonth = new Date(sixMonth.setMonth(sixStart));
   $(appeals).each(function(i, appeal){
-    appealStart = new Date(appeal.ST_DATE);
-    appealCountry = appeal.ADM0_A3;
-    if (appealStart < endDate && appealStart >=sixMonth){
+    var appealStart = new Date(appeal.ST_DATE);
+    var appealCountry = appeal.ADM0_A3;
+    if (appealStart < endDate && appealStart >= sixMonth){
       displayedAppeals.push(appeal);
-    }
-    // not "less than or equal to" since endDate is the first day of the next month
-    if (appealStart < endDate) {
-      var oldClass = $('[id="capitals"]').children("#" + appealCountry).attr('class');  
-      if(appealStart >= oneMonth){        
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' oneMonth');
-        displayedAppeals.push(appeal);
-      } else if (appealStart >=twoMonth){
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' twoMonth');
-      } else if (appealStart >=threeMonth){
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' threeMonth');
-      } else if (appealStart >=fourMonth){
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' fourMonth');
-      } else if (appealStart >=fiveMonth){
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' fiveMonth');
-      } else if (appealStart >=sixMonth){
-        $('[id="capitals"]').children("#" + appealCountry).attr('class', oldClass + ' sixMonth');
+      var previousOpacity = $('[id="capitals"]').children("#" + appealCountry).attr('opacity');
+      var appealOpacity = opacityValue(appealStart);
+      if (appealOpacity > previousOpacity){
+        $('[id="capitals"]').children("#" + appealCountry).attr('opacity', appealOpacity);
       }
-    }
+    } 
   });  
-  $('[id="capitals"]').children(".none").attr('r','0');
-  $('[id="capitals"]').children(".sixMonth").attr('r','2').attr('opacity','0.5');
-  $('[id="capitals"]').children(".fiveMonth").attr('r','3').attr('opacity','0.6');
-  $('[id="capitals"]').children(".fourMonth").attr('r','4').attr('opacity','0.7');
-  $('[id="capitals"]').children(".threeMonth").attr('r','5').attr('opacity','0.8');
-  $('[id="capitals"]').children(".twoMonth").attr('r','7').attr('opacity','0.9');  
-  $('[id="capitals"]').children(".oneMonth").attr('r','9').attr('opacity','1');  
-  
-  newResponsesCountries = [];
-  oldResponsesCountries = [];
+  $(displayedAppeals).each(function(i,appeal){
+    var adminId = "#" + appeal.ADM0_A3;
+    // if 2 appeals occured in the 6 months displayed period, the largest budget is used to
+    // set the radius. however, this can be changed to add the two together
+    var previousR = $('[id="capitals"]').children(adminId).attr('r');
+    // if you pass "" to normalizeAppealBudget it returns the min radius
+    var appealR = normalizeAppealBudget(appeal.TOTAL_BUDGET);
+    if(appealR > previousR){
+      $('[id="capitals"]').children(adminId).attr('r',appealR);
+    }
+  });
+    
   $(responses).each(function(i, response){
-    country = response.ADM0_A3;
     var responseDate = new Date(response.Date);
-    if (responseDate < endDate){
-      if (responseDate >= oneMonth) {
-        newResponsesCountries.push(country);
-      } else if (responseDate >= sixMonth) {
-        oldResponsesCountries.push(country);
-      }        
+    var responseCountry = response.ADM0_A3;    
+    if (responseDate < endDate && responseDate >= sixMonth){
+      displayedResponses.push(response);      
+      responseOpacity = opacityValue(responseDate);
+      $(arcLinks).each(function(i, link){    
+        if (link.destination === responseCountry){
+          lineData = []; 
+          lineData.push(
+            {"x": projection(link.coordinates[0])[0], "y": projection(link.coordinates[0])[1]},
+            {"x": projection(link.coordinates[1])[0], "y": projection(link.coordinates[1])[1]}        
+            );      
+          responseGroup.append("path")
+          .attr("d", line(lineData))
+          .style({
+            'fill':'none',
+            'stroke': 'blue',
+            'stroke-width': '2px',
+            'opacity': responseOpacity
+          })        
+        }
+      });      
     }    
-  });
-  $(arcLinks).each(function(i, link){    
-    if ($.inArray(link.destination, newResponsesCountries) != -1){
-      lineData = []; 
-      lineData.push(
-        {"x": projection(link.coordinates[0])[0], "y": projection(link.coordinates[0])[1]},
-        {"x": projection(link.coordinates[1])[0], "y": projection(link.coordinates[1])[1]}        
-      );      
-      responseGroup.append("path")
-        .attr("d", line(lineData))
-        .style({
-          fill:'none',
-          stroke: '#ed1b2e',
-          'stroke-width': '1px'
-        })        
-    }
-  });
-  $(arcLinks).each(function(i, link){    
-    if ($.inArray(link.destination, oldResponsesCountries) != -1){
-      lineData = []; 
-      lineData.push(
-        {"x": projection(link.coordinates[0])[0], "y": projection(link.coordinates[0])[1]},
-        {"x": projection(link.coordinates[1])[0], "y": projection(link.coordinates[1])[1]}        
-      );      
-      responseGroup.append("path")
-        .attr("d", line(lineData))
-        .style({
-          fill:'none',
-          stroke: '#ed1b2e',
-          'stroke-width': '1px'
-        });        
-    }
   });
 }
 
@@ -465,7 +449,7 @@ function updateSidebar(date){
   var totalBudgets = 0;
   var totalBeneficiaries = 0;
   $(appeals).each(function(i, appeal){
-    appealStart = new Date(appeal.ST_DATE);
+    var appealStart = new Date(appeal.ST_DATE);
     if (appealStart < endDate) {
       appealsToDate.push(appeal);
       budget = parseInt(appeal.TOTAL_BUDGET);
