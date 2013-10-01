@@ -75,7 +75,7 @@ function normalizeAppealBudget(dollas) {
 }
 
 var appealMarkerScale = d3.scale.linear()
-  .range([4, 13]); //smallest and largest marker radius
+  .range([4, 13]); //smallest and largest marker radius --- domain set within getappealdata()
 
 function fitMapProjection() {
   fitProjection(projection, worldcountries, [[leftMargin, 100], [width - 20, height-120]], true);
@@ -105,7 +105,7 @@ function getcountrydata(){
 function getappealdata(){
   $.ajax({
       type: 'GET',
-      url: 'data/demoData_adm0_cut.json',
+      url: 'data/appealsData.json',
       contentType: 'application/json',
       dataType: 'json',
       timeout: 10000,
@@ -219,31 +219,36 @@ function buildSlider(){
   $(".ticksWrap").children().eq(0).css("border-color","rgba(0,0,0,0)");
   $(".ticksWrap").children().eq(totalMonths).css("display","none");
   sizeSliderElements();
+  buildWorldAllAppeals();
 }
 
-function buildAppealsGraph(){
+var worldAllAppealsScale = d3.scale.linear();
+
+function buildWorldAllAppeals(){
   var maxYear = maxDate.getFullYear();
   var minYear = minDate.getFullYear();
   var divisionNumber = maxYear - minYear + 1;
   for(var i = minYear; i <= maxYear; i++){
-    appealsCount = 0;
+    var appealsCount = 0;
     $(appeals).each(function(aIndex, appeal){
       var appealYear = new Date(appeal.ST_DATE).getFullYear();
-      if(appealYear <= i){
+      if(appealYear == i){
         appealsCount += 1;
       }
     });
     appealsSums.push(appealsCount);
   }
-
+  var maxSum = Math.max.apply(null, appealsSums);
+  worldAllAppealsScale.range([1, 150])
+    .domain([0,maxSum]);
   var w = 300;
-  var h = 650;
+  var h = 150;
   var barPadding = 1;
-  var appealGraph = d3.select("#appealGraph")
+  var worldAllAppealsGraph = d3.select("#worldAllAppealsGraph")
     .append("svg")
     .attr("width", w)
     .attr("height", h);
-  appealGraph.selectAll("rect")
+  worldAllAppealsGraph.selectAll("rect")
     .data(appealsSums)
     .enter()
     .append("rect")
@@ -251,13 +256,82 @@ function buildAppealsGraph(){
       return i * (w / appealsSums.length)
     })
     .attr("y", function(d){
-      return h - d;
+      return h - worldAllAppealsScale(d);
     })
     .attr("width", w / appealsSums.length - barPadding)
     .attr("height", function(d) {
-      return d;
-    });
+      return worldAllAppealsScale(d);
+    })
+    .attr("fill", "#e47b85");
+  $("#worldAllAppeals .xLabelMin").html(minYear.toString());
+  $("#worldAllAppeals .xLabelMax").html(maxYear.toString());
+  
 }
+
+
+var graphYear;
+var worldYearAppealsScale = d3.scale.linear();
+function buildWorldYearAppeals(date){
+  $("#worldAllAppeals").hide();
+  $("#worldYearAppeals").show();
+  year = new Date(date).getFullYear();
+  if(year != graphYear){    
+    graphYear = year;
+    var graphYearAppeals = [];
+    var monthSums = [];
+    $(appeals).each(function(aIndex, appeal){
+      var appealYear = new Date(appeal.ST_DATE).getFullYear();
+      if(appealYear == graphYear){
+        graphYearAppeals.push(appeal);
+      }
+    });
+    for(var i=0; i<12; i++){
+      var appealsCount = 0;
+      $(graphYearAppeals).each(function(aIndex, appeal){
+        var appealMonth = null;
+        appealMonth = new Date(appeal.ST_DATE).getMonth();
+        if(appealMonth == i){
+          appealsCount +=1;
+        }
+      });
+      monthSums.push(appealsCount);
+    }
+    var maxSum = Math.max.apply(null, monthSums);
+    worldYearAppealsScale.range([1, 150])
+      .domain([0,maxSum]);
+    var w = 300;
+    var h = 150;
+    var barPadding = 1;
+    $("#worldYearAppealsGraph").empty();
+    var worldYearAppealsGraph = d3.select("#worldYearAppealsGraph")
+      .append("svg")
+      .attr("width", w)
+      .attr("height", h);
+    worldYearAppealsGraph.selectAll("rect")
+      .data(monthSums)
+      .enter()
+      .append("rect")
+      .attr("x", function(d,i) {
+        return i * (w / monthSums.length)
+      })
+      .attr("y", function(d){
+        return h - worldYearAppealsScale(d);
+      })
+      .attr("width", w / monthSums.length - barPadding)
+      .attr("height", function(d) {
+        return worldYearAppealsScale(d);
+      })
+      .attr("fill", "#e47b85");
+    $("#worldYearAppeals .yearLabel").html(graphYear.toString());
+  }
+}
+
+function toggleAppealsDisplay(){
+  $("#worldYearAppeals").toggle();
+  $("#worldAllAppeals").toggle();
+}
+
+
 
 function sizeSliderElements(){
   sliderWidth = $(".noUi-base")[0].getBoundingClientRect().width;
@@ -356,6 +430,7 @@ function onSlide() {
     selectedDate = new Date(start.setMonth(changeValue));
     updateMap(selectedDate);
     updateSidebar(selectedDate);
+    buildWorldYearAppeals(selectedDate);
   }  
 }
 
@@ -482,7 +557,7 @@ function updateSidebar(date){
     }
   });  
   var totalNumber = appealsToDate.length.toString();
-  $("#appealCount").html("<b><u>Appeals</u></b><br>" + totalNumber + " so far!<br>" + totalBudgets.toString() + " USD in the budgets!<br>and " + totalBeneficiaries.toString() + " total target beneficiaries!<br>(nota bene: data not complete)");
+  $("#appealCount").html("<b><u>Appeals</u></b><br>" + totalNumber + " so far!<br>" + totalBudgets.toString() + " USD in the budgets!<br>and " + totalBeneficiaries.toString() + " total target beneficiaries!");
 }
 
 $(".slider-control-right").click(function(){  
