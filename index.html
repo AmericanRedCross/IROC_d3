@@ -22,42 +22,38 @@
 
   <body>    
     <img class="arc-logo" src="img/redcross-logo.png">
-    <div id="left">
-      <div id="sliderDate" style="font-size:200%; font-weight:bold;"></div>
-      <div id="appealCount" style="font-weight:bold;"></div>
-      <div id="appealBox">
-        <h2># of Appeals</h2>
-        <div id="worldAllAppeals">
-          <div id="worldAllAppealsGraph"></div>
-          <div class="xLabelMin pull-left"></div><div class="xLabelMax pull-right"></div>
-        </div>
-        <div id="worldYearAppeals" style="display:none;">
-          <div id="worldYearAppealsGraph"></div>
-          <div class="xLabelMin pull-left">Jan</div>
-          <div class="yearLabel" style="position:absolute; left:50%;"></div>
-          <div class="xLabelMax pull-right">Dec</div>
-        </div>
-        <div id="countryAllAppeals">
-          <div id="countryAllAppealsGraph"></div>
-          <div class="xLabelMin pull-left"></div><div class="xLabelMax pull-right"></div>
-        </div>
-        <div id="countryYearAppeals">
-          <div id="countryYearAppealsGraph"></div>
-          <div class="xLabelMin pull-left"></div><div class="xLabelMax pull-right"></div>
-        </div>
-      </div>
-      <button type="button" class="btn btn-default btn-xs" onClick="toggleAppealsDisplay()" style="margin-top:30px;">All Years / Selected Year</button>     
-    </div>   
-
-    <div id="map"></div> 
-    <div id="sliderWrap">          
-      <div id="dateSlider">
-        <span class="glyphicon glyphicon-chevron-right slider-control-right"></span> 
-        <span class="glyphicon glyphicon-chevron-left slider-control-left"></span>         
-      </div>
-      
-    </div>
+         
+       
     
+      <div class="row" style="margin:0">
+
+        <div id="left" class="col-sm-3 col-xs-4">
+          <div id="sliderDate" style="font-size:200%; font-weight:bold;"></div>
+          <div id="appealCount" style="font-weight:bold;"></div>
+          <hr>
+          <div id="appealBox">
+            <h2># of Appeals <span class="yearLabel"></span></h2>
+            <div id="appealsGraphWrap">
+              <div id="appealsGraph"></div>
+              <div class="xLabelMin pull-left"></div>          
+              <div class="xLabelMax pull-right"></div>
+            </div>
+            <button type="button" class="btn btn-default btn-xs" onClick="buildWorldAllAppeals()" style="margin-top:30px;">All Years</button>
+          </div> 
+        </div> 
+        <div id="right" class="col-sm-9 col-xs-8">
+          <div id="map"></div>
+        </div>
+
+      </div> <!-- /row  -->
+        <div id="sliderWrap">          
+          <div id="dateSlider">
+            <span class="glyphicon glyphicon-chevron-right slider-control-right"></span> 
+            <span class="glyphicon glyphicon-chevron-left slider-control-left"></span>         
+          </div>      
+        </div>
+
+       
         
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/jquery.nouislider.js"></script>

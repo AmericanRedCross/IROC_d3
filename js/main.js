@@ -56,8 +56,8 @@ var map = d3.select("#map").append("svg")
   .attr("height", height);
 
 function initSizes() {
-  width = $(window).width();
-  height = $(window).height() - 100;
+  width = $("#right").width();
+  height = $(window).height() - 60;
   projection.translate([width/2,height/2]);
   map
     .attr("width", width)
@@ -78,7 +78,9 @@ var appealMarkerScale = d3.scale.linear()
   .range([4, 13]); //smallest and largest marker radius --- domain set within getappealdata()
 
 function fitMapProjection() {
-  fitProjection(projection, worldcountries, [[leftMargin, 100], [width - 20, height-120]], true);
+  var xTwo = $("#map").width();
+  var yTwo = $("#map").height();
+  fitProjection(projection, worldcountries, [[0, 0], [xTwo, yTwo]], true);
 };
 
 var countryGroup = map.append('g').attr("id", "countries");
@@ -223,11 +225,32 @@ function buildSlider(){
 }
 
 var worldAllAppealsScale = d3.scale.linear();
+var worldYearAppealsScale = d3.scale.linear();
+var appealsW = $("#left").width();
+var appealsH = 125;
+var appealsBarPadding = 1;
+var numberGraphBars = 0;
+var appealsGraph = d3.select("#appealsGraph")
+    .append("svg")
+    .attr("width", appealsW)
+    .attr("height", appealsH);
 
-function buildWorldAllAppeals(){
+function appealGraphResize() {
+  appealsW = $("#left").width();
+  var dataBars = appealsGraph.selectAll("rect");
+  dataBars
+    .attr("x", function(d,i) {
+      return i * (appealsW / numberGraphBars);
+    })
+    .attr("width", appealsW / numberGraphBars - appealsBarPadding);
+}
+
+
+function buildWorldAllAppeals() {
   var maxYear = maxDate.getFullYear();
   var minYear = minDate.getFullYear();
   var divisionNumber = maxYear - minYear + 1;
+  appealsSums = [];
   for(var i = minYear; i <= maxYear; i++){
     var appealsCount = 0;
     $(appeals).each(function(aIndex, appeal){
@@ -239,98 +262,94 @@ function buildWorldAllAppeals(){
     appealsSums.push(appealsCount);
   }
   var maxSum = Math.max.apply(null, appealsSums);
+  numberGraphBars = appealsSums.length;
   worldAllAppealsScale.range([1, 150])
-    .domain([0,maxSum]);
-  var w = 300;
-  var h = 150;
-  var barPadding = 1;
-  var worldAllAppealsGraph = d3.select("#worldAllAppealsGraph")
-    .append("svg")
-    .attr("width", w)
-    .attr("height", h);
-  worldAllAppealsGraph.selectAll("rect")
-    .data(appealsSums)
-    .enter()
-    .append("rect")
+    .domain([0,maxSum]); 
+  var dataBars = appealsGraph.selectAll("rect")
+    .data(appealsSums);
+  dataBars.enter().append("rect")
+    .attr("fill", "#e47b85");
+  dataBars.exit()  
+    .transition()
+    .duration(300)
+    .ease("exp")
+      .attr("width", 0)
+    .remove();
+  dataBars   
+    .transition()
+    .duration(300)
+    .ease("quad") 
     .attr("x", function(d,i) {
-      return i * (w / appealsSums.length)
+      return i * (appealsW / numberGraphBars);
     })
     .attr("y", function(d){
-      return h - worldAllAppealsScale(d);
+      return appealsH - worldAllAppealsScale(d);
     })
-    .attr("width", w / appealsSums.length - barPadding)
-    .attr("height", function(d) {
-      return worldAllAppealsScale(d);
-    })
-    .attr("fill", "#e47b85");
-  $("#worldAllAppeals .xLabelMin").html(minYear.toString());
-  $("#worldAllAppeals .xLabelMax").html(maxYear.toString());
+    .attr("width", appealsW / numberGraphBars - appealsBarPadding)
+    .attr("height", worldAllAppealsScale)
+    .attr("fill", "#e47b85")
+    .attr("data-number", function(d){ return d; });
   
+  $("#appealBox .yearLabel").empty();
+  $("#appealsGraphWrap .xLabelMin").html(minYear.toString());
+  $("#appealsGraphWrap .xLabelMax").html(maxYear.toString());  
 }
 
-
-var graphYear;
-var worldYearAppealsScale = d3.scale.linear();
 function buildWorldYearAppeals(date){
-  $("#worldAllAppeals").hide();
-  $("#worldYearAppeals").show();
   year = new Date(date).getFullYear();
-  if(year != graphYear){    
-    graphYear = year;
-    var graphYearAppeals = [];
-    var monthSums = [];
-    $(appeals).each(function(aIndex, appeal){
-      var appealYear = new Date(appeal.ST_DATE).getFullYear();
-      if(appealYear == graphYear){
-        graphYearAppeals.push(appeal);
+  var graphYearAppeals = [];
+  var monthSums = [];
+  $(appeals).each(function(aIndex, appeal){
+    var appealYear = new Date(appeal.ST_DATE).getFullYear();
+    if(appealYear == year){
+      graphYearAppeals.push(appeal);
+    }
+  });
+  for(var i=0; i<12; i++){
+    var appealsCount = 0;
+    $(graphYearAppeals).each(function(aIndex, appeal){
+      var appealMonth = null;
+      appealMonth = new Date(appeal.ST_DATE).getMonth();
+      if(appealMonth == i){
+        appealsCount +=1;
       }
     });
-    for(var i=0; i<12; i++){
-      var appealsCount = 0;
-      $(graphYearAppeals).each(function(aIndex, appeal){
-        var appealMonth = null;
-        appealMonth = new Date(appeal.ST_DATE).getMonth();
-        if(appealMonth == i){
-          appealsCount +=1;
-        }
-      });
-      monthSums.push(appealsCount);
-    }
-    var maxSum = Math.max.apply(null, monthSums);
-    worldYearAppealsScale.range([1, 150])
-      .domain([0,maxSum]);
-    var w = 300;
-    var h = 150;
-    var barPadding = 1;
-    $("#worldYearAppealsGraph").empty();
-    var worldYearAppealsGraph = d3.select("#worldYearAppealsGraph")
-      .append("svg")
-      .attr("width", w)
-      .attr("height", h);
-    worldYearAppealsGraph.selectAll("rect")
-      .data(monthSums)
-      .enter()
-      .append("rect")
-      .attr("x", function(d,i) {
-        return i * (w / monthSums.length)
-      })
-      .attr("y", function(d){
-        return h - worldYearAppealsScale(d);
-      })
-      .attr("width", w / monthSums.length - barPadding)
-      .attr("height", function(d) {
-        return worldYearAppealsScale(d);
-      })
-      .attr("fill", "#e47b85");
-    $("#worldYearAppeals .yearLabel").html(graphYear.toString());
+    monthSums.push(appealsCount);
   }
+  var maxSum = Math.max.apply(null, monthSums);
+  numberGraphBars = monthSums.length;
+  worldYearAppealsScale.range([1, 150])
+    .domain([0,maxSum]);
+  
+  var dataBars = appealsGraph.selectAll("rect")
+    .data(monthSums);
+  dataBars.enter().insert("rect")
+    .attr("fill", "#e47b85");
+  dataBars.exit()
+    .transition()
+    .duration(300)
+    .ease("exp")
+      .attr("width", 0)
+      .remove();
+  dataBars
+    .transition()
+    .duration(300)
+    .ease("quad")    
+    .attr("x", function(d,i) {
+      return i * (appealsW / numberGraphBars);
+    })
+    .attr("y", function(d){
+      return appealsH - worldYearAppealsScale(d);
+    })
+    .attr("width", appealsW / numberGraphBars - appealsBarPadding)
+    .attr("height", worldYearAppealsScale)
+    // .attr("fill", "#e47b85")
+    .attr("data-number", function(d){ return d; });
+  
+  $("#appealBox .yearLabel").html(year.toString());
+  $("#appealsGraphWrap .xLabelMin").html("Jan");
+  $("#appealsGraphWrap .xLabelMax").html("Dec");
 }
-
-function toggleAppealsDisplay(){
-  $("#worldYearAppeals").toggle();
-  $("#worldAllAppeals").toggle();
-}
-
 
 
 function sizeSliderElements(){
@@ -582,6 +601,7 @@ $(window).resize(function(){
   $("#capitals").empty();
   initSizes();
   sizeSliderElements();
+  appealGraphResize();
 })
 
 
