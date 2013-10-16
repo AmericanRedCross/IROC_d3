@@ -2,433 +2,433 @@
 "type": "FeatureCollection",
                                                                                 
 "features": [
-{ "type": "Feature", "id": 0, "properties": { "NAMEASCII": "Mariehamn", "ADM0NAME": "Finland", "ADM0_A3": "ALD", "LATITUDE": 60.0969961849, "LONGITUDE": 19.9490044719, "GEONAMEID": 3041732.0 }, "geometry": { "type": "Point", "coordinates": [ 19.949004471869102, 60.096996184895431 ] } }
+{ "type": "Feature", "id": 0, "properties": { "NAMEASCII": "Mariehamn", "name": "Finland", "ADM0_A3": "ALD", "LATITUDE": 60.0969961849, "LONGITUDE": 19.9490044719, "GEONAMEID": 3041732.0 }, "geometry": { "type": "Point", "coordinates": [ 19.949004471869102, 60.096996184895431 ] } }
 ,
-{ "type": "Feature", "id": 1, "properties": { "NAMEASCII": "Vatican City", "ADM0NAME": "Vatican (Holy Sea)", "ADM0_A3": "VAT", "LATITUDE": 41.900012226400001, "LONGITUDE": 12.4478083889, "GEONAMEID": 6691831.0 }, "geometry": { "type": "Point", "coordinates": [ 12.453386544971766, 41.903282179960115 ] } }
+{ "type": "Feature", "id": 1, "properties": { "NAMEASCII": "Vatican City", "name": "Vatican (Holy Sea)", "ADM0_A3": "VAT", "LATITUDE": 41.900012226400001, "LONGITUDE": 12.4478083889, "GEONAMEID": 6691831.0 }, "geometry": { "type": "Point", "coordinates": [ 12.453386544971766, 41.903282179960115 ] } }
 ,
-{ "type": "Feature", "id": 2, "properties": { "NAMEASCII": "George Town", "ADM0NAME": "Cayman Islands", "ADM0_A3": "CYM", "LATITUDE": 19.280436827599999, "LONGITUDE": -81.329981731900006, "GEONAMEID": 2165718.0 }, "geometry": { "type": "Point", "coordinates": [ -81.329981731883095, 19.280436827567485 ] } }
+{ "type": "Feature", "id": 2, "properties": { "NAMEASCII": "George Town", "name": "Cayman Islands", "ADM0_A3": "CYM", "LATITUDE": 19.280436827599999, "LONGITUDE": -81.329981731900006, "GEONAMEID": 2165718.0 }, "geometry": { "type": "Point", "coordinates": [ -81.329981731883095, 19.280436827567485 ] } }
 ,
-{ "type": "Feature", "id": 3, "properties": { "NAMEASCII": "Grand Turk", "ADM0NAME": "Turks and Caicos Islands", "ADM0_A3": "TCA", "LATITUDE": 21.466427428199999, "LONGITUDE": -71.135978639399994, "GEONAMEID": 3576994.0 }, "geometry": { "type": "Point", "coordinates": [ -71.135978639394523, 21.466427428162149 ] } }
+{ "type": "Feature", "id": 3, "properties": { "NAMEASCII": "Grand Turk", "name": "Turks and Caicos Islands", "ADM0_A3": "TCA", "LATITUDE": 21.466427428199999, "LONGITUDE": -71.135978639399994, "GEONAMEID": 3576994.0 }, "geometry": { "type": "Point", "coordinates": [ -71.135978639394523, 21.466427428162149 ] } }
 ,
-{ "type": "Feature", "id": 4, "properties": { "NAMEASCII": "Douglas", "ADM0NAME": "Isle of Man", "ADM0_A3": "IMN", "LATITUDE": 54.150427265499999, "LONGITUDE": -4.48002140443, "GEONAMEID": 2651073.0 }, "geometry": { "type": "Point", "coordinates": [ -4.480021404427305, 54.150427265532471 ] } }
+{ "type": "Feature", "id": 4, "properties": { "NAMEASCII": "Douglas", "name": "Isle of Man", "ADM0_A3": "IMN", "LATITUDE": 54.150427265499999, "LONGITUDE": -4.48002140443, "GEONAMEID": 2651073.0 }, "geometry": { "type": "Point", "coordinates": [ -4.480021404427305, 54.150427265532471 ] } }
 ,
-{ "type": "Feature", "id": 5, "properties": { "NAMEASCII": "San Marino", "ADM0NAME": "San Marino", "ADM0_A3": "SMR", "LATITUDE": 43.917150084500001, "LONGITUDE": 12.466670286699999, "GEONAMEID": 3168070.0 }, "geometry": { "type": "Point", "coordinates": [ 12.441770157800141, 43.936095834768004 ] } }
+{ "type": "Feature", "id": 5, "properties": { "NAMEASCII": "San Marino", "name": "San Marino", "ADM0_A3": "SMR", "LATITUDE": 43.917150084500001, "LONGITUDE": 12.466670286699999, "GEONAMEID": 3168070.0 }, "geometry": { "type": "Point", "coordinates": [ 12.441770157800141, 43.936095834768004 ] } }
 ,
-{ "type": "Feature", "id": 6, "properties": { "NAMEASCII": "Willemstad", "ADM0NAME": "Curacao", "ADM0_A3": "CUW", "LATITUDE": 12.2004297068, "LONGITUDE": -69.019983766300001, "GEONAMEID": 3513090.0 }, "geometry": { "type": "Point", "coordinates": [ -69.01998376633918, 12.200429706771047 ] } }
+{ "type": "Feature", "id": 6, "properties": { "NAMEASCII": "Willemstad", "name": "Curacao", "ADM0_A3": "CUW", "LATITUDE": 12.2004297068, "LONGITUDE": -69.019983766300001, "GEONAMEID": 3513090.0 }, "geometry": { "type": "Point", "coordinates": [ -69.01998376633918, 12.200429706771047 ] } }
 ,
-{ "type": "Feature", "id": 7, "properties": { "NAMEASCII": "Oranjestad", "ADM0NAME": "Aruba", "ADM0_A3": "ABW", "LATITUDE": 12.530383727, "LONGITUDE": -70.028991945100003, "GEONAMEID": 3513426.0 }, "geometry": { "type": "Point", "coordinates": [ -70.028991945054088, 12.530383726954597 ] } }
+{ "type": "Feature", "id": 7, "properties": { "NAMEASCII": "Oranjestad", "name": "Aruba", "ADM0_A3": "ABW", "LATITUDE": 12.530383727, "LONGITUDE": -70.028991945100003, "GEONAMEID": 3513426.0 }, "geometry": { "type": "Point", "coordinates": [ -70.028991945054088, 12.530383726954597 ] } }
 ,
-{ "type": "Feature", "id": 8, "properties": { "NAMEASCII": "Vaduz", "ADM0NAME": "Liechtenstein", "ADM0_A3": "LIE", "LATITUDE": 47.133723774300002, "LONGITUDE": 9.516669472909999, "GEONAMEID": 3042030.0 }, "geometry": { "type": "Point", "coordinates": [ 9.516669472907267, 47.133723774293571 ] } }
+{ "type": "Feature", "id": 8, "properties": { "NAMEASCII": "Vaduz", "name": "Liechtenstein", "ADM0_A3": "LIE", "LATITUDE": 47.133723774300002, "LONGITUDE": 9.516669472909999, "GEONAMEID": 3042030.0 }, "geometry": { "type": "Point", "coordinates": [ 9.516669472907267, 47.133723774293571 ] } }
 ,
-{ "type": "Feature", "id": 9, "properties": { "NAMEASCII": "Gibraltar", "ADM0NAME": "Gibraltar", "ADM0_A3": "GIB", "LATITUDE": 36.132434946, "LONGITUDE": -5.37807482973, "GEONAMEID": 2411585.0 }, "geometry": { "type": "Point", "coordinates": [ -5.378074829731531, 36.132434945964803 ] } }
+{ "type": "Feature", "id": 9, "properties": { "NAMEASCII": "Gibraltar", "name": "Gibraltar", "ADM0_A3": "GIB", "LATITUDE": 36.132434946, "LONGITUDE": -5.37807482973, "GEONAMEID": 2411585.0 }, "geometry": { "type": "Point", "coordinates": [ -5.378074829731531, 36.132434945964803 ] } }
 ,
-{ "type": "Feature", "id": 10, "properties": { "NAMEASCII": "Longyearbyen", "ADM0NAME": "Svalbard and Jan Mayen Islands", "ADM0_A3": "SJM", "LATITUDE": 78.216684386400004, "LONGITUDE": 15.5499962958, "GEONAMEID": 2729907.0 }, "geometry": { "type": "Point", "coordinates": [ 15.549996295848075, 78.216684386396992 ] } }
+{ "type": "Feature", "id": 10, "properties": { "NAMEASCII": "Longyearbyen", "name": "Svalbard and Jan Mayen Islands", "ADM0_A3": "SJM", "LATITUDE": 78.216684386400004, "LONGITUDE": 15.5499962958, "GEONAMEID": 2729907.0 }, "geometry": { "type": "Point", "coordinates": [ 15.549996295848075, 78.216684386396992 ] } }
 ,
-{ "type": "Feature", "id": 11, "properties": { "NAMEASCII": "Luxembourg", "ADM0NAME": "Luxembourg", "ADM0_A3": "LUX", "LATITUDE": 49.611660379100002, "LONGITUDE": 6.13000280623, "GEONAMEID": 2960316.0 }, "geometry": { "type": "Point", "coordinates": [ 6.130002806227083, 49.611660379121076 ] } }
+{ "type": "Feature", "id": 11, "properties": { "NAMEASCII": "Luxembourg", "name": "Luxembourg", "ADM0_A3": "LUX", "LATITUDE": 49.611660379100002, "LONGITUDE": 6.13000280623, "GEONAMEID": 2960316.0 }, "geometry": { "type": "Point", "coordinates": [ 6.130002806227083, 49.611660379121076 ] } }
 ,
-{ "type": "Feature", "id": 12, "properties": { "NAMEASCII": "Noumea", "ADM0NAME": "New Caledonia", "ADM0_A3": "NCL", "LATITUDE": -22.2625277637, "LONGITUDE": 166.44428520299999, "GEONAMEID": 2139521.0 }, "geometry": { "type": "Point", "coordinates": [ 166.44428520313079, -22.262527763730759 ] } }
+{ "type": "Feature", "id": 12, "properties": { "NAMEASCII": "Noumea", "name": "New Caledonia", "ADM0_A3": "NCL", "LATITUDE": -22.2625277637, "LONGITUDE": 166.44428520299999, "GEONAMEID": 2139521.0 }, "geometry": { "type": "Point", "coordinates": [ 166.44428520313079, -22.262527763730759 ] } }
 ,
-{ "type": "Feature", "id": 13, "properties": { "NAMEASCII": "Palikir", "ADM0NAME": "Federated States of Micronesia", "ADM0_A3": "FSM", "LATITUDE": 6.91664369601, "LONGITUDE": 158.149974324, "GEONAMEID": 2081986.0 }, "geometry": { "type": "Point", "coordinates": [ 158.14997432376231, 6.916643696007725 ] } }
+{ "type": "Feature", "id": 13, "properties": { "NAMEASCII": "Palikir", "name": "Federated States of Micronesia", "ADM0_A3": "FSM", "LATITUDE": 6.91664369601, "LONGITUDE": 158.149974324, "GEONAMEID": 2081986.0 }, "geometry": { "type": "Point", "coordinates": [ 158.14997432376231, 6.916643696007725 ] } }
 ,
-{ "type": "Feature", "id": 14, "properties": { "NAMEASCII": "Majuro", "ADM0NAME": "Marshall Islands", "ADM0_A3": "MHL", "LATITUDE": 7.10300431122, "LONGITUDE": 171.38000017600001, "GEONAMEID": 2113779.0 }, "geometry": { "type": "Point", "coordinates": [ 171.38000017574655, 7.103004311216239 ] } }
+{ "type": "Feature", "id": 14, "properties": { "NAMEASCII": "Majuro", "name": "Marshall Islands", "ADM0_A3": "MHL", "LATITUDE": 7.10300431122, "LONGITUDE": 171.38000017600001, "GEONAMEID": 2113779.0 }, "geometry": { "type": "Point", "coordinates": [ 171.38000017574655, 7.103004311216239 ] } }
 ,
-{ "type": "Feature", "id": 15, "properties": { "NAMEASCII": "Agana", "ADM0NAME": "Guam", "ADM0_A3": "GUM", "LATITUDE": 13.470016295300001, "LONGITUDE": 144.75001704799999, "GEONAMEID": 4044012.0 }, "geometry": { "type": "Point", "coordinates": [ 144.750017048318, 13.470016295317805 ] } }
+{ "type": "Feature", "id": 15, "properties": { "NAMEASCII": "Agana", "name": "Guam", "ADM0_A3": "GUM", "LATITUDE": 13.470016295300001, "LONGITUDE": 144.75001704799999, "GEONAMEID": 4044012.0 }, "geometry": { "type": "Point", "coordinates": [ 144.750017048318, 13.470016295317805 ] } }
 ,
-{ "type": "Feature", "id": 16, "properties": { "NAMEASCII": "Funafuti", "ADM0NAME": "Tuvalu", "ADM0_A3": "TUV", "LATITUDE": -8.516651999040001, "LONGITUDE": 179.216647094, "GEONAMEID": 2110394.0 }, "geometry": { "type": "Point", "coordinates": [ 179.21664709402887, -8.516651999041073 ] } }
+{ "type": "Feature", "id": 16, "properties": { "NAMEASCII": "Funafuti", "name": "Tuvalu", "ADM0_A3": "TUV", "LATITUDE": -8.516651999040001, "LONGITUDE": 179.216647094, "GEONAMEID": 2110394.0 }, "geometry": { "type": "Point", "coordinates": [ 179.21664709402887, -8.516651999041073 ] } }
 ,
-{ "type": "Feature", "id": 17, "properties": { "NAMEASCII": "Melekeok", "ADM0NAME": "Palau", "ADM0_A3": "PLW", "LATITUDE": 7.48739617298, "LONGITUDE": 134.62654846699999, "GEONAMEID": 1559804.0 }, "geometry": { "type": "Point", "coordinates": [ 134.62654846699218, 7.487396172977981 ] } }
+{ "type": "Feature", "id": 17, "properties": { "NAMEASCII": "Melekeok", "name": "Palau", "ADM0_A3": "PLW", "LATITUDE": 7.48739617298, "LONGITUDE": 134.62654846699999, "GEONAMEID": 1559804.0 }, "geometry": { "type": "Point", "coordinates": [ 134.62654846699218, 7.487396172977981 ] } }
 ,
-{ "type": "Feature", "id": 18, "properties": { "NAMEASCII": "Monaco", "ADM0NAME": "Monaco", "ADM0_A3": "MCO", "LATITUDE": 43.739645687900001, "LONGITUDE": 7.40691317347, "GEONAMEID": 2993458.0 }, "geometry": { "type": "Point", "coordinates": [ 7.406913173465057, 43.739645687852487 ] } }
+{ "type": "Feature", "id": 18, "properties": { "NAMEASCII": "Monaco", "name": "Monaco", "ADM0_A3": "MCO", "LATITUDE": 43.739645687900001, "LONGITUDE": 7.40691317347, "GEONAMEID": 2993458.0 }, "geometry": { "type": "Point", "coordinates": [ 7.406913173465057, 43.739645687852487 ] } }
 ,
-{ "type": "Feature", "id": 19, "properties": { "NAMEASCII": "Tarawa", "ADM0NAME": "Kiribati", "ADM0_A3": "KIR", "LATITUDE": 1.33818750562, "LONGITUDE": 173.01757082899999, "GEONAMEID": 2110079.0 }, "geometry": { "type": "Point", "coordinates": [ 173.01757082854942, 1.338187505624603 ] } }
+{ "type": "Feature", "id": 19, "properties": { "NAMEASCII": "Tarawa", "name": "Kiribati", "ADM0_A3": "KIR", "LATITUDE": 1.33818750562, "LONGITUDE": 173.01757082899999, "GEONAMEID": 2110079.0 }, "geometry": { "type": "Point", "coordinates": [ 173.01757082854942, 1.338187505624603 ] } }
 ,
-{ "type": "Feature", "id": 20, "properties": { "NAMEASCII": "Moroni", "ADM0NAME": "Comoros", "ADM0_A3": "COM", "LATITUDE": -11.704157695699999, "LONGITUDE": 43.240244098700003, "GEONAMEID": 921772.0 }, "geometry": { "type": "Point", "coordinates": [ 43.240244098693324, -11.704157695668471 ] } }
+{ "type": "Feature", "id": 20, "properties": { "NAMEASCII": "Moroni", "name": "Comoros", "ADM0_A3": "COM", "LATITUDE": -11.704157695699999, "LONGITUDE": 43.240244098700003, "GEONAMEID": 921772.0 }, "geometry": { "type": "Point", "coordinates": [ 43.240244098693324, -11.704157695668471 ] } }
 ,
-{ "type": "Feature", "id": 21, "properties": { "NAMEASCII": "Macau", "ADM0NAME": "Macau S.A.R", "ADM0_A3": "MAC", "LATITUDE": 22.202997455799999, "LONGITUDE": 113.54504838, "GEONAMEID": 3395998.0 }, "geometry": { "type": "Point", "coordinates": [ 113.54504837957336, 22.20299745583452 ] } }
+{ "type": "Feature", "id": 21, "properties": { "NAMEASCII": "Macau", "name": "Macau S.A.R", "ADM0_A3": "MAC", "LATITUDE": 22.202997455799999, "LONGITUDE": 113.54504838, "GEONAMEID": 3395998.0 }, "geometry": { "type": "Point", "coordinates": [ 113.54504837957336, 22.20299745583452 ] } }
 ,
-{ "type": "Feature", "id": 22, "properties": { "NAMEASCII": "Andorra", "ADM0NAME": "Andorra", "ADM0_A3": "AND", "LATITUDE": 42.500001443499997, "LONGITUDE": 1.51648596051, "GEONAMEID": 3130067.0 }, "geometry": { "type": "Point", "coordinates": [ 1.51648596050552, 42.500001443545898 ] } }
+{ "type": "Feature", "id": 22, "properties": { "NAMEASCII": "Andorra", "name": "Andorra", "ADM0_A3": "AND", "LATITUDE": 42.500001443499997, "LONGITUDE": 1.51648596051, "GEONAMEID": 3130067.0 }, "geometry": { "type": "Point", "coordinates": [ 1.51648596050552, 42.500001443545898 ] } }
 ,
-{ "type": "Feature", "id": 23, "properties": { "NAMEASCII": "Port-of-Spain", "ADM0NAME": "Trinidad and Tobago", "ADM0_A3": "TTO", "LATITUDE": 10.6519970896, "LONGITUDE": -61.517030885399997, "GEONAMEID": 3573890.0 }, "geometry": { "type": "Point", "coordinates": [ -61.517030885449742, 10.651997089577264 ] } }
+{ "type": "Feature", "id": 23, "properties": { "NAMEASCII": "Port-of-Spain", "name": "Trinidad and Tobago", "ADM0_A3": "TTO", "LATITUDE": 10.6519970896, "LONGITUDE": -61.517030885399997, "GEONAMEID": 3573890.0 }, "geometry": { "type": "Point", "coordinates": [ -61.517030885449742, 10.651997089577264 ] } }
 ,
-{ "type": "Feature", "id": 24, "properties": { "NAMEASCII": "Kigali", "ADM0NAME": "Rwanda", "ADM0_A3": "RWA", "LATITUDE": -1.95359006868, "LONGITUDE": 30.0605317777, "GEONAMEID": 202061.0 }, "geometry": { "type": "Point", "coordinates": [ 30.058585919064114, -1.95164421006325 ] } }
+{ "type": "Feature", "id": 24, "properties": { "NAMEASCII": "Kigali", "name": "Rwanda", "ADM0_A3": "RWA", "LATITUDE": -1.95359006868, "LONGITUDE": 30.0605317777, "GEONAMEID": 202061.0 }, "geometry": { "type": "Point", "coordinates": [ 30.058585919064114, -1.95164421006325 ] } }
 ,
-{ "type": "Feature", "id": 25, "properties": { "NAMEASCII": "Mbabane", "ADM0NAME": "Swaziland", "ADM0_A3": "SWZ", "LATITUDE": -26.3166507784, "LONGITUDE": 31.133334512099999, "GEONAMEID": 934985.0 }, "geometry": { "type": "Point", "coordinates": [ 31.133334512056365, -26.316650778409212 ] } }
+{ "type": "Feature", "id": 25, "properties": { "NAMEASCII": "Mbabane", "name": "Swaziland", "ADM0_A3": "SWZ", "LATITUDE": -26.3166507784, "LONGITUDE": 31.133334512099999, "GEONAMEID": 934985.0 }, "geometry": { "type": "Point", "coordinates": [ 31.133334512056365, -26.316650778409212 ] } }
 ,
-{ "type": "Feature", "id": 26, "properties": { "NAMEASCII": "Juba", "ADM0NAME": "South Sudan", "ADM0_A3": "SSD", "LATITUDE": 4.82997519828, "LONGITUDE": 31.580025592799998, "GEONAMEID": 373303.0 }, "geometry": { "type": "Point", "coordinates": [ 31.580025592787308, 4.829975198277964 ] } }
+{ "type": "Feature", "id": 26, "properties": { "NAMEASCII": "Juba", "name": "South Sudan", "ADM0_A3": "SSD", "LATITUDE": 4.82997519828, "LONGITUDE": 31.580025592799998, "GEONAMEID": 373303.0 }, "geometry": { "type": "Point", "coordinates": [ 31.580025592787308, 4.829975198277964 ] } }
 ,
-{ "type": "Feature", "id": 27, "properties": { "NAMEASCII": "Ljubljana", "ADM0NAME": "Slovenia", "ADM0_A3": "SVN", "LATITUDE": 46.055288308800002, "LONGITUDE": 14.5149690335, "GEONAMEID": 3196359.0 }, "geometry": { "type": "Point", "coordinates": [ 14.514969033474131, 46.055288308794502 ] } }
+{ "type": "Feature", "id": 27, "properties": { "NAMEASCII": "Ljubljana", "name": "Slovenia", "ADM0_A3": "SVN", "LATITUDE": 46.055288308800002, "LONGITUDE": 14.5149690335, "GEONAMEID": 3196359.0 }, "geometry": { "type": "Point", "coordinates": [ 14.514969033474131, 46.055288308794502 ] } }
 ,
-{ "type": "Feature", "id": 28, "properties": { "NAMEASCII": "Bratislava", "ADM0NAME": "Slovakia", "ADM0_A3": "SVK", "LATITUDE": 48.15001833, "LONGITUDE": 17.1169807522, "GEONAMEID": 3060972.0 }, "geometry": { "type": "Point", "coordinates": [ 17.11698075223461, 48.150018329961711 ] } }
+{ "type": "Feature", "id": 28, "properties": { "NAMEASCII": "Bratislava", "name": "Slovakia", "ADM0_A3": "SVK", "LATITUDE": 48.15001833, "LONGITUDE": 17.1169807522, "GEONAMEID": 3060972.0 }, "geometry": { "type": "Point", "coordinates": [ 17.11698075223461, 48.150018329961711 ] } }
 ,
-{ "type": "Feature", "id": 29, "properties": { "NAMEASCII": "Doha", "ADM0NAME": "Qatar", "ADM0_A3": "QAT", "LATITUDE": 25.2865560089, "LONGITUDE": 51.5329678943, "GEONAMEID": 290030.0 }, "geometry": { "type": "Point", "coordinates": [ 51.532967894299304, 25.286556008906587 ] } }
+{ "type": "Feature", "id": 29, "properties": { "NAMEASCII": "Doha", "name": "Qatar", "ADM0_A3": "QAT", "LATITUDE": 25.2865560089, "LONGITUDE": 51.5329678943, "GEONAMEID": 290030.0 }, "geometry": { "type": "Point", "coordinates": [ 51.532967894299304, 25.286556008906587 ] } }
 ,
-{ "type": "Feature", "id": 30, "properties": { "NAMEASCII": "Podgorica", "ADM0NAME": "Montenegro", "ADM0_A3": "MNE", "LATITUDE": 42.465972512900002, "LONGITUDE": 19.2663069241, "GEONAMEID": 3193044.0 }, "geometry": { "type": "Point", "coordinates": [ 19.266306924118226, 42.465972512881706 ] } }
+{ "type": "Feature", "id": 30, "properties": { "NAMEASCII": "Podgorica", "name": "Montenegro", "ADM0_A3": "MNE", "LATITUDE": 42.465972512900002, "LONGITUDE": 19.2663069241, "GEONAMEID": 3193044.0 }, "geometry": { "type": "Point", "coordinates": [ 19.266306924118226, 42.465972512881706 ] } }
 ,
-{ "type": "Feature", "id": 31, "properties": { "NAMEASCII": "Bern", "ADM0NAME": "Switzerland", "ADM0_A3": "CHE", "LATITUDE": 46.916682758699999, "LONGITUDE": 7.46697546248, "GEONAMEID": 2661552.0 }, "geometry": { "type": "Point", "coordinates": [ 7.466975462482424, 46.916682758667719 ] } }
+{ "type": "Feature", "id": 31, "properties": { "NAMEASCII": "Bern", "name": "Switzerland", "ADM0_A3": "CHE", "LATITUDE": 46.916682758699999, "LONGITUDE": 7.46697546248, "GEONAMEID": 2661552.0 }, "geometry": { "type": "Point", "coordinates": [ 7.466975462482424, 46.916682758667719 ] } }
 ,
-{ "type": "Feature", "id": 32, "properties": { "NAMEASCII": "Pristina", "ADM0NAME": "Kosovo", "ADM0_A3": "KOS", "LATITUDE": 42.6667096141, "LONGITUDE": 21.165984251600001, "GEONAMEID": 786714.0 }, "geometry": { "type": "Point", "coordinates": [ 21.165984251599866, 42.666709614119384 ] } }
+{ "type": "Feature", "id": 32, "properties": { "NAMEASCII": "Pristina", "name": "Kosovo", "ADM0_A3": "KOS", "LATITUDE": 42.6667096141, "LONGITUDE": 21.165984251600001, "GEONAMEID": 786714.0 }, "geometry": { "type": "Point", "coordinates": [ 21.165984251599866, 42.666709614119384 ] } }
 ,
-{ "type": "Feature", "id": 33, "properties": { "NAMEASCII": "Roseau", "ADM0NAME": "Dominica", "ADM0_A3": "DMA", "LATITUDE": 15.3010156443, "LONGITUDE": -61.387012981799998, "GEONAMEID": 3575635.0 }, "geometry": { "type": "Point", "coordinates": [ -61.387012981803366, 15.301015644283325 ] } }
+{ "type": "Feature", "id": 33, "properties": { "NAMEASCII": "Roseau", "name": "Dominica", "ADM0_A3": "DMA", "LATITUDE": 15.3010156443, "LONGITUDE": -61.387012981799998, "GEONAMEID": 3575635.0 }, "geometry": { "type": "Point", "coordinates": [ -61.387012981803366, 15.301015644283325 ] } }
 ,
-{ "type": "Feature", "id": 34, "properties": { "NAMEASCII": "Djibouti", "ADM0NAME": "Djibouti", "ADM0_A3": "DJI", "LATITUDE": 11.5950144643, "LONGITUDE": 43.148001667099997, "GEONAMEID": 223817.0 }, "geometry": { "type": "Point", "coordinates": [ 43.148001667052256, 11.595014464255485 ] } }
+{ "type": "Feature", "id": 34, "properties": { "NAMEASCII": "Djibouti", "name": "Djibouti", "ADM0_A3": "DJI", "LATITUDE": 11.5950144643, "LONGITUDE": 43.148001667099997, "GEONAMEID": 223817.0 }, "geometry": { "type": "Point", "coordinates": [ 43.148001667052256, 11.595014464255485 ] } }
 ,
-{ "type": "Feature", "id": 35, "properties": { "NAMEASCII": "Banjul", "ADM0NAME": "The Gambia", "ADM0_A3": "GMB", "LATITUDE": 13.4538764603, "LONGITUDE": -16.591701489199998, "GEONAMEID": 2413876.0 }, "geometry": { "type": "Point", "coordinates": [ -16.591701489212596, 13.453876460315939 ] } }
+{ "type": "Feature", "id": 35, "properties": { "NAMEASCII": "Banjul", "name": "The Gambia", "ADM0_A3": "GMB", "LATITUDE": 13.4538764603, "LONGITUDE": -16.591701489199998, "GEONAMEID": 2413876.0 }, "geometry": { "type": "Point", "coordinates": [ -16.591701489212596, 13.453876460315939 ] } }
 ,
-{ "type": "Feature", "id": 36, "properties": { "NAMEASCII": "Skopje", "ADM0NAME": "Macedonia", "ADM0_A3": "MKD", "LATITUDE": 42.000006122899997, "LONGITUDE": 21.433461465099999, "GEONAMEID": 785842.0 }, "geometry": { "type": "Point", "coordinates": [ 21.4334614651425, 42.000006122905859 ] } }
+{ "type": "Feature", "id": 36, "properties": { "NAMEASCII": "Skopje", "name": "Macedonia", "ADM0_A3": "MKD", "LATITUDE": 42.000006122899997, "LONGITUDE": 21.433461465099999, "GEONAMEID": 785842.0 }, "geometry": { "type": "Point", "coordinates": [ 21.4334614651425, 42.000006122905859 ] } }
 ,
-{ "type": "Feature", "id": 37, "properties": { "NAMEASCII": "Bridgetown", "ADM0NAME": "Barbados", "ADM0_A3": "BRB", "LATITUDE": 13.102002582800001, "LONGITUDE": -59.616526735100003, "GEONAMEID": 2075807.0 }, "geometry": { "type": "Point", "coordinates": [ -59.616526735051593, 13.10200258275114 ] } }
+{ "type": "Feature", "id": 37, "properties": { "NAMEASCII": "Bridgetown", "name": "Barbados", "ADM0_A3": "BRB", "LATITUDE": 13.102002582800001, "LONGITUDE": -59.616526735100003, "GEONAMEID": 2075807.0 }, "geometry": { "type": "Point", "coordinates": [ -59.616526735051593, 13.10200258275114 ] } }
 ,
-{ "type": "Feature", "id": 38, "properties": { "NAMEASCII": "Bujumbura", "ADM0NAME": "Burundi", "ADM0_A3": "BDI", "LATITUDE": -3.37608722037, "LONGITUDE": 29.360006061499998, "GEONAMEID": 425378.0 }, "geometry": { "type": "Point", "coordinates": [ 29.360006061528395, -3.376087220374643 ] } }
+{ "type": "Feature", "id": 38, "properties": { "NAMEASCII": "Bujumbura", "name": "Burundi", "ADM0_A3": "BDI", "LATITUDE": -3.37608722037, "LONGITUDE": 29.360006061499998, "GEONAMEID": 425378.0 }, "geometry": { "type": "Point", "coordinates": [ 29.360006061528395, -3.376087220374643 ] } }
 ,
-{ "type": "Feature", "id": 39, "properties": { "NAMEASCII": "Pago Pago", "ADM0NAME": "American Samoa", "ADM0_A3": "ASM", "LATITUDE": -14.2766104952, "LONGITUDE": -170.70664514399999, "GEONAMEID": 5881576.0 }, "geometry": { "type": "Point", "coordinates": [ -170.70664514369909, -14.276610495157797 ] } }
+{ "type": "Feature", "id": 39, "properties": { "NAMEASCII": "Pago Pago", "name": "American Samoa", "ADM0_A3": "ASM", "LATITUDE": -14.2766104952, "LONGITUDE": -170.70664514399999, "GEONAMEID": 5881576.0 }, "geometry": { "type": "Point", "coordinates": [ -170.70664514369909, -14.276610495157797 ] } }
 ,
-{ "type": "Feature", "id": 40, "properties": { "NAMEASCII": "Kingstown", "ADM0NAME": "Saint Vincent and the Grenadines", "ADM0_A3": "VCT", "LATITUDE": 13.1482788279, "LONGITUDE": -61.212062420300001, "GEONAMEID": 4359981.0 }, "geometry": { "type": "Point", "coordinates": [ -61.212062420279324, 13.14827882786841 ] } }
+{ "type": "Feature", "id": 40, "properties": { "NAMEASCII": "Kingstown", "name": "Saint Vincent and the Grenadines", "ADM0_A3": "VCT", "LATITUDE": 13.1482788279, "LONGITUDE": -61.212062420300001, "GEONAMEID": 4359981.0 }, "geometry": { "type": "Point", "coordinates": [ -61.212062420279324, 13.14827882786841 ] } }
 ,
-{ "type": "Feature", "id": 41, "properties": { "NAMEASCII": "Castries", "ADM0NAME": "Saint Lucia", "ADM0_A3": "LCA", "LATITUDE": 14.001973489299999, "LONGITUDE": -61.000008180400002, "GEONAMEID": 3028258.0 }, "geometry": { "type": "Point", "coordinates": [ -61.000008180369548, 14.001973489330339 ] } }
+{ "type": "Feature", "id": 41, "properties": { "NAMEASCII": "Castries", "name": "Saint Lucia", "ADM0_A3": "LCA", "LATITUDE": 14.001973489299999, "LONGITUDE": -61.000008180400002, "GEONAMEID": 3028258.0 }, "geometry": { "type": "Point", "coordinates": [ -61.000008180369548, 14.001973489330339 ] } }
 ,
-{ "type": "Feature", "id": 42, "properties": { "NAMEASCII": "Basseterre", "ADM0NAME": "Saint Kitts and Nevis", "ADM0_A3": "KNA", "LATITUDE": 17.302030455499999, "LONGITUDE": -62.717009319699997, "GEONAMEID": 3575551.0 }, "geometry": { "type": "Point", "coordinates": [ -62.717009319699343, 17.302030455489387 ] } }
+{ "type": "Feature", "id": 42, "properties": { "NAMEASCII": "Basseterre", "name": "Saint Kitts and Nevis", "ADM0_A3": "KNA", "LATITUDE": 17.302030455499999, "LONGITUDE": -62.717009319699997, "GEONAMEID": 3575551.0 }, "geometry": { "type": "Point", "coordinates": [ -62.717009319699343, 17.302030455489387 ] } }
 ,
-{ "type": "Feature", "id": 43, "properties": { "NAMEASCII": "Port Louis", "ADM0NAME": "Mauritius", "ADM0_A3": "MUS", "LATITUDE": -20.1666385714, "LONGITUDE": 57.4999938546, "GEONAMEID": 934154.0 }, "geometry": { "type": "Point", "coordinates": [ 57.499993854609727, -20.166638571353246 ] } }
+{ "type": "Feature", "id": 43, "properties": { "NAMEASCII": "Port Louis", "name": "Mauritius", "ADM0_A3": "MUS", "LATITUDE": -20.1666385714, "LONGITUDE": 57.4999938546, "GEONAMEID": 934154.0 }, "geometry": { "type": "Point", "coordinates": [ 57.499993854609727, -20.166638571353246 ] } }
 ,
-{ "type": "Feature", "id": 44, "properties": { "NAMEASCII": "Gaza", "ADM0NAME": "Palestine", "ADM0_A3": "PSE", "LATITUDE": 31.529999205500001, "LONGITUDE": 34.445018675500002, "GEONAMEID": 281133.0 }, "geometry": { "type": "Point", "coordinates": [ 34.445018675481037, 31.529999205546233 ] } }
+{ "type": "Feature", "id": 44, "properties": { "NAMEASCII": "Gaza", "name": "Palestine", "ADM0_A3": "PSE", "LATITUDE": 31.529999205500001, "LONGITUDE": 34.445018675500002, "GEONAMEID": 281133.0 }, "geometry": { "type": "Point", "coordinates": [ 34.445018675481037, 31.529999205546233 ] } }
 ,
-{ "type": "Feature", "id": 45, "properties": { "NAMEASCII": "Saint George's", "ADM0NAME": "Grenada", "ADM0_A3": "GRD", "LATITUDE": 12.0526334017, "LONGITUDE": -61.741643226100003, "GEONAMEID": 3579925.0 }, "geometry": { "type": "Point", "coordinates": [ -61.741643226074757, 12.052633401720414 ] } }
+{ "type": "Feature", "id": 45, "properties": { "NAMEASCII": "Saint George's", "name": "Grenada", "ADM0_A3": "GRD", "LATITUDE": 12.0526334017, "LONGITUDE": -61.741643226100003, "GEONAMEID": 3579925.0 }, "geometry": { "type": "Point", "coordinates": [ -61.741643226074757, 12.052633401720414 ] } }
 ,
-{ "type": "Feature", "id": 46, "properties": { "NAMEASCII": "Papeete", "ADM0NAME": "French Polynesia", "ADM0_A3": "PYF", "LATITUDE": -17.533362611099999, "LONGITUDE": -149.566669354, "GEONAMEID": 4033936.0 }, "geometry": { "type": "Point", "coordinates": [ -149.56666935422652, -17.533362611056361 ] } }
+{ "type": "Feature", "id": 46, "properties": { "NAMEASCII": "Papeete", "name": "French Polynesia", "ADM0_A3": "PYF", "LATITUDE": -17.533362611099999, "LONGITUDE": -149.566669354, "GEONAMEID": 4033936.0 }, "geometry": { "type": "Point", "coordinates": [ -149.56666935422652, -17.533362611056361 ] } }
 ,
-{ "type": "Feature", "id": 47, "properties": { "NAMEASCII": "Manama", "ADM0NAME": "Bahrain", "ADM0_A3": "BHR", "LATITUDE": 26.236136290499999, "LONGITUDE": 50.583051715899998, "GEONAMEID": 290340.0 }, "geometry": { "type": "Point", "coordinates": [ 50.583051715910187, 26.236136290485945 ] } }
+{ "type": "Feature", "id": 47, "properties": { "NAMEASCII": "Manama", "name": "Bahrain", "ADM0_A3": "BHR", "LATITUDE": 26.236136290499999, "LONGITUDE": 50.583051715899998, "GEONAMEID": 290340.0 }, "geometry": { "type": "Point", "coordinates": [ 50.583051715910187, 26.236136290485945 ] } }
 ,
-{ "type": "Feature", "id": 48, "properties": { "NAMEASCII": "Saint John's", "ADM0NAME": "Antigua and Barbuda", "ADM0_A3": "ATG", "LATITUDE": 17.118036518299999, "LONGITUDE": -61.850033815099998, "GEONAMEID": 3576022.0 }, "geometry": { "type": "Point", "coordinates": [ -61.850033815138659, 17.118036518314113 ] } }
+{ "type": "Feature", "id": 48, "properties": { "NAMEASCII": "Saint John's", "name": "Antigua and Barbuda", "ADM0_A3": "ATG", "LATITUDE": 17.118036518299999, "LONGITUDE": -61.850033815099998, "GEONAMEID": 3576022.0 }, "geometry": { "type": "Point", "coordinates": [ -61.850033815138659, 17.118036518314113 ] } }
 ,
-{ "type": "Feature", "id": 49, "properties": { "NAMEASCII": "Montevideo", "ADM0NAME": "Uruguay", "ADM0_A3": "URY", "LATITUDE": -34.858041566200001, "LONGITUDE": -56.171052288399999, "GEONAMEID": 5038018.0 }, "geometry": { "type": "Point", "coordinates": [ -56.172998147035969, -34.856095707590725 ] } }
+{ "type": "Feature", "id": 49, "properties": { "NAMEASCII": "Montevideo", "name": "Uruguay", "ADM0_A3": "URY", "LATITUDE": -34.858041566200001, "LONGITUDE": -56.171052288399999, "GEONAMEID": 5038018.0 }, "geometry": { "type": "Point", "coordinates": [ -56.172998147035969, -34.856095707590725 ] } }
 ,
-{ "type": "Feature", "id": 50, "properties": { "NAMEASCII": "Lome", "ADM0NAME": "Togo", "ADM0_A3": "TGO", "LATITUDE": 6.13193707166, "LONGITUDE": 1.22275711936, "GEONAMEID": 2365267.0 }, "geometry": { "type": "Point", "coordinates": [ 1.22081126074562, 6.133882930268385 ] } }
+{ "type": "Feature", "id": 50, "properties": { "NAMEASCII": "Lome", "name": "Togo", "ADM0_A3": "TGO", "LATITUDE": 6.13193707166, "LONGITUDE": 1.22275711936, "GEONAMEID": 2365267.0 }, "geometry": { "type": "Point", "coordinates": [ 1.22081126074562, 6.133882930268385 ] } }
 ,
-{ "type": "Feature", "id": 51, "properties": { "NAMEASCII": "Tunis", "ADM0NAME": "Tunisia", "ADM0_A3": "TUN", "LATITUDE": 36.802778136199997, "LONGITUDE": 10.1796780992, "GEONAMEID": 2464470.0 }, "geometry": { "type": "Point", "coordinates": [ 10.179678099212026, 36.802778136231439 ] } }
+{ "type": "Feature", "id": 51, "properties": { "NAMEASCII": "Tunis", "name": "Tunisia", "ADM0_A3": "TUN", "LATITUDE": 36.802778136199997, "LONGITUDE": 10.1796780992, "GEONAMEID": 2464470.0 }, "geometry": { "type": "Point", "coordinates": [ 10.179678099212026, 36.802778136231439 ] } }
 ,
-{ "type": "Feature", "id": 52, "properties": { "NAMEASCII": "Abu Dhabi", "ADM0NAME": "United Arab Emirates", "ADM0_A3": "ARE", "LATITUDE": 24.466683572400001, "LONGITUDE": 54.366593382600001, "GEONAMEID": 292968.0 }, "geometry": { "type": "Point", "coordinates": [ 54.366593382591986, 24.466683572379907 ] } }
+{ "type": "Feature", "id": 52, "properties": { "NAMEASCII": "Abu Dhabi", "name": "United Arab Emirates", "ADM0_A3": "ARE", "LATITUDE": 24.466683572400001, "LONGITUDE": 54.366593382600001, "GEONAMEID": 292968.0 }, "geometry": { "type": "Point", "coordinates": [ 54.366593382591986, 24.466683572379907 ] } }
 ,
-{ "type": "Feature", "id": 53, "properties": { "NAMEASCII": "Ashgabat", "ADM0NAME": "Turkmenistan", "ADM0_A3": "TKM", "LATITUDE": 37.949994933100001, "LONGITUDE": 58.3832991118, "GEONAMEID": 162183.0 }, "geometry": { "type": "Point", "coordinates": [ 58.383299111774647, 37.949994933110986 ] } }
+{ "type": "Feature", "id": 53, "properties": { "NAMEASCII": "Ashgabat", "name": "Turkmenistan", "ADM0_A3": "TKM", "LATITUDE": 37.949994933100001, "LONGITUDE": 58.3832991118, "GEONAMEID": 162183.0 }, "geometry": { "type": "Point", "coordinates": [ 58.383299111774647, 37.949994933110986 ] } }
 ,
-{ "type": "Feature", "id": 54, "properties": { "NAMEASCII": "Lusaka", "ADM0NAME": "Zambia", "ADM0_A3": "ZMB", "LATITUDE": -15.416644267900001, "LONGITUDE": 28.283327594700001, "GEONAMEID": 909137.0 }, "geometry": { "type": "Point", "coordinates": [ 28.28138173611427, -15.414698409335926 ] } }
+{ "type": "Feature", "id": 54, "properties": { "NAMEASCII": "Lusaka", "name": "Zambia", "ADM0_A3": "ZMB", "LATITUDE": -15.416644267900001, "LONGITUDE": 28.283327594700001, "GEONAMEID": 909137.0 }, "geometry": { "type": "Point", "coordinates": [ 28.28138173611427, -15.414698409335926 ] } }
 ,
-{ "type": "Feature", "id": 55, "properties": { "NAMEASCII": "Harare", "ADM0NAME": "Zimbabwe", "ADM0_A3": "ZWE", "LATITUDE": -17.817789694399998, "LONGITUDE": 31.044709430699999, "GEONAMEID": 890299.0 }, "geometry": { "type": "Point", "coordinates": [ 31.042763572062825, -17.815843835777798 ] } }
+{ "type": "Feature", "id": 55, "properties": { "NAMEASCII": "Harare", "name": "Zimbabwe", "ADM0_A3": "ZWE", "LATITUDE": -17.817789694399998, "LONGITUDE": 31.044709430699999, "GEONAMEID": 890299.0 }, "geometry": { "type": "Point", "coordinates": [ 31.042763572062825, -17.815843835777798 ] } }
 ,
-{ "type": "Feature", "id": 56, "properties": { "NAMEASCII": "Dili", "ADM0NAME": "East Timor", "ADM0_A3": "TLS", "LATITUDE": -8.559388408549999, "LONGITUDE": 125.579455932, "GEONAMEID": 1645457.0 }, "geometry": { "type": "Point", "coordinates": [ 125.57945593170507, -8.559388408546454 ] } }
+{ "type": "Feature", "id": 56, "properties": { "NAMEASCII": "Dili", "name": "East Timor", "ADM0_A3": "TLS", "LATITUDE": -8.559388408549999, "LONGITUDE": 125.579455932, "GEONAMEID": 1645457.0 }, "geometry": { "type": "Point", "coordinates": [ 125.57945593170507, -8.559388408546454 ] } }
 ,
-{ "type": "Feature", "id": 57, "properties": { "NAMEASCII": "Port-Vila", "ADM0NAME": "Vanuatu", "ADM0_A3": "VUT", "LATITUDE": -17.733350404, "LONGITUDE": 168.316640584, "GEONAMEID": 2135171.0 }, "geometry": { "type": "Point", "coordinates": [ 168.31664058356864, -17.733350404025828 ] } }
+{ "type": "Feature", "id": 57, "properties": { "NAMEASCII": "Port-Vila", "name": "Vanuatu", "ADM0_A3": "VUT", "LATITUDE": -17.733350404, "LONGITUDE": 168.316640584, "GEONAMEID": 2135171.0 }, "geometry": { "type": "Point", "coordinates": [ 168.31664058356864, -17.733350404025828 ] } }
 ,
-{ "type": "Feature", "id": 58, "properties": { "NAMEASCII": "Tegucigalpa", "ADM0NAME": "Honduras", "ADM0_A3": "HND", "LATITUDE": 14.102044900499999, "LONGITUDE": -87.2175293393, "GEONAMEID": 3600949.0 }, "geometry": { "type": "Point", "coordinates": [ -87.219475197941506, 14.103990759076396 ] } }
+{ "type": "Feature", "id": 58, "properties": { "NAMEASCII": "Tegucigalpa", "name": "Honduras", "ADM0_A3": "HND", "LATITUDE": 14.102044900499999, "LONGITUDE": -87.2175293393, "GEONAMEID": 3600949.0 }, "geometry": { "type": "Point", "coordinates": [ -87.219475197941506, 14.103990759076396 ] } }
 ,
-{ "type": "Feature", "id": 59, "properties": { "NAMEASCII": "Georgetown", "ADM0NAME": "Guyana", "ADM0_A3": "GUY", "LATITUDE": 6.80197369275, "LONGITUDE": -58.167028647499997, "GEONAMEID": 3378644.0 }, "geometry": { "type": "Point", "coordinates": [ -58.167028647480606, 6.801973692752029 ] } }
+{ "type": "Feature", "id": 59, "properties": { "NAMEASCII": "Georgetown", "name": "Guyana", "ADM0_A3": "GUY", "LATITUDE": 6.80197369275, "LONGITUDE": -58.167028647499997, "GEONAMEID": 3378644.0 }, "geometry": { "type": "Point", "coordinates": [ -58.167028647480606, 6.801973692752029 ] } }
 ,
-{ "type": "Feature", "id": 60, "properties": { "NAMEASCII": "Reykjavik", "ADM0NAME": "Iceland", "ADM0_A3": "ISL", "LATITUDE": 64.150023619699994, "LONGITUDE": -21.950014487200001, "GEONAMEID": 3413829.0 }, "geometry": { "type": "Point", "coordinates": [ -21.950014487179544, 64.150023619739216 ] } }
+{ "type": "Feature", "id": 60, "properties": { "NAMEASCII": "Reykjavik", "name": "Iceland", "ADM0_A3": "ISL", "LATITUDE": 64.150023619699994, "LONGITUDE": -21.950014487200001, "GEONAMEID": 3413829.0 }, "geometry": { "type": "Point", "coordinates": [ -21.950014487179544, 64.150023619739216 ] } }
 ,
-{ "type": "Feature", "id": 61, "properties": { "NAMEASCII": "Port-au-Prince", "ADM0NAME": "Haiti", "ADM0_A3": "HTI", "LATITUDE": 18.541024596100002, "LONGITUDE": -72.336034588299995, "GEONAMEID": 3718426.0 }, "geometry": { "type": "Point", "coordinates": [ -72.337980446905533, 18.542970454732369 ] } }
+{ "type": "Feature", "id": 61, "properties": { "NAMEASCII": "Port-au-Prince", "name": "Haiti", "ADM0_A3": "HTI", "LATITUDE": 18.541024596100002, "LONGITUDE": -72.336034588299995, "GEONAMEID": 3718426.0 }, "geometry": { "type": "Point", "coordinates": [ -72.337980446905533, 18.542970454732369 ] } }
 ,
-{ "type": "Feature", "id": 62, "properties": { "NAMEASCII": "Kampala", "ADM0NAME": "Uganda", "ADM0_A3": "UGA", "LATITUDE": 0.31665895477, "LONGITUDE": 32.583323525700003, "GEONAMEID": 232422.0 }, "geometry": { "type": "Point", "coordinates": [ 32.581377667121046, 0.318604813383331 ] } }
+{ "type": "Feature", "id": 62, "properties": { "NAMEASCII": "Kampala", "name": "Uganda", "ADM0_A3": "UGA", "LATITUDE": 0.31665895477, "LONGITUDE": 32.583323525700003, "GEONAMEID": 232422.0 }, "geometry": { "type": "Point", "coordinates": [ 32.581377667121046, 0.318604813383331 ] } }
 ,
-{ "type": "Feature", "id": 63, "properties": { "NAMEASCII": "Paramaribo", "ADM0NAME": "Suriname", "ADM0_A3": "SUR", "LATITUDE": 5.83503012992, "LONGITUDE": -55.167030885400003, "GEONAMEID": 3383330.0 }, "geometry": { "type": "Point", "coordinates": [ -55.167030885424367, 5.835030129922586 ] } }
+{ "type": "Feature", "id": 63, "properties": { "NAMEASCII": "Paramaribo", "name": "Suriname", "ADM0_A3": "SUR", "LATITUDE": 5.83503012992, "LONGITUDE": -55.167030885400003, "GEONAMEID": 3383330.0 }, "geometry": { "type": "Point", "coordinates": [ -55.167030885424367, 5.835030129922586 ] } }
 ,
-{ "type": "Feature", "id": 64, "properties": { "NAMEASCII": "Niamey", "ADM0NAME": "Niger", "ADM0_A3": "NER", "LATITUDE": 13.516705951900001, "LONGITUDE": 2.11665604514, "GEONAMEID": 2440485.0 }, "geometry": { "type": "Point", "coordinates": [ 2.114710186530374, 13.518651810506469 ] } }
+{ "type": "Feature", "id": 64, "properties": { "NAMEASCII": "Niamey", "name": "Niger", "ADM0_A3": "NER", "LATITUDE": 13.516705951900001, "LONGITUDE": 2.11665604514, "GEONAMEID": 2440485.0 }, "geometry": { "type": "Point", "coordinates": [ 2.114710186530374, 13.518651810506469 ] } }
 ,
-{ "type": "Feature", "id": 65, "properties": { "NAMEASCII": "Dushanbe", "ADM0NAME": "Tajikistan", "ADM0_A3": "TJK", "LATITUDE": 38.560035216300001, "LONGITUDE": 68.773879352700007, "GEONAMEID": 1221874.0 }, "geometry": { "type": "Point", "coordinates": [ 68.773879352701726, 38.560035216316578 ] } }
+{ "type": "Feature", "id": 65, "properties": { "NAMEASCII": "Dushanbe", "name": "Tajikistan", "ADM0_A3": "TJK", "LATITUDE": 38.560035216300001, "LONGITUDE": 68.773879352700007, "GEONAMEID": 1221874.0 }, "geometry": { "type": "Point", "coordinates": [ 68.773879352701726, 38.560035216316578 ] } }
 ,
-{ "type": "Feature", "id": 66, "properties": { "NAMEASCII": "Asuncion", "ADM0NAME": "Paraguay", "ADM0_A3": "PRY", "LATITUDE": -25.296402975700001, "LONGITUDE": -57.641505169299997, "GEONAMEID": 1730025.0 }, "geometry": { "type": "Point", "coordinates": [ -57.643451027901335, -25.294457117057675 ] } }
+{ "type": "Feature", "id": 66, "properties": { "NAMEASCII": "Asuncion", "name": "Paraguay", "ADM0_A3": "PRY", "LATITUDE": -25.296402975700001, "LONGITUDE": -57.641505169299997, "GEONAMEID": 1730025.0 }, "geometry": { "type": "Point", "coordinates": [ -57.643451027901335, -25.294457117057675 ] } }
 ,
-{ "type": "Feature", "id": 67, "properties": { "NAMEASCII": "Managua", "ADM0NAME": "Nicaragua", "ADM0_A3": "NIC", "LATITUDE": 12.153016580099999, "LONGITUDE": -86.2684916603, "GEONAMEID": 3617763.0 }, "geometry": { "type": "Point", "coordinates": [ -86.27043751890119, 12.154962438756115 ] } }
+{ "type": "Feature", "id": 67, "properties": { "NAMEASCII": "Managua", "name": "Nicaragua", "ADM0_A3": "NIC", "LATITUDE": 12.153016580099999, "LONGITUDE": -86.2684916603, "GEONAMEID": 3617763.0 }, "geometry": { "type": "Point", "coordinates": [ -86.27043751890119, 12.154962438756115 ] } }
 ,
-{ "type": "Feature", "id": 68, "properties": { "NAMEASCII": "Freetown", "ADM0NAME": "Sierra Leone", "ADM0_A3": "SLE", "LATITUDE": 8.470011412490001, "LONGITUDE": -13.2342157404, "GEONAMEID": 2408770.0 }, "geometry": { "type": "Point", "coordinates": [ -13.236161599012746, 8.471957271098177 ] } }
+{ "type": "Feature", "id": 68, "properties": { "NAMEASCII": "Freetown", "name": "Sierra Leone", "ADM0_A3": "SLE", "LATITUDE": 8.470011412490001, "LONGITUDE": -13.2342157404, "GEONAMEID": 2408770.0 }, "geometry": { "type": "Point", "coordinates": [ -13.236161599012746, 8.471957271098177 ] } }
 ,
-{ "type": "Feature", "id": 69, "properties": { "NAMEASCII": "Islamabad", "ADM0NAME": "Pakistan", "ADM0_A3": "PAK", "LATITUDE": 33.6999959503, "LONGITUDE": 73.166634479699994, "GEONAMEID": 1176615.0 }, "geometry": { "type": "Point", "coordinates": [ 73.164688621059554, 33.701941808959589 ] } }
+{ "type": "Feature", "id": 69, "properties": { "NAMEASCII": "Islamabad", "name": "Pakistan", "ADM0_A3": "PAK", "LATITUDE": 33.6999959503, "LONGITUDE": 73.166634479699994, "GEONAMEID": 1176615.0 }, "geometry": { "type": "Point", "coordinates": [ 73.164688621059554, 33.701941808959589 ] } }
 ,
-{ "type": "Feature", "id": 70, "properties": { "NAMEASCII": "Kathmandu", "ADM0NAME": "Nepal", "ADM0_A3": "NPL", "LATITUDE": 27.7166919139, "LONGITUDE": 85.316642210799998, "GEONAMEID": 1283240.0 }, "geometry": { "type": "Point", "coordinates": [ 85.314696352227884, 27.718637772477223 ] } }
+{ "type": "Feature", "id": 70, "properties": { "NAMEASCII": "Kathmandu", "name": "Nepal", "ADM0_A3": "NPL", "LATITUDE": 27.7166919139, "LONGITUDE": 85.316642210799998, "GEONAMEID": 1283240.0 }, "geometry": { "type": "Point", "coordinates": [ 85.314696352227884, 27.718637772477223 ] } }
 ,
-{ "type": "Feature", "id": 71, "properties": { "NAMEASCII": "Pretoria", "ADM0NAME": "South Africa", "ADM0_A3": "ZAF", "LATITUDE": -25.7069205538, "LONGITUDE": 28.229429075799999, "GEONAMEID": 964137.0 }, "geometry": { "type": "Point", "coordinates": [ 28.227483217233839, -25.704974695184433 ] } }
+{ "type": "Feature", "id": 71, "properties": { "NAMEASCII": "Pretoria", "name": "South Africa", "ADM0_A3": "ZAF", "LATITUDE": -25.7069205538, "LONGITUDE": 28.229429075799999, "GEONAMEID": 964137.0 }, "geometry": { "type": "Point", "coordinates": [ 28.227483217233839, -25.704974695184433 ] } }
 ,
-{ "type": "Feature", "id": 72, "properties": { "NAMEASCII": "Port Moresby", "ADM0NAME": "Papua New Guinea", "ADM0_A3": "PNG", "LATITUDE": -9.464707825870001, "LONGITUDE": 147.19250362099999, "GEONAMEID": 2088122.0 }, "geometry": { "type": "Point", "coordinates": [ 147.19250362059358, -9.464707825867777 ] } }
+{ "type": "Feature", "id": 72, "properties": { "NAMEASCII": "Port Moresby", "name": "Papua New Guinea", "ADM0_A3": "PNG", "LATITUDE": -9.464707825870001, "LONGITUDE": 147.19250362099999, "GEONAMEID": 2088122.0 }, "geometry": { "type": "Point", "coordinates": [ 147.19250362059358, -9.464707825867777 ] } }
 ,
-{ "type": "Feature", "id": 73, "properties": { "NAMEASCII": "Honiara", "ADM0NAME": "Solomon Islands", "ADM0_A3": "SLB", "LATITUDE": -9.43799429509, "LONGITUDE": 159.94976573400001, "GEONAMEID": 2108502.0 }, "geometry": { "type": "Point", "coordinates": [ 159.94976573360566, -9.437994295089595 ] } }
+{ "type": "Feature", "id": 73, "properties": { "NAMEASCII": "Honiara", "name": "Solomon Islands", "ADM0_A3": "SLB", "LATITUDE": -9.43799429509, "LONGITUDE": 159.94976573400001, "GEONAMEID": 2108502.0 }, "geometry": { "type": "Point", "coordinates": [ 159.94976573360566, -9.437994295089595 ] } }
 ,
-{ "type": "Feature", "id": 74, "properties": { "NAMEASCII": "Panama City", "ADM0NAME": "Panama", "ADM0_A3": "PAN", "LATITUDE": 8.96801719048, "LONGITUDE": -79.533037151800002, "GEONAMEID": 3703443.0 }, "geometry": { "type": "Point", "coordinates": [ -79.53498301041077, 8.969963049094872 ] } }
+{ "type": "Feature", "id": 74, "properties": { "NAMEASCII": "Panama City", "name": "Panama", "ADM0_A3": "PAN", "LATITUDE": 8.96801719048, "LONGITUDE": -79.533037151800002, "GEONAMEID": 3703443.0 }, "geometry": { "type": "Point", "coordinates": [ -79.53498301041077, 8.969963049094872 ] } }
 ,
-{ "type": "Feature", "id": 75, "properties": { "NAMEASCII": "Rabat", "ADM0NAME": "Morocco", "ADM0_A3": "MAR", "LATITUDE": 34.025299091599997, "LONGITUDE": -6.83613082013, "GEONAMEID": 2538475.0 }, "geometry": { "type": "Point", "coordinates": [ -6.83640815612614, 34.025307311072822 ] } }
+{ "type": "Feature", "id": 75, "properties": { "NAMEASCII": "Rabat", "name": "Morocco", "ADM0_A3": "MAR", "LATITUDE": 34.025299091599997, "LONGITUDE": -6.83613082013, "GEONAMEID": 2538475.0 }, "geometry": { "type": "Point", "coordinates": [ -6.83640815612614, 34.025307311072822 ] } }
 ,
-{ "type": "Feature", "id": 76, "properties": { "NAMEASCII": "Chisinau", "ADM0NAME": "Moldova", "ADM0_A3": "MDA", "LATITUDE": 47.005023619699998, "LONGITUDE": 28.857711139700001, "GEONAMEID": 618426.0 }, "geometry": { "type": "Point", "coordinates": [ 28.857711139651428, 47.005023619670624 ] } }
+{ "type": "Feature", "id": 76, "properties": { "NAMEASCII": "Chisinau", "name": "Moldova", "ADM0_A3": "MDA", "LATITUDE": 47.005023619699998, "LONGITUDE": 28.857711139700001, "GEONAMEID": 618426.0 }, "geometry": { "type": "Point", "coordinates": [ 28.857711139651428, 47.005023619670624 ] } }
 ,
-{ "type": "Feature", "id": 77, "properties": { "NAMEASCII": "Maputo", "ADM0NAME": "Mozambique", "ADM0_A3": "MOZ", "LATITUDE": -25.9552774874, "LONGITUDE": 32.5891629626, "GEONAMEID": 1040652.0 }, "geometry": { "type": "Point", "coordinates": [ 32.58721710397009, -25.953331628778983 ] } }
+{ "type": "Feature", "id": 77, "properties": { "NAMEASCII": "Maputo", "name": "Mozambique", "ADM0_A3": "MOZ", "LATITUDE": -25.9552774874, "LONGITUDE": 32.5891629626, "GEONAMEID": 1040652.0 }, "geometry": { "type": "Point", "coordinates": [ 32.58721710397009, -25.953331628778983 ] } }
 ,
-{ "type": "Feature", "id": 78, "properties": { "NAMEASCII": "Mogadishu", "ADM0NAME": "Somalia", "ADM0_A3": "SOM", "LATITUDE": 2.06668133433, "LONGITUDE": 45.366677611100002, "GEONAMEID": 53654.0 }, "geometry": { "type": "Point", "coordinates": [ 45.364731752458738, 2.068627192947531 ] } }
+{ "type": "Feature", "id": 78, "properties": { "NAMEASCII": "Mogadishu", "name": "Somalia", "ADM0_A3": "SOM", "LATITUDE": 2.06668133433, "LONGITUDE": 45.366677611100002, "GEONAMEID": 53654.0 }, "geometry": { "type": "Point", "coordinates": [ 45.364731752458738, 2.068627192947531 ] } }
 ,
-{ "type": "Feature", "id": 79, "properties": { "NAMEASCII": "Muscat", "ADM0NAME": "Oman", "ADM0_A3": "OMN", "LATITUDE": 23.6133248077, "LONGITUDE": 58.593312132599998, "GEONAMEID": 287286.0 }, "geometry": { "type": "Point", "coordinates": [ 58.593312132608844, 23.613324807728134 ] } }
+{ "type": "Feature", "id": 79, "properties": { "NAMEASCII": "Muscat", "name": "Oman", "ADM0_A3": "OMN", "LATITUDE": 23.6133248077, "LONGITUDE": 58.593312132599998, "GEONAMEID": 287286.0 }, "geometry": { "type": "Point", "coordinates": [ 58.593312132608844, 23.613324807728134 ] } }
 ,
-{ "type": "Feature", "id": 80, "properties": { "NAMEASCII": "Colombo", "ADM0NAME": "Sri Lanka", "ADM0_A3": "LKA", "LATITUDE": 6.93196575818, "LONGITUDE": 79.857750609299998, "GEONAMEID": 3465927.0 }, "geometry": { "type": "Point", "coordinates": [ 79.857750609256414, 6.931965758182116 ] } }
+{ "type": "Feature", "id": 80, "properties": { "NAMEASCII": "Colombo", "name": "Sri Lanka", "ADM0_A3": "LKA", "LATITUDE": 6.93196575818, "LONGITUDE": 79.857750609299998, "GEONAMEID": 3465927.0 }, "geometry": { "type": "Point", "coordinates": [ 79.857750609256414, 6.931965758182116 ] } }
 ,
-{ "type": "Feature", "id": 81, "properties": { "NAMEASCII": "Ulaanbaatar", "ADM0NAME": "Mongolia", "ADM0_A3": "MNG", "LATITUDE": 47.916673399899999, "LONGITUDE": 106.91661576200001, "GEONAMEID": 2028462.0 }, "geometry": { "type": "Point", "coordinates": [ 106.91466990374653, 47.918619258560739 ] } }
+{ "type": "Feature", "id": 81, "properties": { "NAMEASCII": "Ulaanbaatar", "name": "Mongolia", "ADM0_A3": "MNG", "LATITUDE": 47.916673399899999, "LONGITUDE": 106.91661576200001, "GEONAMEID": 2028462.0 }, "geometry": { "type": "Point", "coordinates": [ 106.91466990374653, 47.918619258560739 ] } }
 ,
-{ "type": "Feature", "id": 82, "properties": { "NAMEASCII": "Wellington", "ADM0NAME": "New Zealand", "ADM0_A3": "NZL", "LATITUDE": -41.299973939300003, "LONGITUDE": 174.783274291, "GEONAMEID": 2144168.0 }, "geometry": { "type": "Point", "coordinates": [ 174.78327429127694, -41.299973939276413 ] } }
+{ "type": "Feature", "id": 82, "properties": { "NAMEASCII": "Wellington", "name": "New Zealand", "ADM0_A3": "NZL", "LATITUDE": -41.299973939300003, "LONGITUDE": 174.783274291, "GEONAMEID": 2144168.0 }, "geometry": { "type": "Point", "coordinates": [ 174.78327429127694, -41.299973939276413 ] } }
 ,
-{ "type": "Feature", "id": 83, "properties": { "NAMEASCII": "Windhoek", "ADM0NAME": "Namibia", "ADM0_A3": "NAM", "LATITUDE": -22.570006084399999, "LONGITUDE": 17.083546100500001, "GEONAMEID": 3352136.0 }, "geometry": { "type": "Point", "coordinates": [ 17.08354610054181, -22.570006084383806 ] } }
+{ "type": "Feature", "id": 83, "properties": { "NAMEASCII": "Windhoek", "name": "Namibia", "ADM0_A3": "NAM", "LATITUDE": -22.570006084399999, "LONGITUDE": 17.083546100500001, "GEONAMEID": 3352136.0 }, "geometry": { "type": "Point", "coordinates": [ 17.08354610054181, -22.570006084383806 ] } }
 ,
-{ "type": "Feature", "id": 84, "properties": { "NAMEASCII": "Abuja", "ADM0NAME": "Nigeria", "ADM0_A3": "NGA", "LATITUDE": 9.08333314914, "LONGITUDE": 7.53332800155, "GEONAMEID": 2322794.0 }, "geometry": { "type": "Point", "coordinates": [ 7.53138214293233, 9.085279007754195 ] } }
+{ "type": "Feature", "id": 84, "properties": { "NAMEASCII": "Abuja", "name": "Nigeria", "ADM0_A3": "NGA", "LATITUDE": 9.08333314914, "LONGITUDE": 7.53332800155, "GEONAMEID": 2322794.0 }, "geometry": { "type": "Point", "coordinates": [ 7.53138214293233, 9.085279007754195 ] } }
 ,
-{ "type": "Feature", "id": 85, "properties": { "NAMEASCII": "Bissau", "ADM0NAME": "Guinea Bissau", "ADM0_A3": "GNB", "LATITUDE": 11.865023823, "LONGITUDE": -15.5983608413, "GEONAMEID": 2374775.0 }, "geometry": { "type": "Point", "coordinates": [ -15.598360841320755, 11.865023822980561 ] } }
+{ "type": "Feature", "id": 85, "properties": { "NAMEASCII": "Bissau", "name": "Guinea Bissau", "ADM0_A3": "GNB", "LATITUDE": 11.865023823, "LONGITUDE": -15.5983608413, "GEONAMEID": 2374775.0 }, "geometry": { "type": "Point", "coordinates": [ -15.598360841320755, 11.865023822980561 ] } }
 ,
-{ "type": "Feature", "id": 86, "properties": { "NAMEASCII": "Amman", "ADM0NAME": "Jordan", "ADM0_A3": "JOR", "LATITUDE": 31.950025247199999, "LONGITUDE": 35.933299925500002, "GEONAMEID": 250441.0 }, "geometry": { "type": "Point", "coordinates": [ 35.931354066874121, 31.951971105827454 ] } }
+{ "type": "Feature", "id": 86, "properties": { "NAMEASCII": "Amman", "name": "Jordan", "ADM0_A3": "JOR", "LATITUDE": 31.950025247199999, "LONGITUDE": 35.933299925500002, "GEONAMEID": 250441.0 }, "geometry": { "type": "Point", "coordinates": [ 35.931354066874121, 31.951971105827454 ] } }
 ,
-{ "type": "Feature", "id": 87, "properties": { "NAMEASCII": "Vilnius", "ADM0NAME": "Lithuania", "ADM0_A3": "LTU", "LATITUDE": 54.6833663118, "LONGITUDE": 25.316635293299999, "GEONAMEID": 593116.0 }, "geometry": { "type": "Point", "coordinates": [ 25.3166352932829, 54.683366311758618 ] } }
+{ "type": "Feature", "id": 87, "properties": { "NAMEASCII": "Vilnius", "name": "Lithuania", "ADM0_A3": "LTU", "LATITUDE": 54.6833663118, "LONGITUDE": 25.316635293299999, "GEONAMEID": 593116.0 }, "geometry": { "type": "Point", "coordinates": [ 25.3166352932829, 54.683366311758618 ] } }
 ,
-{ "type": "Feature", "id": 88, "properties": { "NAMEASCII": "Riga", "ADM0NAME": "Latvia", "ADM0_A3": "LVA", "LATITUDE": 56.950023823199999, "LONGITUDE": 24.0999653714, "GEONAMEID": 456172.0 }, "geometry": { "type": "Point", "coordinates": [ 24.099965371403187, 56.950023823160961 ] } }
+{ "type": "Feature", "id": 88, "properties": { "NAMEASCII": "Riga", "name": "Latvia", "ADM0_A3": "LVA", "LATITUDE": 56.950023823199999, "LONGITUDE": 24.0999653714, "GEONAMEID": 456172.0 }, "geometry": { "type": "Point", "coordinates": [ 24.099965371403187, 56.950023823160961 ] } }
 ,
-{ "type": "Feature", "id": 89, "properties": { "NAMEASCII": "Bishkek", "ADM0NAME": "Kyrgyzstan", "ADM0_A3": "KGZ", "LATITUDE": 42.8730794465, "LONGITUDE": 74.585204222499996, "GEONAMEID": 1528675.0 }, "geometry": { "type": "Point", "coordinates": [ 74.583258363903667, 42.875025305090105 ] } }
+{ "type": "Feature", "id": 89, "properties": { "NAMEASCII": "Bishkek", "name": "Kyrgyzstan", "ADM0_A3": "KGZ", "LATITUDE": 42.8730794465, "LONGITUDE": 74.585204222499996, "GEONAMEID": 1528675.0 }, "geometry": { "type": "Point", "coordinates": [ 74.583258363903667, 42.875025305090105 ] } }
 ,
-{ "type": "Feature", "id": 90, "properties": { "NAMEASCII": "Maseru", "ADM0NAME": "Lesotho", "ADM0_A3": "LSO", "LATITUDE": -29.3166743787, "LONGITUDE": 27.48327307, "GEONAMEID": 932505.0 }, "geometry": { "type": "Point", "coordinates": [ 27.483273069984477, -29.316674378681626 ] } }
+{ "type": "Feature", "id": 90, "properties": { "NAMEASCII": "Maseru", "name": "Lesotho", "ADM0_A3": "LSO", "LATITUDE": -29.3166743787, "LONGITUDE": 27.48327307, "GEONAMEID": 932505.0 }, "geometry": { "type": "Point", "coordinates": [ 27.483273069984477, -29.316674378681626 ] } }
 ,
-{ "type": "Feature", "id": 91, "properties": { "NAMEASCII": "Antananarivo", "ADM0NAME": "Madagascar", "ADM0_A3": "MDG", "LATITUDE": -18.916637350599999, "LONGITUDE": 47.516623900100001, "GEONAMEID": 1070940.0 }, "geometry": { "type": "Point", "coordinates": [ 47.514678041529862, -18.914691492032148 ] } }
+{ "type": "Feature", "id": 91, "properties": { "NAMEASCII": "Antananarivo", "name": "Madagascar", "ADM0_A3": "MDG", "LATITUDE": -18.916637350599999, "LONGITUDE": 47.516623900100001, "GEONAMEID": 1070940.0 }, "geometry": { "type": "Point", "coordinates": [ 47.514678041529862, -18.914691492032148 ] } }
 ,
-{ "type": "Feature", "id": 92, "properties": { "NAMEASCII": "Quito", "ADM0NAME": "Ecuador", "ADM0_A3": "ECU", "LATITUDE": -0.21498818065, "LONGITUDE": -78.500051108500003, "GEONAMEID": 3652462.0 }, "geometry": { "type": "Point", "coordinates": [ -78.501996967112404, -0.213042322035562 ] } }
+{ "type": "Feature", "id": 92, "properties": { "NAMEASCII": "Quito", "name": "Ecuador", "ADM0_A3": "ECU", "LATITUDE": -0.21498818065, "LONGITUDE": -78.500051108500003, "GEONAMEID": 3652462.0 }, "geometry": { "type": "Point", "coordinates": [ -78.501996967112404, -0.213042322035562 ] } }
 ,
-{ "type": "Feature", "id": 93, "properties": { "NAMEASCII": "San Jose", "ADM0NAME": "Costa Rica", "ADM0_A3": "CRI", "LATITUDE": 9.93501242974, "LONGITUDE": -84.084051352700001, "GEONAMEID": 3669623.0 }, "geometry": { "type": "Point", "coordinates": [ -84.085997211275355, 9.936958288356607 ] } }
+{ "type": "Feature", "id": 93, "properties": { "NAMEASCII": "San Jose", "name": "Costa Rica", "ADM0_A3": "CRI", "LATITUDE": 9.93501242974, "LONGITUDE": -84.084051352700001, "GEONAMEID": 3669623.0 }, "geometry": { "type": "Point", "coordinates": [ -84.085997211275355, 9.936958288356607 ] } }
 ,
-{ "type": "Feature", "id": 94, "properties": { "NAMEASCII": "San Salvador", "ADM0NAME": "El Salvador", "ADM0_A3": "SLV", "LATITUDE": 13.7100016469, "LONGITUDE": -89.203041220800003, "GEONAMEID": 1690681.0 }, "geometry": { "type": "Point", "coordinates": [ -89.204987079459897, 13.711947505494038 ] } }
+{ "type": "Feature", "id": 94, "properties": { "NAMEASCII": "San Salvador", "name": "El Salvador", "ADM0_A3": "SLV", "LATITUDE": 13.7100016469, "LONGITUDE": -89.203041220800003, "GEONAMEID": 1690681.0 }, "geometry": { "type": "Point", "coordinates": [ -89.204987079459897, 13.711947505494038 ] } }
 ,
-{ "type": "Feature", "id": 95, "properties": { "NAMEASCII": "Kingston", "ADM0NAME": "Jamaica", "ADM0_A3": "JAM", "LATITUDE": 17.977076623799999, "LONGITUDE": -76.767433713700001, "GEONAMEID": 3489854.0 }, "geometry": { "type": "Point", "coordinates": [ -76.767433713669107, 17.977076623830897 ] } }
+{ "type": "Feature", "id": 95, "properties": { "NAMEASCII": "Kingston", "name": "Jamaica", "ADM0_A3": "JAM", "LATITUDE": 17.977076623799999, "LONGITUDE": -76.767433713700001, "GEONAMEID": 3489854.0 }, "geometry": { "type": "Point", "coordinates": [ -76.767433713669107, 17.977076623830897 ] } }
 ,
-{ "type": "Feature", "id": 96, "properties": { "NAMEASCII": "Ndjamena", "ADM0NAME": "Chad", "ADM0_A3": "TCD", "LATITUDE": 12.1130965362, "LONGITUDE": 15.0491483141, "GEONAMEID": 2427123.0 }, "geometry": { "type": "Point", "coordinates": [ 15.047202455462298, 12.115042394810644 ] } }
+{ "type": "Feature", "id": 96, "properties": { "NAMEASCII": "Ndjamena", "name": "Chad", "ADM0_A3": "TCD", "LATITUDE": 12.1130965362, "LONGITUDE": 15.0491483141, "GEONAMEID": 2427123.0 }, "geometry": { "type": "Point", "coordinates": [ 15.047202455462298, 12.115042394810644 ] } }
 ,
-{ "type": "Feature", "id": 97, "properties": { "NAMEASCII": "Malabo", "ADM0NAME": "Equatorial Guinea", "ADM0_A3": "GNQ", "LATITUDE": 3.75001527803, "LONGITUDE": 8.783277545820001, "GEONAMEID": 2309527.0 }, "geometry": { "type": "Point", "coordinates": [ 8.783277545821136, 3.750015278026183 ] } }
+{ "type": "Feature", "id": 97, "properties": { "NAMEASCII": "Malabo", "name": "Equatorial Guinea", "ADM0_A3": "GNQ", "LATITUDE": 3.75001527803, "LONGITUDE": 8.783277545820001, "GEONAMEID": 2309527.0 }, "geometry": { "type": "Point", "coordinates": [ 8.783277545821136, 3.750015278026183 ] } }
 ,
-{ "type": "Feature", "id": 98, "properties": { "NAMEASCII": "Asmara", "ADM0NAME": "Eritrea", "ADM0_A3": "ERI", "LATITUDE": 15.3333392527, "LONGITUDE": 38.933323525799999, "GEONAMEID": 343300.0 }, "geometry": { "type": "Point", "coordinates": [ 38.933323525759306, 15.333339252681924 ] } }
+{ "type": "Feature", "id": 98, "properties": { "NAMEASCII": "Asmara", "name": "Eritrea", "ADM0_A3": "ERI", "LATITUDE": 15.3333392527, "LONGITUDE": 38.933323525799999, "GEONAMEID": 343300.0 }, "geometry": { "type": "Point", "coordinates": [ 38.933323525759306, 15.333339252681924 ] } }
 ,
-{ "type": "Feature", "id": 99, "properties": { "NAMEASCII": "Zagreb", "ADM0NAME": "Croatia", "ADM0_A3": "HRV", "LATITUDE": 45.800006733300002, "LONGITUDE": 15.999994668199999, "GEONAMEID": 3186886.0 }, "geometry": { "type": "Point", "coordinates": [ 15.999994668245677, 45.800006733272539 ] } }
+{ "type": "Feature", "id": 99, "properties": { "NAMEASCII": "Zagreb", "name": "Croatia", "ADM0_A3": "HRV", "LATITUDE": 45.800006733300002, "LONGITUDE": 15.999994668199999, "GEONAMEID": 3186886.0 }, "geometry": { "type": "Point", "coordinates": [ 15.999994668245677, 45.800006733272539 ] } }
 ,
-{ "type": "Feature", "id": 100, "properties": { "NAMEASCII": "Tallinn", "ADM0NAME": "Estonia", "ADM0_A3": "EST", "LATITUDE": 59.433877379499997, "LONGITUDE": 24.728040729500002, "GEONAMEID": 588409.0 }, "geometry": { "type": "Point", "coordinates": [ 24.72804072947855, 59.433877379485921 ] } }
+{ "type": "Feature", "id": 100, "properties": { "NAMEASCII": "Tallinn", "name": "Estonia", "ADM0_A3": "EST", "LATITUDE": 59.433877379499997, "LONGITUDE": 24.728040729500002, "GEONAMEID": 588409.0 }, "geometry": { "type": "Point", "coordinates": [ 24.72804072947855, 59.433877379485921 ] } }
 ,
-{ "type": "Feature", "id": 101, "properties": { "NAMEASCII": "Lilongwe", "ADM0NAME": "Malawi", "ADM0_A3": "MWI", "LATITUDE": -13.9832950655, "LONGITUDE": 33.78330196, "GEONAMEID": 927967.0 }, "geometry": { "type": "Point", "coordinates": [ 33.783301959983532, -13.983295065469179 ] } }
+{ "type": "Feature", "id": 101, "properties": { "NAMEASCII": "Lilongwe", "name": "Malawi", "ADM0_A3": "MWI", "LATITUDE": -13.9832950655, "LONGITUDE": 33.78330196, "GEONAMEID": 927967.0 }, "geometry": { "type": "Point", "coordinates": [ 33.783301959983532, -13.983295065469179 ] } }
 ,
-{ "type": "Feature", "id": 102, "properties": { "NAMEASCII": "Guatemala", "ADM0NAME": "Guatemala", "ADM0_A3": "GTM", "LATITUDE": 14.621134662799999, "LONGITUDE": -90.5269655779, "GEONAMEID": 3598132.0 }, "geometry": { "type": "Point", "coordinates": [ -90.528911436561543, 14.623080521448173 ] } }
+{ "type": "Feature", "id": 102, "properties": { "NAMEASCII": "Guatemala", "name": "Guatemala", "ADM0_A3": "GTM", "LATITUDE": 14.621134662799999, "LONGITUDE": -90.5269655779, "GEONAMEID": 3598132.0 }, "geometry": { "type": "Point", "coordinates": [ -90.528911436561543, 14.623080521448173 ] } }
 ,
-{ "type": "Feature", "id": 103, "properties": { "NAMEASCII": "Libreville", "ADM0NAME": "Gabon", "ADM0_A3": "GAB", "LATITUDE": 0.38538860972, "LONGITUDE": 9.45796504582, "GEONAMEID": 2399697.0 }, "geometry": { "type": "Point", "coordinates": [ 9.457965045823698, 0.385388609718518 ] } }
+{ "type": "Feature", "id": 103, "properties": { "NAMEASCII": "Libreville", "name": "Gabon", "ADM0_A3": "GAB", "LATITUDE": 0.38538860972, "LONGITUDE": 9.45796504582, "GEONAMEID": 2399697.0 }, "geometry": { "type": "Point", "coordinates": [ 9.457965045823698, 0.385388609718518 ] } }
 ,
-{ "type": "Feature", "id": 104, "properties": { "NAMEASCII": "Suva", "ADM0NAME": "Fiji", "ADM0_A3": "FJI", "LATITUDE": -18.133015931399999, "LONGITUDE": 178.441707315, "GEONAMEID": 2198148.0 }, "geometry": { "type": "Point", "coordinates": [ 178.44170731537986, -18.133015931371233 ] } }
+{ "type": "Feature", "id": 104, "properties": { "NAMEASCII": "Suva", "name": "Fiji", "ADM0_A3": "FJI", "LATITUDE": -18.133015931399999, "LONGITUDE": 178.441707315, "GEONAMEID": 2198148.0 }, "geometry": { "type": "Point", "coordinates": [ 178.44170731537986, -18.133015931371233 ] } }
 ,
-{ "type": "Feature", "id": 105, "properties": { "NAMEASCII": "Nuuk", "ADM0NAME": "Greenland", "ADM0_A3": "GRL", "LATITUDE": 64.198281467300006, "LONGITUDE": -51.7326587899, "GEONAMEID": 3421319.0 }, "geometry": { "type": "Point", "coordinates": [ -51.7326587899218, 64.198281467334198 ] } }
+{ "type": "Feature", "id": 105, "properties": { "NAMEASCII": "Nuuk", "name": "Greenland", "ADM0_A3": "GRL", "LATITUDE": 64.198281467300006, "LONGITUDE": -51.7326587899, "GEONAMEID": 3421319.0 }, "geometry": { "type": "Point", "coordinates": [ -51.7326587899218, 64.198281467334198 ] } }
 ,
-{ "type": "Feature", "id": 106, "properties": { "NAMEASCII": "Nouakchott", "ADM0NAME": "Mauritania", "ADM0_A3": "MRT", "LATITUDE": 18.086427021199999, "LONGITUDE": -15.9753404149, "GEONAMEID": 2377450.0 }, "geometry": { "type": "Point", "coordinates": [ -15.975340414890013, 18.086427021247516 ] } }
+{ "type": "Feature", "id": 106, "properties": { "NAMEASCII": "Nouakchott", "name": "Mauritania", "ADM0_A3": "MRT", "LATITUDE": 18.086427021199999, "LONGITUDE": -15.9753404149, "GEONAMEID": 2377450.0 }, "geometry": { "type": "Point", "coordinates": [ -15.975340414890013, 18.086427021247516 ] } }
 ,
-{ "type": "Feature", "id": 107, "properties": { "NAMEASCII": "Bamako", "ADM0NAME": "Mali", "ADM0_A3": "MLI", "LATITUDE": 12.650014667700001, "LONGITUDE": -8.000039104640001, "GEONAMEID": 2460596.0 }, "geometry": { "type": "Point", "coordinates": [ -8.001984963249697, 12.651960526323251 ] } }
+{ "type": "Feature", "id": 107, "properties": { "NAMEASCII": "Bamako", "name": "Mali", "ADM0_A3": "MLI", "LATITUDE": 12.650014667700001, "LONGITUDE": -8.000039104640001, "GEONAMEID": 2460596.0 }, "geometry": { "type": "Point", "coordinates": [ -8.001984963249697, 12.651960526323251 ] } }
 ,
-{ "type": "Feature", "id": 108, "properties": { "NAMEASCII": "Beirut", "ADM0NAME": "Lebanon", "ADM0_A3": "LBN", "LATITUDE": 33.871975117, "LONGITUDE": 35.50970821, "GEONAMEID": 276781.0 }, "geometry": { "type": "Point", "coordinates": [ 35.507762351377664, 33.873920975626902 ] } }
+{ "type": "Feature", "id": 108, "properties": { "NAMEASCII": "Beirut", "name": "Lebanon", "ADM0_A3": "LBN", "LATITUDE": 33.871975117, "LONGITUDE": 35.50970821, "GEONAMEID": 276781.0 }, "geometry": { "type": "Point", "coordinates": [ 35.507762351377664, 33.873920975626902 ] } }
 ,
-{ "type": "Feature", "id": 109, "properties": { "NAMEASCII": "Tbilisi", "ADM0NAME": "Georgia", "ADM0_A3": "GEO", "LATITUDE": 41.725009988499998, "LONGITUDE": 44.790795449599997, "GEONAMEID": 611717.0 }, "geometry": { "type": "Point", "coordinates": [ 44.788849590997984, 41.726955847077591 ] } }
+{ "type": "Feature", "id": 109, "properties": { "NAMEASCII": "Tbilisi", "name": "Georgia", "ADM0_A3": "GEO", "LATITUDE": 41.725009988499998, "LONGITUDE": 44.790795449599997, "GEONAMEID": 611717.0 }, "geometry": { "type": "Point", "coordinates": [ 44.788849590997984, 41.726955847077591 ] } }
 ,
-{ "type": "Feature", "id": 110, "properties": { "NAMEASCII": "Astana", "ADM0NAME": "Kazakhstan", "ADM0_A3": "KAZ", "LATITUDE": 51.181125304299997, "LONGITUDE": 71.427774209500001, "GEONAMEID": 1526273.0 }, "geometry": { "type": "Point", "coordinates": [ 71.427774209483005, 51.181125304257591 ] } }
+{ "type": "Feature", "id": 110, "properties": { "NAMEASCII": "Astana", "name": "Kazakhstan", "ADM0_A3": "KAZ", "LATITUDE": 51.181125304299997, "LONGITUDE": 71.427774209500001, "GEONAMEID": 1526273.0 }, "geometry": { "type": "Point", "coordinates": [ 71.427774209483005, 51.181125304257591 ] } }
 ,
-{ "type": "Feature", "id": 111, "properties": { "NAMEASCII": "Vientiane", "ADM0NAME": "Laos", "ADM0_A3": "LAO", "LATITUDE": 17.966692727600002, "LONGITUDE": 102.59998002, "GEONAMEID": 1651944.0 }, "geometry": { "type": "Point", "coordinates": [ 102.59998002015476, 17.96669272762739 ] } }
+{ "type": "Feature", "id": 111, "properties": { "NAMEASCII": "Vientiane", "name": "Laos", "ADM0_A3": "LAO", "LATITUDE": 17.966692727600002, "LONGITUDE": 102.59998002, "GEONAMEID": 1651944.0 }, "geometry": { "type": "Point", "coordinates": [ 102.59998002015476, 17.96669272762739 ] } }
 ,
-{ "type": "Feature", "id": 112, "properties": { "NAMEASCII": "Brazzaville", "ADM0NAME": "Congo (Brazzaville)", "ADM0_A3": "COG", "LATITUDE": -4.25918577181, "LONGITUDE": 15.2846894925, "GEONAMEID": 2260535.0 }, "geometry": { "type": "Point", "coordinates": [ 15.282743633848668, -4.257239913197509 ] } }
+{ "type": "Feature", "id": 112, "properties": { "NAMEASCII": "Brazzaville", "name": "Congo (Brazzaville)", "ADM0_A3": "COG", "LATITUDE": -4.25918577181, "LONGITUDE": 15.2846894925, "GEONAMEID": 2260535.0 }, "geometry": { "type": "Point", "coordinates": [ 15.282743633848668, -4.257239913197509 ] } }
 ,
-{ "type": "Feature", "id": 113, "properties": { "NAMEASCII": "Conakry", "ADM0NAME": "Guinea", "ADM0_A3": "GIN", "LATITUDE": 9.531522846410001, "LONGITUDE": -13.6802350275, "GEONAMEID": 2422465.0 }, "geometry": { "type": "Point", "coordinates": [ -13.682180886123945, 9.533468705021789 ] } }
+{ "type": "Feature", "id": 113, "properties": { "NAMEASCII": "Conakry", "name": "Guinea", "ADM0_A3": "GIN", "LATITUDE": 9.531522846410001, "LONGITUDE": -13.6802350275, "GEONAMEID": 2422465.0 }, "geometry": { "type": "Point", "coordinates": [ -13.682180886123945, 9.533468705021789 ] } }
 ,
-{ "type": "Feature", "id": 114, "properties": { "NAMEASCII": "Yamoussoukro", "ADM0NAME": "Ivory Coast", "ADM0_A3": "CIV", "LATITUDE": 6.81838096, "LONGITUDE": -5.27550256491, "GEONAMEID": 2279755.0 }, "geometry": { "type": "Point", "coordinates": [ -5.275502564912301, 6.818380960004618 ] } }
+{ "type": "Feature", "id": 114, "properties": { "NAMEASCII": "Yamoussoukro", "name": "Ivory Coast", "ADM0_A3": "CIV", "LATITUDE": 6.81838096, "LONGITUDE": -5.27550256491, "GEONAMEID": 2279755.0 }, "geometry": { "type": "Point", "coordinates": [ -5.275502564912301, 6.818380960004618 ] } }
 ,
-{ "type": "Feature", "id": 115, "properties": { "NAMEASCII": "Ottawa", "ADM0NAME": "Canada", "ADM0_A3": "CAN", "LATITUDE": 45.416696796700002, "LONGITUDE": -75.700015301199997, "GEONAMEID": 6094817.0 }, "geometry": { "type": "Point", "coordinates": [ -75.701961159809514, 45.418642655360429 ] } }
+{ "type": "Feature", "id": 115, "properties": { "NAMEASCII": "Ottawa", "name": "Canada", "ADM0_A3": "CAN", "LATITUDE": 45.416696796700002, "LONGITUDE": -75.700015301199997, "GEONAMEID": 6094817.0 }, "geometry": { "type": "Point", "coordinates": [ -75.701961159809514, 45.418642655360429 ] } }
 ,
-{ "type": "Feature", "id": 116, "properties": { "NAMEASCII": "Belgrade", "ADM0NAME": "Serbia", "ADM0_A3": "SRB", "LATITUDE": 44.818645445800001, "LONGITUDE": 20.4679906806, "GEONAMEID": 792680.0 }, "geometry": { "type": "Point", "coordinates": [ 20.466044822020535, 44.820591304446737 ] } }
+{ "type": "Feature", "id": 116, "properties": { "NAMEASCII": "Belgrade", "name": "Serbia", "ADM0_A3": "SRB", "LATITUDE": 44.818645445800001, "LONGITUDE": 20.4679906806, "GEONAMEID": 792680.0 }, "geometry": { "type": "Point", "coordinates": [ 20.466044822020535, 44.820591304446737 ] } }
 ,
-{ "type": "Feature", "id": 117, "properties": { "NAMEASCII": "Bandar Seri Begawan", "ADM0NAME": "Brunei", "ADM0_A3": "BRN", "LATITUDE": 4.88333111462, "LONGITUDE": 114.93328405699999, "GEONAMEID": 1820906.0 }, "geometry": { "type": "Point", "coordinates": [ 114.93328405666227, 4.883331114619239 ] } }
+{ "type": "Feature", "id": 117, "properties": { "NAMEASCII": "Bandar Seri Begawan", "name": "Brunei", "ADM0_A3": "BRN", "LATITUDE": 4.88333111462, "LONGITUDE": 114.93328405699999, "GEONAMEID": 1820906.0 }, "geometry": { "type": "Point", "coordinates": [ 114.93328405666227, 4.883331114619239 ] } }
 ,
-{ "type": "Feature", "id": 118, "properties": { "NAMEASCII": "Sucre", "ADM0NAME": "Bolivia", "ADM0_A3": "BOL", "LATITUDE": -19.040970846699999, "LONGITUDE": -65.259515626699994, "GEONAMEID": 3903987.0 }, "geometry": { "type": "Point", "coordinates": [ -65.259515626675636, -19.040970846739469 ] } }
+{ "type": "Feature", "id": 118, "properties": { "NAMEASCII": "Sucre", "name": "Bolivia", "ADM0_A3": "BOL", "LATITUDE": -19.040970846699999, "LONGITUDE": -65.259515626699994, "GEONAMEID": 3903987.0 }, "geometry": { "type": "Point", "coordinates": [ -65.259515626675636, -19.040970846739469 ] } }
 ,
-{ "type": "Feature", "id": 119, "properties": { "NAMEASCII": "Belmopan", "ADM0NAME": "Belize", "ADM0_A3": "BLZ", "LATITUDE": 17.2520335072, "LONGITUDE": -88.767072999800007, "GEONAMEID": 3582672.0 }, "geometry": { "type": "Point", "coordinates": [ -88.767072999816548, 17.252033507246892 ] } }
+{ "type": "Feature", "id": 119, "properties": { "NAMEASCII": "Belmopan", "name": "Belize", "ADM0_A3": "BLZ", "LATITUDE": 17.2520335072, "LONGITUDE": -88.767072999800007, "GEONAMEID": 3582672.0 }, "geometry": { "type": "Point", "coordinates": [ -88.767072999816548, 17.252033507246892 ] } }
 ,
-{ "type": "Feature", "id": 120, "properties": { "NAMEASCII": "Bangui", "ADM0NAME": "Central African Republic", "ADM0_A3": "CAF", "LATITUDE": 4.36664430635, "LONGITUDE": 18.558288125299999, "GEONAMEID": 2389853.0 }, "geometry": { "type": "Point", "coordinates": [ 18.558288125287277, 4.366644306349087 ] } }
+{ "type": "Feature", "id": 120, "properties": { "NAMEASCII": "Bangui", "name": "Central African Republic", "ADM0_A3": "CAF", "LATITUDE": 4.36664430635, "LONGITUDE": 18.558288125299999, "GEONAMEID": 2389853.0 }, "geometry": { "type": "Point", "coordinates": [ 18.558288125287277, 4.366644306349087 ] } }
 ,
-{ "type": "Feature", "id": 121, "properties": { "NAMEASCII": "Yaounde", "ADM0NAME": "Cameroon", "ADM0_A3": "CMR", "LATITUDE": 3.86670066214, "LONGITUDE": 11.516650755500001, "GEONAMEID": 2220957.0 }, "geometry": { "type": "Point", "coordinates": [ 11.514704896854425, 3.868646520754112 ] } }
+{ "type": "Feature", "id": 121, "properties": { "NAMEASCII": "Yaounde", "name": "Cameroon", "ADM0_A3": "CMR", "LATITUDE": 3.86670066214, "LONGITUDE": 11.516650755500001, "GEONAMEID": 2220957.0 }, "geometry": { "type": "Point", "coordinates": [ 11.514704896854425, 3.868646520754112 ] } }
 ,
-{ "type": "Feature", "id": 122, "properties": { "NAMEASCII": "Tirana", "ADM0NAME": "Albania", "ADM0_A3": "ALB", "LATITUDE": 41.327540709499999, "LONGITUDE": 19.818883014600001, "GEONAMEID": 3183875.0 }, "geometry": { "type": "Point", "coordinates": [ 19.81888301461521, 41.327540709491586 ] } }
+{ "type": "Feature", "id": 122, "properties": { "NAMEASCII": "Tirana", "name": "Albania", "ADM0_A3": "ALB", "LATITUDE": 41.327540709499999, "LONGITUDE": 19.818883014600001, "GEONAMEID": 3183875.0 }, "geometry": { "type": "Point", "coordinates": [ 19.81888301461521, 41.327540709491586 ] } }
 ,
-{ "type": "Feature", "id": 123, "properties": { "NAMEASCII": "Yerevan", "ADM0NAME": "Armenia", "ADM0_A3": "ARM", "LATITUDE": 40.181150735499997, "LONGITUDE": 44.513551390400004, "GEONAMEID": 616052.0 }, "geometry": { "type": "Point", "coordinates": [ 44.511605531752082, 40.183096594141887 ] } }
+{ "type": "Feature", "id": 123, "properties": { "NAMEASCII": "Yerevan", "name": "Armenia", "ADM0_A3": "ARM", "LATITUDE": 40.181150735499997, "LONGITUDE": 44.513551390400004, "GEONAMEID": 616052.0 }, "geometry": { "type": "Point", "coordinates": [ 44.511605531752082, 40.183096594141887 ] } }
 ,
-{ "type": "Feature", "id": 124, "properties": { "NAMEASCII": "Baku", "ADM0NAME": "Azerbaijan", "ADM0_A3": "AZE", "LATITUDE": 40.395272032699999, "LONGITUDE": 49.862217161899999, "GEONAMEID": 587084.0 }, "geometry": { "type": "Point", "coordinates": [ 49.860271303257775, 40.397217891343018 ] } }
+{ "type": "Feature", "id": 124, "properties": { "NAMEASCII": "Baku", "name": "Azerbaijan", "ADM0_A3": "AZE", "LATITUDE": 40.395272032699999, "LONGITUDE": 49.862217161899999, "GEONAMEID": 587084.0 }, "geometry": { "type": "Point", "coordinates": [ 49.860271303257775, 40.397217891343018 ] } }
 ,
-{ "type": "Feature", "id": 125, "properties": { "NAMEASCII": "Phnom Penh", "ADM0NAME": "Cambodia", "ADM0_A3": "KHM", "LATITUDE": 11.5500301299, "LONGITUDE": 104.91663448, "GEONAMEID": 1821306.0 }, "geometry": { "type": "Point", "coordinates": [ 104.91468862118643, 11.551975988558411 ] } }
+{ "type": "Feature", "id": 125, "properties": { "NAMEASCII": "Phnom Penh", "name": "Cambodia", "ADM0_A3": "KHM", "LATITUDE": 11.5500301299, "LONGITUDE": 104.91663448, "GEONAMEID": 1821306.0 }, "geometry": { "type": "Point", "coordinates": [ 104.91468862118643, 11.551975988558411 ] } }
 ,
-{ "type": "Feature", "id": 126, "properties": { "NAMEASCII": "Cotonou", "ADM0NAME": "Benin", "ADM0_A3": "BEN", "LATITUDE": 6.40000856417, "LONGITUDE": 2.51999059918, "GEONAMEID": 2394819.0 }, "geometry": { "type": "Point", "coordinates": [ 2.518044740568598, 6.401954422782467 ] } }
+{ "type": "Feature", "id": 126, "properties": { "NAMEASCII": "Cotonou", "name": "Benin", "ADM0_A3": "BEN", "LATITUDE": 6.40000856417, "LONGITUDE": 2.51999059918, "GEONAMEID": 2394819.0 }, "geometry": { "type": "Point", "coordinates": [ 2.518044740568598, 6.401954422782467 ] } }
 ,
-{ "type": "Feature", "id": 127, "properties": { "NAMEASCII": "Sofia", "ADM0NAME": "Bulgaria", "ADM0_A3": "BGR", "LATITUDE": 42.683349425300001, "LONGITUDE": 23.316654010699999, "GEONAMEID": 727011.0 }, "geometry": { "type": "Point", "coordinates": [ 23.314708152110086, 42.685295283930543 ] } }
+{ "type": "Feature", "id": 127, "properties": { "NAMEASCII": "Sofia", "name": "Bulgaria", "ADM0_A3": "BGR", "LATITUDE": 42.683349425300001, "LONGITUDE": 23.316654010699999, "GEONAMEID": 727011.0 }, "geometry": { "type": "Point", "coordinates": [ 23.314708152110086, 42.685295283930543 ] } }
 ,
-{ "type": "Feature", "id": 128, "properties": { "NAMEASCII": "Minsk", "ADM0NAME": "Belarus", "ADM0_A3": "BLR", "LATITUDE": 53.8999774364, "LONGITUDE": 27.566627155300001, "GEONAMEID": 625144.0 }, "geometry": { "type": "Point", "coordinates": [ 27.56468129665825, 53.901923295043105 ] } }
+{ "type": "Feature", "id": 128, "properties": { "NAMEASCII": "Minsk", "name": "Belarus", "ADM0_A3": "BLR", "LATITUDE": 53.8999774364, "LONGITUDE": 27.566627155300001, "GEONAMEID": 625144.0 }, "geometry": { "type": "Point", "coordinates": [ 27.56468129665825, 53.901923295043105 ] } }
 ,
-{ "type": "Feature", "id": 129, "properties": { "NAMEASCII": "Thimphu", "ADM0NAME": "Bhutan", "ADM0_A3": "BTN", "LATITUDE": 27.472985859200001, "LONGITUDE": 89.639014037, "GEONAMEID": 1252416.0 }, "geometry": { "type": "Point", "coordinates": [ 89.639014037029995, 27.472985859175765 ] } }
+{ "type": "Feature", "id": 129, "properties": { "NAMEASCII": "Thimphu", "name": "Bhutan", "ADM0_A3": "BTN", "LATITUDE": 27.472985859200001, "LONGITUDE": 89.639014037, "GEONAMEID": 1252416.0 }, "geometry": { "type": "Point", "coordinates": [ 89.639014037029995, 27.472985859175765 ] } }
 ,
-{ "type": "Feature", "id": 130, "properties": { "NAMEASCII": "Gaborone", "ADM0NAME": "Botswana", "ADM0_A3": "BWA", "LATITUDE": -24.646313457400002, "LONGITUDE": 25.911947793300001, "GEONAMEID": 933773.0 }, "geometry": { "type": "Point", "coordinates": [ 25.911947793285378, -24.646313457438907 ] } }
+{ "type": "Feature", "id": 130, "properties": { "NAMEASCII": "Gaborone", "name": "Botswana", "ADM0_A3": "BWA", "LATITUDE": -24.646313457400002, "LONGITUDE": 25.911947793300001, "GEONAMEID": 933773.0 }, "geometry": { "type": "Point", "coordinates": [ 25.911947793285378, -24.646313457438907 ] } }
 ,
-{ "type": "Feature", "id": 131, "properties": { "NAMEASCII": "Canberra", "ADM0NAME": "Australia", "ADM0_A3": "AUS", "LATITUDE": -35.283028545400001, "LONGITUDE": 149.12902624399999, "GEONAMEID": 2172517.0 }, "geometry": { "type": "Point", "coordinates": [ 149.12902624429921, -35.283028545372076 ] } }
+{ "type": "Feature", "id": 131, "properties": { "NAMEASCII": "Canberra", "name": "Australia", "ADM0_A3": "AUS", "LATITUDE": -35.283028545400001, "LONGITUDE": 149.12902624399999, "GEONAMEID": 2172517.0 }, "geometry": { "type": "Point", "coordinates": [ 149.12902624429921, -35.283028545372076 ] } }
 ,
-{ "type": "Feature", "id": 132, "properties": { "NAMEASCII": "Ouagadougou", "ADM0NAME": "Burkina Faso", "ADM0_A3": "BFA", "LATITUDE": 12.370315977900001, "LONGITUDE": -1.5247237563, "GEONAMEID": 2357048.0 }, "geometry": { "type": "Point", "coordinates": [ -1.526669614916443, 12.372261836543373 ] } }
+{ "type": "Feature", "id": 132, "properties": { "NAMEASCII": "Ouagadougou", "name": "Burkina Faso", "ADM0_A3": "BFA", "LATITUDE": 12.370315977900001, "LONGITUDE": -1.5247237563, "GEONAMEID": 2357048.0 }, "geometry": { "type": "Point", "coordinates": [ -1.526669614916443, 12.372261836543373 ] } }
 ,
-{ "type": "Feature", "id": 133, "properties": { "NAMEASCII": "Sarajevo", "ADM0NAME": "Bosnia and Herzegovina", "ADM0_A3": "BIH", "LATITUDE": 43.850022399, "LONGITUDE": 18.383001667, "GEONAMEID": 3191281.0 }, "geometry": { "type": "Point", "coordinates": [ 18.383001666953305, 43.850022398954934 ] } }
+{ "type": "Feature", "id": 133, "properties": { "NAMEASCII": "Sarajevo", "name": "Bosnia and Herzegovina", "ADM0_A3": "BIH", "LATITUDE": 43.850022399, "LONGITUDE": 18.383001667, "GEONAMEID": 3191281.0 }, "geometry": { "type": "Point", "coordinates": [ 18.383001666953305, 43.850022398954934 ] } }
 ,
-{ "type": "Feature", "id": 134, "properties": { "NAMEASCII": "Naypyidaw", "ADM0NAME": "Myanmar", "ADM0_A3": "MMR", "LATITUDE": 19.766557026099999, "LONGITUDE": 96.118618529200006, "GEONAMEID": 6611854.0 }, "geometry": { "type": "Point", "coordinates": [ 96.116672670630351, 19.768502884750148 ] } }
+{ "type": "Feature", "id": 134, "properties": { "NAMEASCII": "Naypyidaw", "name": "Myanmar", "ADM0_A3": "MMR", "LATITUDE": 19.766557026099999, "LONGITUDE": 96.118618529200006, "GEONAMEID": 6611854.0 }, "geometry": { "type": "Point", "coordinates": [ 96.116672670630351, 19.768502884750148 ] } }
 ,
-{ "type": "Feature", "id": 135, "properties": { "NAMEASCII": "Stanley", "ADM0NAME": "Falkland Islands", "ADM0_A3": "FLK", "LATITUDE": -51.700010967300003, "LONGITUDE": -57.849967897200003, "GEONAMEID": 3426691.0 }, "geometry": { "type": "Point", "coordinates": [ -57.849967897153817, -51.700010967312835 ] } }
+{ "type": "Feature", "id": 135, "properties": { "NAMEASCII": "Stanley", "name": "Falkland Islands", "ADM0_A3": "FLK", "LATITUDE": -51.700010967300003, "LONGITUDE": -57.849967897200003, "GEONAMEID": 3426691.0 }, "geometry": { "type": "Point", "coordinates": [ -57.849967897153817, -51.700010967312835 ] } }
 ,
-{ "type": "Feature", "id": 136, "properties": { "NAMEASCII": "Hamilton", "ADM0NAME": "Bermuda", "ADM0_A3": "BMU", "LATITUDE": 32.294190286300001, "LONGITUDE": -64.783937420300006, "GEONAMEID": 3573197.0 }, "geometry": { "type": "Point", "coordinates": [ -64.783937420293455, 32.294190286278479 ] } }
+{ "type": "Feature", "id": 136, "properties": { "NAMEASCII": "Hamilton", "name": "Bermuda", "ADM0_A3": "BMU", "LATITUDE": 32.294190286300001, "LONGITUDE": -64.783937420300006, "GEONAMEID": 3573197.0 }, "geometry": { "type": "Point", "coordinates": [ -64.783937420293455, 32.294190286278479 ] } }
 ,
-{ "type": "Feature", "id": 137, "properties": { "NAMEASCII": "Nukualofa", "ADM0NAME": "Tonga", "ADM0_A3": "TON", "LATITUDE": -21.138512356700002, "LONGITUDE": -175.220564478, "GEONAMEID": 4032402.0 }, "geometry": { "type": "Point", "coordinates": [ -175.22056447761656, -21.138512356698641 ] } }
+{ "type": "Feature", "id": 137, "properties": { "NAMEASCII": "Nukualofa", "name": "Tonga", "ADM0_A3": "TON", "LATITUDE": -21.138512356700002, "LONGITUDE": -175.220564478, "GEONAMEID": 4032402.0 }, "geometry": { "type": "Point", "coordinates": [ -175.22056447761656, -21.138512356698641 ] } }
 ,
-{ "type": "Feature", "id": 138, "properties": { "NAMEASCII": "Hargeysa", "ADM0NAME": "Somaliland", "ADM0_A3": "SOL", "LATITUDE": 9.560022398819999, "LONGITUDE": 44.065310016700003, "GEONAMEID": 57289.0 }, "geometry": { "type": "Point", "coordinates": [ 44.065310016665421, 9.56002239881775 ] } }
+{ "type": "Feature", "id": 138, "properties": { "NAMEASCII": "Hargeysa", "name": "Somaliland", "ADM0_A3": "SOL", "LATITUDE": 9.560022398819999, "LONGITUDE": 44.065310016700003, "GEONAMEID": 57289.0 }, "geometry": { "type": "Point", "coordinates": [ 44.065310016665421, 9.56002239881775 ] } }
 ,
-{ "type": "Feature", "id": 139, "properties": { "NAMEASCII": "Victoria", "ADM0NAME": "Seychelles", "ADM0_A3": "SYC", "LATITUDE": -4.61663165397, "LONGITUDE": 55.449989785600003, "GEONAMEID": 241131.0 }, "geometry": { "type": "Point", "coordinates": [ 55.449989785591129, -4.6166316539734 ] } }
+{ "type": "Feature", "id": 139, "properties": { "NAMEASCII": "Victoria", "name": "Seychelles", "ADM0_A3": "SYC", "LATITUDE": -4.61663165397, "LONGITUDE": 55.449989785600003, "GEONAMEID": 241131.0 }, "geometry": { "type": "Point", "coordinates": [ 55.449989785591129, -4.6166316539734 ] } }
 ,
-{ "type": "Feature", "id": 140, "properties": { "NAMEASCII": "Sao Tome", "ADM0NAME": "Sao Tome and Principe", "ADM0_A3": "STP", "LATITUDE": 0.33340211883, "LONGITUDE": 6.73332515323, "GEONAMEID": 3388092.0 }, "geometry": { "type": "Point", "coordinates": [ 6.733325153234773, 0.333402118832907 ] } }
+{ "type": "Feature", "id": 140, "properties": { "NAMEASCII": "Sao Tome", "name": "Sao Tome and Principe", "ADM0_A3": "STP", "LATITUDE": 0.33340211883, "LONGITUDE": 6.73332515323, "GEONAMEID": 3388092.0 }, "geometry": { "type": "Point", "coordinates": [ 6.733325153234773, 0.333402118832907 ] } }
 ,
-{ "type": "Feature", "id": 141, "properties": { "NAMEASCII": "Apia", "ADM0NAME": "Samoa", "ADM0_A3": "WSM", "LATITUDE": -13.8415450424, "LONGITUDE": -171.73864160900001, "GEONAMEID": 3689793.0 }, "geometry": { "type": "Point", "coordinates": [ -171.73864160860316, -13.841545042448445 ] } }
+{ "type": "Feature", "id": 141, "properties": { "NAMEASCII": "Apia", "name": "Samoa", "ADM0_A3": "WSM", "LATITUDE": -13.8415450424, "LONGITUDE": -171.73864160900001, "GEONAMEID": 3689793.0 }, "geometry": { "type": "Point", "coordinates": [ -171.73864160860316, -13.841545042448445 ] } }
 ,
-{ "type": "Feature", "id": 142, "properties": { "NAMEASCII": "Valletta", "ADM0NAME": "Malta", "ADM0_A3": "MLT", "LATITUDE": 35.899732481900003, "LONGITUDE": 14.5147106513, "GEONAMEID": 2562305.0 }, "geometry": { "type": "Point", "coordinates": [ 14.514710651312782, 35.899732481930869 ] } }
+{ "type": "Feature", "id": 142, "properties": { "NAMEASCII": "Valletta", "name": "Malta", "ADM0_A3": "MLT", "LATITUDE": 35.899732481900003, "LONGITUDE": 14.5147106513, "GEONAMEID": 2562305.0 }, "geometry": { "type": "Point", "coordinates": [ 14.514710651312782, 35.899732481930869 ] } }
 ,
-{ "type": "Feature", "id": 143, "properties": { "NAMEASCII": "Male", "ADM0NAME": "Maldives", "ADM0_A3": "MDV", "LATITUDE": 4.16670818981, "LONGITUDE": 73.499947468, "GEONAMEID": 3174186.0 }, "geometry": { "type": "Point", "coordinates": [ 73.499947467954996, 4.1667081898118 ] } }
+{ "type": "Feature", "id": 143, "properties": { "NAMEASCII": "Male", "name": "Maldives", "ADM0_A3": "MDV", "LATITUDE": 4.16670818981, "LONGITUDE": 73.499947468, "GEONAMEID": 3174186.0 }, "geometry": { "type": "Point", "coordinates": [ 73.499947467954996, 4.1667081898118 ] } }
 ,
-{ "type": "Feature", "id": 144, "properties": { "NAMEASCII": "Jerusalem", "ADM0NAME": "Israel", "ADM0_A3": "ISR", "LATITUDE": 31.778407815600001, "LONGITUDE": 35.206625934599998, "GEONAMEID": 281184.0 }, "geometry": { "type": "Point", "coordinates": [ 35.206625934598662, 31.778407815573303 ] } }
+{ "type": "Feature", "id": 144, "properties": { "NAMEASCII": "Jerusalem", "name": "Israel", "ADM0_A3": "ISR", "LATITUDE": 31.778407815600001, "LONGITUDE": 35.206625934599998, "GEONAMEID": 281184.0 }, "geometry": { "type": "Point", "coordinates": [ 35.206625934598662, 31.778407815573303 ] } }
 ,
-{ "type": "Feature", "id": 145, "properties": { "NAMEASCII": "Praia", "ADM0NAME": "Cape Verde", "ADM0_A3": "CPV", "LATITUDE": 14.9166980173, "LONGITUDE": -23.516688885, "GEONAMEID": 3374333.0 }, "geometry": { "type": "Point", "coordinates": [ -23.516688884972211, 14.916698017328656 ] } }
+{ "type": "Feature", "id": 145, "properties": { "NAMEASCII": "Praia", "name": "Cape Verde", "ADM0_A3": "CPV", "LATITUDE": 14.9166980173, "LONGITUDE": -23.516688885, "GEONAMEID": 3374333.0 }, "geometry": { "type": "Point", "coordinates": [ -23.516688884972211, 14.916698017328656 ] } }
 ,
-{ "type": "Feature", "id": 146, "properties": { "NAMEASCII": "Nassau", "ADM0NAME": "The Bahamas", "ADM0_A3": "BHS", "LATITUDE": 25.0833901154, "LONGITUDE": -77.350043784299999, "GEONAMEID": 3571824.0 }, "geometry": { "type": "Point", "coordinates": [ -77.350043784276124, 25.083390115351222 ] } }
+{ "type": "Feature", "id": 146, "properties": { "NAMEASCII": "Nassau", "name": "The Bahamas", "ADM0_A3": "BHS", "LATITUDE": 25.0833901154, "LONGITUDE": -77.350043784299999, "GEONAMEID": 3571824.0 }, "geometry": { "type": "Point", "coordinates": [ -77.350043784276124, 25.083390115351222 ] } }
 ,
-{ "type": "Feature", "id": 147, "properties": { "NAMEASCII": "Nicosia", "ADM0NAME": "Cyprus", "ADM0_A3": "CYP", "LATITUDE": 35.166676451699999, "LONGITUDE": 33.3666348864, "GEONAMEID": 146268.0 }, "geometry": { "type": "Point", "coordinates": [ 33.366634886414147, 35.166676451654496 ] } }
+{ "type": "Feature", "id": 147, "properties": { "NAMEASCII": "Nicosia", "name": "Cyprus", "ADM0_A3": "CYP", "LATITUDE": 35.166676451699999, "LONGITUDE": 33.3666348864, "GEONAMEID": 146268.0 }, "geometry": { "type": "Point", "coordinates": [ 33.366634886414147, 35.166676451654496 ] } }
 ,
-{ "type": "Feature", "id": 148, "properties": { "NAMEASCII": "Hanoi", "ADM0NAME": "Vietnam", "ADM0_A3": "VNM", "LATITUDE": 21.033327249100001, "LONGITUDE": 105.8500142, "GEONAMEID": 1581130.0 }, "geometry": { "type": "Point", "coordinates": [ 105.8480683412422, 21.035273107737055 ] } }
+{ "type": "Feature", "id": 148, "properties": { "NAMEASCII": "Hanoi", "name": "Vietnam", "ADM0_A3": "VNM", "LATITUDE": 21.033327249100001, "LONGITUDE": 105.8500142, "GEONAMEID": 1581130.0 }, "geometry": { "type": "Point", "coordinates": [ 105.8480683412422, 21.035273107737055 ] } }
 ,
-{ "type": "Feature", "id": 149, "properties": { "NAMEASCII": "Ankara", "ADM0NAME": "Turkey", "ADM0_A3": "TUR", "LATITUDE": 39.9272385855, "LONGITUDE": 32.864391641, "GEONAMEID": 323786.0 }, "geometry": { "type": "Point", "coordinates": [ 32.862445782356644, 39.929184444075474 ] } }
+{ "type": "Feature", "id": 149, "properties": { "NAMEASCII": "Ankara", "name": "Turkey", "ADM0_A3": "TUR", "LATITUDE": 39.9272385855, "LONGITUDE": 32.864391641, "GEONAMEID": 323786.0 }, "geometry": { "type": "Point", "coordinates": [ 32.862445782356644, 39.929184444075474 ] } }
 ,
-{ "type": "Feature", "id": 150, "properties": { "NAMEASCII": "Budapest", "ADM0NAME": "Hungary", "ADM0_A3": "HUN", "LATITUDE": 47.500006326399998, "LONGITUDE": 19.0833206774, "GEONAMEID": 3054643.0 }, "geometry": { "type": "Point", "coordinates": [ 19.081374818759684, 47.501952184991353 ] } }
+{ "type": "Feature", "id": 150, "properties": { "NAMEASCII": "Budapest", "name": "Hungary", "ADM0_A3": "HUN", "LATITUDE": 47.500006326399998, "LONGITUDE": 19.0833206774, "GEONAMEID": 3054643.0 }, "geometry": { "type": "Point", "coordinates": [ 19.081374818759684, 47.501952184991353 ] } }
 ,
-{ "type": "Feature", "id": 151, "properties": { "NAMEASCII": "Sanaa", "ADM0NAME": "Yemen", "ADM0_A3": "YEM", "LATITUDE": 15.354733295699999, "LONGITUDE": 44.206593382599998, "GEONAMEID": 71137.0 }, "geometry": { "type": "Point", "coordinates": [ 44.204647523938434, 15.356679154263645 ] } }
+{ "type": "Feature", "id": 151, "properties": { "NAMEASCII": "Sanaa", "name": "Yemen", "ADM0_A3": "YEM", "LATITUDE": 15.354733295699999, "LONGITUDE": 44.206593382599998, "GEONAMEID": 71137.0 }, "geometry": { "type": "Point", "coordinates": [ 44.204647523938434, 15.356679154263645 ] } }
 ,
-{ "type": "Feature", "id": 152, "properties": { "NAMEASCII": "Bucharest", "ADM0NAME": "Romania", "ADM0_A3": "ROU", "LATITUDE": 44.433371804899998, "LONGITUDE": 26.099946654, "GEONAMEID": 683506.0 }, "geometry": { "type": "Point", "coordinates": [ 26.098000795350401, 44.435317663494573 ] } }
+{ "type": "Feature", "id": 152, "properties": { "NAMEASCII": "Bucharest", "name": "Romania", "ADM0_A3": "ROU", "LATITUDE": 44.433371804899998, "LONGITUDE": 26.099946654, "GEONAMEID": 683506.0 }, "geometry": { "type": "Point", "coordinates": [ 26.098000795350401, 44.435317663494573 ] } }
 ,
-{ "type": "Feature", "id": 153, "properties": { "NAMEASCII": "Damascus", "ADM0NAME": "Syria", "ADM0_A3": "SYR", "LATITUDE": 33.500033995599999, "LONGITUDE": 36.299995889, "GEONAMEID": 170654.0 }, "geometry": { "type": "Point", "coordinates": [ 36.298050030417073, 33.501979854206127 ] } }
+{ "type": "Feature", "id": 153, "properties": { "NAMEASCII": "Damascus", "name": "Syria", "ADM0_A3": "SYR", "LATITUDE": 33.500033995599999, "LONGITUDE": 36.299995889, "GEONAMEID": 170654.0 }, "geometry": { "type": "Point", "coordinates": [ 36.298050030417073, 33.501979854206127 ] } }
 ,
-{ "type": "Feature", "id": 154, "properties": { "NAMEASCII": "Lisbon", "ADM0NAME": "Portugal", "ADM0_A3": "PRT", "LATITUDE": 38.722722877899997, "LONGITUDE": -9.14486630549, "GEONAMEID": 2267057.0 }, "geometry": { "type": "Point", "coordinates": [ -9.14681216410213, 38.724668736487843 ] } }
+{ "type": "Feature", "id": 154, "properties": { "NAMEASCII": "Lisbon", "name": "Portugal", "ADM0_A3": "PRT", "LATITUDE": 38.722722877899997, "LONGITUDE": -9.14486630549, "GEONAMEID": 2267057.0 }, "geometry": { "type": "Point", "coordinates": [ -9.14681216410213, 38.724668736487843 ] } }
 ,
-{ "type": "Feature", "id": 155, "properties": { "NAMEASCII": "Khartoum", "ADM0NAME": "Sudan", "ADM0_A3": "SDN", "LATITUDE": 15.5880782257, "LONGITUDE": 32.534179238599997, "GEONAMEID": 379252.0 }, "geometry": { "type": "Point", "coordinates": [ 32.532233380011576, 15.590024084277673 ] } }
+{ "type": "Feature", "id": 155, "properties": { "NAMEASCII": "Khartoum", "name": "Sudan", "ADM0_A3": "SDN", "LATITUDE": 15.5880782257, "LONGITUDE": 32.534179238599997, "GEONAMEID": 379252.0 }, "geometry": { "type": "Point", "coordinates": [ 32.532233380011576, 15.590024084277673 ] } }
 ,
-{ "type": "Feature", "id": 156, "properties": { "NAMEASCII": "Oslo", "ADM0NAME": "Norway", "ADM0_A3": "NOR", "LATITUDE": 59.916690286399998, "LONGITUDE": 10.749979206, "GEONAMEID": 3143244.0 }, "geometry": { "type": "Point", "coordinates": [ 10.748033347372314, 59.918636145001869 ] } }
+{ "type": "Feature", "id": 156, "properties": { "NAMEASCII": "Oslo", "name": "Norway", "ADM0_A3": "NOR", "LATITUDE": 59.916690286399998, "LONGITUDE": 10.749979206, "GEONAMEID": 3143244.0 }, "geometry": { "type": "Point", "coordinates": [ 10.748033347372314, 59.918636145001869 ] } }
 ,
-{ "type": "Feature", "id": 157, "properties": { "NAMEASCII": "Warsaw", "ADM0NAME": "Poland", "ADM0_A3": "POL", "LATITUDE": 52.250000629799999, "LONGITUDE": 20.9999995511, "GEONAMEID": 756135.0 }, "geometry": { "type": "Point", "coordinates": [ 20.998053692465305, 52.251946488395561 ] } }
+{ "type": "Feature", "id": 157, "properties": { "NAMEASCII": "Warsaw", "name": "Poland", "ADM0_A3": "POL", "LATITUDE": 52.250000629799999, "LONGITUDE": 20.9999995511, "GEONAMEID": 756135.0 }, "geometry": { "type": "Point", "coordinates": [ 20.998053692465305, 52.251946488395561 ] } }
 ,
-{ "type": "Feature", "id": 158, "properties": { "NAMEASCII": "Pyongyang", "ADM0NAME": "North Korea", "ADM0_A3": "PRK", "LATITUDE": 39.019438699399998, "LONGITUDE": 125.75469071400001, "GEONAMEID": 1871859.0 }, "geometry": { "type": "Point", "coordinates": [ 125.75274485499392, 39.021384558004343 ] } }
+{ "type": "Feature", "id": 158, "properties": { "NAMEASCII": "Pyongyang", "name": "North Korea", "ADM0_A3": "PRK", "LATITUDE": 39.019438699399998, "LONGITUDE": 125.75469071400001, "GEONAMEID": 1871859.0 }, "geometry": { "type": "Point", "coordinates": [ 125.75274485499392, 39.021384558004343 ] } }
 ,
-{ "type": "Feature", "id": 159, "properties": { "NAMEASCII": "Dar es Salaam", "ADM0NAME": "Tanzania", "ADM0_A3": "TZA", "LATITUDE": -6.80001259474, "LONGITUDE": 39.268341836300003, "GEONAMEID": 160263.0 }, "geometry": { "type": "Point", "coordinates": [ 39.266395977694572, -6.798066736124383 ] } }
+{ "type": "Feature", "id": 159, "properties": { "NAMEASCII": "Dar es Salaam", "name": "Tanzania", "ADM0_A3": "TZA", "LATITUDE": -6.80001259474, "LONGITUDE": 39.268341836300003, "GEONAMEID": 160263.0 }, "geometry": { "type": "Point", "coordinates": [ 39.266395977694572, -6.798066736124383 ] } }
 ,
-{ "type": "Feature", "id": 160, "properties": { "NAMEASCII": "Dublin", "ADM0NAME": "Ireland", "ADM0_A3": "IRL", "LATITUDE": 53.333061136, "LONGITUDE": -6.24890568178, "GEONAMEID": 2964574.0 }, "geometry": { "type": "Point", "coordinates": [ -6.250851540391068, 53.335006994584944 ] } }
+{ "type": "Feature", "id": 160, "properties": { "NAMEASCII": "Dublin", "name": "Ireland", "ADM0_A3": "IRL", "LATITUDE": 53.333061136, "LONGITUDE": -6.24890568178, "GEONAMEID": 2964574.0 }, "geometry": { "type": "Point", "coordinates": [ -6.250851540391068, 53.335006994584944 ] } }
 ,
-{ "type": "Feature", "id": 161, "properties": { "NAMEASCII": "Monrovia", "ADM0NAME": "Liberia", "ADM0_A3": "LBR", "LATITUDE": 6.31055665987, "LONGITUDE": -10.8047516291, "GEONAMEID": 2274895.0 }, "geometry": { "type": "Point", "coordinates": [ -10.799660436775923, 6.314581647160139 ] } }
+{ "type": "Feature", "id": 161, "properties": { "NAMEASCII": "Monrovia", "name": "Liberia", "ADM0_A3": "LBR", "LATITUDE": 6.31055665987, "LONGITUDE": -10.8047516291, "GEONAMEID": 2274895.0 }, "geometry": { "type": "Point", "coordinates": [ -10.799660436775923, 6.314581647160139 ] } }
 ,
-{ "type": "Feature", "id": 162, "properties": { "NAMEASCII": "Kuala Lumpur", "ADM0NAME": "Malaysia", "ADM0_A3": "MYS", "LATITUDE": 3.1666658721, "LONGITUDE": 101.69998327499999, "GEONAMEID": 1735161.0 }, "geometry": { "type": "Point", "coordinates": [ 101.69803741674644, 3.168611730712371 ] } }
+{ "type": "Feature", "id": 162, "properties": { "NAMEASCII": "Kuala Lumpur", "name": "Malaysia", "ADM0_A3": "MYS", "LATITUDE": 3.1666658721, "LONGITUDE": 101.69998327499999, "GEONAMEID": 1735161.0 }, "geometry": { "type": "Point", "coordinates": [ 101.69803741674644, 3.168611730712371 ] } }
 ,
-{ "type": "Feature", "id": 163, "properties": { "NAMEASCII": "Havana", "ADM0NAME": "Cuba", "ADM0_A3": "CUB", "LATITUDE": 23.131958840900001, "LONGITUDE": -82.364182171300001, "GEONAMEID": 3553478.0 }, "geometry": { "type": "Point", "coordinates": [ -82.366128029953302, 23.1339046995422 ] } }
+{ "type": "Feature", "id": 163, "properties": { "NAMEASCII": "Havana", "name": "Cuba", "ADM0_A3": "CUB", "LATITUDE": 23.131958840900001, "LONGITUDE": -82.364182171300001, "GEONAMEID": 3553478.0 }, "geometry": { "type": "Point", "coordinates": [ -82.366128029953302, 23.1339046995422 ] } }
 ,
-{ "type": "Feature", "id": 164, "properties": { "NAMEASCII": "Prague", "ADM0NAME": "Czech Republic", "ADM0_A3": "CZE", "LATITUDE": 50.083337014900003, "LONGITUDE": 14.465979775699999, "GEONAMEID": 4548393.0 }, "geometry": { "type": "Point", "coordinates": [ 14.464033917048539, 50.08528287347832 ] } }
+{ "type": "Feature", "id": 164, "properties": { "NAMEASCII": "Prague", "name": "Czech Republic", "ADM0_A3": "CZE", "LATITUDE": 50.083337014900003, "LONGITUDE": 14.465979775699999, "GEONAMEID": 4548393.0 }, "geometry": { "type": "Point", "coordinates": [ 14.464033917048539, 50.08528287347832 ] } }
 ,
-{ "type": "Feature", "id": 165, "properties": { "NAMEASCII": "Kuwait", "ADM0NAME": "Kuwait", "ADM0_A3": "KWT", "LATITUDE": 29.36971763, "LONGITUDE": 47.978301146200003, "GEONAMEID": 285787.0 }, "geometry": { "type": "Point", "coordinates": [ 47.976355287625267, 29.371663488629565 ] } }
+{ "type": "Feature", "id": 165, "properties": { "NAMEASCII": "Kuwait", "name": "Kuwait", "ADM0_A3": "KWT", "LATITUDE": 29.36971763, "LONGITUDE": 47.978301146200003, "GEONAMEID": 285787.0 }, "geometry": { "type": "Point", "coordinates": [ 47.976355287625267, 29.371663488629565 ] } }
 ,
-{ "type": "Feature", "id": 166, "properties": { "NAMEASCII": "Santo Domingo", "ADM0NAME": "Dominican Republic", "ADM0_A3": "DOM", "LATITUDE": 18.470072854600001, "LONGITUDE": -69.900085084699995, "GEONAMEID": 3668373.0 }, "geometry": { "type": "Point", "coordinates": [ -69.902030943315026, 18.472018713195382 ] } }
+{ "type": "Feature", "id": 166, "properties": { "NAMEASCII": "Santo Domingo", "name": "Dominican Republic", "ADM0_A3": "DOM", "LATITUDE": 18.470072854600001, "LONGITUDE": -69.900085084699995, "GEONAMEID": 3668373.0 }, "geometry": { "type": "Point", "coordinates": [ -69.902030943315026, 18.472018713195382 ] } }
 ,
-{ "type": "Feature", "id": 167, "properties": { "NAMEASCII": "Accra", "ADM0NAME": "Ghana", "ADM0_A3": "GHA", "LATITUDE": 5.55003460583, "LONGITUDE": -0.21671574035, "GEONAMEID": 2306104.0 }, "geometry": { "type": "Point", "coordinates": [ -0.218661598960693, 5.551980464445933 ] } }
+{ "type": "Feature", "id": 167, "properties": { "NAMEASCII": "Accra", "name": "Ghana", "ADM0_A3": "GHA", "LATITUDE": 5.55003460583, "LONGITUDE": -0.21671574035, "GEONAMEID": 2306104.0 }, "geometry": { "type": "Point", "coordinates": [ -0.218661598960693, 5.551980464445933 ] } }
 ,
-{ "type": "Feature", "id": 168, "properties": { "NAMEASCII": "Tripoli", "ADM0NAME": "Libya", "ADM0_A3": "LBY", "LATITUDE": 32.892500019400003, "LONGITUDE": 13.180011758099999, "GEONAMEID": -1.0 }, "geometry": { "type": "Point", "coordinates": [ 13.180011758078194, 32.89250001935369 ] } }
+{ "type": "Feature", "id": 168, "properties": { "NAMEASCII": "Tripoli", "name": "Libya", "ADM0_A3": "LBY", "LATITUDE": 32.892500019400003, "LONGITUDE": 13.180011758099999, "GEONAMEID": -1.0 }, "geometry": { "type": "Point", "coordinates": [ 13.180011758078194, 32.89250001935369 ] } }
 ,
-{ "type": "Feature", "id": 169, "properties": { "NAMEASCII": "Helsinki", "ADM0NAME": "Finland", "ADM0_A3": "FIN", "LATITUDE": 60.175563374, "LONGITUDE": 24.934126341500001, "GEONAMEID": 658225.0 }, "geometry": { "type": "Point", "coordinates": [ 24.932180482845581, 60.17750923256807 ] } }
+{ "type": "Feature", "id": 169, "properties": { "NAMEASCII": "Helsinki", "name": "Finland", "ADM0_A3": "FIN", "LATITUDE": 60.175563374, "LONGITUDE": 24.934126341500001, "GEONAMEID": 658225.0 }, "geometry": { "type": "Point", "coordinates": [ 24.932180482845581, 60.17750923256807 ] } }
 ,
-{ "type": "Feature", "id": 170, "properties": { "NAMEASCII": "Kobenhavn", "ADM0NAME": "Denmark", "ADM0_A3": "DNK", "LATITUDE": 55.678564190400003, "LONGITUDE": 12.5634857473, "GEONAMEID": 2618425.0 }, "geometry": { "type": "Point", "coordinates": [ 12.561539888703294, 55.680510049025941 ] } }
+{ "type": "Feature", "id": 170, "properties": { "NAMEASCII": "Kobenhavn", "name": "Denmark", "ADM0_A3": "DNK", "LATITUDE": 55.678564190400003, "LONGITUDE": 12.5634857473, "GEONAMEID": 2618425.0 }, "geometry": { "type": "Point", "coordinates": [ 12.561539888703294, 55.680510049025941 ] } }
 ,
-{ "type": "Feature", "id": 171, "properties": { "NAMEASCII": "Brasilia", "ADM0NAME": "Brazil", "ADM0_A3": "BRA", "LATITUDE": -15.7833402315, "LONGITUDE": -47.916052288400003, "GEONAMEID": 3469058.0 }, "geometry": { "type": "Point", "coordinates": [ -47.917998147003061, -15.781394372878992 ] } }
+{ "type": "Feature", "id": 171, "properties": { "NAMEASCII": "Brasilia", "name": "Brazil", "ADM0_A3": "BRA", "LATITUDE": -15.7833402315, "LONGITUDE": -47.916052288400003, "GEONAMEID": 3469058.0 }, "geometry": { "type": "Point", "coordinates": [ -47.917998147003061, -15.781394372878992 ] } }
 ,
-{ "type": "Feature", "id": 172, "properties": { "NAMEASCII": "Brussels", "ADM0NAME": "Belgium", "ADM0_A3": "BEL", "LATITUDE": 50.833317076699998, "LONGITUDE": 4.3333166083, "GEONAMEID": 2800866.0 }, "geometry": { "type": "Point", "coordinates": [ 4.33137074969045, 50.83526293533032 ] } }
+{ "type": "Feature", "id": 172, "properties": { "NAMEASCII": "Brussels", "name": "Belgium", "ADM0_A3": "BEL", "LATITUDE": 50.833317076699998, "LONGITUDE": 4.3333166083, "GEONAMEID": 2800866.0 }, "geometry": { "type": "Point", "coordinates": [ 4.33137074969045, 50.83526293533032 ] } }
 ,
-{ "type": "Feature", "id": 173, "properties": { "NAMEASCII": "Dhaka", "ADM0NAME": "Bangladesh", "ADM0_A3": "BGD", "LATITUDE": 23.723059711699999, "LONGITUDE": 90.408579466700004, "GEONAMEID": 1185241.0 }, "geometry": { "type": "Point", "coordinates": [ 90.406633608107541, 23.725005570312817 ] } }
+{ "type": "Feature", "id": 173, "properties": { "NAMEASCII": "Dhaka", "name": "Bangladesh", "ADM0_A3": "BGD", "LATITUDE": 23.723059711699999, "LONGITUDE": 90.408579466700004, "GEONAMEID": 1185241.0 }, "geometry": { "type": "Point", "coordinates": [ 90.406633608107541, 23.725005570312817 ] } }
 ,
-{ "type": "Feature", "id": 174, "properties": { "NAMEASCII": "Luanda", "ADM0NAME": "Angola", "ADM0_A3": "AGO", "LATITUDE": -8.83828611363, "LONGITUDE": 13.2344270413, "GEONAMEID": 2240449.0 }, "geometry": { "type": "Point", "coordinates": [ 13.23248118266855, -8.836340255012658 ] } }
+{ "type": "Feature", "id": 174, "properties": { "NAMEASCII": "Luanda", "name": "Angola", "ADM0_A3": "AGO", "LATITUDE": -8.83828611363, "LONGITUDE": 13.2344270413, "GEONAMEID": 2240449.0 }, "geometry": { "type": "Point", "coordinates": [ 13.23248118266855, -8.836340255012658 ] } }
 ,
-{ "type": "Feature", "id": 175, "properties": { "NAMEASCII": "Algiers", "ADM0NAME": "Algeria", "ADM0_A3": "DZA", "LATITUDE": 36.763064798, "LONGITUDE": 3.05055252952, "GEONAMEID": 2507480.0 }, "geometry": { "type": "Point", "coordinates": [ 3.048606670909237, 36.765010656628135 ] } }
+{ "type": "Feature", "id": 175, "properties": { "NAMEASCII": "Algiers", "name": "Algeria", "ADM0_A3": "DZA", "LATITUDE": 36.763064798, "LONGITUDE": 3.05055252952, "GEONAMEID": 2507480.0 }, "geometry": { "type": "Point", "coordinates": [ 3.048606670909237, 36.765010656628135 ] } }
 ,
-{ "type": "Feature", "id": 176, "properties": { "NAMEASCII": "Caracas", "ADM0NAME": "Venezuela", "ADM0_A3": "VEN", "LATITUDE": 10.500998554400001, "LONGITUDE": -66.917037192400002, "GEONAMEID": 3646738.0 }, "geometry": { "type": "Point", "coordinates": [ -66.918983051050418, 10.502944413033333 ] } }
+{ "type": "Feature", "id": 176, "properties": { "NAMEASCII": "Caracas", "name": "Venezuela", "ADM0_A3": "VEN", "LATITUDE": 10.500998554400001, "LONGITUDE": -66.917037192400002, "GEONAMEID": 3646738.0 }, "geometry": { "type": "Point", "coordinates": [ -66.918983051050418, 10.502944413033333 ] } }
 ,
-{ "type": "Feature", "id": 177, "properties": { "NAMEASCII": "Kiev", "ADM0NAME": "Ukraine", "ADM0_A3": "UKR", "LATITUDE": 50.433367329, "LONGITUDE": 30.5166279691, "GEONAMEID": 703448.0 }, "geometry": { "type": "Point", "coordinates": [ 30.514682110472165, 50.435313187607221 ] } }
+{ "type": "Feature", "id": 177, "properties": { "NAMEASCII": "Kiev", "name": "Ukraine", "ADM0_A3": "UKR", "LATITUDE": 50.433367329, "LONGITUDE": 30.5166279691, "GEONAMEID": 703448.0 }, "geometry": { "type": "Point", "coordinates": [ 30.514682110472165, 50.435313187607221 ] } }
 ,
-{ "type": "Feature", "id": 178, "properties": { "NAMEASCII": "Tashkent", "ADM0NAME": "Uzbekistan", "ADM0_A3": "UZB", "LATITUDE": 41.311701883, "LONGITUDE": 69.294932819500005, "GEONAMEID": 1512569.0 }, "geometry": { "type": "Point", "coordinates": [ 69.292986960887788, 41.313647741607213 ] } }
+{ "type": "Feature", "id": 178, "properties": { "NAMEASCII": "Tashkent", "name": "Uzbekistan", "ADM0_A3": "UZB", "LATITUDE": 41.311701883, "LONGITUDE": 69.294932819500005, "GEONAMEID": 1512569.0 }, "geometry": { "type": "Point", "coordinates": [ 69.292986960887788, 41.313647741607213 ] } }
 ,
-{ "type": "Feature", "id": 179, "properties": { "NAMEASCII": "Madrid", "ADM0NAME": "Spain", "ADM0_A3": "ESP", "LATITUDE": 40.400026264499999, "LONGITUDE": -3.683351686, "GEONAMEID": 3675707.0 }, "geometry": { "type": "Point", "coordinates": [ -3.685297544612524, 40.401972123113808 ] } }
+{ "type": "Feature", "id": 179, "properties": { "NAMEASCII": "Madrid", "name": "Spain", "ADM0_A3": "ESP", "LATITUDE": 40.400026264499999, "LONGITUDE": -3.683351686, "GEONAMEID": 3675707.0 }, "geometry": { "type": "Point", "coordinates": [ -3.685297544612524, 40.401972123113808 ] } }
 ,
-{ "type": "Feature", "id": 180, "properties": { "NAMEASCII": "Stockholm", "ADM0NAME": "Sweden", "ADM0_A3": "SWE", "LATITUDE": 59.350759954300003, "LONGITUDE": 18.0973347328, "GEONAMEID": 2673730.0 }, "geometry": { "type": "Point", "coordinates": [ 18.095388874180912, 59.35270581286585 ] } }
+{ "type": "Feature", "id": 180, "properties": { "NAMEASCII": "Stockholm", "name": "Sweden", "ADM0_A3": "SWE", "LATITUDE": 59.350759954300003, "LONGITUDE": 18.0973347328, "GEONAMEID": 2673730.0 }, "geometry": { "type": "Point", "coordinates": [ 18.095388874180912, 59.35270581286585 ] } }
 ,
-{ "type": "Feature", "id": 181, "properties": { "NAMEASCII": "Bangkok", "ADM0NAME": "Thailand", "ADM0_A3": "THA", "LATITUDE": 13.7499992055, "LONGITUDE": 100.516644652, "GEONAMEID": 1609350.0 }, "geometry": { "type": "Point", "coordinates": [ 100.51469879369489, 13.751945064087977 ] } }
+{ "type": "Feature", "id": 181, "properties": { "NAMEASCII": "Bangkok", "name": "Thailand", "ADM0_A3": "THA", "LATITUDE": 13.7499992055, "LONGITUDE": 100.516644652, "GEONAMEID": 1609350.0 }, "geometry": { "type": "Point", "coordinates": [ 100.51469879369489, 13.751945064087977 ] } }
 ,
-{ "type": "Feature", "id": 182, "properties": { "NAMEASCII": "Lima", "ADM0NAME": "Peru", "ADM0_A3": "PER", "LATITUDE": -12.048012676100001, "LONGITUDE": -77.050062094799998, "GEONAMEID": 3936456.0 }, "geometry": { "type": "Point", "coordinates": [ -77.052007953434725, -12.046066817525571 ] } }
+{ "type": "Feature", "id": 182, "properties": { "NAMEASCII": "Lima", "name": "Peru", "ADM0_A3": "PER", "LATITUDE": -12.048012676100001, "LONGITUDE": -77.050062094799998, "GEONAMEID": 3936456.0 }, "geometry": { "type": "Point", "coordinates": [ -77.052007953434725, -12.046066817525571 ] } }
 ,
-{ "type": "Feature", "id": 183, "properties": { "NAMEASCII": "Dakar", "ADM0NAME": "Senegal", "ADM0_A3": "SEN", "LATITUDE": 14.715831725, "LONGITUDE": -17.473130128400001, "GEONAMEID": 2253354.0 }, "geometry": { "type": "Point", "coordinates": [ -17.475075987050559, 14.717777583623274 ] } }
+{ "type": "Feature", "id": 183, "properties": { "NAMEASCII": "Dakar", "name": "Senegal", "ADM0_A3": "SEN", "LATITUDE": 14.715831725, "LONGITUDE": -17.473130128400001, "GEONAMEID": 2253354.0 }, "geometry": { "type": "Point", "coordinates": [ -17.475075987050559, 14.717777583623274 ] } }
 ,
-{ "type": "Feature", "id": 184, "properties": { "NAMEASCII": "Amsterdam", "ADM0NAME": "Netherlands", "ADM0_A3": "NLD", "LATITUDE": 52.349968688099999, "LONGITUDE": 4.91664017601, "GEONAMEID": 2759794.0 }, "geometry": { "type": "Point", "coordinates": [ 4.914694317400972, 52.351914546664432 ] } }
+{ "type": "Feature", "id": 184, "properties": { "NAMEASCII": "Amsterdam", "name": "Netherlands", "ADM0_A3": "NLD", "LATITUDE": 52.349968688099999, "LONGITUDE": 4.91664017601, "GEONAMEID": 2759794.0 }, "geometry": { "type": "Point", "coordinates": [ 4.914694317400972, 52.351914546664432 ] } }
 ,
-{ "type": "Feature", "id": 185, "properties": { "NAMEASCII": "Seoul", "ADM0NAME": "South Korea", "ADM0_A3": "KOR", "LATITUDE": 37.5663490998, "LONGITUDE": 126.999730997, "GEONAMEID": 1835848.0 }, "geometry": { "type": "Point", "coordinates": [ 126.99778513820195, 37.568294958388947 ] } }
+{ "type": "Feature", "id": 185, "properties": { "NAMEASCII": "Seoul", "name": "South Korea", "ADM0_A3": "KOR", "LATITUDE": 37.5663490998, "LONGITUDE": 126.999730997, "GEONAMEID": 1835848.0 }, "geometry": { "type": "Point", "coordinates": [ 126.99778513820195, 37.568294958388947 ] } }
 ,
-{ "type": "Feature", "id": 186, "properties": { "NAMEASCII": "Manila", "ADM0NAME": "Philippines", "ADM0_A3": "PHL", "LATITUDE": 14.604158954800001, "LONGITUDE": 120.982217162, "GEONAMEID": 1701668.0 }, "geometry": { "type": "Point", "coordinates": [ 120.98027130354239, 14.606104813440538 ] } }
+{ "type": "Feature", "id": 186, "properties": { "NAMEASCII": "Manila", "name": "Philippines", "ADM0_A3": "PHL", "LATITUDE": 14.604158954800001, "LONGITUDE": 120.982217162, "GEONAMEID": 1701668.0 }, "geometry": { "type": "Point", "coordinates": [ 120.98027130354239, 14.606104813440538 ] } }
 ,
-{ "type": "Feature", "id": 187, "properties": { "NAMEASCII": "Berlin", "ADM0NAME": "Germany", "ADM0_A3": "DEU", "LATITUDE": 52.521818663600001, "LONGITUDE": 13.4015486233, "GEONAMEID": 2950159.0 }, "geometry": { "type": "Point", "coordinates": [ 13.399602764700546, 52.523764522251156 ] } }
+{ "type": "Feature", "id": 187, "properties": { "NAMEASCII": "Berlin", "name": "Germany", "ADM0_A3": "DEU", "LATITUDE": 52.521818663600001, "LONGITUDE": 13.4015486233, "GEONAMEID": 2950159.0 }, "geometry": { "type": "Point", "coordinates": [ 13.399602764700546, 52.523764522251156 ] } }
 ,
-{ "type": "Feature", "id": 188, "properties": { "NAMEASCII": "Kinshasa", "ADM0NAME": "Congo (Kinshasa)", "ADM0_A3": "COD", "LATITUDE": -4.32972410189, "LONGITUDE": 15.3149718818, "GEONAMEID": 2314302.0 }, "geometry": { "type": "Point", "coordinates": [ 15.313026023171744, -4.327778243275986 ] } }
+{ "type": "Feature", "id": 188, "properties": { "NAMEASCII": "Kinshasa", "name": "Congo (Kinshasa)", "ADM0_A3": "COD", "LATITUDE": -4.32972410189, "LONGITUDE": 15.3149718818, "GEONAMEID": 2314302.0 }, "geometry": { "type": "Point", "coordinates": [ 15.313026023171744, -4.327778243275986 ] } }
 ,
-{ "type": "Feature", "id": 189, "properties": { "NAMEASCII": "New Delhi", "ADM0NAME": "India", "ADM0_A3": "IND", "LATITUDE": 28.600023009200001, "LONGITUDE": 77.1999800201, "GEONAMEID": 1261481.0 }, "geometry": { "type": "Point", "coordinates": [ 77.199980020053033, 28.600023009245433 ] } }
+{ "type": "Feature", "id": 189, "properties": { "NAMEASCII": "New Delhi", "name": "India", "ADM0_A3": "IND", "LATITUDE": 28.600023009200001, "LONGITUDE": 77.1999800201, "GEONAMEID": 1261481.0 }, "geometry": { "type": "Point", "coordinates": [ 77.199980020053033, 28.600023009245433 ] } }
 ,
-{ "type": "Feature", "id": 190, "properties": { "NAMEASCII": "Athens", "ADM0NAME": "Greece", "ADM0_A3": "GRC", "LATITUDE": 37.983326231900001, "LONGITUDE": 23.733321084300002, "GEONAMEID": 264371.0 }, "geometry": { "type": "Point", "coordinates": [ 23.731375225679358, 37.985272090552257 ] } }
+{ "type": "Feature", "id": 190, "properties": { "NAMEASCII": "Athens", "name": "Greece", "ADM0_A3": "GRC", "LATITUDE": 37.983326231900001, "LONGITUDE": 23.733321084300002, "GEONAMEID": 264371.0 }, "geometry": { "type": "Point", "coordinates": [ 23.731375225679358, 37.985272090552257 ] } }
 ,
-{ "type": "Feature", "id": 191, "properties": { "NAMEASCII": "Baghdad", "ADM0NAME": "Iraq", "ADM0_A3": "IRQ", "LATITUDE": 33.338648497500003, "LONGITUDE": 44.393868773199998, "GEONAMEID": 98182.0 }, "geometry": { "type": "Point", "coordinates": [ 44.391922914564134, 33.340594356158647 ] } }
+{ "type": "Feature", "id": 191, "properties": { "NAMEASCII": "Baghdad", "name": "Iraq", "ADM0_A3": "IRQ", "LATITUDE": 33.338648497500003, "LONGITUDE": 44.393868773199998, "GEONAMEID": 98182.0 }, "geometry": { "type": "Point", "coordinates": [ 44.391922914564134, 33.340594356158647 ] } }
 ,
-{ "type": "Feature", "id": 192, "properties": { "NAMEASCII": "Addis Ababa", "ADM0NAME": "Ethiopia", "ADM0_A3": "ETH", "LATITUDE": 9.03331036268, "LONGITUDE": 38.700004434, "GEONAMEID": 344979.0 }, "geometry": { "type": "Point", "coordinates": [ 38.698058575348682, 9.035256221295754 ] } }
+{ "type": "Feature", "id": 192, "properties": { "NAMEASCII": "Addis Ababa", "name": "Ethiopia", "ADM0_A3": "ETH", "LATITUDE": 9.03331036268, "LONGITUDE": 38.700004434, "GEONAMEID": 344979.0 }, "geometry": { "type": "Point", "coordinates": [ 38.698058575348682, 9.035256221295754 ] } }
 ,
-{ "type": "Feature", "id": 193, "properties": { "NAMEASCII": "Tehran", "ADM0NAME": "Iran", "ADM0_A3": "IRN", "LATITUDE": 35.671942768400001, "LONGITUDE": 51.424344033600001, "GEONAMEID": 112931.0 }, "geometry": { "type": "Point", "coordinates": [ 51.422398175008993, 35.673888627001304 ] } }
+{ "type": "Feature", "id": 193, "properties": { "NAMEASCII": "Tehran", "name": "Iran", "ADM0_A3": "IRN", "LATITUDE": 35.671942768400001, "LONGITUDE": 51.424344033600001, "GEONAMEID": 112931.0 }, "geometry": { "type": "Point", "coordinates": [ 51.422398175008993, 35.673888627001304 ] } }
 ,
-{ "type": "Feature", "id": 194, "properties": { "NAMEASCII": "Buenos Aires", "ADM0NAME": "Argentina", "ADM0_A3": "ARG", "LATITUDE": -34.602501608499999, "LONGITUDE": -58.397531373699998, "GEONAMEID": 3435910.0 }, "geometry": { "type": "Point", "coordinates": [ -58.399477232331435, -34.600555749907414 ] } }
+{ "type": "Feature", "id": 194, "properties": { "NAMEASCII": "Buenos Aires", "name": "Argentina", "ADM0_A3": "ARG", "LATITUDE": -34.602501608499999, "LONGITUDE": -58.397531373699998, "GEONAMEID": 3435910.0 }, "geometry": { "type": "Point", "coordinates": [ -58.399477232331435, -34.600555749907414 ] } }
 ,
-{ "type": "Feature", "id": 195, "properties": { "NAMEASCII": "Kabul", "ADM0NAME": "Afghanistan", "ADM0_A3": "AFG", "LATITUDE": 34.516690286299998, "LONGITUDE": 69.183260049300003, "GEONAMEID": 1138958.0 }, "geometry": { "type": "Point", "coordinates": [ 69.181314190705052, 34.518636144900313 ] } }
+{ "type": "Feature", "id": 195, "properties": { "NAMEASCII": "Kabul", "name": "Afghanistan", "ADM0_A3": "AFG", "LATITUDE": 34.516690286299998, "LONGITUDE": 69.183260049300003, "GEONAMEID": 1138958.0 }, "geometry": { "type": "Point", "coordinates": [ 69.181314190705052, 34.518636144900313 ] } }
 ,
-{ "type": "Feature", "id": 196, "properties": { "NAMEASCII": "Vienna", "ADM0NAME": "Austria", "ADM0_A3": "AUT", "LATITUDE": 48.200015278199999, "LONGITUDE": 16.366638955399999, "GEONAMEID": 2761369.0 }, "geometry": { "type": "Point", "coordinates": [ 16.364693096743736, 48.201961136816863 ] } }
+{ "type": "Feature", "id": 196, "properties": { "NAMEASCII": "Vienna", "name": "Austria", "ADM0_A3": "AUT", "LATITUDE": 48.200015278199999, "LONGITUDE": 16.366638955399999, "GEONAMEID": 2761369.0 }, "geometry": { "type": "Point", "coordinates": [ 16.364693096743736, 48.201961136816863 ] } }
 ,
-{ "type": "Feature", "id": 197, "properties": { "NAMEASCII": "Taipei", "ADM0NAME": "Taiwan", "ADM0_A3": "TWN", "LATITUDE": 25.03583333333, "LONGITUDE": 121.56833333333, "GEONAMEID": 1668341.0 }, "geometry": { "type": "Point", "coordinates": [ 121.568333333333, 25.035833333333301 ] } }
+{ "type": "Feature", "id": 197, "properties": { "NAMEASCII": "Taipei", "name": "Taiwan", "ADM0_A3": "TWN", "LATITUDE": 25.03583333333, "LONGITUDE": 121.56833333333, "GEONAMEID": 1668341.0 }, "geometry": { "type": "Point", "coordinates": [ 121.568333333333, 25.035833333333301 ] } }
 ,
-{ "type": "Feature", "id": 198, "properties": { "NAMEASCII": "Washington, D.C.", "ADM0NAME": "United States of America", "ADM0_A3": "USA", "LATITUDE": 38.899549376499998, "LONGITUDE": -77.009418580800002, "GEONAMEID": 4140963.0 }, "geometry": { "type": "Point", "coordinates": [ -77.011364439437159, 38.901495235087054 ] } }
+{ "type": "Feature", "id": 198, "properties": { "NAMEASCII": "Washington, D.C.", "name": "United States of America", "ADM0_A3": "USA", "LATITUDE": 38.899549376499998, "LONGITUDE": -77.009418580800002, "GEONAMEID": 4140963.0 }, "geometry": { "type": "Point", "coordinates": [ -77.011364439437159, 38.901495235087054 ] } }
 ,
-{ "type": "Feature", "id": 199, "properties": { "NAMEASCII": "London", "ADM0NAME": "United Kingdom", "ADM0_A3": "GBR", "LATITUDE": 51.499994729699999, "LONGITUDE": -0.11672184386, "GEONAMEID": 2643743.0 }, "geometry": { "type": "Point", "coordinates": [ -0.118667702475932, 51.5019405883275 ] } }
+{ "type": "Feature", "id": 199, "properties": { "NAMEASCII": "London", "name": "United Kingdom", "ADM0_A3": "GBR", "LATITUDE": 51.499994729699999, "LONGITUDE": -0.11672184386, "GEONAMEID": 2643743.0 }, "geometry": { "type": "Point", "coordinates": [ -0.118667702475932, 51.5019405883275 ] } }
 ,
-{ "type": "Feature", "id": 200, "properties": { "NAMEASCII": "Riyadh", "ADM0NAME": "Saudi Arabia", "ADM0_A3": "SAU", "LATITUDE": 24.640833149199999, "LONGITUDE": 46.772741657300003, "GEONAMEID": 108410.0 }, "geometry": { "type": "Point", "coordinates": [ 46.770795798688255, 24.642779007816443 ] } }
+{ "type": "Feature", "id": 200, "properties": { "NAMEASCII": "Riyadh", "name": "Saudi Arabia", "ADM0_A3": "SAU", "LATITUDE": 24.640833149199999, "LONGITUDE": 46.772741657300003, "GEONAMEID": 108410.0 }, "geometry": { "type": "Point", "coordinates": [ 46.770795798688255, 24.642779007816443 ] } }
 ,
-{ "type": "Feature", "id": 201, "properties": { "NAMEASCII": "Moscow", "ADM0NAME": "Russia", "ADM0_A3": "RUS", "LATITUDE": 55.7521641226, "LONGITUDE": 37.615522825900001, "GEONAMEID": 524901.0 }, "geometry": { "type": "Point", "coordinates": [ 37.613576967271399, 55.754109981248178 ] } }
+{ "type": "Feature", "id": 201, "properties": { "NAMEASCII": "Moscow", "name": "Russia", "ADM0_A3": "RUS", "LATITUDE": 55.7521641226, "LONGITUDE": 37.615522825900001, "GEONAMEID": 524901.0 }, "geometry": { "type": "Point", "coordinates": [ 37.613576967271399, 55.754109981248178 ] } }
 ,
-{ "type": "Feature", "id": 202, "properties": { "NAMEASCII": "Mexico City", "ADM0NAME": "Mexico", "ADM0_A3": "MEX", "LATITUDE": 19.442442442800001, "LONGITUDE": -99.130988201700006, "GEONAMEID": 3530597.0 }, "geometry": { "type": "Point", "coordinates": [ -99.132934060293906, 19.444388301415472 ] } }
+{ "type": "Feature", "id": 202, "properties": { "NAMEASCII": "Mexico City", "name": "Mexico", "ADM0_A3": "MEX", "LATITUDE": 19.442442442800001, "LONGITUDE": -99.130988201700006, "GEONAMEID": 3530597.0 }, "geometry": { "type": "Point", "coordinates": [ -99.132934060293906, 19.444388301415472 ] } }
 ,
-{ "type": "Feature", "id": 203, "properties": { "NAMEASCII": "Rome", "ADM0NAME": "Italy", "ADM0_A3": "ITA", "LATITUDE": 41.895955626499997, "LONGITUDE": 12.4832584215, "GEONAMEID": 4219762.0 }, "geometry": { "type": "Point", "coordinates": [ 12.481312562873995, 41.897901485098942 ] } }
+{ "type": "Feature", "id": 203, "properties": { "NAMEASCII": "Rome", "name": "Italy", "ADM0_A3": "ITA", "LATITUDE": 41.895955626499997, "LONGITUDE": 12.4832584215, "GEONAMEID": 4219762.0 }, "geometry": { "type": "Point", "coordinates": [ 12.481312562873995, 41.897901485098942 ] } }
 ,
-{ "type": "Feature", "id": 204, "properties": { "NAMEASCII": "Beijing", "ADM0NAME": "China", "ADM0_A3": "CHN", "LATITUDE": 39.928892231299997, "LONGITUDE": 116.388285684, "GEONAMEID": 1816670.0 }, "geometry": { "type": "Point", "coordinates": [ 116.38633982565943, 39.930838089909059 ] } }
+{ "type": "Feature", "id": 204, "properties": { "NAMEASCII": "Beijing", "name": "China", "ADM0_A3": "CHN", "LATITUDE": 39.928892231299997, "LONGITUDE": 116.388285684, "GEONAMEID": 1816670.0 }, "geometry": { "type": "Point", "coordinates": [ 116.38633982565943, 39.930838089909059 ] } }
 ,
-{ "type": "Feature", "id": 205, "properties": { "NAMEASCII": "Nairobi", "ADM0NAME": "Kenya", "ADM0_A3": "KEN", "LATITUDE": -1.28334674185, "LONGITUDE": 36.8166568591, "GEONAMEID": 184745.0 }, "geometry": { "type": "Point", "coordinates": [ 36.814711000471448, -1.28140088323778 ] } }
+{ "type": "Feature", "id": 205, "properties": { "NAMEASCII": "Nairobi", "name": "Kenya", "ADM0_A3": "KEN", "LATITUDE": -1.28334674185, "LONGITUDE": 36.8166568591, "GEONAMEID": 184745.0 }, "geometry": { "type": "Point", "coordinates": [ 36.814711000471448, -1.28140088323778 ] } }
 ,
-{ "type": "Feature", "id": 206, "properties": { "NAMEASCII": "Jakarta", "ADM0NAME": "Indonesia", "ADM0_A3": "IDN", "LATITUDE": -6.17441770541, "LONGITUDE": 106.829437621, "GEONAMEID": 1642911.0 }, "geometry": { "type": "Point", "coordinates": [ 106.82749176247012, -6.172471846798885 ] } }
+{ "type": "Feature", "id": 206, "properties": { "NAMEASCII": "Jakarta", "name": "Indonesia", "ADM0_A3": "IDN", "LATITUDE": -6.17441770541, "LONGITUDE": 106.829437621, "GEONAMEID": 1642911.0 }, "geometry": { "type": "Point", "coordinates": [ 106.82749176247012, -6.172471846798885 ] } }
 ,
-{ "type": "Feature", "id": 207, "properties": { "NAMEASCII": "Bogota", "ADM0NAME": "Colombia", "ADM0_A3": "COL", "LATITUDE": 4.59642356253, "LONGITUDE": -74.083343955199993, "GEONAMEID": 3688689.0 }, "geometry": { "type": "Point", "coordinates": [ -74.085289813774409, 4.598369421147822 ] } }
+{ "type": "Feature", "id": 207, "properties": { "NAMEASCII": "Bogota", "name": "Colombia", "ADM0_A3": "COL", "LATITUDE": 4.59642356253, "LONGITUDE": -74.083343955199993, "GEONAMEID": 3688689.0 }, "geometry": { "type": "Point", "coordinates": [ -74.085289813774409, 4.598369421147822 ] } }
 ,
-{ "type": "Feature", "id": 208, "properties": { "NAMEASCII": "Cairo", "ADM0NAME": "Egypt", "ADM0_A3": "EGY", "LATITUDE": 30.049960346500001, "LONGITUDE": 31.249968219700001, "GEONAMEID": 360630.0 }, "geometry": { "type": "Point", "coordinates": [ 31.248022361126118, 30.051906205103705 ] } }
+{ "type": "Feature", "id": 208, "properties": { "NAMEASCII": "Cairo", "name": "Egypt", "ADM0_A3": "EGY", "LATITUDE": 30.049960346500001, "LONGITUDE": 31.249968219700001, "GEONAMEID": 360630.0 }, "geometry": { "type": "Point", "coordinates": [ 31.248022361126118, 30.051906205103705 ] } }
 ,
-{ "type": "Feature", "id": 209, "properties": { "NAMEASCII": "Tokyo", "ADM0NAME": "Japan", "ADM0_A3": "JPN", "LATITUDE": 35.685016905799998, "LONGITUDE": 139.75140742900001, "GEONAMEID": 1850147.0 }, "geometry": { "type": "Point", "coordinates": [ 139.74946157054467, 35.686962764371174 ] } }
+{ "type": "Feature", "id": 209, "properties": { "NAMEASCII": "Tokyo", "name": "Japan", "ADM0_A3": "JPN", "LATITUDE": 35.685016905799998, "LONGITUDE": 139.75140742900001, "GEONAMEID": 1850147.0 }, "geometry": { "type": "Point", "coordinates": [ 139.74946157054467, 35.686962764371174 ] } }
 ,
-{ "type": "Feature", "id": 210, "properties": { "NAMEASCII": "Paris", "ADM0NAME": "France", "ADM0_A3": "FRA", "LATITUDE": 48.866692931199999, "LONGITUDE": 2.33333532574, "GEONAMEID": 6942553.0 }, "geometry": { "type": "Point", "coordinates": [ 2.33138946713035, 48.868638789814611 ] } }
+{ "type": "Feature", "id": 210, "properties": { "NAMEASCII": "Paris", "name": "France", "ADM0_A3": "FRA", "LATITUDE": 48.866692931199999, "LONGITUDE": 2.33333532574, "GEONAMEID": 6942553.0 }, "geometry": { "type": "Point", "coordinates": [ 2.33138946713035, 48.868638789814611 ] } }
 ,
-{ "type": "Feature", "id": 211, "properties": { "NAMEASCII": "Santiago", "ADM0NAME": "Chile", "ADM0_A3": "CHL", "LATITUDE": -33.4500138155, "LONGITUDE": -70.667040854600003, "GEONAMEID": 3449741.0 }, "geometry": { "type": "Point", "coordinates": [ -70.668986713174831, -33.448067956934096 ] } }
+{ "type": "Feature", "id": 211, "properties": { "NAMEASCII": "Santiago", "name": "Chile", "ADM0_A3": "CHL", "LATITUDE": -33.4500138155, "LONGITUDE": -70.667040854600003, "GEONAMEID": 3449741.0 }, "geometry": { "type": "Point", "coordinates": [ -70.668986713174831, -33.448067956934096 ] } }
 ,
-{ "type": "Feature", "id": 212, "properties": { "NAMEASCII": "Singapore", "ADM0NAME": "Singapore", "ADM0_A3": "SGP", "LATITUDE": 1.29303346649, "LONGITUDE": 103.855820678, "GEONAMEID": 1880252.0 }, "geometry": { "type": "Point", "coordinates": [ 103.85387481909902, 1.294979325105942 ] } }
+{ "type": "Feature", "id": 212, "properties": { "NAMEASCII": "Singapore", "name": "Singapore", "ADM0_A3": "SGP", "LATITUDE": 1.29303346649, "LONGITUDE": 103.855820678, "GEONAMEID": 1880252.0 }, "geometry": { "type": "Point", "coordinates": [ 103.85387481909902, 1.294979325105942 ] } }
 ,
-{ "type": "Feature", "id": 213, "properties": { "NAMEASCII": "Hong Kong", "ADM0NAME": "Hong Kong S.A.R.", "ADM0_A3": "HKG", "LATITUDE": 22.304980895, "LONGITUDE": 114.185009317, "GEONAMEID": 1819729.0 }, "geometry": { "type": "Point", "coordinates": [ 114.18306345846304, 22.30692675357551 ] } }
+{ "type": "Feature", "id": 213, "properties": { "NAMEASCII": "Hong Kong", "name": "Hong Kong S.A.R.", "ADM0_A3": "HKG", "LATITUDE": 22.304980895, "LONGITUDE": 114.185009317, "GEONAMEID": 1819729.0 }, "geometry": { "type": "Point", "coordinates": [ 114.18306345846304, 22.30692675357551 ] } }
 
 ]
 }

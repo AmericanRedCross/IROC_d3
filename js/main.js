@@ -49,7 +49,7 @@ var graticule = d3.geo.graticule();
 var tooltip = d3.select("body")
     .append("div")
     .attr("class", "appeal-tooltip")    
-    .text("a simple tooltip");
+    .text("");
 
 var map = d3.select("#map").append("svg")
   .attr("width", width)
@@ -230,14 +230,18 @@ var appealsW = $("#left").width();
 var appealsH = 125;
 var appealsBarPadding = 1;
 var numberGraphBars = 0;
-var appealsGraph = d3.select("#appealsGraph")
-    .append("svg")
-    .attr("width", appealsW)
-    .attr("height", appealsH);
+var appealsGraph = d3.select("#appealsGraphContainer")
+  .append("svg")  
+  .attr("width", appealsW)
+  .attr("height", appealsH);
+var appealBars = appealsGraph.append('g').attr("id", "appealBars");
+var appealIcons = appealsGraph.append('g').attr("id", "appealIcons");
+
 
 function appealGraphResize() {
   appealsW = $("#left").width();
-  var dataBars = appealsGraph.selectAll("rect");
+  appealsGraph.attr("width", appealsW);  
+  var dataBars = appealBars.selectAll("rect");
   dataBars
     .attr("x", function(d,i) {
       return i * (appealsW / numberGraphBars);
@@ -263,9 +267,9 @@ function buildWorldAllAppeals() {
   }
   var maxSum = Math.max.apply(null, appealsSums);
   numberGraphBars = appealsSums.length;
-  worldAllAppealsScale.range([1, 150])
+  worldAllAppealsScale.range([1, appealsH])
     .domain([0,maxSum]); 
-  var dataBars = appealsGraph.selectAll("rect")
+  var dataBars = appealBars.selectAll("rect")
     .data(appealsSums);
   dataBars.enter().append("rect")
     .attr("fill", "#e47b85");
@@ -288,8 +292,7 @@ function buildWorldAllAppeals() {
     .attr("width", appealsW / numberGraphBars - appealsBarPadding)
     .attr("height", worldAllAppealsScale)
     .attr("fill", "#e47b85")
-    .attr("data-number", function(d){ return d; });
-  
+    .attr("data-number", function(d){ return d; });  
   $("#appealBox .yearLabel").empty();
   $("#appealsGraphWrap .xLabelMin").html(minYear.toString());
   $("#appealsGraphWrap .xLabelMax").html(maxYear.toString());  
@@ -318,10 +321,10 @@ function buildWorldYearAppeals(date){
   }
   var maxSum = Math.max.apply(null, monthSums);
   numberGraphBars = monthSums.length;
-  worldYearAppealsScale.range([1, 150])
+  worldYearAppealsScale.range([1, appealsH])
     .domain([0,maxSum]);
   
-  var dataBars = appealsGraph.selectAll("rect")
+  var dataBars = appealBars.selectAll("rect")
     .data(monthSums);
   dataBars.enter().insert("rect")
     .attr("fill", "#e47b85");
@@ -344,11 +347,78 @@ function buildWorldYearAppeals(date){
     .attr("width", appealsW / numberGraphBars - appealsBarPadding)
     .attr("height", worldYearAppealsScale)
     // .attr("fill", "#e47b85")
-    .attr("data-number", function(d){ return d; });
-  
+    .attr("data-number", function(d){ return d; });  
   $("#appealBox .yearLabel").html(year.toString());
   $("#appealsGraphWrap .xLabelMin").html("Jan");
-  $("#appealsGraphWrap .xLabelMax").html("Dec");
+  $("#appealsGraphWrap .xLabelMax").html("Dec");  
+}
+
+
+function showCountryYearAppeals(country){
+  var data = [];
+  admCode = country.properties.ADM0_A3;
+  sliderValue = parseInt($("#dateSlider").val());
+  var start = new Date(minDate);
+  var startMonth = start.getMonth();
+  var activeMonthValue = startMonth + sliderValue;    
+  var selectedDate = new Date(start.setMonth(activeMonthValue));
+  var currentYear = selectedDate.getFullYear();
+  $(appeals).each(function(aIndex, appeal){
+    if(appeal.ADM0_A3 == admCode){
+      var currentAppealYear = new Date(appeal.ST_DATE);
+      currentAppealYear = currentAppealYear.getFullYear();
+      if(currentAppealYear == currentYear){
+        data.push(appeal);
+      }
+    };
+  });
+  if(data.length != 0){
+    tooltip.html(country.properties.name);     
+    $("#allYearsButton").hide();
+    $("#appealBars").hide();
+    $("#appealsGraphTitle").hide();
+    $("#countryAppealsTitle").html("<h2>" + country.properties.name + " " + currentYear.toString() + "</h2>"); 
+    $("#countryAppealsTitle").show();     
+    $("#appealsGraphWrap .xLabelMin").hide();
+    $("#appealsGraphWrap .xLabelMax").hide();
+    $("#appealsGraphWrap .xLabelJan").show();
+    $("#appealsGraphWrap .xLabelDec").show();
+    // add tick marks for months
+    var monthScale = d3.scale.linear()
+      .domain([0,12])
+      .range([0,appealsW-1]);
+      var xAxis = d3.svg.axis()
+      .scale(monthScale)
+      .tickFormat("")
+      .orient("top");
+      appealIcons.append("g")
+      .attr("class", "x axis")
+      .attr("transform","translate(" + 0 + "," + appealsH + ")")
+      .call(xAxis); 
+    var iconW = appealsW / 12;
+    $(data).each(function(dIndex, d){
+      dMonth = new Date(d.ST_DATE).getMonth();
+      disasterType = d.CATEGORY;
+      d3.select("#appealIcons").append("svg:image")
+        .attr("xlink:href", "img/disasters/" + disasterType + ".png")
+        .attr("width", iconW + "px")
+        .attr("height", iconW + "px")
+        .attr("x", dMonth * iconW)
+        .attr("y", appealsH - iconW);
+    })
+  } 
+}
+
+function hideCountryYearAppeals() {
+  $("#allYearsButton").show();
+  $("#appealIcons").empty();
+  $("#appealBars").show();
+  $("#appealsGraphTitle").show(); 
+  $("#countryAppealsTitle").hide();
+  $("#appealsGraphWrap .xLabelMin").show();
+  $("#appealsGraphWrap .xLabelMax").show();
+  $("#appealsGraphWrap .xLabelJan").hide();
+  $("#appealsGraphWrap .xLabelDec").hide();  
 }
 
 
@@ -365,10 +435,16 @@ function addCountries(){
   fitMapProjection(); 
   countryGroup.selectAll("path")
     .data(worldcountries.features)
-    .enter().append("path")
-    .attr('data-ADM0', function(d){return d.properties.geoCode;})    
-    .attr('data-name', function(d){return d.properties.name;})        
+    .enter().append("path")      
     .attr('class', 'country')
+    .on("mouseover", function(d){
+      showCountryYearAppeals(d);                 
+    })
+    .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+15)+"px");})
+    .on("mouseout", function(){
+      tooltip.html("");
+      hideCountryYearAppeals();
+    })
     .attr("d", path);    
   addCapitals();
 }
@@ -381,20 +457,18 @@ function addCapitals(){
     .attr('class', 'none')  
     .attr("cx", function(d){return projection([d.properties.LONGITUDE,d.properties.LATITUDE])[0]})
     .attr("cy", function(d){return projection([d.properties.LONGITUDE,d.properties.LATITUDE])[1]})
-    .attr("r", 0)
-    .on("click", function(d){capitalClick(d);})
+    .attr("r", 0)    
     .on("mouseover", function(d){
-      tooltip.html(d.properties.ADM0NAME);
-      tooltip.style("visibility", "visible");
+      showCountryYearAppeals(d);
     })
     .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+15)+"px");})
-    .on("mouseout", function(){return tooltip.style("visibility", "hidden");}); 
+    .on("mouseout", function(){
+      tooltip.html("");
+      hideCountryYearAppeals();
+    }); 
   refreshMap();
 }
 
-function capitalClick(d) {
-  console.log(d);
-}
 
 function monthToText(value){
   if(value === 0) {
