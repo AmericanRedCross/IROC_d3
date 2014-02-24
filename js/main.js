@@ -206,14 +206,16 @@ function buildSlider(){
     start: [0],
     step: 1,
     handles: 1,
-    slide: onSlide
+    slide: onSlide,
+    connect: "lower",
+
   });
   $(".noUi-base").append('<div class="ticksWrap"></div>')
   for(var i = 0; i < totalMonths+1; i++) {
     $(".ticksWrap").append('<span class="ticks"></span>');
   }
   var startMonth = minDate.getMonth();
-  var yearBreakOne = 12 - startMonth;  
+  var yearBreakOne = 11 - startMonth;  
   for(var i = yearBreakOne; i <= totalMonths; i++) {
     $(".ticksWrap").children().eq(i).addClass("yearTick");
     i = i + 11;

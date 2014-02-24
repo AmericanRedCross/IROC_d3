@@ -1,27 +1,15 @@
+### American Red Cross
+#### International Response Operations Center
 
+###### [WORK IN PROGRESS]
 
-http://remittances.herokuapp.com/?en
-**ugh**
+Visualizing appeals and responses.
+http://americanredcross.github.io/IROC_d3/
 
-
-http://hashbang.co.nz/blog/2013/2/25/d3_js_geo_fun
-
-https://github.com/mbostock/d3/wiki/Geo-Paths
-
-http://stackoverflow.com/questions/18215745/d3-geo-path-to-draw-multiple-routes-on-a-map
-
-http://mbostock.github.io/d3/talk/20111116/airports.html
-great arc and symbols map
-
-http://stackoverflow.com/questions/18165533/how-to-draw-a-line-link-between-two-points-on-a-d3-map-based-on-latitude-lon
-
-http://bl.ocks.org/enoex/6201948
-
-https://www.dashingd3js.com/
-
-http://knowledgestockpile.blogspot.com/2012/01/creating-svg-groups-using-d3js-example.html
-
-
-
-???
-http://eyeseast.github.io/visible-data/2013/08/26/responsive-d3/
+**Technology used:**
+- [D3.js](http://d3js.org/) (v3.4.2)
+- D3 extended geographic projections [plugin](https://github.com/d3/d3-geo-projection/)
+- [Bootstrap](http://getbootstrap.com/) (v3.1.1)
+- [noUiSlider](http://refreshless.com/nouislider/) (v5.0.0)
+- [fitProjection.js](https://gist.github.com/nrabinowitz/1756257)
+- [jQuery](http://jquery.com/) (v1.10.2)

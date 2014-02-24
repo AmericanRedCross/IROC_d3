@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IROC_d3</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">     
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">    
 
-    <!-- open graph meta tags for FB share -->
-    <meta property="og:image" content="http://americanredcross.github.io/IROC_d3/img/redCross.png" />
-    <meta property="og:title" content="American Red Cross" />
-    <meta property="og:description" content = "" />
-    <meta name="description" content="">
-    <meta name="author" content="American Red Cross">
-
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/jquery.nouislider.min.css" rel="stylesheet" type="text/css" />
     <link href="css/custom.css" rel="stylesheet" type="text/css" />
 
-
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
 
-
   <body>    
-    <img class="arc-logo" src="img/redcross-logo.png">
-         
-       
+    <img class="arc-logo" src="img/redcross-logo.png"> 
     
       <div class="row" style="margin:0">
 
@@ -47,25 +44,24 @@
         </div>
 
       </div> <!-- /row  -->
+        
         <div id="sliderWrap">          
-          <div id="dateSlider">
-            <span class="glyphicon glyphicon-chevron-right slider-control-right"></span> 
-            <span class="glyphicon glyphicon-chevron-left slider-control-left"></span>         
-          </div>      
+          <div id="dateSlider"></div>
+          <span class="glyphicon glyphicon-chevron-right slider-control-right"></span> 
+          <span class="glyphicon glyphicon-chevron-left slider-control-left"></span>     
         </div>
 
        
         
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
     <script src="js/jquery.nouislider.js"></script>
-    
     <script src="js/bootstrap.min.js"></script>
-
-    <script src="js/d3.v3.min.js"></script>
-    <script src="http://d3js.org/d3.geo.projection.v0.min.js" charset="utf-8"></script>  
+    <script src="js/d3.min.js"></script>
+    <!-- <script src="http://d3js.org/d3.geo.projection.v0.min.js" charset="utf-8"></script> --> 
+    <script src="js/d3.geo.projection.v0.min.js"></script>
     <script src="js/fit-projection.js"></script>
-    <script src="js/topojson.v1.min.js"></script>
-     
+    <!-- <script src="js/topojson.v1.min.js"></script> -->
     <script src="js/main.js"></script>
 
 <!--
