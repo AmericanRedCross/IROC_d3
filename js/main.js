@@ -425,6 +425,8 @@ function hideCountryYearAppeals() {
 
 
 function sizeSliderElements(){
+  var sliderWrapWidth = $(window).width() - 60;
+  $("#sliderWrap").width(sliderWrapWidth);
   sliderWidth = $(".noUi-base")[0].getBoundingClientRect().width;
   var spanWidth = ((sliderWidth - totalMonths) / totalMonths);
   $('.ticks').css("margin-right", spanWidth.toString() + "px");
@@ -631,7 +633,9 @@ function updateSidebar(date){
   // update date display
   monthText = monthToText(date.getMonth());
   yearText = date.getFullYear().toString();
-  $("#sliderDate").html(monthText + " " + yearText);
+  $("#sliderYear").html(yearText + " ");
+  $("#sliderMonth").html(monthText);
+  // $("#sliderDate").html(monthText + " " + yearText);
   // build array of appeals to date
   // count totals
   appealsToDate = [];
@@ -715,3 +719,7 @@ $(window).resize(function(){
 
 
 getcountrydata();
+
+$( document ).ready(function(){
+  playTimer = setInterval(function(){autoAdvance()}, 750);
+});
