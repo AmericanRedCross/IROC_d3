@@ -633,7 +633,7 @@ function updateSidebar(date){
   yearText = date.getFullYear().toString();
   $("#sliderDate").html(monthText + " " + yearText);
   // build array of appeals to date
-  // count totals of shit
+  // count totals
   appealsToDate = [];
   var totalBudgets = 0;
   var totalBeneficiaries = 0;
@@ -670,6 +670,39 @@ $(".slider-control-left").click(function(){
     onSlide();
   }
 })
+
+
+
+function autoAdvance(){
+  if(parseInt($("#dateSlider").val()) == totalMonths){
+    $("#dateSlider").val(0);
+    onSlide();
+  } else{
+    var sliderChangeValue = parseInt($("#dateSlider").val()) + 1;
+    $("#dateSlider").val(sliderChangeValue);
+    onSlide();
+  }
+}
+
+var playTimer;
+
+$(".playPause").click(function(){
+  var icon = $(".playPause").children();
+  if($(".playPause").hasClass("paused")){
+    playTimer = setInterval(function(){autoAdvance()}, 750);
+    icon.removeClass("glyphicon-play");
+    icon.addClass("glyphicon-pause");
+    $(".playPause").removeClass("paused");
+    // $(".playPause").addClass("playing");    
+  } else {
+    clearInterval(playTimer);
+    icon.removeClass("glyphicon-pause");
+    icon.addClass("glyphicon-play");
+    $(".playPause").addClass("paused");
+    // $(".playPause").removeClass("playing");
+  }
+})
+
 
 $(window).resize(function(){
   $("#countries").empty();

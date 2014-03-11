@@ -9,6 +9,12 @@ body{
   shape-rendering: crispEdges;
 }
 
+.playPause {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+}
+
 .ticksWrap {
 	margin-left: -1px;
 	width:100%;
