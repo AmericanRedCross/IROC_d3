@@ -679,6 +679,7 @@ function updateSidebar(date){
   $("#totalAppealBeneficiaries").html(appealBeneficiariesFormated);
 }
 
+var responsesCount = 0;
 var money = 0;
 var staff = 0;
 var foodParcels = 0;
@@ -695,6 +696,7 @@ var vehicles = 0;
 
 function updateSidebarResponses(date){
   // zero out response totals
+  responsesCount = 0;
   money = 0;
   staff = 0;
   foodParcels = 0;
@@ -718,6 +720,7 @@ function updateSidebarResponses(date){
   $.each(responses, function(a, b) {
     var thisResponseDate = new Date(b.Date);
     if (thisResponseDate < endDate){
+      responsesCount += 1;
       if (isFinite(parseInt(b.Money))){
         money += parseInt(b.Money);
       }
@@ -759,6 +762,8 @@ function updateSidebarResponses(date){
       }
     }
   })
+  responseCountFormated = responsesCount.formatNumber(0, '.', ',');
+  $("#responsesCount").html(responseCountFormated);
   moneyFormated = money.formatNumber(0, '.', ',');
   $("#totalMoney").html(moneyFormated);
   staffFormated = staff.formatNumber(0, '.', ',');
