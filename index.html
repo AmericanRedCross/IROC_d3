@@ -21,14 +21,16 @@
 
   <body>    
     <img class="arc-logo" src="img/redcross-logo.png"> 
-    
+      <div class="container container-full">
       <div class="row" style="margin:0">
 
-        <div id="left" class="col-sm-3 col-xs-4">
-          <div id="sliderDate" style="font-size:200%; font-weight:bold;"></div>
-          <div id="appealCount" style="font-weight:bold;"></div>
-          <hr>
-          <div id="appealBox">
+        <div id="left" class="col-sm-3">
+          <h1><span id="sliderYear"></span><small><span id="sliderMonth"></span></h1>
+          <h5>Appeals</h5>
+          <div>Number: <span id="totalAppealCount">0</span></div>
+          <div>Budgets: $ <span id="totalAppealBudgets">0</span></div>
+          <div>Targeted Beneficiaries: <span id="totalAppealBeneficiaries">0</span></div>
+          <!-- <div id="appealBox">
             <div id="appealsGraphTitle"><h2># of Appeals <span class="yearLabel"></span></h2></div>
             <div id="countryAppealsTitle"></div>
             <div id="appealsGraphWrap">
@@ -37,21 +39,43 @@
               <div class="xLabelMax pull-right"></div><div class="xLabelDec pull-right" style="display:none;">Dec</div>
             </div>
             <button id="allYearsButton" type="button" class="btn btn-default btn-xs" onClick="buildWorldAllAppeals()" style="margin-top:30px;">All Years</button>
-          </div> 
+          </div> -->
+          <h5>IROC Responses</h5>
+          <div> Number: <span id="responsesCount">0</span></div>
+          <div> Money: $ <span id="totalMoney">0</span></div>
+          <div> Staff: <span id="totalStaff">0</span></div>
+          <div> Food Parcels: <span id="totalFoodParcels">0</span></div>
+          <div> Hygiene Kits: <span id="totalHygieneKits">0</span></div>
+          <div> Jerry Cans: <span id="totalJerryCans">0</span></div>
+          <div> Kitchen Sets: <span id="totalKitchenSets">0</span></div>
+          <div> Mosquito Nets: <span id="totalMosquitoNets">0</span></div>
+          <div> Other Items: <span id="totalOtherItems">0</span></div>
+          <div> Rice Bags: <span id="totalRiceBags">0</span></div>
+          <div> Sleeping Mats: <span id="totalSleepingMats">0</span></div>
+          <div> Tarps: <span id="totalTarps">0</span></div>
+          <div> Tents: <span id="totalTents">0</span></div>
+          <div> Vehicles: <span id="totalVehicles">0</span></div>
+
+           
         </div> 
-        <div id="right" class="col-sm-9 col-xs-8">
+        <div id="right" class="col-sm-9">
           <div id="map"></div>
         </div>
 
       </div> <!-- /row  -->
-        
+      </div> <!-- /container -->
+      <div class="footer">
+        <div class="footer-left">
+          <div class="playPause playing "><span class="glyphicon glyphicon-pause"></span></div>
+        </div>
         <div id="sliderWrap">          
           <div id="dateSlider"></div>
-          <span class="glyphicon glyphicon-chevron-right slider-control-right"></span> 
-          <span class="glyphicon glyphicon-chevron-left slider-control-left"></span>     
+          <!-- <span class="glyphicon glyphicon-chevron-right slider-control-right"></span> 
+          <span class="glyphicon glyphicon-chevron-left slider-control-left"></span>  -->
         </div>
 
-       
+    
+       </div>
         
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
     <script src="js/jquery.min.js"></script>

@@ -223,7 +223,7 @@ function buildSlider(){
   $(".ticksWrap").children().eq(0).css("border-color","rgba(0,0,0,0)");
   $(".ticksWrap").children().eq(totalMonths).css("display","none");
   sizeSliderElements();
-  buildWorldAllAppeals();
+  // buildWorldAllAppeals();
 }
 
 var worldAllAppealsScale = d3.scale.linear();
@@ -425,6 +425,8 @@ function hideCountryYearAppeals() {
 
 
 function sizeSliderElements(){
+  var sliderWrapWidth = $(window).width() - 60;
+  $("#sliderWrap").width(sliderWrapWidth);
   sliderWidth = $(".noUi-base")[0].getBoundingClientRect().width;
   var spanWidth = ((sliderWidth - totalMonths) / totalMonths);
   $('.ticks').css("margin-right", spanWidth.toString() + "px");
@@ -500,6 +502,18 @@ function monthToText(value){
   }
 }
 
+// took this from Dale's first IROC response map
+Number.prototype.formatNumber = function(c, d, t) {
+    var n = this,
+    c = isNaN(c = Math.abs(c)) ? 2 : c,
+    d = d == undefined ? "," : d,
+    t = t == undefined ? "." : t,
+    s = n < 0 ? "-" : "",
+    i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "",
+    j = (j = i.length) > 3 ? j % 3 : 0;
+    return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+};
+
 function opacityValue(date){     
   if(date >= oneMonth){        
     return 1;        
@@ -525,7 +539,8 @@ function onSlide() {
     selectedDate = new Date(start.setMonth(changeValue));
     updateMap(selectedDate);
     updateSidebar(selectedDate);
-    buildWorldYearAppeals(selectedDate);
+    updateSidebarResponses(selectedDate);
+    // buildWorldYearAppeals(selectedDate);
   }  
 }
 
@@ -578,6 +593,7 @@ function updateMap(date) {
       displayedAppeals.push(appeal);
       var previousOpacity = $('[id="capitals"]').children("#" + appealCountry).attr('opacity');
       var appealOpacity = opacityValue(appealStart);
+      // if more than one appeal occured in the 6 months use the more opaque/recent one
       if (appealOpacity > previousOpacity){
         $('[id="capitals"]').children("#" + appealCountry).attr('opacity', appealOpacity);
       }
@@ -622,6 +638,9 @@ function updateMap(date) {
   });
 }
 
+var totalAppealBudgets = 0;
+var totalAppealBeneficiaries = 0;
+
 function updateSidebar(date){
   // get upper bound of displayed time period
   var endStart = date.getMonth();
@@ -631,45 +650,197 @@ function updateSidebar(date){
   // update date display
   monthText = monthToText(date.getMonth());
   yearText = date.getFullYear().toString();
-  $("#sliderDate").html(monthText + " " + yearText);
+  $("#sliderYear").html(yearText + " ");
+  $("#sliderMonth").html(monthText);
   // build array of appeals to date
-  // count totals of shit
+  // count totals
   appealsToDate = [];
-  var totalBudgets = 0;
-  var totalBeneficiaries = 0;
+  totalAppealBudgets = 0;
+  totalAppealBeneficiaries = 0;
   $(appeals).each(function(i, appeal){
     var appealStart = new Date(appeal.ST_DATE);
     if (appealStart < endDate) {
       appealsToDate.push(appeal);
       budget = parseInt(appeal.TOTAL_BUDGET);
-      if (isFinite(budget) == true){
-        totalBudgets += budget;
+      if (isFinite(budget)){
+        totalAppealBudgets += budget;
       };
       beneficiaries = parseInt(appeal.TOT_TARGET_BENIFICIARIES);
-      if (isFinite(beneficiaries) == true){
-        totalBeneficiaries += beneficiaries;
+      if (isFinite(beneficiaries)){
+        totalAppealBeneficiaries += beneficiaries;
       };    
     }
   });  
-  var totalNumber = appealsToDate.length.toString();
-  $("#appealCount").html("<b><u>Appeals</u></b><br>" + totalNumber + " so far!<br>" + totalBudgets.toString() + " USD in the budgets!<br>and " + totalBeneficiaries.toString() + " total target beneficiaries!");
+  var appealCountFormated = appealsToDate.length.formatNumber(0, '.', ',');
+  $("#totalAppealCount").html(appealCountFormated);
+  var appealBudgetsFormated = totalAppealBudgets.formatNumber(0, '.', ',');
+  $("#totalAppealBudgets").html(appealBudgetsFormated);
+  var appealBeneficiariesFormated = totalAppealBeneficiaries.formatNumber(0, '.', ',');
+  $("#totalAppealBeneficiaries").html(appealBeneficiariesFormated);
 }
 
-$(".slider-control-right").click(function(){  
-  if(parseInt($("#dateSlider").val()) < totalMonths){
+var responsesCount = 0;
+var money = 0;
+var staff = 0;
+var foodParcels = 0;
+var hygieneKits = 0;
+var jerryCans = 0;
+var kitchenSets = 0;
+var mosquitoNets = 0;
+var otherItems = 0;
+var riceBags = 0;
+var sleepingMats = 0;
+var tarps = 0;
+var tents = 0;
+var vehicles = 0;
+
+function updateSidebarResponses(date){
+  // zero out response totals
+  responsesCount = 0;
+  money = 0;
+  staff = 0;
+  foodParcels = 0;
+  hygieneKits = 0;
+  jerryCans = 0;
+  kitchenSets = 0;
+  mosquitoNets = 0;
+  otherItems = 0;
+  riceBags = 0;
+  sleepingMats = 0;
+  tarps = 0;
+  tents = 0;
+  vehicles = 0;
+
+  // get upper bound of displayed time period
+  var endStart = date.getMonth();
+  endStart += 1;
+  endDate = new Date(date);
+  endDate = new Date(endDate.setMonth(endStart));
+
+  $.each(responses, function(a, b) {
+    var thisResponseDate = new Date(b.Date);
+    if (thisResponseDate < endDate){
+      responsesCount += 1;
+      if (isFinite(parseInt(b.Money))){
+        money += parseInt(b.Money);
+      }
+      if (isFinite(parseInt(b.PeopleDeployed))){
+        staff += parseInt(b.PeopleDeployed);
+      }
+      if (isFinite(parseInt(b.FoodParcels))){
+        foodParcels += parseInt(b.FoodParcels);
+      }
+      if (isFinite(parseInt(b.HygieneKits))){
+        hygieneKits += parseInt(b.HygieneKits);
+      }
+      if (isFinite(parseInt(b.JerryCans))){
+        jerryCans += parseInt(b.JerryCans);
+      }
+      if (isFinite(parseInt(b.KitchenSets))){
+        kitchenSets += parseInt(b.KitchenSets);
+      }
+      if (isFinite(parseInt(b.MosquitoNets))){
+        mosquitoNets += parseInt(b.MosquitoNets);
+      }
+      if (isFinite(parseInt(b.OtherItems))){
+        otherItems += parseInt(b.OtherItems);
+      }
+      if (isFinite(parseInt(b.RiceBags))){
+        riceBags += parseInt(b.RiceBags);
+      }
+      if (isFinite(parseInt(b.SleepingMats))){
+        sleepingMats += parseInt(b.SleepingMats);
+      }
+      if (isFinite(parseInt(b.Tarps))){
+        tarps += parseInt(b.Tarps);
+      }
+      if (isFinite(parseInt(b.Tents))){
+        tents += parseInt(b.Tents);
+      }
+      if (isFinite(parseInt(b.Vehicles))){
+        vehicles += parseInt(b.Vehicles);
+      }
+    }
+  })
+  responseCountFormated = responsesCount.formatNumber(0, '.', ',');
+  $("#responsesCount").html(responseCountFormated);
+  moneyFormated = money.formatNumber(0, '.', ',');
+  $("#totalMoney").html(moneyFormated);
+  staffFormated = staff.formatNumber(0, '.', ',');
+  $("#totalStaff").html(staffFormated);
+  foodParcelsFormated = foodParcels.formatNumber(0, '.', ',');
+  $("#totalFoodParcels").html(foodParcelsFormated);
+  hygieneKitsFormated = hygieneKits.formatNumber(0, '.', ',');
+  $("#totalHygieneKits").html(hygieneKitsFormated);
+  jerryCansFormated = jerryCans.formatNumber(0, '.', ',');
+  $("#totalJerryCans").html(jerryCansFormated);
+  kitchenSetsFormated = kitchenSets.formatNumber(0, '.', ',');
+  $("#totalKitchenSets").html(kitchenSetsFormated);
+  mosquitoNetsFormated = mosquitoNets.formatNumber(0, '.', ',');
+  $("#totalMosquitoNets").html(mosquitoNetsFormated);
+  otherItemsFormated = otherItems.formatNumber(0, '.', ',');
+  $("#totalOtherItems").html(otherItemsFormated);
+  riceBagsFormated = riceBags.formatNumber(0, '.', ',');
+  $("#totalRiceBags").html(riceBagsFormated);
+  sleepingMatsFormated = sleepingMats.formatNumber(0, '.', ',');
+  $("#totalSleepingMats").html(sleepingMatsFormated);
+  tarpsFormated = tarps.formatNumber(0, '.', ',');
+  $("#totalTarps").html(tarpsFormated);
+  tentsFormated = tents.formatNumber(0, '.', ',');
+  $("#totalTents").html(tentsFormated);
+  vehiclesFormated = vehicles.formatNumber(0, '.', ',');
+  $("#totalVehicles").html(vehiclesFormated);
+
+}
+
+// $(".slider-control-right").click(function(){  
+//   if(parseInt($("#dateSlider").val()) < totalMonths){
+//     var sliderChangeValue = parseInt($("#dateSlider").val()) + 1;
+//     $("#dateSlider").val(sliderChangeValue);
+//     onSlide();
+//   }
+// })
+
+// $(".slider-control-left").click(function(){  
+//   if(parseInt($("#dateSlider").val()) > 0){
+//     var sliderChangeValue = parseInt($("#dateSlider").val()) - 1;
+//     $("#dateSlider").val(sliderChangeValue);
+//     onSlide();
+//   }
+// })
+
+
+
+function autoAdvance(){
+  if(parseInt($("#dateSlider").val()) == totalMonths){
+    $("#dateSlider").val(0);
+    onSlide();
+  } else{
     var sliderChangeValue = parseInt($("#dateSlider").val()) + 1;
     $("#dateSlider").val(sliderChangeValue);
     onSlide();
   }
-})
+}
 
-$(".slider-control-left").click(function(){  
-  if(parseInt($("#dateSlider").val()) > 0){
-    var sliderChangeValue = parseInt($("#dateSlider").val()) - 1;
-    $("#dateSlider").val(sliderChangeValue);
-    onSlide();
+var playTimer;
+
+$(".playPause").click(function(){
+  var icon = $(".playPause").children();
+  if($(".playPause").hasClass("paused")){
+    playTimer = setInterval(function(){autoAdvance()}, 750);
+    icon.removeClass("glyphicon-play");
+    icon.addClass("glyphicon-pause");
+    $(".playPause").removeClass("paused");
+    // $(".playPause").addClass("playing");    
+  } else {
+    clearInterval(playTimer);
+    icon.removeClass("glyphicon-pause");
+    icon.addClass("glyphicon-play");
+    $(".playPause").addClass("paused");
+    // $(".playPause").removeClass("playing");
   }
 })
+
 
 $(window).resize(function(){
   $("#countries").empty();
@@ -677,8 +848,12 @@ $(window).resize(function(){
   $("#capitals").empty();
   initSizes();
   sizeSliderElements();
-  appealGraphResize();
+  // appealGraphResize();
 })
 
 
 getcountrydata();
+
+$( document ).ready(function(){
+  playTimer = setInterval(function(){autoAdvance()}, 750);
+});
