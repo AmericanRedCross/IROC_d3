@@ -8,9 +8,11 @@ var displayedAppeals = [];
 var appealsToDate = [];
 var minDate;
 var MaxDate;
-var arcOrigin = [];
-var arcDestinations = [];
-var arcLinks = [];
+var NHQ = [-77.009418580800002, 38.899549376499998];
+var responseLines = []; 
+var xyNHQ = [];
+// var arcDestinations = [];
+// var arcLinks = [];
 var sliderValue = null;
 var totalMonths;
 var leftMargin = 200; 
@@ -85,6 +87,7 @@ function fitMapProjection() {
 
 var countryGroup = map.append('g').attr("id", "countries");
 var capitalsGroup = map.append('g').attr("id", "capitals");
+var appealsGroup = map.append('g').attr("id", "appealmarkers");
 var responseGroup = map.append('g').attr("id", "responses");
 
 function getcountrydata(){
@@ -156,7 +159,7 @@ function getcapitaldata(){
       timeout: 10000,
       success: function(json) {
         worldcapitals = json;
-        buildLinks();
+        buildSlider();
       },
       error: function(e) {
         console.log(e);
@@ -164,27 +167,6 @@ function getcapitaldata(){
   });
 }
 
-function buildLinks(){
-  $(worldcapitals.features).each(function(i, capital){    
-    if (capital.properties.ADM0_A3 == "USA"){      
-      arcOrigin.push(capital);      
-    } else {
-      arcDestinations.push(capital);      
-    }
-  });
-  $(arcDestinations).each(function(i, destination){
-    arcLinks.push({
-      type: "LineString",
-      destination: destination.properties.ADM0_A3,
-      coordinates: [
-        [arcOrigin[0].geometry.coordinates[0], arcOrigin[0].geometry.coordinates[1]],
-        [destination.geometry.coordinates[0], destination.geometry.coordinates[1]]
-      ]
-    });
-  });
-  $()
-  buildSlider();  
-}
 
 function buildSlider(){
   var allDates = [];
@@ -441,36 +423,78 @@ function addCountries(){
     .data(worldcountries.features)
     .enter().append("path")      
     .attr('class', 'country')
-    .on("mouseover", function(d){
-      showCountryYearAppeals(d);                 
-    })
-    .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+15)+"px");})
-    .on("mouseout", function(){
-      tooltip.html("");
-      hideCountryYearAppeals();
-    })
+    // .on("mouseover", function(d){
+    //   showCountryYearAppeals(d);                 
+    // })
+    // .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+15)+"px");})
+    // .on("mouseout", function(){
+    //   tooltip.html("");
+    //   hideCountryYearAppeals();
+    // })
     .attr("d", path);    
-  addCapitals();
+  addAppealMarkers();
 }
 
-function addCapitals(){
-  capitalsGroup.selectAll("circle")
-    .data(worldcapitals.features)
-    .enter().append("circle")      
-    .attr('id', function(d){return d.properties.ADM0_A3;})
-    .attr('class', 'none')  
-    .attr("cx", function(d){return projection([d.properties.LONGITUDE,d.properties.LATITUDE])[0]})
-    .attr("cy", function(d){return projection([d.properties.LONGITUDE,d.properties.LATITUDE])[1]})
-    .attr("r", 0)    
-    .on("mouseover", function(d){
-      showCountryYearAppeals(d);
+
+function addAppealMarkers(){
+  // tie coordinates to each appeal
+  $(appeals).each(function(aIndex, a){
+    $(worldcapitals.features).each(function(bIndex, b){
+      if(a.ADM0_A3 == b.properties.ADM0_A3){
+        var thisLat = b.properties.LATITUDE;
+        var thisLong = b.properties.LONGITUDE;
+        appeals[aIndex].LATITUDE = thisLat;
+        appeals[aIndex].LONGITUDE = thisLong;
+      }
     })
-    .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+15)+"px");})
-    .on("mouseout", function(){
-      tooltip.html("");
-      hideCountryYearAppeals();
-    }); 
-  refreshMap();
+  })
+  // add appeals to map
+  appealsGroup.selectAll("circle")
+    .data(appeals)
+    .enter().append("circle")
+    .attr("r", function(d){ return appealMarkerScale(d.TOTAL_BUDGET) })
+    .attr("cx", function(d){ return projection([d.LONGITUDE,d.LATITUDE])[0] })
+    .attr("cy", function(d){ return projection([d.LONGITUDE,d.LATITUDE])[1] });
+    // .on("mouseover", function(d){
+    //   showCountryYearAppeals(d);
+    // })
+    // .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+15)+"px");})
+    // .on("mouseout", function(){
+    //   tooltip.html("");
+    //   hideCountryYearAppeals();
+    // }); 
+  addResponseLines();
+}
+
+function addResponseLines(){
+  // tie coordinates for Washington, DC and destination to each response 
+  xyNHQ = projection([-77.009418580800002, 38.899549376499998]);
+  $(responses).each(function(aIndex, a){
+    $(worldcapitals.features).each(function(bIndex, b){
+      if(a.ADM0_A3 == b.properties.ADM0_A3){
+        var latlngDestination = [b.properties.LONGITUDE, b.properties.LATITUDE];
+        var xyDestination = projection (latlngDestination);
+        responseLines.push({
+          lineData: [
+            {"x": xyNHQ[0], "y": xyNHQ[1]},
+            {"x": xyDestination[0], "y": xyDestination[1]}   
+          ],
+          properties: a
+        });
+      }
+    })
+  })
+  // add responses to map
+  responseGroup.selectAll("path")
+    .data(responseLines)
+    .enter().append("path")
+    .attr("d", function(d){return line(d.lineData)})
+    .style({
+      'fill':'none',
+      'stroke': '#7f181b',
+      'stroke-width': '2px'
+    });  
+  refreshMap();    
 }
 
 
@@ -530,6 +554,8 @@ function opacityValue(date){
   }   
 }
 
+
+
 function onSlide() {
   if(parseInt($("#dateSlider").val()) !== sliderValue) {
     sliderValue = parseInt($("#dateSlider").val());
@@ -555,11 +581,6 @@ function refreshMap() {
 }
 
 function updateMap(date) { 
-  displayedAppeals = [];
-  displayedResponses = [];
-  $("#responses").empty();
-  $('[id="capitals"]').children().attr('r','0');
-  $('[id="capitals"]').children().attr('opacity','0');  
   // update Date breaks
   oneMonth = date;
   var endStart = oneMonth.getMonth();
@@ -586,57 +607,21 @@ function updateMap(date) {
   sixStart -= 1;
   sixMonth = new Date(fiveMonth);
   sixMonth = new Date(sixMonth.setMonth(sixStart));
-  $(appeals).each(function(i, appeal){
-    var appealStart = new Date(appeal.ST_DATE);
-    var appealCountry = appeal.ADM0_A3;
-    if (appealStart < endDate && appealStart >= sixMonth){
-      displayedAppeals.push(appeal);
-      var previousOpacity = $('[id="capitals"]').children("#" + appealCountry).attr('opacity');
-      var appealOpacity = opacityValue(appealStart);
-      // if more than one appeal occured in the 6 months use the more opaque/recent one
-      if (appealOpacity > previousOpacity){
-        $('[id="capitals"]').children("#" + appealCountry).attr('opacity', appealOpacity);
-      }
-    } 
-  });  
-  $(displayedAppeals).each(function(i,appeal){
-    var adminId = "#" + appeal.ADM0_A3;
-    // if 2 appeals occured in the 6 months displayed period, the largest budget is used to
-    // set the radius. however, this can be changed to add the two together
-    var previousR = $('[id="capitals"]').children(adminId).attr('r');
-    // if you pass "" to normalizeAppealBudget it returns the min radius
-    var appealR = appealMarkerScale(appeal.TOTAL_BUDGET);
-    if(appealR > previousR){
-      $('[id="capitals"]').children(adminId).attr('r',appealR);
-    }
-  });
-    
-  $(responses).each(function(i, response){
-    var responseDate = new Date(response.Date);
-    var responseCountry = response.ADM0_A3;    
-    if (responseDate < endDate && responseDate >= sixMonth){
-      displayedResponses.push(response);      
-      responseOpacity = opacityValue(responseDate);
-      $(arcLinks).each(function(i, link){    
-        if (link.destination === responseCountry){
-          lineData = []; 
-          lineData.push(
-            {"x": projection(link.coordinates[0])[0], "y": projection(link.coordinates[0])[1]},
-            {"x": projection(link.coordinates[1])[0], "y": projection(link.coordinates[1])[1]}        
-            );      
-          responseGroup.append("path")
-          .attr("d", line(lineData))
-          .style({
-            'fill':'none',
-            'stroke': '#7f181b',
-            'stroke-width': '2px',
-            'opacity': responseOpacity
-          })        
-        }
-      });      
-    }    
-  });
+
+  // filter appeals by Date
+  var filtered = appealsGroup.selectAll("circle").attr("visibility","hidden")
+    .filter(function(d) {return Date.parse(d.ST_DATE) < endDate && Date.parse(d.ST_DATE) > sixMonth })
+    .attr("visibility","visible")
+    .attr('opacity', function(d) { return opacityValue(Date.parse(d.ST_DATE)) });
+
+  // filter responses by Date
+  var filteredResponses = responseGroup.selectAll("path").attr("visibility","hidden")
+    .filter(function(d) {return Date.parse(d.properties.Date) < endDate && Date.parse(d.properties.Date) > sixMonth })
+    .attr("visibility","visible")
+    .attr('opacity', function(d) { return opacityValue(Date.parse(d.properties.Date)) });
+
 }
+
 
 var totalAppealBudgets = 0;
 var totalAppealBeneficiaries = 0;
@@ -793,24 +778,6 @@ function updateSidebarResponses(date){
 
 }
 
-// $(".slider-control-right").click(function(){  
-//   if(parseInt($("#dateSlider").val()) < totalMonths){
-//     var sliderChangeValue = parseInt($("#dateSlider").val()) + 1;
-//     $("#dateSlider").val(sliderChangeValue);
-//     onSlide();
-//   }
-// })
-
-// $(".slider-control-left").click(function(){  
-//   if(parseInt($("#dateSlider").val()) > 0){
-//     var sliderChangeValue = parseInt($("#dateSlider").val()) - 1;
-//     $("#dateSlider").val(sliderChangeValue);
-//     onSlide();
-//   }
-// })
-
-
-
 function autoAdvance(){
   if(parseInt($("#dateSlider").val()) == totalMonths){
     $("#dateSlider").val(0);
@@ -841,15 +808,15 @@ $(".playPause").click(function(){
   }
 })
 
+/*  THIS IS BROKEN */
 
-$(window).resize(function(){
-  $("#countries").empty();
-  $("#responses").empty();
-  $("#capitals").empty();
-  initSizes();
-  sizeSliderElements();
-  // appealGraphResize();
-})
+// $(window).resize(function(){
+//   $("#countries").empty();
+//   $("#responses").empty();
+//   $("#capitals").empty();
+//   initSizes();
+//   sizeSliderElements();
+// })
 
 
 getcountrydata();
