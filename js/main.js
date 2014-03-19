@@ -452,11 +452,9 @@ function addAppealMarkers(){
       }
     })
   })
-
-
   // add appeals to map
-  var node = appealsGroup.selectAll(".node").data(appeals).enter().append("g");
-  var feature = node.append("circle")
+  var groups = appealsGroup.selectAll().data(appeals).enter().append("g");
+  groups.append("circle")
     .attr("class", "appealCircle")
     .attr("r", function(d){ return appealMarkerScale(d.TOTAL_BUDGET) })
     .attr("cx", function(d){ return projection([d.LONGITUDE,d.LATITUDE])[0] })
@@ -490,16 +488,16 @@ function addResponseLines(){
       }
     })
   })
-  // add responses to map
-  responseGroup.selectAll("path")
-    .data(responseLines)
-    .enter().append("path")
+  // add responses data to map
+  var groups = responseGroup.selectAll().data(responseLines).enter().append("g");
+  groups.append("path")
     .attr("d", function(d){return line(d.lineData)})
     .style({
       'fill':'none',
       'stroke': '#7f181b',
       'stroke-width': '2px'
-    });  
+    });
+    
   refreshMap();    
 }
 
@@ -550,16 +548,15 @@ function opacityValue(date){
   } else if (date >=twoMonth){
     return 0.9;
   } else if (date >=threeMonth){
-    return 0.8;
+    return 0.7;
   } else if (date >=fourMonth){
-    return 0.6;
+    return 0.5;
   } else if (date >=fiveMonth){
-    return 0.4;
+    return 0.3;
   } else if (date >=sixMonth){
-    return 0.2;
+    return 0.1;
   }   
 }
-
 
 
 function onSlide() {
@@ -624,27 +621,51 @@ function updateMap(date) {
   filtered.filter(function(d) {return Date.parse(d.ST_DATE) >= oneMonth })
     .append("circle")
     .attr("class", "animationCircle")
-    .attr("r", 4)
+    .attr("r", 0)
     .attr("cx", function(d){ return projection([d.LONGITUDE,d.LATITUDE])[0] })
     .attr("cy", function(d){ return projection([d.LONGITUDE,d.LATITUDE])[1] })
     .style("fill","red")
     .style("fill-opacity", 0.8)
     .transition()
-    .duration(1600)
+    .duration(2500)
     .ease(Math.sqrt)
     .attr("r", function(d){ return appealAnimationScale(d.TOTAL_BUDGET) })
     .style("fill","#f40")
     .style("fill-opacity", 1e-6)
     .remove();
 
-
   // filter responses by Date
-  var filteredResponses = responseGroup.selectAll("path").attr("visibility","hidden")
+  var filteredResponses = responseGroup.selectAll("g").attr("visibility","hidden")
     .filter(function(d) {return Date.parse(d.properties.Date) < endDate && Date.parse(d.properties.Date) > sixMonth })
     .attr("visibility","visible")
-    .attr('opacity', function(d) { return opacityValue(Date.parse(d.properties.Date)) });
+    .attr("opacity", function(d) {return opacityValue(Date.parse(d.properties.Date)) });
+  // animation for new responses
+  filteredResponses.filter(function(d) {return Date.parse(d.properties.Date) < endDate && Date.parse(d.properties.Date) >= oneMonth })
+    .selectAll("path")
+    .call(lineTransition);
 
 }
+
+// --- Helper functions (for tweening the path) from http://bl.ocks.org/enoex/6201948
+var lineTransition = function lineTransition(path) {
+    path.transition()
+        //NOTE: Change this number (in ms) to make lines draw faster or slower
+        .duration(2000)
+        .attrTween("stroke-dasharray", tweenDash)
+        .each("end", function(d,i) { 
+            // wait an arbitrary amt of time (at least as long as the length of 6 autoadvanced months)
+            // then remove the svg path
+            d3.select(this).transition().delay(6000).remove(); 
+        });
+};
+var tweenDash = function tweenDash() {
+    //This function is used to animate the dash-array property, which is a
+    //  nice hack that gives us animation along some arbitrary path (in this
+    //  case, makes it look like a line is being drawn from point A to B)
+    var len = this.getTotalLength(),
+        interpolate = d3.interpolateString("0," + len, len + "," + len);
+    return function(t) { return interpolate(t); };
+};
 
 
 var totalAppealBudgets = 0;
@@ -818,7 +839,7 @@ var playTimer;
 $(".playPause").click(function(){
   var icon = $(".playPause").children();
   if($(".playPause").hasClass("paused")){
-    playTimer = setInterval(function(){autoAdvance()}, 750);
+    playTimer = setInterval(function(){autoAdvance()}, 1000);
     icon.removeClass("glyphicon-play");
     icon.addClass("glyphicon-pause");
     $(".playPause").removeClass("paused");
@@ -846,5 +867,5 @@ $(".playPause").click(function(){
 getcountrydata();
 
 $( document ).ready(function(){
-  playTimer = setInterval(function(){autoAdvance()}, 750);
+  playTimer = setInterval(function(){autoAdvance()}, 1000);
 });
