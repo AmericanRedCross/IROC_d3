@@ -57,10 +57,14 @@ body, html{
 	background: #c6c7c8;
 }
 
-circle {
+.appealCircle {
 	fill: #ff0000;
 	stroke: #f5f5f5;
 	stroke-width: 1;	
+}
+.animationCircle {
+	fill: red;
+	stroke-width:0;
 }
 
 .country {

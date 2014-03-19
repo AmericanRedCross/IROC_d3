@@ -79,6 +79,9 @@ function normalizeAppealBudget(dollas) {
 var appealMarkerScale = d3.scale.linear()
   .range([4, 13]); //smallest and largest marker radius --- domain set within getappealdata()
 
+var appealAnimationScale = d3.scale.linear()
+  .range([15, 65]); //smallest and largest marker radius --- domain set within getappealdata()
+
 function fitMapProjection() {
   var xTwo = $("#map").width();
   var yTwo = $("#map").height();
@@ -125,6 +128,7 @@ function getappealdata(){
         maxAppealBudget = Math.max.apply(null, appealBudgets);
         minAppealBudget = Math.min.apply(null, appealBudgets);
         appealMarkerScale.domain([0, maxAppealBudget]);
+        appealAnimationScale.domain([0, maxAppealBudget]);
         getresponsedata();
       },
       error: function(e) {
@@ -448,10 +452,12 @@ function addAppealMarkers(){
       }
     })
   })
+
+
   // add appeals to map
-  appealsGroup.selectAll("circle")
-    .data(appeals)
-    .enter().append("circle")
+  var node = appealsGroup.selectAll(".node").data(appeals).enter().append("g");
+  var feature = node.append("circle")
+    .attr("class", "appealCircle")
     .attr("r", function(d){ return appealMarkerScale(d.TOTAL_BUDGET) })
     .attr("cx", function(d){ return projection([d.LONGITUDE,d.LATITUDE])[0] })
     .attr("cy", function(d){ return projection([d.LONGITUDE,d.LATITUDE])[1] });
@@ -462,7 +468,7 @@ function addAppealMarkers(){
     // .on("mouseout", function(){
     //   tooltip.html("");
     //   hideCountryYearAppeals();
-    // }); 
+    // });  
   addResponseLines();
 }
 
@@ -609,10 +615,28 @@ function updateMap(date) {
   sixMonth = new Date(sixMonth.setMonth(sixStart));
 
   // filter appeals by Date
-  var filtered = appealsGroup.selectAll("circle").attr("visibility","hidden")
+  // maybe should be <= and >=   ????????
+  var filtered = appealsGroup.selectAll("g").attr("visibility","hidden")
     .filter(function(d) {return Date.parse(d.ST_DATE) < endDate && Date.parse(d.ST_DATE) > sixMonth })
     .attr("visibility","visible")
     .attr('opacity', function(d) { return opacityValue(Date.parse(d.ST_DATE)) });
+  // animation for new appeals
+  filtered.filter(function(d) {return Date.parse(d.ST_DATE) >= oneMonth })
+    .append("circle")
+    .attr("class", "animationCircle")
+    .attr("r", 4)
+    .attr("cx", function(d){ return projection([d.LONGITUDE,d.LATITUDE])[0] })
+    .attr("cy", function(d){ return projection([d.LONGITUDE,d.LATITUDE])[1] })
+    .style("fill","red")
+    .style("fill-opacity", 0.8)
+    .transition()
+    .duration(1600)
+    .ease(Math.sqrt)
+    .attr("r", function(d){ return appealAnimationScale(d.TOTAL_BUDGET) })
+    .style("fill","#f40")
+    .style("fill-opacity", 1e-6)
+    .remove();
+
 
   // filter responses by Date
   var filteredResponses = responseGroup.selectAll("path").attr("visibility","hidden")
