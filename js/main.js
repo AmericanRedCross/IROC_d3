@@ -651,12 +651,8 @@ var lineTransition = function lineTransition(path) {
     path.transition()
         //NOTE: Change this number (in ms) to make lines draw faster or slower
         .duration(2000)
-        .attrTween("stroke-dasharray", tweenDash)
-        .each("end", function(d,i) { 
-            // wait an arbitrary amt of time (at least as long as the length of 6 autoadvanced months)
-            // then remove the svg path
-            d3.select(this).transition().delay(6000).remove(); 
-        });
+        .attrTween("stroke-dasharray", tweenDash);
+        // .each("end", function(d,i) {});
 };
 var tweenDash = function tweenDash() {
     //This function is used to animate the dash-array property, which is a
