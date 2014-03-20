@@ -18,6 +18,11 @@ body, html{
 	cursor: pointer;
 }
 
+.supplyIcon {
+	height: 30px;
+	width: 30px;
+}
+
 .footer-left {
 	display: inline-block;
 	width: 40px;

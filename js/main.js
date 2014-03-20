@@ -643,7 +643,6 @@ function updateMap(date) {
   filteredResponses.filter(function(d) {return Date.parse(d.properties.Date) < endDate && Date.parse(d.properties.Date) >= oneMonth })
     .selectAll("path")
     .call(lineTransition);
-
 }
 
 // --- Helper functions (for tweening the path) from http://bl.ocks.org/enoex/6201948
@@ -794,30 +793,66 @@ function updateSidebarResponses(date){
   $("#totalMoney").html(moneyFormated);
   staffFormated = staff.formatNumber(0, '.', ',');
   $("#totalStaff").html(staffFormated);
-  foodParcelsFormated = foodParcels.formatNumber(0, '.', ',');
-  $("#totalFoodParcels").html(foodParcelsFormated);
-  hygieneKitsFormated = hygieneKits.formatNumber(0, '.', ',');
-  $("#totalHygieneKits").html(hygieneKitsFormated);
-  jerryCansFormated = jerryCans.formatNumber(0, '.', ',');
-  $("#totalJerryCans").html(jerryCansFormated);
-  kitchenSetsFormated = kitchenSets.formatNumber(0, '.', ',');
-  $("#totalKitchenSets").html(kitchenSetsFormated);
-  mosquitoNetsFormated = mosquitoNets.formatNumber(0, '.', ',');
-  $("#totalMosquitoNets").html(mosquitoNetsFormated);
-  otherItemsFormated = otherItems.formatNumber(0, '.', ',');
-  $("#totalOtherItems").html(otherItemsFormated);
-  riceBagsFormated = riceBags.formatNumber(0, '.', ',');
-  $("#totalRiceBags").html(riceBagsFormated);
-  sleepingMatsFormated = sleepingMats.formatNumber(0, '.', ',');
-  $("#totalSleepingMats").html(sleepingMatsFormated);
-  tarpsFormated = tarps.formatNumber(0, '.', ',');
-  $("#totalTarps").html(tarpsFormated);
-  tentsFormated = tents.formatNumber(0, '.', ',');
-  $("#totalTents").html(tentsFormated);
-  vehiclesFormated = vehicles.formatNumber(0, '.', ',');
-  $("#totalVehicles").html(vehiclesFormated);
+  
+  $("#suppliesCounts").children().hide();
+  if (foodParcels > 0) {
+    $("#totalFoodParcels").show();
+    foodParcelsFormated = foodParcels.formatNumber(0, '.', ',');
+    $("#totalFoodParcel .supplyCount").html(foodParcelsFormated);
+  }
+  if (hygieneKits > 0) {
+    $("#totalHygieneKits").show();
+    hygieneKitsFormated = hygieneKits.formatNumber(0, '.', ',');
+    $("#totalHygieneKits .supplyCount").html(hygieneKitsFormated);
+  }
+  if (jerryCans > 0) {
+    $("#totalJerryCans").show();
+    jerryCansFormated = jerryCans.formatNumber(0, '.', ',');
+    $("#totalJerryCans .supplyCount").html(jerryCansFormated);
+  }
+  if (kitchenSets > 0) {
+    $("#totalKitchenSets").show();
+    kitchenSetsFormated = kitchenSets.formatNumber(0, '.', ',');
+    $("#totalKitchenSets .supplyCount").html(kitchenSetsFormated);
+  }
+  if (mosquitoNets > 0) {
+    $("#totalMosquitoNets").show();
+    mosquitoNetsFormated = mosquitoNets.formatNumber(0, '.', ',');
+    $("#totalMosquitoNets .supplyCount").html(mosquitoNetsFormated);
+  }
+  if (otherItems > 0) {
+    $("#totalOtherItems").show();
+    otherItemsFormated = otherItems.formatNumber(0, '.', ',');
+    $("#totalOtherItems .supplyCount").html(otherItemsFormated);
+  }
+  if (riceBags > 0) {
+    $("#totalRiceBags").show();
+    riceBagsFormated = riceBags.formatNumber(0, '.', ',');
+    $("#totalRiceBags .supplyCount").html(riceBagsFormated);
+  }
+  if (sleepingMats > 0) {
+    $("#totalSleepingMats").show();
+    sleepingMatsFormated = sleepingMats.formatNumber(0, '.', ',');
+    $("#totalSleepingMats .supplyCount").html(sleepingMatsFormated);
+  }
+  if (tarps > 0) {
+    $("#totalTarps").show();
+    tarpsFormated = tarps.formatNumber(0, '.', ',');
+    $("#totalTarps .supplyCount").html(tarpsFormated);
+  }
+  if (tents > 0) {
+    $("#totalTents").show();
+    tentsFormated = tents.formatNumber(0, '.', ',');
+    $("#totalTents .supplyCount").html(tentsFormated);
+  }
+  if (vehicles > 0) {
+    $("#totalVehicles").show();
+    vehiclesFormated = vehicles.formatNumber(0, '.', ',');
+    $("#totalVehicles .supplyCount").html(vehiclesFormated);    
+  }
 
 }
+
 
 function autoAdvance(){
   if(parseInt($("#dateSlider").val()) == totalMonths){
