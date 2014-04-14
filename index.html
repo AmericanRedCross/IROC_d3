@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IROC_d3</title>
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">    
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/jquery.nouislider.min.css" rel="stylesheet" type="text/css" />
@@ -19,13 +19,13 @@
     <![endif]-->
   </head>
 
-  <body>    
-    <img class="arc-logo" src="img/redcross-logo.png"> 
+  <body>
+    <img class="arc-logo" src="img/redcross-logo.png">
       <div class="container container-full">
       <div class="row" style="margin:0">
 
         <div id="left" class="col-sm-3">
-          <h1><span id="sliderYear"></span><small><span id="sliderMonth"></span></h1>
+          <h1><span id="sliderYear"></span><span id="sliderMonth"></span></h1>
           <h5>Appeals</h5>
           <div>Number: <span id="totalAppealCount">0</span></div>
           <div>Budgets: $ <span id="totalAppealBudgets">0</span></div>
@@ -35,65 +35,65 @@
             <div id="countryAppealsTitle"></div>
             <div id="appealsGraphWrap">
               <div id="appealsGraphContainer"></div>
-              <div class="xLabelMin pull-left"></div><div class="xLabelJan pull-left" style="display:none;">Jan</div>          
+              <div class="xLabelMin pull-left"></div><div class="xLabelJan pull-left" style="display:none;">Jan</div>
               <div class="xLabelMax pull-right"></div><div class="xLabelDec pull-right" style="display:none;">Dec</div>
             </div>
             <button id="allYearsButton" type="button" class="btn btn-default btn-xs" onClick="buildWorldAllAppeals()" style="margin-top:30px;">All Years</button>
           </div> -->
           <h5>IROC Responses</h5>
-          <div> Number: <span id="responsesCount">0</span></div>
-          <div> Money: $ <span id="totalMoney">0</span></div>
-          <div> Staff: <span id="totalStaff">0</span></div>
-          
+          <div>Number: <span id="responsesCount">0</span></div>
+          <div><img class="supplyIcon" src="img/supplies/money_white.png" alt="money" title="money"><span id="totalMoney">0</span></div>
+          <div><img class="supplyIcon" src="img/supplies/people_white.png" alt="staff" title="staff"><span id="totalStaff">0</span></div>
+
           <div id="suppliesCounts">
-            <div id="totalFoodParcels" style="display:none;"> 
-              <img class="supplyIcon" src="img/supplies/foodParcels.png" alt="Food Parcels" title="Food Parcels"> 
+            <div id="totalFoodParcels" style="display:none;">
+              <img class="supplyIcon" src="img/supplies/foodParcels_white.png" alt="Food Parcels" title="Food Parcels">
               <span class="supplyCount">0</span>
             </div>
-            <div id="totalHygieneKits" style="display:none;">  
-              <img class="supplyIcon" src="img/supplies/hygieneKits.png" alt="Hygiene Kits" title="Hygiene Kits"> 
+            <div id="totalHygieneKits" style="display:none;">
+              <img class="supplyIcon" src="img/supplies/hygieneKits_white.png" alt="Hygiene Kits" title="Hygiene Kits">
               <span class="supplyCount">0</span>
             </div>
-            <div id="totalJerryCans" style="display:none;"> 
-              <img class="supplyIcon" src="img/supplies/jerryCans.png" alt="Jerry Cans" title="Jerry Cans"> 
+            <div id="totalJerryCans" style="display:none;">
+              <img class="supplyIcon" src="img/supplies/jerryCans_white.png" alt="Jerry Cans" title="Jerry Cans">
               <span class="supplyCount">0</span>
             </div>
-            <div id="totalKitchenSets" style="display:none;"> 
-              <img class="supplyIcon" src="img/supplies/kitchenSets.png" alt="Kitchen Sets" title="Kitchen Sets"> 
+            <div id="totalKitchenSets" style="display:none;">
+              <img class="supplyIcon" src="img/supplies/kitchenSets_white.png" alt="Kitchen Sets" title="Kitchen Sets">
               <span class="supplyCount">0</span>
             </div>
-            <div id="totalMosquitoNets" style="display:none;"> 
-              <img class="supplyIcon" src="img/supplies/mosquitoNets.png" alt="Mosquito Nets" title="Mosquito Nets"> 
+            <div id="totalMosquitoNets" style="display:none;">
+              <img class="supplyIcon" src="img/supplies/mosquitoNets_white.png" alt="Mosquito Nets" title="Mosquito Nets">
               <span class="supplyCount">0</span>
             </div>
-            <div id="totalOtherItems" style="display:none;"> 
-              <img class="supplyIcon" src="img/supplies/otherItems.png" alt="Other Items" title="Other Items"> 
+            <div id="totalOtherItems" style="display:none;">
+              <img class="supplyIcon" src="img/supplies/otherItems_white.png" alt="Other Items" title="Other Items">
               <span class="supplyCount">0</span>
             </div>
-            <div id="totalRiceBags" style="display:none;"> 
-              <img class="supplyIcon" src="img/supplies/riceBags.png" alt="Rice Bags" title="Rice Bags"> 
+            <div id="totalRiceBags" style="display:none;">
+              <img class="supplyIcon" src="img/supplies/riceBags_white.png" alt="Rice Bags" title="Rice Bags">
               <span class="supplyCount">0</span>
             </div>
-            <div id="totalSleepingMats" style="display:none;"> 
-              <img class="supplyIcon" src="img/supplies/sleepingMats.png" alt="Sleeping Mats" title="Sleeping Mats"> 
+            <div id="totalSleepingMats" style="display:none;">
+              <img class="supplyIcon" src="img/supplies/sleepingMats_white.png" alt="Sleeping Mats" title="Sleeping Mats">
               <span class="supplyCount">0</span>
             </div>
-            <div id="totalTarps" style="display:none;"> 
-              <img class="supplyIcon" src="img/supplies/tarps.png" alt="Tarps" title="Tarps"> 
+            <div id="totalTarps" style="display:none;">
+              <img class="supplyIcon" src="img/supplies/tarps_white.png" alt="Tarps" title="Tarps">
               <span class="supplyCount">0</span>
             </div>
-            <div id="totalTents" style="display:none;"> 
-              <img class="supplyIcon" src="img/supplies/tents.png" alt="Tents" title="Tents"> 
+            <div id="totalTents" style="display:none;">
+              <img class="supplyIcon" src="img/supplies/tents_white.png" alt="Tents" title="Tents">
               <span class="supplyCount">0</span>
             </div>
-            <div id="totalVehicles" style="display:none;"> 
-              <img class="supplyIcon" src="img/supplies/vehicles.png" alt="Vehicles" title="Vehicles"> 
+            <div id="totalVehicles" style="display:none;">
+              <img class="supplyIcon" src="img/supplies/vehicles_white.png" alt="Vehicles" title="Vehicles">
               <span class="supplyCount">0</span>
             </div>
           </div>
 
-           
-        </div> 
+
+        </div>
         <div id="right" class="col-sm-9">
           <div id="map"></div>
         </div>
@@ -104,21 +104,21 @@
         <div class="footer-left">
           <div class="playPause playing "><span class="glyphicon glyphicon-pause"></span></div>
         </div>
-        <div id="sliderWrap">          
+        <div id="sliderWrap">
           <div id="dateSlider"></div>
-          <!-- <span class="glyphicon glyphicon-chevron-right slider-control-right"></span> 
+          <!-- <span class="glyphicon glyphicon-chevron-right slider-control-right"></span>
           <span class="glyphicon glyphicon-chevron-left slider-control-left"></span>  -->
         </div>
 
-    
+
        </div>
-        
+
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.nouislider.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/d3.min.js"></script>
-    <!-- <script src="http://d3js.org/d3.geo.projection.v0.min.js" charset="utf-8"></script> --> 
+    <!-- <script src="http://d3js.org/d3.geo.projection.v0.min.js" charset="utf-8"></script> -->
     <script src="js/d3.geo.projection.v0.min.js"></script>
     <script src="js/fit-projection.js"></script>
     <!-- <script src="js/topojson.v1.min.js"></script> -->
